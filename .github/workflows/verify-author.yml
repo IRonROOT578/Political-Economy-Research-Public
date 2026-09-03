@@ -1,0 +1,38 @@
+name: Verify Author Identity
+
+on:
+  pull_request:
+    branches: [ main ]
+  push:
+    branches: [ main ]
+
+jobs:
+  verify-identity:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+
+      - name: Inspect Commit Emails
+        run: |
+          AUTHOR_EMAIL=$(git log -1 --pretty=format:'%ae')
+          COMMITTER_EMAIL=$(git log -1 --pretty=format:'%ce')
+
+          echo "Author: $AUTHOR_EMAIL"
+          echo "Committer: $COMMITTER_EMAIL"
+
+          # 1. 嚴格檢查：信箱必須是 GitHub 官方 noreply 格式
+          if [[ "$AUTHOR_EMAIL" != *"users.noreply.github.com"* ]] || [[ "$COMMITTER_EMAIL" != *"users.noreply.github.com"* ]]; then
+            echo "::error::【嚴重警告】檢測到非副帳號 noreply 郵件！已中斷並阻擋合併。"
+            exit 1
+          fi
+
+          # 2. 針對性黑名單：抓到主帳號特徵立刻報錯
+          if [[ "$AUTHOR_EMAIL" == *"chenBoRong"* ]] || [[ "$COMMITTER_EMAIL" == *"chenBoRong"* ]]; then
+            echo "::error::【身分外洩攔截】檢測到主帳號特徵！"
+            exit 1
+          fi
+
+          echo "身分驗證通過：安全副帳號。"
