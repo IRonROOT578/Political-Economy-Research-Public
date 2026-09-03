@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <title>第一輪選舉票（只圈一人，取前四）</title>
+  <style>
+    @page { size: A4 portrait; margin: 8mm; }
+    * { box-sizing: border-box; }
+    body { margin: 0; font-family: "Noto Sans TC", "Source Han Sans TC", "Microsoft JhengHei", sans-serif; color: #111; background: #e8e8e8; }
+    .page { max-width: 210mm; margin: 12px auto; }
+    .ballot { background: #fff; border: 4px solid #111; padding: 8px 10px 10px; margin-bottom: 18px; page-break-after: always; break-after: page; }
+    .head { display: flex; justify-content: space-between; align-items: flex-end; border-bottom: 2px solid #111; padding-bottom: 6px; margin-bottom: 8px; }
+    .head h1 { margin: 0; font-size: 18px; letter-spacing: 0.06em; }
+    .head .meta { font-size: 13px; }
+    .notice { text-align: center; font-size: 14px; font-weight: 700; margin: 0 0 6px; }
+    .slist { border: 3px solid #111; padding: 6px; }
+    .slist h2 { margin: 0 0 4px; text-align: center; font-size: 15px; }
+    .hint { margin: 0 0 8px; text-align: center; font-size: 12px; }
+    .cands { width: 100%; border-collapse: collapse; table-layout: fixed; }
+    .cands th, .cands td { border: 1px solid #111; text-align: center; vertical-align: middle; padding: 8px 4px; }
+    .cands th { width: 4.6em; font-size: 12px; background: #f2f2f2; }
+    .mark { display: inline-block; width: 22px; height: 22px; border: 2px solid #111; border-radius: 50%; }
+    .num { font-weight: 700; font-size: 18px; }
+    .photo, .emblem { margin: 0 auto; display: flex; align-items: center; justify-content: center; color: #444; }
+    .photo { height: 64px; width: 78%; max-width: 4.8em; border: 1px dashed #666; font-size: 12px; }
+    .emblem { height: 28px; width: 62%; max-width: 3.6em; border: 1px dashed #888; font-size: 11px; }
+    .name { font-size: 15px; font-weight: 700; line-height: 1.25; word-break: break-word; }
+    .party { font-size: 13px; }
+    .foot { display: flex; justify-content: space-between; margin-top: 8px; font-size: 12px; }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <div class="ballot" id="n5">
+      <div class="head">
+        <h1>○○年○○選舉　第一輪選舉票</h1>
+        <div class="meta">選區：○○　登記 5 人　只圈一人　取前四</div>
+      </div>
+      <p class="notice">請只圈選一格。圈選兩個以上、空白或塗改者，無效。</p>
+      <div class="slist">
+        <h2>請圈選一人　（這人得一票・得票最高的四人進入決選）</h2>
+        <p class="hint">每人一欄。圈選、號次、相片、姓名、政黨圖、政黨各佔一格；圓框在最上面。相片與政黨名稱不是圈選區。</p>
+        <table class="cands">
+          <tr><th>圈選</th><td><span class="mark" title="圈選"></span></td><td><span class="mark" title="圈選"></span></td><td><span class="mark" title="圈選"></span></td><td><span class="mark" title="圈選"></span></td><td><span class="mark" title="圈選"></span></td></tr>
+          <tr><th>號次</th><td class="num">1</td><td class="num">2</td><td class="num">3</td><td class="num">4</td><td class="num">5</td></tr>
+          <tr><th>個人照片</th><td><div class="photo">相片</div></td><td><div class="photo">相片</div></td><td><div class="photo">相片</div></td><td><div class="photo">相片</div></td><td><div class="photo">相片</div></td></tr>
+          <tr><th>姓名</th><td class="name">林志明</td><td class="name">陳雅婷</td><td class="name">瑪拉歐斯·達拉阿道</td><td class="name">吳淑芬</td><td class="name">歐陽文心</td></tr>
+          <tr><th>政黨圖</th><td><div class="emblem">政黨圖</div></td><td><div class="emblem">政黨圖</div></td><td><div class="emblem">無</div></td><td><div class="emblem">政黨圖</div></td><td><div class="emblem">政黨圖</div></td></tr>
+          <tr><th>政黨</th><td class="party">民治黨</td><td class="party">公正黨</td><td class="party">無</td><td class="party">同心黨</td><td class="party">改革黨</td></tr>
+        </table>
+      </div>
+      <div class="foot"><span>選舉委員會製</span><span>樣張　只投一人　取前四</span></div>
+    </div>
+    <div class="ballot" id="n6">
+      <div class="head">
+        <h1>○○年○○選舉　第一輪選舉票</h1>
+        <div class="meta">選區：○○　登記 6 人　只圈一人　取前四</div>
+      </div>
+      <p class="notice">請只圈選一格。圈選兩個以上、空白或塗改者，無效。</p>
+      <div class="slist">
+        <h2>請圈選一人　（這人得一票・得票最高的四人進入決選）</h2>
+        <p class="hint">每人一欄。圈選、號次、相片、姓名、政黨圖、政黨各佔一格；圓框在最上面。相片與政黨名稱不是圈選區。</p>
+        <table class="cands">
+          <tr><th>圈選</th><td><span class="mark" title="圈選"></span></td><td><span class="mark" title="圈選"></span></td><td><span class="mark" title="圈選"></span></td><td><span class="mark" title="圈選"></span></td><td><span class="mark" title="圈選"></span></td><td><span class="mark" title="圈選"></span></td></tr>
+          <tr><th>號次</th><td class="num">1</td><td class="num">2</td><td class="num">3</td><td class="num">4</td><td class="num">5</td><td class="num">6</td></tr>
+          <tr><th>個人照片</th><td><div class="photo">相片</div></td><td><div class="photo">相片</div></td><td><div class="photo">相片</div></td><td><div class="photo">相片</div></td><td><div class="photo">相片</div></td><td><div class="photo">相片</div></td></tr>
+          <tr><th>姓名</th><td class="name">林志明</td><td class="name">陳雅婷</td><td class="name">瑪拉歐斯·達拉阿道</td><td class="name">吳淑芬</td><td class="name">歐陽文心</td><td class="name">鄭雅文</td></tr>
+          <tr><th>政黨圖</th><td><div class="emblem">政黨圖</div></td><td><div class="emblem">政黨圖</div></td><td><div class="emblem">無</div></td><td><div class="emblem">政黨圖</div></td><td><div class="emblem">政黨圖</div></td><td><div class="emblem">政黨圖</div></td></tr>
+          <tr><th>政黨</th><td class="party">民治黨</td><td class="party">公正黨</td><td class="party">無</td><td class="party">同心黨</td><td class="party">改革黨</td><td class="party">民生黨</td></tr>
+        </table>
+      </div>
+      <div class="foot"><span>選舉委員會製</span><span>樣張　只投一人　取前四</span></div>
+    </div>
+    <div class="ballot" id="n7">
+      <div class="head">
+        <h1>○○年○○選舉　第一輪選舉票</h1>
+        <div class="meta">選區：○○　登記 7 人　只圈一人　取前四</div>
+      </div>
+      <p class="notice">請只圈選一格。圈選兩個以上、空白或塗改者，無效。</p>
+      <div class="slist">
+        <h2>請圈選一人　（這人得一票・得票最高的四人進入決選）</h2>
+        <p class="hint">每人一欄。圈選、號次、相片、姓名、政黨圖、政黨各佔一格；圓框在最上面。相片與政黨名稱不是圈選區。</p>
+        <table class="cands">
+          <tr><th>圈選</th><td><span class="mark" title="圈選"></span></td><td><span class="mark" title="圈選"></span></td><td><span class="mark" title="圈選"></span></td><td><span class="mark" title="圈選"></span></td><td><span class="mark" title="圈選"></span></td><td><span class="mark" title="圈選"></span></td><td><span class="mark" title="圈選"></span></td></tr>
+          <tr><th>號次</th><td class="num">1</td><td class="num">2</td><td class="num">3</td><td class="num">4</td><td class="num">5</td><td class="num">6</td><td class="num">7</td></tr>
+          <tr><th>個人照片</th><td><div class="photo">相片</div></td><td><div class="photo">相片</div></td><td><div class="photo">相片</div></td><td><div class="photo">相片</div></td><td><div class="photo">相片</div></td><td><div class="photo">相片</div></td><td><div class="photo">相片</div></td></tr>
+          <tr><th>姓名</th><td class="name">林志明</td><td class="name">陳雅婷</td><td class="name">瑪拉歐斯·達拉阿道</td><td class="name">吳淑芬</td><td class="name">歐陽文心</td><td class="name">鄭雅文</td><td class="name">許建宏</td></tr>
+          <tr><th>政黨圖</th><td><div class="emblem">政黨圖</div></td><td><div class="emblem">政黨圖</div></td><td><div class="emblem">無</div></td><td><div class="emblem">政黨圖</div></td><td><div class="emblem">政黨圖</div></td><td><div class="emblem">政黨圖</div></td><td><div class="emblem">無</div></td></tr>
+          <tr><th>政黨</th><td class="party">民治黨</td><td class="party">公正黨</td><td class="party">無</td><td class="party">同心黨</td><td class="party">改革黨</td><td class="party">民生黨</td><td class="party">無</td></tr>
+        </table>
+      </div>
+      <div class="foot"><span>選舉委員會製</span><span>樣張　只投一人　取前四</span></div>
+    </div>
+    <div class="ballot" id="n8">
+      <div class="head">
+        <h1>○○年○○選舉　第一輪選舉票</h1>
+        <div class="meta">選區：○○　登記 8 人　只圈一人　取前四</div>
+      </div>
+      <p class="notice">請只圈選一格。圈選兩個以上、空白或塗改者，無效。</p>
+      <div class="slist">
+        <h2>請圈選一人　（這人得一票・得票最高的四人進入決選）</h2>
+        <p class="hint">每人一欄。圈選、號次、相片、姓名、政黨圖、政黨各佔一格；圓框在最上面。相片與政黨名稱不是圈選區。</p>
+        <table class="cands">
+          <tr><th>圈選</th><td><span class="mark" title="圈選"></span></td><td><span class="mark" title="圈選"></span></td><td><span class="mark" title="圈選"></span></td><td><span class="mark" title="圈選"></span></td><td><span class="mark" title="圈選"></span></td><td><span class="mark" title="圈選"></span></td><td><span class="mark" title="圈選"></span></td><td><span class="mark" title="圈選"></span></td></tr>
+          <tr><th>號次</th><td class="num">1</td><td class="num">2</td><td class="num">3</td><td class="num">4</td><td class="num">5</td><td class="num">6</td><td class="num">7</td><td class="num">8</td></tr>
+          <tr><th>個人照片</th><td><div class="photo">相片</div></td><td><div class="photo">相片</div></td><td><div class="photo">相片</div></td><td><div class="photo">相片</div></td><td><div class="photo">相片</div></td><td><div class="photo">相片</div></td><td><div class="photo">相片</div></td><td><div class="photo">相片</div></td></tr>
+          <tr><th>姓名</th><td class="name">林志明</td><td class="name">陳雅婷</td><td class="name">瑪拉歐斯·達拉阿道</td><td class="name">吳淑芬</td><td class="name">歐陽文心</td><td class="name">鄭雅文</td><td class="name">許建宏</td><td class="name">蔡佩君</td></tr>
+          <tr><th>政黨圖</th><td><div class="emblem">政黨圖</div></td><td><div class="emblem">政黨圖</div></td><td><div class="emblem">無</div></td><td><div class="emblem">政黨圖</div></td><td><div class="emblem">政黨圖</div></td><td><div class="emblem">政黨圖</div></td><td><div class="emblem">無</div></td><td><div class="emblem">政黨圖</div></td></tr>
+          <tr><th>政黨</th><td class="party">民治黨</td><td class="party">公正黨</td><td class="party">無</td><td class="party">同心黨</td><td class="party">改革黨</td><td class="party">民生黨</td><td class="party">無</td><td class="party">同心黨</td></tr>
+        </table>
+      </div>
+      <div class="foot"><span>選舉委員會製</span><span>樣張　只投一人　取前四</span></div>
+    </div>
+  </div>
+</body>
+</html>

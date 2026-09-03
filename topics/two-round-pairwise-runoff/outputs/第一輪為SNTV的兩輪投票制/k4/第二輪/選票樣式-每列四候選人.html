@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <title>每列四候選人</title>
+  <style>
+    @page { size: A4 landscape; margin: 8mm; }
+    * { box-sizing: border-box; }
+    body { margin: 0; font-family: "Noto Sans TC", "Source Han Sans TC", "Microsoft JhengHei", sans-serif; color: #111; background: #fff; }
+    .ballot { max-width: 297mm; margin: 0 auto; border: 4px solid #111; padding: 8px 10px 10px; }
+    .head { display: flex; justify-content: space-between; align-items: flex-end; border-bottom: 2px solid #111; padding-bottom: 6px; margin-bottom: 8px; }
+    .head h1 { margin: 0; font-size: 20px; letter-spacing: 0.08em; }
+    .head .meta { font-size: 14px; }
+    .notice { text-align: center; font-size: 15px; font-weight: 700; margin: 0 0 8px; }
+    .ids { width: 100%; border-collapse: collapse; table-layout: fixed; margin-bottom: 8px; }
+    .ids th, .ids td { border: 1px solid #111; text-align: center; vertical-align: middle; padding: 5px 3px; }
+    .ids th { width: 4.8em; font-size: 12px; background: #f2f2f2; }
+    .photo, .emblem { margin: 0 auto; display: flex; align-items: center; justify-content: center; color: #444; }
+    .photo { height: 52px; width: 70%; max-width: 5em; border: 1px dashed #666; font-size: 12px; }
+    .emblem { height: 24px; width: 55%; max-width: 3.6em; border: 1px dashed #888; font-size: 11px; }
+    .name { font-size: 15px; font-weight: 700; line-height: 1.2; word-break: break-word; }
+    .party { font-size: 13px; }
+    .choice-wrap { border: 3px solid #111; padding: 6px; }
+    .choice-wrap h2 { margin: 0 0 4px; text-align: center; font-size: 16px; }
+    .hint { margin: 0 0 6px; text-align: center; font-size: 12px; }
+    .mark { width: 18px; height: 18px; border: 2px solid #111; border-radius: 50%; flex-shrink: 0; }
+    .num { font-weight: 700; flex-shrink: 0; }
+    .ord { white-space: nowrap; }
+    .opt { display: flex; flex-direction: row; align-items: center; gap: 4px; padding: 8px 5px; font-size: 12px; }
+    .foot { display: flex; justify-content: space-between; margin-top: 8px; font-size: 12px; }
+    .cols { display: grid; grid-template-columns: repeat(4, 1fr); border: 1px solid #111; }
+    .col { border-right: 1px solid #111; }
+    .col:last-child { border-right: 0; }
+    .col .title { margin: 0; padding: 6px 4px; text-align: center; font-size: 13px; border-bottom: 1px solid #111; background: #f2f2f2; line-height: 1.25; word-break: break-word; min-height: 2.6em; }
+    .opt { border-bottom: 1px solid #ccc; }
+    .col .opt:last-child { border-bottom: 0; }
+  </style>
+</head>
+<body>
+  <div class="ballot">
+    <div class="head">
+      <h1>○○年○○選舉　第二輪決選選舉票</h1>
+      <div class="meta">選區：○○　四人決選　選項 ①–㉔　每列四候選人</div>
+    </div>
+    <p class="notice">請只圈選一格。圈選兩個以上、空白或塗改者，無效。</p>
+    <table class="ids">
+      <tr><th>決選號次</th><td class="num">1</td><td class="num">2</td><td class="num">3</td><td class="num">4</td></tr>
+      <tr><th>個人照片</th><td><div class="photo">相片</div></td><td><div class="photo">相片</div></td><td><div class="photo">相片</div></td><td><div class="photo">相片</div></td></tr>
+      <tr><th>姓名</th><td class="name">林志明</td><td class="name">陳雅婷</td><td class="name">瑪拉歐斯·達拉阿道</td><td class="name">歐陽文心</td></tr>
+      <tr><th>政黨圖</th><td><div class="emblem">政黨圖</div></td><td><div class="emblem">政黨圖</div></td><td><div class="emblem">無</div></td><td><div class="emblem">政黨圖</div></td></tr>
+      <tr><th>政黨</th><td class="party">民治黨</td><td class="party">公正黨</td><td class="party">無</td><td class="party">改革黨</td></tr>
+    </table>
+    <div class="choice-wrap">
+      <h2>請圈選一個選項　（①–㉔；全票只圈一格）</h2>
+      <p class="hint">一列四位第一偏好（四欄），往下六列。每一選項一格：左側圓框、選項號、號次序。相片不是圈選區。</p>
+      <div class="cols">
+        <div class="col">
+          <h3 class="title">第一偏好　1　林志明</h3>
+          <div class="opt"><span class="mark"></span><span class="num">①</span><span class="ord">1&gt;2&gt;3&gt;4</span></div><div class="opt"><span class="mark"></span><span class="num">②</span><span class="ord">1&gt;2&gt;4&gt;3</span></div><div class="opt"><span class="mark"></span><span class="num">③</span><span class="ord">1&gt;3&gt;2&gt;4</span></div><div class="opt"><span class="mark"></span><span class="num">④</span><span class="ord">1&gt;3&gt;4&gt;2</span></div><div class="opt"><span class="mark"></span><span class="num">⑤</span><span class="ord">1&gt;4&gt;2&gt;3</span></div><div class="opt"><span class="mark"></span><span class="num">⑥</span><span class="ord">1&gt;4&gt;3&gt;2</span></div>
+        </div>
+        <div class="col">
+          <h3 class="title">第一偏好　2　陳雅婷</h3>
+          <div class="opt"><span class="mark"></span><span class="num">⑦</span><span class="ord">2&gt;1&gt;3&gt;4</span></div><div class="opt"><span class="mark"></span><span class="num">⑧</span><span class="ord">2&gt;1&gt;4&gt;3</span></div><div class="opt"><span class="mark"></span><span class="num">⑨</span><span class="ord">2&gt;3&gt;1&gt;4</span></div><div class="opt"><span class="mark"></span><span class="num">⑩</span><span class="ord">2&gt;3&gt;4&gt;1</span></div><div class="opt"><span class="mark"></span><span class="num">⑪</span><span class="ord">2&gt;4&gt;1&gt;3</span></div><div class="opt"><span class="mark"></span><span class="num">⑫</span><span class="ord">2&gt;4&gt;3&gt;1</span></div>
+        </div>
+        <div class="col">
+          <h3 class="title">第一偏好　3　瑪拉歐斯·達拉阿道</h3>
+          <div class="opt"><span class="mark"></span><span class="num">⑬</span><span class="ord">3&gt;1&gt;2&gt;4</span></div><div class="opt"><span class="mark"></span><span class="num">⑭</span><span class="ord">3&gt;1&gt;4&gt;2</span></div><div class="opt"><span class="mark"></span><span class="num">⑮</span><span class="ord">3&gt;2&gt;1&gt;4</span></div><div class="opt"><span class="mark"></span><span class="num">⑯</span><span class="ord">3&gt;2&gt;4&gt;1</span></div><div class="opt"><span class="mark"></span><span class="num">⑰</span><span class="ord">3&gt;4&gt;1&gt;2</span></div><div class="opt"><span class="mark"></span><span class="num">⑱</span><span class="ord">3&gt;4&gt;2&gt;1</span></div>
+        </div>
+        <div class="col">
+          <h3 class="title">第一偏好　4　歐陽文心</h3>
+          <div class="opt"><span class="mark"></span><span class="num">⑲</span><span class="ord">4&gt;1&gt;2&gt;3</span></div><div class="opt"><span class="mark"></span><span class="num">⑳</span><span class="ord">4&gt;1&gt;3&gt;2</span></div><div class="opt"><span class="mark"></span><span class="num">㉑</span><span class="ord">4&gt;2&gt;1&gt;3</span></div><div class="opt"><span class="mark"></span><span class="num">㉒</span><span class="ord">4&gt;2&gt;3&gt;1</span></div><div class="opt"><span class="mark"></span><span class="num">㉓</span><span class="ord">4&gt;3&gt;1&gt;2</span></div><div class="opt"><span class="mark"></span><span class="num">㉔</span><span class="ord">4&gt;3&gt;2&gt;1</span></div>
+        </div>
+      </div>
+    </div>
+    <div class="foot">
+      <span>選舉委員會製</span>
+      <span>樣張　有人對其他每位都贏，就是兩兩對決贏家</span>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: 非提示詞依 CC BY 4.0 標明來源；提示詞依 CC BY-NC 4.0（商用需另行授權）。
+title: 政體與選制
+authors:
+  - alias: IRonROOT578
+repository-code: https://github.com/IRonROOT578/Political-Economy-Research-Public
+url: https://github.com/IRonROOT578/Political-Economy-Research-Public
+license: CC-BY-4.0
+abstract: 提示詞（topics/regime-designs/prompts/ 與 topics/two-round-pairwise-runoff/提示詞/）為 CC BY-NC 4.0。
+year: 2026

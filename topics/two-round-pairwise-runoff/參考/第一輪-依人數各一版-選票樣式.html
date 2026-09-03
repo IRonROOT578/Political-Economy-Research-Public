@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <title>第一輪　依人數各一版（樣張）</title>
+  <style>
+    @page { size: A4 portrait; margin: 8mm; }
+    * { box-sizing: border-box; }
+    body { margin: 0; font-family: "Noto Sans TC", "Source Han Sans TC", "Microsoft JhengHei", sans-serif; color: #111; background: #e8e8e8; }
+    .page { max-width: 210mm; margin: 12px auto; }
+    .ballot { background: #fff; border: 4px solid #111; padding: 8px 10px 10px; margin-bottom: 18px; page-break-after: always; break-after: page; }
+    .head { display: flex; justify-content: space-between; align-items: flex-end; border-bottom: 2px solid #111; padding-bottom: 6px; margin-bottom: 8px; }
+    .head h1 { margin: 0; font-size: 17px; }
+    .head .meta { font-size: 13px; }
+    .polarity { text-align: center; font-weight: 700; font-size: 15px; padding: 7px 6px; margin: 0 0 8px; }
+    .polarity.pos { background: #fff; color: #111; border: 3px solid #111; }
+    .polarity.neg { background: #111; color: #fff; }
+    .notice { text-align: center; font-size: 14px; font-weight: 700; margin: 0 0 8px; }
+    .ids { display: grid; gap: 6px; margin-bottom: 8px; }
+    .ids.n5 { grid-template-columns: repeat(5, 1fr); }
+    .ids.n6 { grid-template-columns: repeat(6, 1fr); }
+    .ids.n7 { grid-template-columns: repeat(7, 1fr); }
+    .cand { border: 1px solid #111; text-align: center; padding: 4px 2px 6px; }
+    .cand .no { font-size: 11px; }
+    .photo { height: 48px; border: 1px dashed #666; margin: 3px 4px; display: flex; align-items: center; justify-content: center; font-size: 11px; color: #444; }
+    .name { font-size: 12px; font-weight: 700; margin: 2px 0; line-height: 1.2; word-break: break-word; min-height: 2.4em; }
+    .emblem { height: 20px; border: 1px dashed #888; margin: 0 6px 3px; display: flex; align-items: center; justify-content: center; font-size: 10px; color: #444; }
+    .party { font-size: 11px; }
+    .choice-wrap { border: 3px solid #111; padding: 6px; }
+    .choice-wrap h2 { margin: 0 0 6px; text-align: center; font-size: 14px; }
+    .cols { display: grid; gap: 0; border: 1px solid #111; }
+    .cols.c2 { grid-template-columns: repeat(2, 1fr); }
+    .cols.c3 { grid-template-columns: repeat(3, 1fr); }
+    .cols.c4 { grid-template-columns: repeat(4, 1fr); }
+    .col { border-right: 1px solid #111; }
+    .col:last-child { border-right: 0; }
+    .opt { display: grid; grid-template-columns: 18px 1.7em 1fr; gap: 4px; align-items: start; padding: 5px; border-bottom: 1px solid #ccc; font-size: 12px; }
+    .col .opt:last-child { border-bottom: 0; }
+    .mark { width: 15px; height: 15px; border: 2px solid #111; border-radius: 50%; justify-self: center; }
+    .num { font-weight: 700; text-align: center; }
+    .tag { font-weight: 700; }
+    .slist { border: 3px solid #111; padding: 6px; }
+    .slist h2 { margin: 0 0 6px; text-align: center; font-size: 15px; }
+    .srow { display: grid; grid-template-columns: 28px 36px 64px 1fr 56px 90px 48px; align-items: center; gap: 8px; padding: 6px 8px; border-bottom: 1px solid #ccc; }
+    .srow.shead { font-size: 11px; font-weight: 700; background: #f2f2f2; border-bottom: 1px solid #111; }
+    .srow:last-child { border-bottom: 0; }
+    .snum { font-weight: 700; text-align: center; }
+    .sphoto { height: 40px; border: 1px dashed #666; display: flex; align-items: center; justify-content: center; font-size: 11px; color: #444; }
+    .shead .sphoto, .shead .semb { height: auto; border: 0; font-weight: 700; color: #111; }
+    .semb { height: 28px; border: 1px dashed #888; display: flex; align-items: center; justify-content: center; font-size: 10px; color: #444; }
+    .sname { font-size: 15px; font-weight: 700; word-break: break-word; }
+    .sout { font-size: 12px; font-weight: 700; text-align: center; }
+    .foot { display: flex; justify-content: space-between; margin-top: 8px; font-size: 12px; }
+</style>
+</head>
+<body>
+  <div class="page">
+    <div class="ballot" id="n5">
+      <div class="head">
+        <h1>○○年○○選舉　第一輪　不同意晉級票</h1>
+        <div class="meta">選區：○○　登記 5 人</div>
+      </div>
+      <p class="polarity neg">圈＝出局　這張票不是選人上去</p>
+      <p class="notice">請只圈選一格。圈選兩個以上、空白或塗改者，無效。</p>
+      <div class="ids n5">
+        <div class="cand">
+          <div class="no">號次　1</div>
+          <div class="photo">相片</div>
+          <div class="name">林志明</div>
+          <div class="emblem">政黨圖</div>
+          <div class="party">民治黨</div>
+        </div>
+        <div class="cand">
+          <div class="no">號次　2</div>
+          <div class="photo">相片</div>
+          <div class="name">陳雅婷</div>
+          <div class="emblem">政黨圖</div>
+          <div class="party">公正黨</div>
+        </div>
+        <div class="cand">
+          <div class="no">號次　3</div>
+          <div class="photo">相片</div>
+          <div class="name">瑪拉歐斯·達拉阿道</div>
+          <div class="emblem">無</div>
+          <div class="party">無</div>
+        </div>
+        <div class="cand">
+          <div class="no">號次　4</div>
+          <div class="photo">相片</div>
+          <div class="name">吳淑芬</div>
+          <div class="emblem">政黨圖</div>
+          <div class="party">同心黨</div>
+        </div>
+        <div class="cand">
+          <div class="no">號次　5</div>
+          <div class="photo">相片</div>
+          <div class="name">歐陽文心</div>
+          <div class="emblem">政黨圖</div>
+          <div class="party">改革黨</div>
+        </div>
+      </div>
+      <div class="choice-wrap">
+        <h2>請圈選你最不想讓他進決選的一人<br>（這人記一筆出局・全票只圈一格）</h2>
+        <div class="cols c2">
+        <div class="col">
+          <div class="opt"><span class="mark"></span><span class="num">①</span><span class="nos"><span class="tag">出局</span>　1</span></div>
+          <div class="opt"><span class="mark"></span><span class="num">②</span><span class="nos"><span class="tag">出局</span>　2</span></div>
+          <div class="opt"><span class="mark"></span><span class="num">③</span><span class="nos"><span class="tag">出局</span>　3</span></div>
+        </div>
+        <div class="col">
+          <div class="opt"><span class="mark"></span><span class="num">④</span><span class="nos"><span class="tag">出局</span>　4</span></div>
+          <div class="opt"><span class="mark"></span><span class="num">⑤</span><span class="nos"><span class="tag">出局</span>　5</span></div>
+        </div>
+        </div>
+      </div>
+      <div class="foot"><span>選舉委員會製</span><span>樣張　出局最少的四人進入決選</span></div>
+    </div>
+    <div class="ballot" id="n6">
+      <div class="head">
+        <h1>○○年○○選舉　第一輪　不同意晉級票</h1>
+        <div class="meta">選區：○○　登記 6 人</div>
+      </div>
+      <p class="polarity neg">圈＝出局　這張票不是選人上去</p>
+      <p class="notice">請只圈選一格。圈選兩個以上、空白或塗改者，無效。</p>
+      <div class="ids n6">
+        <div class="cand">
+          <div class="no">號次　1</div>
+          <div class="photo">相片</div>
+          <div class="name">林志明</div>
+          <div class="emblem">政黨圖</div>
+          <div class="party">民治黨</div>
+        </div>
+        <div class="cand">
+          <div class="no">號次　2</div>
+          <div class="photo">相片</div>
+          <div class="name">陳雅婷</div>
+          <div class="emblem">政黨圖</div>
+          <div class="party">公正黨</div>
+        </div>
+        <div class="cand">
+          <div class="no">號次　3</div>
+          <div class="photo">相片</div>
+          <div class="name">瑪拉歐斯·達拉阿道</div>
+          <div class="emblem">無</div>
+          <div class="party">無</div>
+        </div>
+        <div class="cand">
+          <div class="no">號次　4</div>
+          <div class="photo">相片</div>
+          <div class="name">吳淑芬</div>
+          <div class="emblem">政黨圖</div>
+          <div class="party">同心黨</div>
+        </div>
+        <div class="cand">
+          <div class="no">號次　5</div>
+          <div class="photo">相片</div>
+          <div class="name">歐陽文心</div>
+          <div class="emblem">政黨圖</div>
+          <div class="party">改革黨</div>
+        </div>
+        <div class="cand">
+          <div class="no">號次　6</div>
+          <div class="photo">相片</div>
+          <div class="name">鄭雅文</div>
+          <div class="emblem">政黨圖</div>
+          <div class="party">民生黨</div>
+        </div>
+      </div>
+      <div class="choice-wrap">
+        <h2>請圈選你最不想讓他進決選的三人<br>（這三人各記一筆出局・全票只圈一格）</h2>
+        <div class="cols c4">
+        <div class="col">
+          <div class="opt"><span class="mark"></span><span class="num">①</span><span class="nos"><span class="tag">出局</span>　1・2・3</span></div>
+          <div class="opt"><span class="mark"></span><span class="num">②</span><span class="nos"><span class="tag">出局</span>　1・2・4</span></div>
+          <div class="opt"><span class="mark"></span><span class="num">③</span><span class="nos"><span class="tag">出局</span>　1・2・5</span></div>
+          <div class="opt"><span class="mark"></span><span class="num">④</span><span class="nos"><span class="tag">出局</span>　1・2・6</span></div>
+          <div class="opt"><span class="mark"></span><span class="num">⑤</span><span class="nos"><span class="tag">出局</span>　1・3・4</span></div>
+        </div>
+        <div class="col">
+          <div class="opt"><span class="mark"></span><span class="num">⑥</span><span class="nos"><span class="tag">出局</span>　1・3・5</span></div>
+          <div class="opt"><span class="mark"></span><span class="num">⑦</span><span class="nos"><span class="tag">出局</span>　1・3・6</span></div>
+          <div class="opt"><span class="mark"></span><span class="num">⑧</span><span class="nos"><span class="tag">出局</span>　1・4・5</span></div>
+          <div class="opt"><span class="mark"></span><span class="num">⑨</span><span class="nos"><span class="tag">出局</span>　1・4・6</span></div>
+          <div class="opt"><span class="mark"></span><span class="num">⑩</span><span class="nos"><span class="tag">出局</span>　1・5・6</span></div>
+        </div>
+        <div class="col">
+          <div class="opt"><span class="mark"></span><span class="num">⑪</span><span class="nos"><span class="tag">出局</span>　2・3・4</span></div>
+          <div class="opt"><span class="mark"></span><span class="num">⑫</span><span class="nos"><span class="tag">出局</span>　2・3・5</span></div>
+          <div class="opt"><span class="mark"></span><span class="num">⑬</span><span class="nos"><span class="tag">出局</span>　2・3・6</span></div>
+          <div class="opt"><span class="mark"></span><span class="num">⑭</span><span class="nos"><span class="tag">出局</span>　2・4・5</span></div>
+          <div class="opt"><span class="mark"></span><span class="num">⑮</span><span class="nos"><span class="tag">出局</span>　2・4・6</span></div>
+        </div>
+        <div class="col">
+          <div class="opt"><span class="mark"></span><span class="num">⑯</span><span class="nos"><span class="tag">出局</span>　2・5・6</span></div>
+          <div class="opt"><span class="mark"></span><span class="num">⑰</span><span class="nos"><span class="tag">出局</span>　3・4・5</span></div>
+          <div class="opt"><span class="mark"></span><span class="num">⑱</span><span class="nos"><span class="tag">出局</span>　3・4・6</span></div>
+          <div class="opt"><span class="mark"></span><span class="num">⑲</span><span class="nos"><span class="tag">出局</span>　3・5・6</span></div>
+          <div class="opt"><span class="mark"></span><span class="num">⑳</span><span class="nos"><span class="tag">出局</span>　4・5・6</span></div>
+        </div>
+        </div>
+      </div>
+      <div class="foot"><span>選舉委員會製</span><span>樣張　出局最少的四人進入決選</span></div>
+    </div>
+    <div class="ballot" id="n7">
+      <div class="head">
+        <h1>○○年○○選舉　第一輪　不同意晉級票</h1>
+        <div class="meta">選區：○○　登記 7 人</div>
+      </div>
+      <p class="polarity neg">圈＝出局　這張票不是選人上去</p>
+      <p class="notice">請只圈選一格。圈選兩個以上、空白或塗改者，無效。</p>
+      <div class="ids n7">
+        <div class="cand">
+          <div class="no">號次　1</div>
+          <div class="photo">相片</div>
+          <div class="name">林志明</div>
+          <div class="emblem">政黨圖</div>
+          <div class="party">民治黨</div>
+        </div>
+        <div class="cand">
+          <div class="no">號次　2</div>
+          <div class="photo">相片</div>
+          <div class="name">陳雅婷</div>
+          <div class="emblem">政黨圖</div>
+          <div class="party">公正黨</div>
+        </div>
+        <div class="cand">
+          <div class="no">號次　3</div>
+          <div class="photo">相片</div>
+          <div class="name">瑪拉歐斯·達拉阿道</div>
+          <div class="emblem">無</div>
+          <div class="party">無</div>
+        </div>
+        <div class="cand">
+          <div class="no">號次　4</div>
+          <div class="photo">相片</div>
+          <div class="name">吳淑芬</div>
+          <div class="emblem">政黨圖</div>
+          <div class="party">同心黨</div>
+        </div>
+        <div class="cand">
+          <div class="no">號次　5</div>
+          <div class="photo">相片</div>
+          <div class="name">歐陽文心</div>
+          <div class="emblem">政黨圖</div>
+          <div class="party">改革黨</div>
+        </div>
+        <div class="cand">
+          <div class="no">號次　6</div>
+          <div class="photo">相片</div>
+          <div class="name">鄭雅文</div>
+          <div class="emblem">政黨圖</div>
+          <div class="party">民生黨</div>
+        </div>
+        <div class="cand">
+          <div class="no">號次　7</div>
+          <div class="photo">相片</div>
+          <div class="name">許建宏</div>
+          <div class="emblem">無</div>
+          <div class="party">無</div>
+        </div>
+      </div>
+      <div class="choice-wrap">
+        <h2>請圈選你最不想讓他進決選的兩人<br>（這兩人各記一筆出局・全票只圈一格）</h2>
+        <div class="cols c3">
+        <div class="col">
+          <div class="opt"><span class="mark"></span><span class="num">①</span><span class="nos"><span class="tag">出局</span>　1・2</span></div>
+          <div class="opt"><span class="mark"></span><span class="num">②</span><span class="nos"><span class="tag">出局</span>　1・3</span></div>
+          <div class="opt"><span class="mark"></span><span class="num">③</span><span class="nos"><span class="tag">出局</span>　1・4</span></div>
+          <div class="opt"><span class="mark"></span><span class="num">④</span><span class="nos"><span class="tag">出局</span>　1・5</span></div>
+          <div class="opt"><span class="mark"></span><span class="num">⑤</span><span class="nos"><span class="tag">出局</span>　1・6</span></div>
+          <div class="opt"><span class="mark"></span><span class="num">⑥</span><span class="nos"><span class="tag">出局</span>　1・7</span></div>
+          <div class="opt"><span class="mark"></span><span class="num">⑦</span><span class="nos"><span class="tag">出局</span>　2・3</span></div>
+        </div>
+        <div class="col">
+          <div class="opt"><span class="mark"></span><span class="num">⑧</span><span class="nos"><span class="tag">出局</span>　2・4</span></div>
+          <div class="opt"><span class="mark"></span><span class="num">⑨</span><span class="nos"><span class="tag">出局</span>　2・5</span></div>
+          <div class="opt"><span class="mark"></span><span class="num">⑩</span><span class="nos"><span class="tag">出局</span>　2・6</span></div>
+          <div class="opt"><span class="mark"></span><span class="num">⑪</span><span class="nos"><span class="tag">出局</span>　2・7</span></div>
+          <div class="opt"><span class="mark"></span><span class="num">⑫</span><span class="nos"><span class="tag">出局</span>　3・4</span></div>
+          <div class="opt"><span class="mark"></span><span class="num">⑬</span><span class="nos"><span class="tag">出局</span>　3・5</span></div>
+          <div class="opt"><span class="mark"></span><span class="num">⑭</span><span class="nos"><span class="tag">出局</span>　3・6</span></div>
+        </div>
+        <div class="col">
+          <div class="opt"><span class="mark"></span><span class="num">⑮</span><span class="nos"><span class="tag">出局</span>　3・7</span></div>
+          <div class="opt"><span class="mark"></span><span class="num">⑯</span><span class="nos"><span class="tag">出局</span>　4・5</span></div>
+          <div class="opt"><span class="mark"></span><span class="num">⑰</span><span class="nos"><span class="tag">出局</span>　4・6</span></div>
+          <div class="opt"><span class="mark"></span><span class="num">⑱</span><span class="nos"><span class="tag">出局</span>　4・7</span></div>
+          <div class="opt"><span class="mark"></span><span class="num">⑲</span><span class="nos"><span class="tag">出局</span>　5・6</span></div>
+          <div class="opt"><span class="mark"></span><span class="num">⑳</span><span class="nos"><span class="tag">出局</span>　5・7</span></div>
+          <div class="opt"><span class="mark"></span><span class="num">㉑</span><span class="nos"><span class="tag">出局</span>　6・7</span></div>
+        </div>
+        </div>
+      </div>
+      <div class="foot"><span>選舉委員會製</span><span>樣張　出局最少的四人進入決選</span></div>
+    </div>
+    <div class="ballot" id="n8">
+      <div class="head">
+        <h1>○○年○○選舉　第一輪　支持晉級票</h1>
+        <div class="meta">選區：○○　登記 8 人</div>
+      </div>
+      <p class="polarity pos">圈＝支持　這人得一票</p>
+      <p class="notice">請只圈選一格。圈選兩個以上、空白或塗改者，無效。</p>
+      <div class="slist">
+        <h2>請圈選你想讓他進決選的一人<br>（這人得一票・全票只圈一格）</h2>
+        <div class="srow shead">
+          <span>圈選</span><span class="snum">號次</span><span class="sphoto">個人照片</span>
+          <span>姓名</span><span class="semb">政黨圖</span><span class="sparty">政黨</span><span class="sout">圈＝</span>
+        </div>
+        <div class="srow">
+          <span class="mark"></span><span class="snum">1</span><span class="sphoto">相片</span>
+          <span class="sname">林志明</span><span class="semb">政黨圖</span><span class="sparty">民治黨</span>
+          <span class="sout">支持</span>
+        </div>
+        <div class="srow">
+          <span class="mark"></span><span class="snum">2</span><span class="sphoto">相片</span>
+          <span class="sname">陳雅婷</span><span class="semb">政黨圖</span><span class="sparty">公正黨</span>
+          <span class="sout">支持</span>
+        </div>
+        <div class="srow">
+          <span class="mark"></span><span class="snum">3</span><span class="sphoto">相片</span>
+          <span class="sname">瑪拉歐斯·達拉阿道</span><span class="semb">無</span><span class="sparty">無</span>
+          <span class="sout">支持</span>
+        </div>
+        <div class="srow">
+          <span class="mark"></span><span class="snum">4</span><span class="sphoto">相片</span>
+          <span class="sname">吳淑芬</span><span class="semb">政黨圖</span><span class="sparty">同心黨</span>
+          <span class="sout">支持</span>
+        </div>
+        <div class="srow">
+          <span class="mark"></span><span class="snum">5</span><span class="sphoto">相片</span>
+          <span class="sname">歐陽文心</span><span class="semb">政黨圖</span><span class="sparty">改革黨</span>
+          <span class="sout">支持</span>
+        </div>
+        <div class="srow">
+          <span class="mark"></span><span class="snum">6</span><span class="sphoto">相片</span>
+          <span class="sname">鄭雅文</span><span class="semb">政黨圖</span><span class="sparty">民生黨</span>
+          <span class="sout">支持</span>
+        </div>
+        <div class="srow">
+          <span class="mark"></span><span class="snum">7</span><span class="sphoto">相片</span>
+          <span class="sname">許建宏</span><span class="semb">無</span><span class="sparty">無</span>
+          <span class="sout">支持</span>
+        </div>
+        <div class="srow">
+          <span class="mark"></span><span class="snum">8</span><span class="sphoto">相片</span>
+          <span class="sname">蔡佩君</span><span class="semb">政黨圖</span><span class="sparty">同心黨</span>
+          <span class="sout">支持</span>
+        </div>
+      </div>
+      <div class="foot"><span>選舉委員會製</span><span>樣張　得票最高的四人進入決選</span></div>
+    </div>
+  </div>
+</body>
+</html>
