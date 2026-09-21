@@ -1,6 +1,6 @@
 """產生三套的第二輪 計票.md（記票紙、對決加總表）。執行：python 產生計票表.py
 
-選項號次的編法與 產生票樣.py 相同：完整順序依甲乙丙丁字典序 1..m!；九選項的「只選」接在後面。
+選項號次的編法與 產生票樣.py 相同：依最喜歡的人分組連號；九選項每組「只選」在前。
 """
 import itertools
 import pathlib
@@ -17,33 +17,42 @@ def s(p):
     return ">".join(p)
 
 
+def order(m, bullets):
+    """[(號次, 內容)]；內容為順序 tuple 或 ("只", 代號)。"""
+    items = []
+    for c in TAG[:m]:
+        if bullets:
+            items.append(("只", c))
+        items += [p for p in perms(m) if p[0] == c]
+    return list(enumerate(items, 1))
+
+
+def num(m, bullets, key):
+    return dict((k, i) for i, k in order(m, bullets))[key]
+
+
 def sheet(m, bullets):
-    P = perms(m)
-    n = len(P)
     rows = ["| 選項號次 | 意思 | 劃記 |", "|:--:|------|------|"]
-    for i, p in enumerate(P, 1):
-        rows.append(f"| **{i}** | `{s(p)}` | |")
-    if bullets:
-        for j, c in enumerate(TAG[:m], 1):
-            rows.append(f"| **{n + j}** | 只選{c} | |")
+    for i, k in order(m, bullets):
+        rows.append(f"| **{i}** | " + (f"只選{k[1]}" if k[0] == "只" else f"`{s(k)}`") + " | |")
     rows.append("| 無效 | | |")
     return "\n".join(rows)
 
 
 def pair_rows(m, bullets):
-    P = perms(m)
-    n = len(P)
     out = []
     for a, b in itertools.combinations(TAG[:m], 2):
-        fa = [str(i) for i, p in enumerate(P, 1) if p.index(a) < p.index(b)]
-        fb = [str(i) for i, p in enumerate(P, 1) if p.index(b) < p.index(a)]
+        fa = [(i, str(i)) for i, k in order(m, bullets) if k[0] != "只" and k.index(a) < k.index(b)]
+        fb = [(i, str(i)) for i, k in order(m, bullets) if k[0] != "只" and k.index(b) < k.index(a)]
         if bullets:
-            fa.append(f"**{n + TAG.index(a) + 1}**")
-            fb.append(f"**{n + TAG.index(b) + 1}**")
+            fa.append((num(m, True, ("只", a)), f"**{num(m, True, ('只', a))}**"))
+            fb.append((num(m, True, ("只", b)), f"**{num(m, True, ('只', b))}**"))
+            fa.sort(); fb.sort()
             other = [c for c in TAG[:m] if c not in (a, b)][0]
-            out.append(f"| {a}對{b} | " + "＋".join(fa) + " | " + "＋".join(fb) + f" | {n + TAG.index(other) + 1} |")
+            out.append(f"| {a}對{b} | " + "＋".join(x for _, x in fa) + " | " + "＋".join(x for _, x in fb)
+                       + f" | {num(m, True, ('只', other))} |")
         else:
-            out.append(f"| {a}對{b} | " + "＋".join(fa) + " | " + "＋".join(fb) + " |")
+            out.append(f"| {a}對{b} | " + "＋".join(x for _, x in fa) + " | " + "＋".join(x for _, x in fb) + " |")
     return "\n".join(out)
 
 
@@ -101,10 +110,10 @@ pages = {
                     DEC3,
                     "兩人決選（m＝2）：只有選項 1 `甲>乙`、選項 2 `乙>甲`，多者當選。\n\n本套每張票都排完三人，每場參與票數都＝有效票數，所以「勝方得票最少」與「勝差最小」永遠是同一場。"),
     "k3-九選項": page("k＝3・九選項", 3, True,
-                    "選項 1–6 與六選項完全相同；7、8、9 是只選甲、乙、丙。",
+                    "號次依最喜歡的人分組連號，每組「只選」在前：1–3 甲、4–6 乙、7–9 丙，和票面「依第一偏好分列」每一列、「依第一偏好分欄」每一欄一致。",
                     DEC3.replace("1. 有人兩場都贏 → **兩兩對決贏家，當選**。",
                                  "1. 有人兩場都贏 → **兩兩對決贏家，當選**。某場平手不影響這一步（例子檔例五）。"),
-                    "和六選項的差別只有粗體那兩個號次：「只選甲」（選項 7）加進甲參加的兩場，甲不參加的那場它不表態。\n\n"
+                    "粗體的是「只選」號次：「只選甲」（選項 1）加進甲參加的兩場，甲不參加的那場它不表態。\n\n"
                     "**本套不能用「勝差最小」。** 有人只選一人時各場參與票數不同，勝差與勝方得票會指向不同的「最弱一場」；用勝差會讓「故意只選一人」變成可用的操弄（[`票型分布例子.md`](票型分布例子.md) 例四）。\n\n"
                     "兩人決選（m＝2）：只有選項 1 `甲>乙`、選項 2 `乙>甲`（「只選甲」與 `甲>乙` 意思相同，不另設），多者當選。"),
     "k4-二十四選項": page("k＝4・二十四選項", 4, False,

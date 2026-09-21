@@ -4,7 +4,8 @@
   - 第二輪每一格有**選項號次**（1、2、3……），唱票唱「選項 7，1 票」，記票紙一欄一個號次。
   - 第二輪的候選人**不用數字**，用「甲、乙、丙、丁」：依第一輪號次由小到大依序給，不重抽。
     所以第二輪票上的數字只有選項號次一種，不會和候選人號次搞混。
-  - 選項號次依甲乙丙丁的字典序編：同一號次在各排版都是同一種順序。
+  - 選項號次照票面閱讀順序連號：依「最喜歡誰」分組（甲、乙、丙、丁），組內「只選」在前、
+    完整順序依字典序在後。所以每一組的號次都連續，分列版每列、分欄版每欄都是連號。
 執行：python 產生票樣.py（任何目錄皆可）
 """
 import itertools
@@ -48,12 +49,17 @@ def ordstr(p):
 
 
 def options(case, cands):
-    """回傳 [(選項號次, 種類, 內容)]；內容是甲乙丙丁 tuple。完整順序依字典序編號。"""
+    """回傳 [(選項號次, 種類, 內容)]；內容是甲乙丙丁 tuple。
+
+    依最喜歡的人分組；九選項每組「只選」在前。號次照這個順序連號。
+    """
     tags = [c[0] for c in cands]
-    full = [(i + 1, "full", p) for i, p in enumerate(itertools.permutations(tags))]
-    if case == "k3-九選項":
-        return full + [(len(full) + i + 1, "bullet", (t,)) for i, t in enumerate(tags)]
-    return full
+    items = []
+    for t in tags:
+        if case == "k3-九選項":
+            items.append(("bullet", (t,)))
+        items += [("full", p) for p in itertools.permutations(tags) if p[0] == t]
+    return [(i + 1, kind, p) for i, (kind, p) in enumerate(items)]
 
 
 def content(o):
@@ -288,13 +294,9 @@ def build():
             second_round(case, "依第一偏好分列",
                          "上方三位候選人；下方三列，每列是「最喜歡某人」的三種選法：只選他，或他開頭的兩種完整順序。",
                          ids_md + "\n\n" + md_rows(cands, opts), ids_h + sect + h_rows(cands, opts), cands)
-            full = [o for o in opts if o[1] == "full"]
-            bul = [o for o in opts if o[1] == "bullet"]
-            second_round(case, "兩段",
-                         "上段六格是**完整喜歡順序**；下段三格是**只選一人**。先決定要不要排完，再找格子。",
-                         ids_md + "\n\n**完整喜歡順序（選項 1–6）**\n\n" + md_cells(full) + "\n\n**只選一人（選項 7–9）**\n\n" + md_cells(bul),
-                         ids_h + '<p class="sect">完整喜歡順序（選項 1–6）</p>' + h_one_row(full)
-                         + '<p class="sect">只選一人（選項 7–9）</p>' + h_one_row(bul), cands)
+            second_round(case, "一列九格",
+                         "上方三位候選人；下方一列九格，號次 1–9 由左到右，每三格是同一位最喜歡的人（只選他、他開頭的兩種順序）。最緊湊，但選民要自己找開頭的代號。",
+                         ids_md + "\n\n" + md_cells(opts), ids_h + sect + h_one_row(opts), cands)
         else:
             second_round(case, "依第一偏好分欄",
                          "每一欄是一位候選人。**你最喜歡誰，就到誰的那一欄**，欄內六種完整順序挑一格。",
