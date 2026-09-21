@@ -13,18 +13,20 @@ table.ids, table.grid { width:100%; border-collapse:collapse; table-layout:fixed
 .ids th, .ids td, .grid td, .grid th { border:1px solid #111; text-align:center; vertical-align:middle; padding:4px 3px; }
 .ids th { width:4.6em; font-size:12px; background:#f2f2f2; }
 .grid th { background:#f2f2f2; font-weight:400; font-size:12px; }
+.no { font-size:18px; font-weight:700; }
 .photo { margin:3px auto; height:46px; width:36px; border:1px dashed #666; font-size:11px; color:#444; display:flex; align-items:center; justify-content:center; }
 .name { font-size:14px; font-weight:700; line-height:1.25; word-break:keep-all; overflow-wrap:normal; }
 .party { font-size:12px; line-height:1.25; word-break:normal; overflow-wrap:anywhere; }
-.mark { display:inline-block; width:18px; height:18px; border:2px solid #111; border-radius:50%; vertical-align:middle; margin-right:5px; }
+.mark { display:inline-block; width:18px; height:18px; border:2px solid #111; border-radius:50%; vertical-align:middle; margin-right:6px; flex-shrink:0; }
 .circle { width:24px; height:24px; }
-.opt { font-size:14px; white-space:nowrap; padding:9px 4px; }
-.opt .n { font-weight:700; margin-right:4px; }
+.opt { font-size:15px; white-space:nowrap; padding:9px 4px; letter-spacing:.04em; }
+.onum { display:inline-block; min-width:1.9em; border:1.5px solid #111; border-radius:3px; font-weight:700; margin-right:6px; text-align:center; font-size:14px; }
+.tag { font-size:20px; font-weight:700; }
 .bullet { background:#fbfbef; }
 .sub { font-size:12px; font-style:italic; background:#f7f7f7; padding:2px; }
-.rowlab { text-align:left !important; font-size:13px; font-weight:700 !important; width:30%; }
+.rowlab { text-align:left !important; font-size:13px; font-weight:700 !important; width:24%; }
 .sect { margin:8px 0 3px; text-align:center; font-weight:700; font-size:13px; }
 .foot { display:flex; justify-content:space-between; margin-top:8px; font-size:12px; }
 </style></head><body>
-<div class="ballot"><div class="head"><h1>○○年○○選舉　第二輪決選選舉票</h1><div class="meta">選區：○○　3 人決選　選項 ①–⑥　人工計票　依第一偏好分欄</div></div><p class="notice">請只圈選一格。圈選兩個以上、空白或塗改者，無效。</p><p class="legend">讀法：1＞3＞2＝最喜歡 1 號，其次 3 號，最後 2 號。</p><table class="grid"><tr><th>最喜歡<div class="photo">相片</div><div class="name">1　林志明</div><div class="party">民治黨</div></th><th>最喜歡<div class="photo">相片</div><div class="name">2　瑪拉歐斯·<wbr>達拉阿道</div><div class="party">無</div></th><th>最喜歡<div class="photo">相片</div><div class="name">3　Kaliting <wbr>Tjaljaljav</div><div class="party">台灣原住民族自治與土地正義聯盟</div></th></tr><tr><td class="opt"><span class="mark"></span><span class="n">①</span>1＞2＞3</td><td class="opt"><span class="mark"></span><span class="n">③</span>2＞1＞3</td><td class="opt"><span class="mark"></span><span class="n">⑤</span>3＞1＞2</td></tr><tr><td class="opt"><span class="mark"></span><span class="n">②</span>1＞3＞2</td><td class="opt"><span class="mark"></span><span class="n">④</span>2＞3＞1</td><td class="opt"><span class="mark"></span><span class="n">⑥</span>3＞2＞1</td></tr></table><div class="foot"><span>選舉委員會製　樣張</span><span>兩兩對決贏家當選</span></div></div>
+<div class="ballot"><div class="head"><h1>○○年○○選舉　第二輪決選選舉票</h1><div class="meta">選區：○○　3 人決選　選項 1–6　唱票式人工計票　依第一偏好分欄</div></div><p class="notice">請只圈選一格。圈選兩個以上、空白或塗改者，無效。</p><p class="legend">讀法：乙＞甲＞丙＝最喜歡乙，其次甲，最後丙。每一格前面的數字是選項號次，開票時唱這個號次。</p><table class="grid"><tr><th>最喜歡<div class="tag">甲</div><div class="photo">相片</div><div class="name">林志明</div><div class="party">民治黨</div></th><th>最喜歡<div class="tag">乙</div><div class="photo">相片</div><div class="name">Kaliting <wbr>Tjaljaljav</div><div class="party">台灣原住民族自治與土地正義聯盟</div></th><th>最喜歡<div class="tag">丙</div><div class="photo">相片</div><div class="name">張家豪</div><div class="party">綠色未來黨</div></th></tr><tr><td class="opt"><span class="mark"></span><span class="onum">1</span>甲＞乙＞丙</td><td class="opt"><span class="mark"></span><span class="onum">3</span>乙＞甲＞丙</td><td class="opt"><span class="mark"></span><span class="onum">5</span>丙＞甲＞乙</td></tr><tr><td class="opt"><span class="mark"></span><span class="onum">2</span>甲＞丙＞乙</td><td class="opt"><span class="mark"></span><span class="onum">4</span>乙＞丙＞甲</td><td class="opt"><span class="mark"></span><span class="onum">6</span>丙＞乙＞甲</td></tr></table><div class="foot"><span>選舉委員會製　樣張</span><span>兩兩對決贏家當選</span></div></div>
 </body></html>
