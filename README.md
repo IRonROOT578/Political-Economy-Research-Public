@@ -1,6 +1,6 @@
 # 政體與選制（公開展示）
 
-四個主題可分開讀：政體設計（台灣／中國／俄羅斯／法國／南韓十套）、單一選區兩輪投票、一院議會制如何產生行政首長。
+五個主題可分開讀：政體設計（台灣／中國／俄羅斯／法國／南韓十套）、單一選區兩輪投票、一院議會制如何產生行政首長、全國性政黨的黨內職位。
 
 依展示需要重組過目錄與說明。不是工作庫：沒有私人筆記、規則集或未公開題目。
 
@@ -12,6 +12,7 @@
 | [政體設計提示詞](topics/regime-designs/prompts/政體設計/) | 定稿所依的提示詞（`0-基本`／`1-優化`／`配置`／`測試`／`惡搞`） |
 | [兩輪兩兩對決](topics/two-round-pairwise-runoff/) | 單一選區、人工計票的兩輪選制與票樣（k3 六選項／k3 九選項／k4 二十四選項） |
 | [一院議會制的行政首長](topics/unicameral-parliamentary-executive/) | 常見國怎麼產生首相／總理 |
+| [全國性政黨的黨內職位](topics/party-internal-offices/) | 黨主席與委員會怎麼選、權限怎麼切；與兩大黨對照（不抄） |
 
 ## 建議讀法
 
@@ -23,6 +24,7 @@
 6. 南韓：直接讀 [一院總統制](topics/regime-designs/designs/南韓/一院總統制/)。250＝150＋100；人民可發動總統更新；預提可選不採用。
 7. 選制：先看 [SNTV 兩輪套](topics/two-round-pairwise-runoff/outputs/第一輪為SNTV的兩輪投票制/)（三種情況並列）。
 8. 議會制行政：直接讀 [簡答](topics/unicameral-parliamentary-executive/outputs/簡答.md)。
+9. 黨內職位：先看 [架構](topics/party-internal-offices/outputs/架構.md)，再看 [與兩大黨比較](topics/party-internal-offices/outputs/與兩大黨比較.md)。
 
 ## 授權
 
@@ -31,4 +33,4 @@
 | 內容 | 授權 | 可以 | 必須 |
 |------|------|------|------|
 | 非提示詞（定稿、選制、說明） | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.zh-hant) | 分享、改作、**商用** | 標來源 |
-| [政體設計提示詞](topics/regime-designs/prompts/政體設計/)、[兩輪提示詞](topics/two-round-pairwise-runoff/提示詞/) | [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.zh-hant) | 非商用分享、改作；**商用需另行授權** | 標來源 |
+| [政體設計提示詞](topics/regime-designs/prompts/政體設計/)、[兩輪提示詞](topics/two-round-pairwise-runoff/提示詞/)、[黨內職位提示詞](topics/party-internal-offices/提示詞/) | [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.zh-hant) | 非商用分享、改作；**商用需另行授權** | 標來源 |
