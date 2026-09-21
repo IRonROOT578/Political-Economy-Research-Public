@@ -2,7 +2,7 @@
 
 分析、模擬、負票補數。兩套兩輪制在 [`../outputs/`](../outputs/README.md)。**優先** [`../outputs/第一輪為SNTV的兩輪投票制/`](../outputs/第一輪為SNTV的兩輪投票制/)；組合格套較低優先。
 
-k＝3 與 k＝4 並列於 [`../outputs/第一輪為SNTV的兩輪投票制/k3/`](../outputs/第一輪為SNTV的兩輪投票制/k3/)、[`../outputs/第一輪為SNTV的兩輪投票制/k4/`](../outputs/第一輪為SNTV的兩輪投票制/k4/)。
+k＝3 與 k＝4 並列於 [`../outputs/第一輪為SNTV的兩輪投票制/k3/`](../outputs/第一輪為SNTV的兩輪投票制/k3-六選項/)、[`../outputs/第一輪為SNTV的兩輪投票制/k4/`](../outputs/第一輪為SNTV的兩輪投票制/k4-二十四選項/)。
 
 | 檔 | 為什麼留 |
 |----|----------|
