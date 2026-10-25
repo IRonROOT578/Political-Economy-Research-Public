@@ -9,7 +9,7 @@
 | 主題 | 讀什麼 |
 |------|--------|
 | [政體設計](topics/regime-designs/) | 台灣六夾（含兩院）＋中國一院議會制＋俄羅斯一院總統制＋法國一院議會制＋南韓一院總統制 |
-| [政體設計提示詞](topics/regime-designs/prompts/政體設計/) | 定稿所依的提示詞（`0-基本`／`1-優化`／`配置`／`測試`／`惡搞`） |
+| [政體設計提示詞](topics/regime-designs/prompts/政體設計/) | 定稿所依的提示詞（`0-基本`／`1-優化`／`2-配置`／`測試`／`惡搞`） |
 | [兩輪兩兩對決](topics/two-round-pairwise-runoff/) | 單一選區、人工計票的兩輪選制與票樣（k3 六選項／k3 九選項／k4 二十四選項） |
 | [一院議會制的行政首長](topics/unicameral-parliamentary-executive/) | 常見國怎麼產生首相／總理 |
 | [全國性政黨的黨內職位](topics/party-internal-offices/) | 黨主席與委員會怎麼選、權限怎麼切；與兩大黨對照（不抄） |
@@ -17,11 +17,11 @@
 ## 建議讀法
 
 1. 政體設計：先看 [定稿矩陣](topics/regime-designs/designs/README.md)，再進各資料夾。提示詞在 [政體設計](topics/regime-designs/prompts/政體設計/)。
-2. 台灣：正式總統制 **180＝100＋80、不用預提**；測試同層、用預提；一院議會制某些議員＝單一 100；兩院：國民院 150＝90＋60 掌行政、參議院 75 民選不掌行政；惡搞 225 FPTP。
+2. 台灣：正式總統制 **180＝100＋80、不用預提**；測試同層、用預提；一院議會制某些議員＝全院 180；兩院：國民院 100 單一、參議院 80 名單，信任與供給由兩院聯席；惡搞 225 FPTP。
 3. 中國：直接讀 [一院議會制](topics/regime-designs/designs/中國/一院議會制/)。450＝260＋190；席次圖以意識形態光譜分組。
-4. 俄羅斯：直接讀 [一院總統制](topics/regime-designs/designs/俄羅斯/一院總統制/)。300＝180＋120；杭特法；用預提；無聯邦院、無次國家政治層級。
+4. 俄羅斯：直接讀 [一院總統制](topics/regime-designs/designs/俄羅斯/一院總統制/)。300＝180＋120；聖拉古；用預提；無聯邦院、無次國家政治層級。
 5. 法國：直接讀 [一院議會制](topics/regime-designs/designs/法國/一院議會制/)。400＝230＋170；無參議院、無元首；另設審計權。
-6. 南韓：直接讀 [一院總統制](topics/regime-designs/designs/南韓/一院總統制/)。250＝150＋100；人民可發動總統更新；預提可選不採用。
+6. 南韓：直接讀 [一院總統制](topics/regime-designs/designs/南韓/一院總統制/)。250＝150＋100；人民可發動總統更新；用預提。
 7. 選制：先看 [SNTV 兩輪套](topics/two-round-pairwise-runoff/outputs/第一輪為SNTV的兩輪投票制/)（三種情況並列）。
 8. 議會制行政：直接讀 [簡答](topics/unicameral-parliamentary-executive/outputs/簡答.md)。
 9. 黨內職位：先看 [架構](topics/party-internal-offices/outputs/架構.md)，再看 [與兩大黨比較](topics/party-internal-offices/outputs/與兩大黨比較.md)。
