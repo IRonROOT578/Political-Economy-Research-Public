@@ -1,0 +1,2119 @@
+gkz,land,name,eligible,valid,ÖVP,SPÖ,FPÖ,NEOS,JETZT,GRÜNE,KPÖ,WANDL,BZÖ,BIER,CPÖ,GILT,SLP
+G10101,Burgenland,Eisenstadt,10798,8485,3523,1685,1162,654,142,1220,39,39,0,0,21,0,0
+G10201,Burgenland,Rust,1594,1255,424,389,239,69,15,106,5,5,0,0,3,0,0
+G10301,Burgenland,Breitenbrunn am Neusiedler See,1582,1277,438,380,170,88,40,153,6,3,0,0,0,0,0
+G10302,Burgenland,Donnerskirchen,1535,1218,529,289,220,70,15,87,7,2,0,0,0,0,0
+G10303,Burgenland,Großhöflein,1676,1310,551,321,204,78,9,136,5,6,0,0,0,0,0
+G10304,Burgenland,Hornstein,2397,1855,606,609,297,104,33,181,14,9,0,0,2,0,0
+G10305,Burgenland,Klingenbach,870,720,237,307,98,18,9,42,2,7,0,0,0,0,0
+G10306,Burgenland,Leithaprodersdorf,965,804,435,146,100,53,13,52,0,3,0,0,1,0,0
+G10307,Burgenland,Mörbisch am See,1821,1525,524,507,287,61,16,117,3,6,0,0,4,0,0
+G10308,Burgenland,Müllendorf,1146,980,376,311,124,50,24,84,3,7,0,0,2,0,0
+G10309,Burgenland,Neufeld an der Leitha,2642,2116,628,691,377,139,30,225,16,9,0,0,0,0,0
+G10310,Burgenland,Oggau am Neusiedler See,1471,1293,483,446,185,61,12,94,5,2,0,0,6,0,0
+G10311,Burgenland,Oslip,1021,848,302,301,104,35,14,86,2,2,0,0,1,0,0
+G10312,Burgenland,Purbach am Neusiedler See,2387,1808,768,433,312,105,19,156,4,6,0,0,4,0,0
+G10313,Burgenland,Sankt Margarethen im Burgenland,2298,1886,806,447,334,88,31,170,6,2,0,0,2,0,0
+G10314,Burgenland,Schützen am Gebirge,1108,956,439,254,128,51,8,69,1,4,0,0,2,0,0
+G10315,Burgenland,Siegendorf,2270,1846,466,785,289,80,29,183,10,3,0,0,1,0,0
+G10316,Burgenland,Steinbrunn,2099,1710,556,594,277,98,23,147,9,5,0,0,1,0,0
+G10317,Burgenland,Trausdorf an der Wulka,1658,1310,473,447,192,59,23,107,4,3,0,0,2,0,0
+G10318,Burgenland,Wimpassing an der Leitha,1226,965,390,224,188,67,9,83,3,1,0,0,0,0,0
+G10319,Burgenland,Wulkaprodersdorf,1486,1264,488,419,126,56,22,145,6,2,0,0,0,0,0
+G10320,Burgenland,Loretto,411,324,126,90,53,19,11,23,2,0,0,0,0,0,0
+G10321,Burgenland,Stotzing,645,531,229,146,85,35,4,30,1,0,0,0,1,0,0
+G10322,Burgenland,Zillingtal,761,598,198,186,94,37,10,70,3,0,0,0,0,0,0
+G10323,Burgenland,Zagersdorf,832,674,267,239,84,31,6,41,3,1,0,0,2,0,0
+G10401,Burgenland,Bocksdorf,674,563,188,200,114,22,8,28,2,0,0,0,0,0,0
+G10402,Burgenland,Burgauberg-Neudauberg,1097,881,378,219,179,34,5,57,4,2,0,0,2,0,0
+G10403,Burgenland,Eberau,722,567,305,116,79,24,6,34,2,1,0,0,0,0,0
+G10404,Burgenland,Gerersdorf-Sulz,834,694,320,200,96,21,4,53,0,0,0,0,0,0,0
+G10405,Burgenland,Güssing,2954,2251,1000,601,356,109,24,150,6,1,0,0,4,0,0
+G10406,Burgenland,Güttenbach,725,581,283,156,72,24,6,40,1,0,0,0,0,0,0
+G10407,Burgenland,Heiligenbrunn,651,521,281,128,76,9,2,22,2,1,0,0,0,0,0
+G10408,Burgenland,Kukmirn,1651,1280,530,312,248,60,17,98,9,6,0,0,0,0,0
+G10409,Burgenland,Neuberg im Burgenland,833,663,294,210,85,26,3,40,2,1,0,0,1,0,0
+G10410,Burgenland,Neustift bei Güssing,412,308,88,128,62,8,2,17,2,0,0,0,1,0,0
+G10411,Burgenland,Olbendorf,1200,950,274,367,203,32,6,55,6,2,0,0,3,0,0
+G10412,Burgenland,Ollersdorf im Burgenland,805,743,303,237,109,27,7,50,2,5,0,0,3,0,0
+G10413,Burgenland,Sankt Michael im Burgenland,811,707,341,165,119,34,5,40,1,1,0,0,0,0,0
+G10414,Burgenland,Stegersbach,2091,1633,610,499,290,78,20,120,7,3,0,0,5,0,0
+G10415,Burgenland,Stinatz,940,750,251,358,48,20,7,64,0,1,0,0,0,0,0
+G10416,Burgenland,Strem,762,614,343,110,101,22,4,30,2,0,0,0,1,0,0
+G10417,Burgenland,Tobaj,1112,929,454,180,183,36,8,55,6,4,0,0,1,0,0
+G10418,Burgenland,Hackerberg,287,234,118,68,30,4,2,12,0,0,0,0,0,0,0
+G10419,Burgenland,Wörterberg,396,334,134,101,53,8,3,32,0,2,0,0,0,0,0
+G10420,Burgenland,Großmürbisch,212,172,91,53,13,5,0,10,0,0,0,0,0,0,0
+G10421,Burgenland,Inzenhof,252,227,79,102,35,3,0,7,0,0,0,0,0,0,0
+G10422,Burgenland,Kleinmürbisch,205,152,69,52,24,1,0,4,0,1,0,0,0,0,0
+G10423,Burgenland,Tschanigraben,54,43,12,23,6,0,0,2,0,0,0,0,0,0,0
+G10424,Burgenland,Heugraben,187,176,73,56,35,5,0,6,0,0,0,0,0,0,0
+G10425,Burgenland,Rohr im Burgenland,327,279,125,74,55,9,1,12,0,1,0,0,0,0,0
+G10426,Burgenland,Bildein,261,248,148,35,41,5,0,18,1,0,0,0,0,0,0
+G10427,Burgenland,Rauchwart,371,315,99,115,77,4,2,14,0,3,0,0,0,0,0
+G10428,Burgenland,Moschendorf,325,294,164,68,39,3,1,17,0,0,0,0,0,0,0
+G10501,Burgenland,Deutsch Kaltenbrunn,1470,1095,398,313,215,47,15,98,5,4,0,0,1,0,0
+G10502,Burgenland,Eltendorf,791,611,240,153,140,22,8,45,1,2,0,0,1,0,0
+G10503,Burgenland,Heiligenkreuz im Lafnitztal,966,722,301,194,147,22,9,43,3,2,0,0,1,0,0
+G10504,Burgenland,Jennersdorf,3465,2575,1051,439,676,109,32,247,16,5,0,0,0,0,0
+G10505,Burgenland,Minihof-Liebau,879,721,274,182,157,43,8,48,6,2,0,0,1,0,0
+G10506,Burgenland,Mogersdorf,915,741,271,222,148,31,9,51,7,1,0,0,0,0,0
+G10507,Burgenland,Neuhaus am Klausenbach,754,571,261,128,106,19,6,43,6,2,0,0,1,0,0
+G10508,Burgenland,Rudersdorf,1835,1379,594,318,258,65,18,115,4,5,0,0,2,0,0
+G10509,Burgenland,Sankt Martin an der Raab,1715,1453,622,332,278,60,22,128,6,3,0,0,2,0,0
+G10510,Burgenland,Weichselbaum,586,505,229,128,96,12,9,25,3,2,0,0,0,0,0
+G10511,Burgenland,Königsdorf,611,517,209,152,101,17,8,28,1,0,0,0,1,0,0
+G10512,Burgenland,Mühlgraben,324,267,77,107,44,15,2,20,2,0,0,0,0,0,0
+G10601,Burgenland,Draßburg,939,708,183,349,86,31,5,48,4,2,0,0,0,0,0
+G10602,Burgenland,Forchtenstein,2253,1806,736,527,315,87,15,121,3,1,0,0,0,0,0
+G10603,Burgenland,Hirm,751,649,176,300,94,20,10,43,2,1,0,0,2,0,0
+G10604,Burgenland,Loipersbach im Burgenland,988,782,182,288,189,38,11,69,2,1,0,0,0,0,0
+G10605,Burgenland,Marz,1615,1359,547,399,187,87,16,111,6,3,0,0,2,0,0
+G10606,Burgenland,Mattersburg,5767,4378,1566,1264,733,262,68,442,21,15,0,0,8,0,0
+G10607,Burgenland,Neudörfl,3448,2636,825,842,523,168,36,226,7,6,0,0,4,0,0
+G10608,Burgenland,Pöttelsdorf,621,449,182,116,63,34,3,50,0,0,0,0,0,0,0
+G10609,Burgenland,Pöttsching,2405,1974,672,605,293,150,27,207,13,6,0,0,1,0,0
+G10610,Burgenland,Rohrbach bei Mattersburg,2130,1764,656,620,261,75,17,126,7,1,0,0,0,0,0
+G10611,Burgenland,Bad Sauerbrunn,1772,1338,430,302,255,91,30,213,9,8,0,0,0,0,0
+G10612,Burgenland,Schattendorf,1937,1674,480,721,233,68,15,146,5,3,0,0,2,0,0
+G10613,Burgenland,Sieggraben,991,832,343,252,166,22,6,37,4,1,0,0,0,0,0
+G10614,Burgenland,Sigleß,964,872,277,337,116,37,11,84,6,2,0,0,1,0,0
+G10615,Burgenland,Wiesen,2203,1808,787,343,384,106,23,145,10,6,0,0,3,0,0
+G10616,Burgenland,Antau,614,545,243,141,87,19,13,38,4,0,0,0,0,0,0
+G10617,Burgenland,Baumgarten,698,584,165,255,71,29,12,46,3,2,0,0,1,0,0
+G10618,Burgenland,Zemendorf-Stöttera,1008,807,370,241,107,33,6,46,1,1,0,0,0,0,0
+G10619,Burgenland,Krensdorf,483,393,177,107,67,14,4,24,0,0,0,0,0,0,0
+G10701,Burgenland,Andau,1919,1644,585,591,328,49,11,72,2,4,0,0,0,0,0
+G10702,Burgenland,Apetlon,1525,1292,557,412,193,46,11,54,2,5,0,0,12,0,0
+G10703,Burgenland,Bruckneudorf,2368,1732,485,471,402,114,29,207,15,7,0,0,2,0,0
+G10704,Burgenland,Deutsch Jahrndorf,443,389,130,129,81,19,6,23,0,1,0,0,0,0,0
+G10705,Burgenland,Frauenkirchen,2350,1756,634,563,303,83,28,130,6,3,0,0,5,0,0
+G10706,Burgenland,Gattendorf,951,807,305,243,161,33,9,49,6,0,0,0,0,0,0
+G10707,Burgenland,Gols,3133,2508,814,697,513,146,36,274,10,14,0,0,4,0,0
+G10708,Burgenland,Halbturn,1594,1365,619,312,247,72,13,87,6,7,0,0,2,0,0
+G10709,Burgenland,Illmitz,2053,1830,700,661,275,69,21,97,3,1,0,0,4,0,0
+G10710,Burgenland,Jois,1268,1009,408,255,190,57,15,69,7,5,0,0,4,0,0
+G10711,Burgenland,Kittsee,1508,1130,512,301,173,46,13,74,5,3,0,0,3,0,0
+G10712,Burgenland,Mönchhof,1828,1447,648,334,260,72,18,98,11,4,0,0,2,0,0
+G10713,Burgenland,Neusiedl am See,6233,4465,1660,956,703,403,81,621,19,14,0,0,8,0,0
+G10714,Burgenland,Nickelsdorf,1254,1000,312,319,209,46,22,85,4,3,0,0,0,0,0
+G10715,Burgenland,Pama,858,742,350,245,68,26,9,39,1,2,0,0,0,0,0
+G10716,Burgenland,Pamhagen,1365,1035,512,277,138,35,8,57,5,3,0,0,1,0,0
+G10717,Burgenland,Parndorf,3286,2317,678,752,507,134,33,186,16,8,0,0,3,0,0
+G10718,Burgenland,Podersdorf am See,1755,1439,705,252,216,93,25,139,2,3,0,0,4,0,0
+G10719,Burgenland,Sankt Andrä am Zicksee,1127,996,450,254,166,58,10,51,3,1,0,0,4,0,0
+G10720,Burgenland,Tadten,1009,854,390,273,99,35,6,49,1,1,0,0,0,0,0
+G10721,Burgenland,Wallern im Burgenland,1421,1231,437,441,230,43,13,63,2,2,0,0,1,0,0
+G10722,Burgenland,Weiden am See,1933,1560,591,331,301,131,28,174,2,1,0,0,1,0,0
+G10723,Burgenland,Winden am See,1077,804,272,262,131,47,16,71,2,2,0,0,0,0,0
+G10724,Burgenland,Zurndorf,1677,1428,387,478,358,62,16,117,4,5,0,0,1,0,0
+G10725,Burgenland,Neudorf,563,452,178,144,61,23,5,39,0,0,0,0,1,0,0
+G10726,Burgenland,Potzneusiedl,434,367,113,126,79,17,5,24,3,1,0,0,0,0,0
+G10727,Burgenland,Edelstal,497,405,227,81,58,12,3,23,0,0,0,0,0,0,0
+G10801,Burgenland,Deutschkreutz,2522,2023,944,535,305,95,18,111,8,4,0,0,3,0,0
+G10802,Burgenland,Draßmarkt,1136,961,438,303,97,47,8,62,1,4,0,0,1,0,0
+G10803,Burgenland,Frankenau-Unterpullendorf,922,744,328,212,81,30,10,78,3,1,0,0,1,0,0
+G10804,Burgenland,Großwarasdorf,1164,919,440,257,105,35,16,56,7,2,0,0,0,0,0
+G10805,Burgenland,Horitschon,1464,1234,547,356,203,49,12,58,3,3,0,0,5,0,0
+G10806,Burgenland,Kaisersdorf,480,410,139,165,54,12,10,27,1,1,0,0,0,0,0
+G10807,Burgenland,Kobersdorf,1550,1332,464,478,238,49,7,89,5,3,0,0,0,0,0
+G10808,Burgenland,Lackenbach,929,716,277,242,120,30,3,39,1,3,0,0,0,0,0
+G10809,Burgenland,Lockenhaus,1649,1281,527,367,216,70,14,81,4,2,0,0,1,0,0
+G10810,Burgenland,Lutzmannsburg,704,599,266,155,103,32,11,29,3,0,0,0,0,0,0
+G10811,Burgenland,Mannersdorf an der Rabnitz,1477,1246,482,402,230,48,14,66,1,3,0,0,1,0,0
+G10812,Burgenland,Markt Sankt Martin,990,875,352,288,128,27,10,57,5,6,0,0,2,0,0
+G10813,Burgenland,Neckenmarkt,1412,1220,582,358,164,39,9,54,4,3,0,0,7,0,0
+G10814,Burgenland,Neutal,894,808,232,399,106,16,6,41,3,5,0,0,0,0,0
+G10815,Burgenland,Nikitsch,1154,923,457,260,89,47,11,53,2,1,0,0,1,0,0
+G10816,Burgenland,Oberpullendorf,2501,1652,691,447,252,89,18,145,9,1,0,0,0,0,0
+G10817,Burgenland,Pilgersdorf,1385,1157,593,278,154,48,12,68,3,1,0,0,0,0,0
+G10818,Burgenland,Piringsdorf,712,612,239,227,64,31,4,43,1,1,0,0,1,0,0
+G10819,Burgenland,Raiding,742,546,219,224,53,16,8,22,3,0,0,0,0,0,0
+G10820,Burgenland,Ritzing,747,604,206,220,102,22,8,39,5,1,0,0,0,0,0
+G10821,Burgenland,Steinberg-Dörfl,1041,902,403,242,132,46,15,60,1,1,0,0,2,0,0
+G10822,Burgenland,Stoob,1142,936,352,357,125,34,8,55,3,1,0,0,1,0,0
+G10823,Burgenland,Weppersdorf,1507,1265,365,520,232,49,9,80,6,3,0,0,2,0,0
+G10824,Burgenland,Lackendorf,490,381,134,165,52,12,4,14,0,0,0,0,0,0,0
+G10825,Burgenland,Unterfrauenhaid,526,439,184,162,58,10,5,14,4,1,0,0,0,0,0
+G10826,Burgenland,Unterrabnitz-Schwendgraben,527,480,241,142,54,12,4,24,2,1,0,0,0,0,0
+G10827,Burgenland,Weingraben,277,260,97,110,21,11,1,18,1,0,0,0,0,0,0
+G10828,Burgenland,Oberloisdorf,657,572,218,206,88,18,6,35,0,1,0,0,1,0,0
+G10901,Burgenland,Bad Tatzmannsdorf,1270,933,363,217,197,54,11,87,2,0,0,0,2,0,0
+G10902,Burgenland,Bernstein,1780,1399,482,539,235,49,5,84,3,2,0,0,0,0,0
+G10903,Burgenland,Deutsch Schützen-Eisenberg,949,831,408,159,161,39,13,45,4,0,0,0,2,0,0
+G10904,Burgenland,Grafenschachen,1051,899,285,331,206,30,4,40,3,1,0,0,0,0,0
+G10905,Burgenland,Großpetersdorf,2881,2139,728,774,354,84,29,156,6,4,0,0,4,0,0
+G10906,Burgenland,Hannersdorf,627,506,218,176,69,12,5,21,1,1,0,0,1,0,0
+G10907,Burgenland,Kemeten,1236,992,259,321,278,48,17,63,5,0,0,0,0,0,0
+G10908,Burgenland,Kohfidisch,1193,998,395,315,193,29,8,53,3,2,0,0,0,0,0
+G10909,Burgenland,Litzelsdorf,951,778,248,197,218,27,5,78,5,1,0,0,0,0,0
+G10910,Burgenland,Loipersdorf-Kitzladen,1051,941,340,286,229,23,12,49,2,1,0,0,0,0,0
+G10911,Burgenland,Mariasdorf,990,798,272,221,198,28,11,62,3,3,0,0,0,0,0
+G10912,Burgenland,Markt Allhau,1505,1258,437,338,268,79,16,113,4,1,0,0,2,0,0
+G10913,Burgenland,Markt Neuhodis,554,467,197,171,63,9,5,18,3,0,0,0,1,0,0
+G10914,Burgenland,Mischendorf,1342,1148,477,401,159,49,9,48,4,2,0,0,0,0,0
+G10915,Burgenland,Oberdorf im Burgenland,849,721,252,263,142,20,8,34,1,0,0,0,1,0,0
+G10916,Burgenland,Oberschützen,1891,1463,537,334,335,62,29,157,3,2,0,0,3,0,0
+G10917,Burgenland,Oberwart,5653,3974,1387,1133,788,206,44,384,15,9,0,0,9,0,0
+G10918,Burgenland,Pinkafeld,4503,3230,994,821,852,167,39,320,17,11,0,0,8,0,0
+G10919,Burgenland,Rechnitz,2409,1808,624,602,396,66,22,88,2,6,0,0,0,0,0
+G10920,Burgenland,Riedlingsdorf,1334,1017,233,331,309,42,15,81,3,4,0,0,0,0,0
+G10921,Burgenland,Rotenturm an der Pinka,1153,1001,358,388,141,28,14,61,6,4,0,0,0,0,0
+G10922,Burgenland,Schachendorf,547,456,212,110,70,15,7,38,0,2,0,0,1,0,0
+G10923,Burgenland,Stadtschlaining,1629,1259,461,434,246,36,12,62,5,3,0,0,0,0,0
+G10924,Burgenland,Unterkohlstätten,830,749,302,292,98,19,7,29,1,0,0,0,0,0,0
+G10925,Burgenland,Unterwart,673,540,232,155,99,15,6,32,0,0,0,0,1,0,0
+G10926,Burgenland,Weiden bei Rechnitz,685,612,256,154,121,18,7,48,4,2,0,0,1,0,0
+G10927,Burgenland,Wiesfleck,958,795,326,190,202,25,6,40,5,0,0,0,0,0,0
+G10928,Burgenland,Wolfau,1116,901,334,237,206,35,13,68,4,5,0,0,0,0,0
+G10929,Burgenland,Neustift an der Lafnitz,653,555,189,189,114,27,3,28,3,1,0,0,0,0,0
+G10930,Burgenland,Jabing,590,515,192,159,89,31,6,32,4,0,0,0,0,0,0
+G10931,Burgenland,Badersdorf,243,216,106,56,38,5,3,7,0,0,0,0,0,0,0
+G10932,Burgenland,Schandorf,208,172,70,62,23,4,1,9,0,1,0,0,0,0,0
+G20101,Kärnten,Klagenfurt am Wörthersee,73873,50977,16235,12556,8055,4568,1298,7474,367,276,148,0,0,0,0
+G20201,Kärnten,Villach,44596,30811,9450,8877,5494,2385,655,3492,214,193,51,0,0,0,0
+G20302,Kärnten,Dellach,1027,787,381,179,133,41,4,46,2,1,1,0,0,0,0
+G20305,Kärnten,Hermagor-Pressegger See,5457,4147,1565,1188,729,280,47,301,15,13,10,0,0,0,0
+G20306,Kärnten,Kirchbach,2109,1685,752,353,330,105,19,114,6,5,0,0,0,0,0
+G20307,Kärnten,Kötschach-Mauthen,2718,1967,922,469,289,118,22,128,8,7,2,0,0,0,0
+G20316,Kärnten,St. Stefan im Gailtal,1304,1031,438,306,162,42,10,63,2,6,1,0,0,0,0
+G20320,Kärnten,Gitschtal,974,795,287,203,192,40,10,58,0,5,1,0,0,0,0
+G20321,Kärnten,Lesachtal,1080,884,533,155,87,45,8,54,1,1,0,0,0,0,0
+G20402,Kärnten,Ebenthal in Kärnten,6359,4811,1563,1439,971,305,83,385,28,10,27,0,0,0,0
+G20403,Kärnten,Feistritz im Rosental,1949,1359,428,455,214,67,18,156,10,5,5,0,0,0,0
+G20405,Kärnten,Ferlach,5473,3987,1238,1295,741,248,64,362,22,13,6,0,0,0,0
+G20409,Kärnten,Grafenstein,2327,1708,723,355,311,108,18,128,6,10,49,0,0,0,0
+G20412,Kärnten,Keutschach am See,1967,1346,503,341,182,108,28,167,2,11,5,0,0,0,0
+G20414,Kärnten,Köttmannsdorf,2380,1854,659,466,324,133,27,218,5,14,9,0,0,0,0
+G20415,Kärnten,Krumpendorf am Wörthersee,2625,1854,674,381,260,216,29,274,10,6,5,0,0,0,0
+G20416,Kärnten,Ludmannsdorf,1444,1100,397,312,145,57,22,161,3,1,1,0,0,0,0
+G20417,Kärnten,Maria Rain,1986,1495,549,325,281,125,26,171,4,5,8,0,0,0,0
+G20418,Kärnten,Maria Saal,3130,2337,870,569,370,170,41,287,14,14,3,0,0,0,0
+G20419,Kärnten,Maria Wörth,1283,829,320,152,115,93,13,122,9,3,2,0,0,0,0
+G20421,Kärnten,Moosburg,3612,2422,883,533,489,194,44,244,13,13,9,0,0,0,0
+G20424,Kärnten,Pörtschach am Wörther See,2236,1521,650,266,222,130,25,214,8,6,2,0,0,0,0
+G20425,Kärnten,Poggersdorf,2558,2132,827,516,396,143,37,181,13,7,12,0,0,0,0
+G20428,Kärnten,St. Margareten im Rosental,879,636,225,216,91,41,11,44,4,3,2,0,0,0,0
+G20432,Kärnten,Schiefling am Wörthersee,1962,1502,583,360,270,95,26,151,4,9,4,0,0,0,0
+G20435,Kärnten,Techelsberg am Wörther See,1780,1181,427,307,221,83,16,117,3,3,4,0,0,0,0
+G20441,Kärnten,Zell,502,382,108,144,21,21,9,73,1,2,3,0,0,0,0
+G20442,Kärnten,Magdalensberg,2774,2078,765,544,356,147,34,198,17,6,12,0,0,0,0
+G20501,Kärnten,Althofen,3795,2573,870,740,539,174,47,175,16,5,6,0,0,0,0
+G20502,Kärnten,Brückl,2250,1619,591,481,340,93,17,84,8,4,2,0,0,0,0
+G20503,Kärnten,Deutsch-Griffen,750,479,158,83,212,10,1,14,0,0,0,0,0,0,0
+G20504,Kärnten,Eberstein,1020,701,276,150,188,28,5,43,5,4,2,0,0,0,0
+G20505,Kärnten,Friesach,4235,2790,1035,682,692,147,34,160,17,12,10,0,0,0,0
+G20506,Kärnten,Glödnitz,667,460,187,96,129,19,3,20,2,1,2,0,0,0,0
+G20508,Kärnten,Gurk,1015,843,323,183,245,30,10,46,3,2,0,0,0,0,0
+G20509,Kärnten,Guttaring,1201,862,326,236,168,71,3,48,2,4,4,0,0,0,0
+G20511,Kärnten,Hüttenberg,1182,833,220,273,265,21,8,39,4,2,1,0,0,0,0
+G20512,Kärnten,Kappel am Krappfeld,1582,1231,495,293,265,68,9,85,7,5,4,0,0,0,0
+G20513,Kärnten,Klein St. Paul,1458,1086,404,263,281,52,13,63,2,6,2,0,0,0,0
+G20515,Kärnten,Liebenfels,2661,1942,633,631,395,102,30,137,7,5,1,0,0,0,0
+G20518,Kärnten,Metnitz,1663,1310,547,257,339,72,21,65,5,3,3,0,0,0,0
+G20519,Kärnten,Micheldorf,846,507,149,176,115,20,10,31,1,2,3,0,0,0,0
+G20520,Kärnten,Mölbling,1063,776,273,159,249,32,5,53,1,3,0,0,0,0,0
+G20523,Kärnten,St. Georgen am Längsee,2926,2137,710,577,481,141,30,176,13,6,3,0,0,0,0
+G20527,Kärnten,St. Veit an der Glan,9764,6226,2005,1930,1200,380,110,534,22,28,17,0,0,0,0
+G20530,Kärnten,Straßburg,1678,1254,508,224,365,62,16,66,6,5,2,0,0,0,0
+G20531,Kärnten,Weitensfeld im Gurktal,1724,1274,514,264,370,58,11,46,6,3,2,0,0,0,0
+G20534,Kärnten,Frauenstein,2891,2221,787,511,495,160,34,218,6,6,3,0,0,0,0
+G20601,Kärnten,Bad Kleinkirchheim,1295,768,299,139,205,57,7,51,2,3,4,0,0,0,0
+G20602,Kärnten,Baldramsdorf,1553,1087,342,297,293,59,16,74,2,1,3,0,0,0,0
+G20603,Kärnten,Berg im Drautal,1050,799,389,171,96,52,3,83,3,1,1,0,0,0,0
+G20604,Kärnten,Dellach im Drautal,1321,927,405,218,147,59,7,80,2,6,3,0,0,0,0
+G20605,Kärnten,Großkirchheim,1074,861,387,88,239,75,12,50,3,4,2,0,0,0,0
+G20607,Kärnten,Flattach,963,691,290,146,173,35,6,37,0,3,0,0,0,0,0
+G20608,Kärnten,Gmünd in Kärnten,2139,1598,560,379,377,115,16,137,4,6,2,0,0,0,0
+G20609,Kärnten,Greifenburg,1377,1024,379,213,250,80,11,82,4,3,3,0,0,0,0
+G20610,Kärnten,Heiligenblut am Großglockner,826,582,296,72,118,54,5,29,4,3,1,0,0,0,0
+G20611,Kärnten,Irschen,1620,1297,534,315,253,77,10,98,2,4,2,0,0,0,0
+G20613,Kärnten,Kleblach-Lind,973,799,285,247,147,44,13,59,2,2,0,0,0,0,0
+G20616,Kärnten,Lendorf,1430,1074,375,273,258,72,11,75,6,2,1,0,0,0,0
+G20618,Kärnten,Mallnitz,627,502,179,185,67,29,7,31,2,1,0,0,0,0,0
+G20619,Kärnten,Malta,1653,1113,392,259,308,50,20,76,3,3,1,0,0,0,0
+G20620,Kärnten,Millstatt am See,2757,1912,804,357,360,155,28,188,9,9,2,0,0,0,0
+G20622,Kärnten,Mörtschach,679,499,252,56,133,19,3,34,1,0,0,0,0,0,0
+G20624,Kärnten,Mühldorf,823,608,147,158,229,28,7,33,1,3,2,0,0,0,0
+G20625,Kärnten,Oberdrauburg,969,730,324,149,150,33,15,57,0,2,0,0,0,0,0
+G20627,Kärnten,Obervellach,1772,1250,521,248,289,80,11,89,6,4,2,0,0,0,0
+G20630,Kärnten,Radenthein,4811,3370,1146,842,821,230,59,240,16,13,4,0,0,0,0
+G20631,Kärnten,Rangersdorf,1347,919,351,183,280,51,5,42,5,2,0,0,0,0,0
+G20632,Kärnten,Rennweg am Katschberg,1471,1162,534,231,244,71,9,63,5,4,1,0,0,0,0
+G20633,Kärnten,Sachsenburg,1030,802,273,199,207,58,8,50,5,2,0,0,0,0,0
+G20634,Kärnten,Seeboden am Millstätter See,5173,3729,1457,685,829,352,49,335,6,10,5,0,0,0,0
+G20635,Kärnten,Spittal an der Drau,11790,7933,2613,2107,1701,562,130,734,35,29,21,0,0,0,0
+G20636,Kärnten,Stall,1302,949,347,168,324,43,9,52,1,3,2,0,0,0,0
+G20637,Kärnten,Steinfeld,1646,1228,443,345,275,62,12,81,4,5,0,0,0,0,0
+G20638,Kärnten,Trebesing,947,697,310,124,174,48,7,32,2,1,0,0,0,0,0
+G20639,Kärnten,Weißensee,617,462,226,57,87,54,3,33,0,0,1,0,0,0,0
+G20640,Kärnten,Winklern,1004,644,268,147,154,34,5,34,0,2,0,0,0,0,0
+G20642,Kärnten,Krems in Kärnten,1438,1042,456,208,261,50,8,50,5,2,1,0,0,0,0
+G20643,Kärnten,Lurnfeld,2214,1540,523,365,375,109,18,137,7,5,0,0,0,0,0
+G20644,Kärnten,Reißeck,1778,1357,436,383,322,69,21,116,3,3,2,0,0,0,0
+G20701,Kärnten,Afritz am See,1196,841,207,268,227,52,14,61,5,4,2,0,0,0,0
+G20702,Kärnten,Arnoldstein,5215,3772,1181,1311,745,186,44,268,12,19,6,0,0,0,0
+G20703,Kärnten,Arriach,1133,760,241,161,243,47,9,55,2,2,0,0,0,0,0
+G20705,Kärnten,Bad Bleiberg,1798,1177,316,433,225,64,23,92,13,8,2,0,0,0,0
+G20707,Kärnten,Feistritz an der Gail,503,392,173,97,66,13,5,36,0,0,1,0,0,0,0
+G20708,Kärnten,Feld am See,889,639,227,148,170,43,6,38,2,4,0,0,0,0,0
+G20710,Kärnten,Ferndorf,1762,1347,381,398,346,75,23,104,11,7,3,0,0,0,0
+G20711,Kärnten,Finkenstein am Faaker See,7036,5194,1835,1395,924,399,99,494,17,28,4,0,0,0,0
+G20712,Kärnten,Fresach,1024,823,230,221,236,53,8,66,4,2,3,0,0,0,0
+G20713,Kärnten,Hohenthurn,646,494,191,155,67,33,3,39,3,1,1,0,0,0,0
+G20719,Kärnten,Nötsch im Gailtal,1839,1440,472,426,283,100,22,119,12,6,1,0,0,0,0
+G20720,Kärnten,Paternion,4773,3576,1251,1000,703,222,56,299,26,17,3,0,0,0,0
+G20721,Kärnten,Rosegg,1485,1058,352,272,225,72,20,106,5,6,0,0,0,0,0
+G20722,Kärnten,St. Jakob im Rosental,3440,2479,702,943,380,126,45,258,10,11,3,0,0,0,0
+G20723,Kärnten,Stockenboi,1309,1001,318,249,282,57,8,72,6,7,1,0,0,0,0
+G20724,Kärnten,Treffen am Ossiacher See,3606,2410,788,568,524,199,40,251,18,16,5,0,0,0,0
+G20725,Kärnten,Velden am Wörther See,6947,4822,1754,1198,879,362,96,477,23,23,12,0,0,0,0
+G20726,Kärnten,Weißenstein,2438,1887,562,588,405,119,29,163,11,8,2,0,0,0,0
+G20727,Kärnten,Wernberg,4354,3242,1059,875,704,210,55,299,12,20,9,0,0,0,0
+G20801,Kärnten,Bleiburg,3019,2114,805,649,307,87,40,198,15,6,6,0,0,0,0
+G20802,Kärnten,Diex,631,509,188,129,128,17,6,36,2,1,1,0,0,0,0
+G20803,Kärnten,Eberndorf,4710,3336,1163,1091,601,144,48,245,20,12,10,0,0,0,0
+G20804,Kärnten,Eisenkappel-Vellach,1796,1324,384,573,153,56,41,98,15,2,3,0,0,0,0
+G20805,Kärnten,Feistritz ob Bleiburg,1704,1296,425,390,213,80,23,151,5,6,3,0,0,0,0
+G20806,Kärnten,Gallizien,1434,1082,450,303,172,43,13,88,7,3,3,0,0,0,0
+G20807,Kärnten,Globasnitz,1289,936,266,312,150,46,11,137,7,6,2,0,0,0,0
+G20808,Kärnten,Griffen,2776,2064,921,459,407,94,23,141,5,8,6,0,0,0,0
+G20810,Kärnten,Neuhaus,868,564,223,143,120,27,6,37,5,1,2,0,0,0,0
+G20812,Kärnten,Ruden,1241,866,305,299,168,28,12,49,2,0,3,0,0,0,0
+G20813,Kärnten,St. Kanzian am Klopeiner See,3453,2489,932,655,419,171,42,239,13,12,5,0,0,0,0
+G20815,Kärnten,Sittersdorf,1628,1124,364,390,167,47,25,121,3,4,3,0,0,0,0
+G20817,Kärnten,Völkermarkt,8685,6119,2173,1858,1108,351,79,479,22,24,24,0,0,0,0
+G20901,Kärnten,Bad St. Leonhard im Lavanttal,3582,2595,1022,722,527,129,28,145,10,7,5,0,0,0,0
+G20905,Kärnten,Frantschach-St. Gertraud,2030,1458,597,396,316,51,16,66,10,3,3,0,0,0,0
+G20909,Kärnten,Lavamünd,2392,1678,564,542,405,62,19,72,9,2,3,0,0,0,0
+G20911,Kärnten,Preitenegg,782,612,279,120,153,24,5,23,0,4,2,0,0,0,0
+G20912,Kärnten,Reichenfels,1494,1127,472,281,232,56,11,71,3,1,0,0,0,0,0
+G20913,Kärnten,St. Andrä,8237,5620,1988,1501,1481,256,56,290,20,18,10,0,0,0,0
+G20914,Kärnten,St. Georgen im Lavanttal,1652,1177,393,317,355,32,10,58,3,3,6,0,0,0,0
+G20918,Kärnten,St. Paul im Lavanttal,2727,1897,692,472,486,98,18,121,4,2,5,0,0,0,0
+G20923,Kärnten,Wolfsberg,20143,13885,5199,3661,2830,784,183,1104,55,35,36,0,0,0,0
+G21001,Kärnten,Albeck,791,570,192,108,195,33,7,33,1,1,0,0,0,0,0
+G21002,Kärnten,Feldkirchen in Kärnten,11446,7782,2694,1873,1836,540,108,632,35,44,21,0,0,0,0
+G21003,Kärnten,Glanegg,1539,1042,336,344,199,62,20,73,4,2,2,0,0,0,0
+G21004,Kärnten,Gnesau,824,627,226,146,164,41,14,34,1,1,0,0,0,0,0
+G21005,Kärnten,Himmelberg,1845,1341,507,270,363,88,19,77,8,7,2,0,0,0,0
+G21006,Kärnten,Ossiach,576,418,159,62,103,35,10,41,5,3,0,0,0,0,0
+G21007,Kärnten,Reichenau,1431,1010,372,266,253,55,6,45,3,6,2,0,0,0,0
+G21008,Kärnten,St. Urban,1191,816,276,173,270,33,10,50,3,1,1,0,0,0,0
+G21009,Kärnten,Steindorf am Ossiacher See,2952,2048,742,464,468,138,30,172,18,13,1,0,0,0,0
+G21010,Kärnten,Steuerberg,1320,906,391,193,204,49,13,50,2,3,1,0,0,0,0
+G30101,Niederösterreich,Krems an der Donau,18070,13531,5263,2850,2014,1127,249,1853,105,70,0,0,0,0,0
+G30201,Niederösterreich,St. Pölten,39559,29650,9216,8755,4451,2176,636,4009,226,181,0,0,0,0,0
+G30301,Niederösterreich,Waidhofen an der Ybbs,8910,7245,3288,1231,880,592,158,1026,39,31,0,0,0,0,0
+G30401,Niederösterreich,Wiener Neustadt,31417,22122,7016,5537,4523,1653,482,2616,176,119,0,0,0,0,0
+G30501,Niederösterreich,Allhartsberg,1715,1463,736,236,202,90,20,172,3,5,0,0,0,0,0
+G30502,Niederösterreich,Amstetten,17357,13222,4771,3247,2438,867,224,1508,88,78,0,0,0,0,0
+G30503,Niederösterreich,Ardagger,2819,2457,1263,311,420,181,35,221,11,15,0,0,0,0,0
+G30504,Niederösterreich,Aschbach-Markt,2937,2256,1137,292,386,158,35,217,10,21,0,0,0,0,0
+G30506,Niederösterreich,Behamberg,2686,2310,991,427,406,148,34,283,9,13,0,0,0,0,0
+G30507,Niederösterreich,Biberbach,1838,1602,857,195,255,98,26,155,9,7,0,0,0,0,0
+G30508,Niederösterreich,Ennsdorf,2288,1813,509,657,302,97,27,211,6,5,0,0,0,0,0
+G30509,Niederösterreich,Ernsthofen,1862,1468,607,391,199,92,27,136,5,12,0,0,0,0,0
+G30510,Niederösterreich,Ertl,1020,826,489,69,167,38,8,50,4,2,0,0,0,0,0
+G30511,Niederösterreich,Euratsfeld,2115,1969,1114,198,286,147,16,190,11,6,0,0,0,0,0
+G30512,Niederösterreich,Ferschnitz,1467,1249,683,127,202,76,19,133,6,3,0,0,0,0,0
+G30514,Niederösterreich,Haag,4513,3393,1562,627,464,237,59,406,17,22,0,0,0,0,0
+G30515,Niederösterreich,Haidershofen,2964,2496,1002,569,417,168,39,274,14,13,0,0,0,0,0
+G30516,Niederösterreich,Hollenstein an der Ybbs,1354,1112,570,274,110,56,13,83,3,1,0,0,0,0,0
+G30517,Niederösterreich,Kematen an der Ybbs,1931,1595,552,489,279,83,34,138,10,10,0,0,0,0,0
+G30520,Niederösterreich,Neuhofen an der Ybbs,2301,1933,1013,229,336,161,14,166,6,7,0,0,0,0,0
+G30521,Niederösterreich,Neustadtl an der Donau,1701,1506,840,222,252,72,18,91,5,5,0,0,0,0,0
+G30522,Niederösterreich,Oed-Oehling,1510,1128,539,147,196,84,16,140,2,4,0,0,0,0,0
+G30524,Niederösterreich,Opponitz,695,613,290,119,90,39,10,60,2,3,0,0,0,0,0
+G30526,Niederösterreich,St. Georgen am Reith,442,405,220,73,65,17,3,25,0,1,0,0,0,0,0
+G30527,Niederösterreich,St. Georgen am Ybbsfelde,2249,1784,880,269,317,122,12,170,7,7,0,0,0,0,0
+G30529,Niederösterreich,St. Pantaleon-Erla,2115,1682,628,446,270,97,16,202,12,11,0,0,0,0,0
+G30530,Niederösterreich,St. Peter in der Au,4113,3296,1623,451,541,237,41,373,16,15,0,0,0,0,0
+G30531,Niederösterreich,St. Valentin,7434,5880,1830,1794,907,428,101,754,41,25,0,0,0,0,0
+G30532,Niederösterreich,Seitenstetten,2680,2187,1053,286,343,155,29,293,13,14,0,0,0,0,0
+G30533,Niederösterreich,Sonntagberg,3090,2443,891,744,364,152,39,234,13,7,0,0,0,0,0
+G30534,Niederösterreich,Strengberg,1621,1322,679,234,196,83,17,105,3,6,0,0,0,0,0
+G30536,Niederösterreich,Viehdorf,1074,934,514,121,149,63,10,69,5,3,0,0,0,0,0
+G30538,Niederösterreich,Wallsee-Sindelburg,1721,1235,581,234,199,78,19,114,8,3,0,0,0,0,0
+G30539,Niederösterreich,Weistrach,1848,1499,824,185,234,92,11,135,8,9,0,0,0,0,0
+G30541,Niederösterreich,Winklarn,1371,1153,512,199,199,95,14,120,8,6,0,0,0,0,0
+G30542,Niederösterreich,Wolfsbach,1586,1338,786,136,200,88,14,102,6,5,0,0,0,0,0
+G30543,Niederösterreich,Ybbsitz,2818,2484,1367,316,349,139,27,258,15,13,0,0,0,0,0
+G30544,Niederösterreich,Zeillern,1489,1234,699,143,194,70,19,99,1,9,0,0,0,0,0
+G30601,Niederösterreich,Alland,1995,1464,626,248,256,134,26,165,4,5,0,0,0,0,0
+G30602,Niederösterreich,Altenmarkt an der Triesting,1529,1239,592,201,207,79,29,118,9,4,0,0,0,0,0
+G30603,Niederösterreich,Bad Vöslau,8743,6689,2268,1513,973,654,163,1052,34,32,0,0,0,0,0
+G30604,Niederösterreich,Baden,18857,13981,5237,2424,1831,1597,321,2431,83,57,0,0,0,0,0
+G30605,Niederösterreich,Berndorf,6427,4692,1439,1368,890,334,112,511,19,19,0,0,0,0,0
+G30607,Niederösterreich,Ebreichsdorf,8168,6151,2103,1415,1287,512,125,656,25,29,0,0,0,0,0
+G30608,Niederösterreich,Enzesfeld-Lindabrunn,3306,2656,938,656,494,206,69,266,21,6,0,0,0,0,0
+G30609,Niederösterreich,Furth an der Triesting,675,590,333,62,85,38,11,53,6,2,0,0,0,0,0
+G30612,Niederösterreich,Günselsdorf,1295,1031,320,331,205,59,20,85,4,7,0,0,0,0,0
+G30613,Niederösterreich,Heiligenkreuz,1121,931,410,122,151,105,21,115,2,6,0,0,0,0,0
+G30614,Niederösterreich,Hernstein,1270,1154,538,195,181,102,30,96,5,7,0,0,0,0,0
+G30615,Niederösterreich,Hirtenberg,1639,1257,321,411,285,68,23,127,16,5,0,0,0,0,0
+G30616,Niederösterreich,Klausen-Leopoldsdorf,1358,970,398,166,206,89,21,85,2,3,0,0,0,0,0
+G30618,Niederösterreich,Kottingbrunn,5610,4372,1533,1053,762,365,80,523,35,20,0,0,0,0,0
+G30620,Niederösterreich,Leobersdorf,3573,2679,896,655,493,241,60,298,17,19,0,0,0,0,0
+G30621,Niederösterreich,Mitterndorf an der Fischa,1960,1453,398,438,370,98,27,104,10,9,0,0,0,0,0
+G30623,Niederösterreich,Oberwaltersdorf,3445,2557,1008,491,415,278,64,274,12,16,0,0,0,0,0
+G30625,Niederösterreich,Pfaffstätten,2642,2228,837,402,279,244,55,383,15,14,0,0,0,0,0
+G30626,Niederösterreich,Pottendorf,5290,3999,1413,961,821,313,83,374,21,12,0,0,0,0,0
+G30627,Niederösterreich,Pottenstein,2163,1641,554,457,279,113,41,178,10,8,0,0,0,0,0
+G30629,Niederösterreich,Reisenberg,1319,1078,413,249,242,73,17,76,4,4,0,0,0,0,0
+G30631,Niederösterreich,Schönau an der Triesting,1607,1222,475,310,185,84,15,142,6,5,0,0,0,0,0
+G30633,Niederösterreich,Seibersdorf,1203,991,461,168,190,70,11,86,3,3,0,0,0,0,0
+G30635,Niederösterreich,Sooß,778,651,318,85,90,53,14,80,1,9,0,0,0,0,0
+G30636,Niederösterreich,Tattendorf,1101,978,420,166,158,108,16,105,3,2,0,0,0,0,0
+G30637,Niederösterreich,Teesdorf,1403,1200,424,349,185,78,25,128,8,3,0,0,0,0,0
+G30639,Niederösterreich,Traiskirchen,13405,10833,3274,3211,1960,869,203,1193,67,55,0,0,0,0,0
+G30641,Niederösterreich,Trumau,2642,2167,659,712,388,163,26,203,10,7,0,0,0,0,0
+G30645,Niederösterreich,Weissenbach an der Triesting,1298,1024,405,219,190,71,21,100,11,8,0,0,0,0,0
+G30646,Niederösterreich,Blumau-Neurißhof,1406,998,330,231,247,60,23,92,5,11,0,0,0,0,0
+G30701,Niederösterreich,Au am Leithaberge,767,666,354,85,144,38,8,34,1,1,0,0,0,0,0
+G30702,Niederösterreich,Bad Deutsch-Altenburg,1187,927,375,189,218,43,22,74,6,1,0,0,0,0,0
+G30703,Niederösterreich,Berg,492,447,201,122,58,25,9,29,0,1,0,0,0,0,0
+G30704,Niederösterreich,Bruck an der Leitha,5803,4447,1535,1224,759,294,75,521,19,19,0,0,0,0,0
+G30706,Niederösterreich,Enzersdorf an der Fischa,2578,2087,793,458,435,145,40,190,14,10,0,0,0,0,0
+G30708,Niederösterreich,Göttlesbrunn-Arbesthal,1132,995,535,135,165,79,8,68,1,5,0,0,0,0,0
+G30709,Niederösterreich,Götzendorf an der Leitha,1528,1310,490,355,212,97,31,114,6,5,0,0,0,0,0
+G30710,Niederösterreich,Hainburg a.d. Donau,3735,2692,1126,577,542,158,53,209,13,15,0,0,0,0,0
+G30711,Niederösterreich,Haslau-Maria Ellend,1475,1191,472,269,201,99,23,116,7,3,0,0,0,0,0
+G30712,Niederösterreich,Höflein,988,861,436,128,166,54,11,61,4,2,0,0,0,0,0
+G30713,Niederösterreich,Hof am Leithaberge,1188,1068,477,199,230,57,15,87,1,3,0,0,0,0,0
+G30715,Niederösterreich,Hundsheim,474,429,168,120,83,15,8,31,1,1,0,0,0,0,0
+G30716,Niederösterreich,Mannersdorf am Leithagebirge,2932,2400,717,799,393,155,41,261,17,18,0,0,0,0,0
+G30718,Niederösterreich,Petronell-Carnuntum,955,796,289,228,127,49,16,76,4,8,0,0,0,0,0
+G30719,Niederösterreich,Prellenkirchen,1185,980,502,172,163,50,16,66,5,6,0,0,0,0,0
+G30721,Niederösterreich,Rohrau,1214,1014,421,208,188,72,19,96,6,4,0,0,0,0,0
+G30722,Niederösterreich,Scharndorf,927,803,412,139,109,45,17,79,2,1,0,0,0,0,0
+G30724,Niederösterreich,Sommerein,1613,1356,448,389,279,70,25,123,11,11,0,0,0,0,0
+G30726,Niederösterreich,Trautmannsdorf an der Leitha,2353,1905,827,383,311,140,29,193,10,11,0,0,0,0,0
+G30728,Niederösterreich,Wolfsthal,568,489,240,101,89,22,6,25,2,4,0,0,0,0,0
+G30729,Niederösterreich,Ebergassing,2722,1973,622,575,399,125,40,194,13,5,0,0,0,0,0
+G30730,Niederösterreich,Fischamend,4074,2771,901,651,575,213,69,303,43,17,0,0,0,0,0
+G30731,Niederösterreich,Gramatneusiedl,2315,1700,547,482,303,121,34,197,7,8,0,0,0,0,0
+G30732,Niederösterreich,Himberg,5577,4145,1464,1063,797,308,67,413,16,18,0,0,0,0,0
+G30733,Niederösterreich,Klein-Neusiedl,632,481,139,178,86,37,4,30,4,3,0,0,0,0,0
+G30734,Niederösterreich,Lanzendorf,1388,1037,346,299,160,86,27,107,4,8,0,0,0,0,0
+G30735,Niederösterreich,Leopoldsdorf,3943,3068,1178,628,516,286,66,371,13,10,0,0,0,0,0
+G30736,Niederösterreich,Maria-Lanzendorf,1625,1192,419,277,256,91,25,112,9,2,0,0,0,0,0
+G30737,Niederösterreich,Moosbrunn,1326,1068,439,244,170,68,31,106,4,7,0,0,0,0,0
+G30738,Niederösterreich,Rauchenwarth,572,462,213,84,48,51,11,51,3,2,0,0,0,0,0
+G30739,Niederösterreich,Schwadorf,1560,1113,371,349,209,86,14,77,7,1,0,0,0,0,0
+G30740,Niederösterreich,Schwechat,12751,8852,2707,2380,1783,593,184,1107,54,44,0,0,0,0,0
+G30741,Niederösterreich,Zwölfaxing,1326,989,327,237,223,66,23,100,6,6,0,0,0,0,0
+G30801,Niederösterreich,Aderklaa,150,124,73,9,20,6,3,11,2,0,0,0,0,0,0
+G30802,Niederösterreich,Andlersdorf,105,85,46,12,8,9,0,9,0,1,0,0,0,0,0
+G30803,Niederösterreich,Angern an der March,2544,1995,701,621,399,107,29,121,7,10,0,0,0,0,0
+G30804,Niederösterreich,Auersthal,1471,1264,511,331,176,82,25,131,3,6,0,0,0,0,0
+G30805,Niederösterreich,Bad Pirawarth,1312,1007,458,241,155,58,14,77,2,3,0,0,0,0,0
+G30808,Niederösterreich,Deutsch-Wagram,6618,4957,1718,1077,1015,392,111,577,37,32,0,0,0,0,0
+G30810,Niederösterreich,Drösing,927,717,292,196,137,35,11,40,5,2,0,0,0,0,0
+G30811,Niederösterreich,Dürnkrut,1800,1400,519,374,330,68,15,85,4,5,0,0,0,0,0
+G30812,Niederösterreich,Ebenthal,686,589,246,123,131,34,10,44,1,0,0,0,0,0,0
+G30813,Niederösterreich,Eckartsau,954,779,393,126,154,42,11,46,4,3,0,0,0,0,0
+G30814,Niederösterreich,Engelhartstetten,1577,1248,563,251,259,63,20,78,7,6,0,0,0,0,0
+G30817,Niederösterreich,Gänserndorf,8239,6016,2150,1520,1141,396,125,622,29,32,0,0,0,0,0
+G30819,Niederösterreich,Glinzendorf,214,168,68,36,40,7,3,12,1,0,0,0,0,0,0
+G30821,Niederösterreich,Groß-Enzersdorf,8484,6273,2433,1415,1104,513,132,624,31,22,0,0,0,0,0
+G30822,Niederösterreich,Großhofen,65,64,44,5,6,5,2,2,0,0,0,0,0,0,0
+G30824,Niederösterreich,Groß-Schweinbarth,1016,875,433,210,115,45,11,57,2,2,0,0,0,0,0
+G30825,Niederösterreich,Haringsee,915,740,366,158,115,39,10,42,7,3,0,0,0,0,0
+G30826,Niederösterreich,Hauskirchen,1020,790,423,140,141,37,11,32,4,4,0,0,0,0,0
+G30827,Niederösterreich,Hohenau an der March,2130,1524,472,566,318,55,22,79,9,3,0,0,0,0,0
+G30828,Niederösterreich,Hohenruppersdorf,756,662,365,106,92,37,8,48,3,2,0,0,0,0,0
+G30829,Niederösterreich,Jedenspeigen,916,772,385,202,100,28,12,38,5,3,0,0,0,0,0
+G30830,Niederösterreich,Lassee,2106,1728,712,357,417,102,31,96,7,5,0,0,0,0,0
+G30831,Niederösterreich,Leopoldsdorf im Marchfelde,2089,1653,587,476,331,88,25,134,9,3,0,0,0,0,0
+G30834,Niederösterreich,Mannsdorf an der Donau,271,225,98,39,46,18,1,23,0,0,0,0,0,0,0
+G30835,Niederösterreich,Marchegg,2092,1604,566,468,343,62,26,111,17,10,0,0,0,0,0
+G30836,Niederösterreich,Markgrafneusiedl,719,580,214,140,130,41,7,40,3,3,0,0,0,0,0
+G30838,Niederösterreich,Matzen-Raggendorf,2104,1714,749,386,284,128,26,125,9,6,0,0,0,0,0
+G30841,Niederösterreich,Neusiedl an der Zaya,1002,779,398,118,170,41,8,39,4,1,0,0,0,0,0
+G30842,Niederösterreich,Obersiebenbrunn,1324,996,349,248,231,50,15,90,6,8,0,0,0,0,0
+G30844,Niederösterreich,Orth an der Donau,1634,1126,484,216,234,76,16,88,7,6,0,0,0,0,0
+G30845,Niederösterreich,Palterndorf-Dobermannsdorf,1045,829,412,126,196,44,14,29,8,2,0,0,0,0,0
+G30846,Niederösterreich,Parbasdorf,132,128,78,10,20,11,1,7,0,0,0,0,0,0,0
+G30848,Niederösterreich,Prottes,1093,835,361,187,156,51,11,68,1,1,0,0,0,0,0
+G30849,Niederösterreich,Raasdorf,429,361,200,76,31,23,4,26,1,0,0,0,0,0,0
+G30850,Niederösterreich,Ringelsdorf-Niederabsdorf,1030,802,314,297,114,32,12,30,1,2,0,0,0,0,0
+G30852,Niederösterreich,Schönkirchen-Reyersdorf,1515,1236,506,284,229,86,18,100,7,5,0,0,0,0,0
+G30854,Niederösterreich,Spannberg,788,687,357,85,148,40,13,35,5,5,0,0,0,0,0
+G30856,Niederösterreich,Strasshof an der Nordbahn,7505,5427,1777,1400,1209,353,115,501,39,34,0,0,0,0,0
+G30857,Niederösterreich,Sulz im Weinviertel,997,817,447,132,140,36,13,44,3,2,0,0,0,0,0
+G30858,Niederösterreich,Untersiebenbrunn,1334,1076,368,303,269,51,19,61,3,2,0,0,0,0,0
+G30859,Niederösterreich,Velm-Götzendorf,632,559,272,96,114,28,11,33,2,2,0,0,0,0,0
+G30860,Niederösterreich,Weikendorf,1551,1223,470,280,245,84,25,104,11,4,0,0,0,0,0
+G30863,Niederösterreich,Zistersdorf,4409,3363,1751,568,579,175,41,226,8,15,0,0,0,0,0
+G30865,Niederösterreich,Weiden an der March,741,605,352,90,89,22,11,35,3,2,0,0,0,0,0
+G30902,Niederösterreich,Amaliendorf-Aalfang,919,653,204,210,151,29,9,45,5,1,0,0,0,0,0
+G30903,Niederösterreich,Brand-Nagelberg,1306,1030,344,407,150,37,19,63,4,6,0,0,0,0,0
+G30904,Niederösterreich,Eggern,576,487,234,87,100,20,7,35,2,2,0,0,0,0,0
+G30906,Niederösterreich,Eisgarn,553,447,243,89,65,21,3,23,0,2,0,0,0,0,0
+G30908,Niederösterreich,Gmünd,4144,3138,1282,891,496,161,56,229,12,12,0,0,0,0,0
+G30909,Niederösterreich,Großdietmanns,1860,1565,781,321,246,76,16,111,6,7,0,0,0,0,0
+G30910,Niederösterreich,Bad Großpertholz,1101,820,412,160,121,49,11,55,9,2,0,0,0,0,0
+G30912,Niederösterreich,Großschönau,991,901,526,85,148,45,14,78,2,4,0,0,0,0,0
+G30913,Niederösterreich,Moorbad Harbach,599,506,216,99,90,43,9,45,4,1,0,0,0,0,0
+G30915,Niederösterreich,Haugschlag,387,318,160,62,61,13,3,19,0,0,0,0,0,0,0
+G30916,Niederösterreich,Heidenreichstein,3360,2412,1054,651,378,117,27,163,8,13,0,0,0,0,0
+G30917,Niederösterreich,Hirschbach,496,430,193,117,63,24,2,30,0,1,0,0,0,0,0
+G30920,Niederösterreich,Hoheneich,1200,919,405,218,144,57,9,76,6,4,0,0,0,0,0
+G30921,Niederösterreich,Kirchberg am Walde,1089,916,502,159,149,38,9,54,2,2,0,0,0,0,0
+G30925,Niederösterreich,Litschau,1927,1384,713,289,215,64,21,73,4,4,0,0,0,0,0
+G30929,Niederösterreich,Reingers,523,449,260,67,72,18,1,29,1,1,0,0,0,0,0
+G30932,Niederösterreich,St. Martin,915,747,393,140,113,34,10,52,2,3,0,0,0,0,0
+G30935,Niederösterreich,Schrems,4457,3372,1362,1030,534,169,39,220,9,10,0,0,0,0,0
+G30939,Niederösterreich,Unserfrau-Altweitra,831,710,409,100,104,35,11,42,5,3,0,0,0,0,0
+G30940,Niederösterreich,Waldenstein,999,823,487,112,117,42,6,54,3,2,0,0,0,0,0
+G30942,Niederösterreich,Weitra,2252,1693,926,256,271,91,27,111,5,7,0,0,0,0,0
+G31001,Niederösterreich,Alberndorf im Pulkautal,626,485,229,92,86,26,6,41,2,2,0,0,0,0,0
+G31008,Niederösterreich,Göllersdorf,2342,1929,963,345,300,116,24,163,9,8,0,0,0,0,0
+G31009,Niederösterreich,Grabern,1268,1055,589,145,148,49,19,94,6,6,0,0,0,0,0
+G31014,Niederösterreich,Guntersdorf,933,785,402,128,145,38,11,55,3,4,0,0,0,0,0
+G31015,Niederösterreich,Hadres,1434,1260,621,246,225,67,17,78,2,5,0,0,0,0,0
+G31016,Niederösterreich,Hardegg,1107,967,592,134,131,50,5,47,7,1,0,0,0,0,0
+G31018,Niederösterreich,Haugsdorf,1303,1031,475,222,193,59,12,58,7,4,0,0,0,0,0
+G31019,Niederösterreich,Heldenberg,1064,842,439,115,138,65,9,70,4,4,0,0,0,0,0
+G31021,Niederösterreich,Hohenwarth-Mühlbach a.M.,1085,902,492,166,120,56,14,48,5,2,0,0,0,0,0
+G31022,Niederösterreich,Hollabrunn,9183,6967,3276,1098,1118,524,129,758,37,26,0,0,0,0,0
+G31025,Niederösterreich,Mailberg,479,391,181,100,59,16,6,24,1,4,0,0,0,0,0
+G31026,Niederösterreich,Maissau,1637,1224,671,195,177,65,17,88,5,5,0,0,0,0,0
+G31028,Niederösterreich,Nappersdorf-Kammersdorf,1014,806,439,109,143,38,7,62,2,6,0,0,0,0,0
+G31033,Niederösterreich,Pernersdorf,853,707,328,166,126,32,8,39,5,3,0,0,0,0,0
+G31035,Niederösterreich,Pulkau,1264,975,543,193,109,44,6,67,5,7,0,0,0,0,0
+G31036,Niederösterreich,Ravelsbach,1328,1028,535,162,165,69,11,80,3,2,0,0,0,0,0
+G31037,Niederösterreich,Retz,3531,2493,1269,423,308,179,32,267,7,8,0,0,0,0,0
+G31038,Niederösterreich,Retzbach,838,672,345,92,123,40,9,62,0,1,0,0,0,0,0
+G31041,Niederösterreich,Schrattenthal,729,612,345,114,55,36,3,58,0,1,0,0,0,0,0
+G31042,Niederösterreich,Seefeld-Kadolz,796,630,275,167,112,33,7,32,3,1,0,0,0,0,0
+G31043,Niederösterreich,Sitzendorf an der Schmida,1800,1524,902,214,195,73,15,111,7,8,0,0,0,0,0
+G31051,Niederösterreich,Wullersdorf,1975,1596,809,261,283,94,21,108,12,8,0,0,0,0,0
+G31052,Niederösterreich,Zellerndorf,2064,1728,831,367,275,101,26,119,5,5,0,0,0,0,0
+G31053,Niederösterreich,Ziersdorf,2778,2228,1107,405,342,143,30,181,7,13,0,0,0,0,0
+G31101,Niederösterreich,Altenburg,659,557,294,77,110,29,3,41,1,2,0,0,0,0,0
+G31102,Niederösterreich,Brunn an der Wild,692,605,386,53,89,28,7,38,2,3,0,0,0,0,0
+G31103,Niederösterreich,Burgschleinitz-Kühnring,1135,923,558,108,122,52,7,71,3,2,0,0,0,0,0
+G31104,Niederösterreich,Drosendorf-Zissersdorf,999,842,474,95,146,52,12,55,5,2,0,0,0,0,0
+G31105,Niederösterreich,Eggenburg,2844,2135,1018,414,287,141,31,233,5,6,0,0,0,0,0
+G31106,Niederösterreich,Gars am Kamp,2954,2364,1157,364,401,155,21,243,7,15,0,0,0,0,0
+G31107,Niederösterreich,Geras,1087,919,539,108,142,53,10,60,3,3,0,0,0,0,0
+G31109,Niederösterreich,Horn,5160,3683,1802,559,583,283,62,360,14,19,0,0,0,0,0
+G31110,Niederösterreich,Irnfritz-Messern,1187,1023,632,120,178,35,8,46,2,1,0,0,0,0,0
+G31111,Niederösterreich,Japons,599,536,357,42,67,29,8,30,1,2,0,0,0,0,0
+G31113,Niederösterreich,Langau,579,492,296,74,70,20,3,26,0,1,0,0,0,0,0
+G31114,Niederösterreich,Meiseldorf,758,599,331,94,99,28,7,33,2,3,0,0,0,0,0
+G31117,Niederösterreich,Pernegg,602,536,328,54,93,26,3,29,2,1,0,0,0,0,0
+G31119,Niederösterreich,Röhrenbach,443,385,259,28,66,10,1,21,0,1,0,0,0,0,0
+G31120,Niederösterreich,Röschitz,892,768,449,128,87,45,8,44,4,3,0,0,0,0,0
+G31121,Niederösterreich,Rosenburg-Mold,672,552,311,62,98,28,7,39,2,3,0,0,0,0,0
+G31123,Niederösterreich,St. Bernhard-Frauenhofen,1054,928,590,92,108,56,8,67,4,2,0,0,0,0,0
+G31124,Niederösterreich,Sigmundsherberg,1369,1098,522,282,166,40,10,70,2,6,0,0,0,0,0
+G31129,Niederösterreich,Weitersfeld,1311,1172,787,108,130,51,18,72,4,2,0,0,0,0,0
+G31130,Niederösterreich,Straning-Grafenberg,605,511,290,96,56,16,2,46,1,5,0,0,0,0,0
+G31201,Niederösterreich,Bisamberg,3666,2929,1216,467,283,412,69,467,6,9,0,0,0,0,0
+G31202,Niederösterreich,Enzersfeld im Weinviertel,1389,1166,547,211,147,118,23,110,8,1,0,0,0,0,0
+G31203,Niederösterreich,Ernstbrunn,2594,2061,1105,276,297,136,28,201,9,9,0,0,0,0,0
+G31204,Niederösterreich,Großmugl,1323,1136,620,125,171,93,12,108,5,2,0,0,0,0,0
+G31205,Niederösterreich,Großrußbach,1757,1518,786,195,199,118,26,182,6,7,0,0,0,0,0
+G31206,Niederösterreich,Hagenbrunn,1661,1363,618,229,217,124,30,135,6,4,0,0,0,0,0
+G31207,Niederösterreich,Harmannsdorf,3225,2757,1252,409,433,263,39,343,11,7,0,0,0,0,0
+G31208,Niederösterreich,Hausleiten,2939,2483,1204,370,399,204,40,233,18,15,0,0,0,0,0
+G31213,Niederösterreich,Korneuburg,9774,7515,2844,1475,1015,803,148,1154,41,35,0,0,0,0,0
+G31214,Niederösterreich,Langenzersdorf,6357,5075,2031,794,597,611,126,861,36,19,0,0,0,0,0
+G31215,Niederösterreich,Leitzersdorf,992,822,404,109,129,76,15,82,7,1,0,0,0,0,0
+G31216,Niederösterreich,Leobendorf,3867,3283,1423,607,404,360,48,418,11,12,0,0,0,0,0
+G31224,Niederösterreich,Rußbach,1136,955,503,140,152,64,9,79,5,3,0,0,0,0,0
+G31226,Niederösterreich,Sierndorf,3166,2627,1290,389,373,243,44,268,13,8,0,0,0,0,0
+G31227,Niederösterreich,Spillern,1846,1466,510,383,236,116,24,186,7,6,0,0,0,0,0
+G31228,Niederösterreich,Stetteldorf am Wagram,823,739,381,109,114,61,5,64,2,4,0,0,0,0,0
+G31229,Niederösterreich,Stetten,1067,868,327,199,152,89,12,85,2,2,0,0,0,0,0
+G31230,Niederösterreich,Stockerau,12593,9479,3649,2038,1435,749,175,1328,56,51,0,0,0,0,0
+G31234,Niederösterreich,Niederhollabrunn,1242,1066,520,149,176,70,19,126,2,5,0,0,0,0,0
+G31235,Niederösterreich,Gerasdorf bei Wien,8541,6819,2536,1458,1266,570,136,782,35,36,0,0,0,0,0
+G31301,Niederösterreich,Aggsbach,536,395,165,111,53,20,6,35,2,3,0,0,0,0,0
+G31302,Niederösterreich,Albrechtsberg an der Großen Krems,862,718,373,126,114,39,7,54,2,2,0,0,0,0,0
+G31303,Niederösterreich,Bergern im Dunkelsteinerwald,1056,902,443,146,153,62,14,81,1,2,0,0,0,0,0
+G31304,Niederösterreich,Dürnstein,700,584,333,91,57,51,2,47,1,0,0,0,0,0,0
+G31308,Niederösterreich,Grafenegg,2460,2108,1025,322,309,153,46,234,11,9,0,0,0,0,0
+G31309,Niederösterreich,Furth bei Göttweig,2335,1892,842,368,233,157,36,234,12,9,0,0,0,0,0
+G31310,Niederösterreich,Gedersdorf,1757,1527,678,323,285,86,24,121,7,3,0,0,0,0,0
+G31311,Niederösterreich,Gföhl,3161,2551,1295,403,455,138,30,208,17,7,0,0,0,0,0
+G31315,Niederösterreich,Hadersdorf-Kammern,1608,1340,562,260,224,104,28,154,4,4,0,0,0,0,0
+G31319,Niederösterreich,Jaidhof,939,819,449,108,123,45,11,76,2,5,0,0,0,0,0
+G31321,Niederösterreich,Krumau am Kamp,637,537,282,89,98,20,6,36,1,3,0,0,0,0,0
+G31322,Niederösterreich,Langenlois,6107,4841,2239,654,861,400,63,590,16,18,0,0,0,0,0
+G31323,Niederösterreich,Lengenfeld,1128,1037,468,194,171,91,8,100,3,2,0,0,0,0,0
+G31324,Niederösterreich,Lichtenau im Waldviertel,1705,1387,833,147,239,74,10,73,10,3,0,0,0,0,0
+G31326,Niederösterreich,Maria Laach am Jauerling,759,671,379,84,95,50,6,50,3,3,0,0,0,0,0
+G31327,Niederösterreich,Mautern an der Donau,2862,2219,1030,339,313,201,27,292,10,6,0,0,0,0,0
+G31330,Niederösterreich,Mühldorf,1112,934,485,189,118,69,6,61,2,5,0,0,0,0,0
+G31333,Niederösterreich,Paudorf,2087,1696,654,451,279,112,18,169,5,8,0,0,0,0,0
+G31336,Niederösterreich,Rastenfeld,1262,1044,579,111,200,66,12,68,3,5,0,0,0,0,0
+G31337,Niederösterreich,Rohrendorf bei Krems,1622,1433,642,240,205,122,18,193,7,6,0,0,0,0,0
+G31338,Niederösterreich,Rossatz-Arnsdorf,908,751,401,128,68,68,10,74,1,2,0,0,0,0,0
+G31340,Niederösterreich,St. Leonhard am Hornerwald,913,777,456,73,132,31,13,64,5,3,0,0,0,0,0
+G31343,Niederösterreich,Senftenberg,1590,1293,593,251,202,100,19,118,3,7,0,0,0,0,0
+G31344,Niederösterreich,Spitz,1321,1039,602,133,129,76,11,82,4,3,0,0,0,0,0
+G31346,Niederösterreich,Straß im Straßertale,1349,1146,587,144,184,89,19,114,4,6,0,0,0,0,0
+G31347,Niederösterreich,Stratzing,695,581,310,74,65,57,5,66,2,1,0,0,0,0,0
+G31350,Niederösterreich,Weinzierl am Walde,1050,867,527,93,142,47,8,44,2,4,0,0,0,0,0
+G31351,Niederösterreich,Weißenkirchen in der Wachau,1208,1022,531,158,111,96,8,111,4,4,0,0,0,0,0
+G31355,Niederösterreich,Schönberg am Kamp,1538,1300,645,141,223,93,12,170,8,8,0,0,0,0,0
+G31356,Niederösterreich,Droß,811,692,284,101,139,71,15,76,2,5,0,0,0,0,0
+G31401,Niederösterreich,Annaberg,424,297,165,55,36,16,5,18,1,0,0,0,0,0,0
+G31402,Niederösterreich,Eschenau,1033,847,427,147,124,41,15,86,5,3,0,0,0,0,0
+G31403,Niederösterreich,Hainfeld,2959,2346,972,607,373,129,29,209,15,11,0,0,0,0,0
+G31404,Niederösterreich,Hohenberg,1198,970,335,368,120,45,11,79,7,4,0,0,0,0,0
+G31405,Niederösterreich,Kaumberg,831,698,340,89,162,36,8,54,4,5,0,0,0,0,0
+G31406,Niederösterreich,Kleinzell,674,573,329,77,94,22,10,33,5,3,0,0,0,0,0
+G31407,Niederösterreich,Lilienfeld,2006,1541,629,376,220,102,22,174,11,7,0,0,0,0,0
+G31408,Niederösterreich,Mitterbach am Erlaufsee,400,300,173,53,39,18,3,12,0,0,0,0,0,0,0
+G31409,Niederösterreich,Ramsau,646,507,252,85,80,31,10,45,1,4,0,0,0,0,0
+G31410,Niederösterreich,Rohrbach an der Gölsen,1260,1062,480,233,164,60,16,97,6,6,0,0,0,0,0
+G31411,Niederösterreich,St. Aegyd am Neuwalde,1553,1221,499,391,163,56,21,82,7,3,0,0,0,0,0
+G31412,Niederösterreich,St. Veit an der Gölsen,3074,2705,1079,749,410,160,44,232,15,17,0,0,0,0,0
+G31413,Niederösterreich,Traisen,2492,1886,574,673,345,75,35,167,13,5,0,0,0,0,0
+G31414,Niederösterreich,Türnitz,1594,1252,620,254,198,62,14,94,4,5,0,0,0,0,0
+G31502,Niederösterreich,Artstetten-Pöbring,965,797,448,121,105,55,8,55,2,3,0,0,0,0,0
+G31503,Niederösterreich,Bergland,1531,1284,688,200,218,65,14,89,5,4,0,0,0,0,0
+G31504,Niederösterreich,Bischofstetten,983,895,444,200,113,52,16,66,1,3,0,0,0,0,0
+G31505,Niederösterreich,Blindenmarkt,1956,1642,707,267,410,86,20,128,17,7,0,0,0,0,0
+G31506,Niederösterreich,Dorfstetten,475,405,180,91,94,14,6,17,1,1,0,0,0,0,0
+G31507,Niederösterreich,Dunkelsteinerwald,1967,1692,761,266,355,105,29,149,18,9,0,0,0,0,0
+G31508,Niederösterreich,Erlauf,875,725,343,133,130,36,9,62,5,7,0,0,0,0,0
+G31509,Niederösterreich,Golling an der Erlauf,1180,925,204,370,220,31,13,75,9,3,0,0,0,0,0
+G31511,Niederösterreich,Hofamt Priel,1382,1133,533,276,161,48,14,91,6,4,0,0,0,0,0
+G31513,Niederösterreich,Hürm,1487,1137,652,126,171,75,13,92,4,3,0,0,0,0,0
+G31514,Niederösterreich,Kilb,2076,1737,889,220,243,134,23,208,12,7,0,0,0,0,0
+G31515,Niederösterreich,Kirnberg an der Mank,860,806,473,75,132,36,12,67,7,4,0,0,0,0,0
+G31516,Niederösterreich,Klein-Pöchlarn,833,723,258,218,120,43,9,63,8,5,0,0,0,0,0
+G31517,Niederösterreich,Krummnußbaum,1180,951,363,244,159,61,18,97,6,2,0,0,0,0,0
+G31519,Niederösterreich,Leiben,1099,856,321,243,162,34,19,66,3,8,0,0,0,0,0
+G31520,Niederösterreich,Loosdorf,3029,2296,807,669,430,146,32,183,14,16,0,0,0,0,0
+G31521,Niederösterreich,Mank,2565,2063,1059,272,329,132,17,235,12,7,0,0,0,0,0
+G31522,Niederösterreich,Marbach an der Donau,1347,1004,339,287,226,49,16,78,5,4,0,0,0,0,0
+G31523,Niederösterreich,Maria Taferl,711,602,260,125,96,39,13,61,4,5,0,0,0,0,0
+G31524,Niederösterreich,Melk,4143,3200,1366,540,509,267,54,433,18,13,0,0,0,0,0
+G31525,Niederösterreich,Münichreith-Laimbach,1356,1061,502,217,214,50,10,53,10,5,0,0,0,0,0
+G31527,Niederösterreich,Neumarkt an der Ybbs,1542,1181,458,278,256,69,10,99,2,10,0,0,0,0,0
+G31528,Niederösterreich,Nöchling,828,683,332,148,99,30,8,60,3,3,0,0,0,0,0
+G31530,Niederösterreich,Persenbeug-Gottsdorf,1791,1308,416,433,246,75,23,107,3,4,0,0,0,0,0
+G31531,Niederösterreich,Petzenkirchen,1046,817,306,215,166,42,5,75,5,3,0,0,0,0,0
+G31533,Niederösterreich,Pöchlarn,3030,2075,779,520,380,122,51,206,13,4,0,0,0,0,0
+G31534,Niederösterreich,Pöggstall,2000,1599,875,243,275,78,12,105,4,7,0,0,0,0,0
+G31535,Niederösterreich,Raxendorf,862,777,422,128,144,33,9,36,1,4,0,0,0,0,0
+G31537,Niederösterreich,Ruprechtshofen,1853,1530,805,173,307,88,23,126,3,5,0,0,0,0,0
+G31539,Niederösterreich,St. Leonhard am Forst,2483,2039,963,283,446,124,32,175,8,8,0,0,0,0,0
+G31540,Niederösterreich,St. Martin-Karlsbach,1379,1141,516,249,189,65,15,97,5,5,0,0,0,0,0
+G31541,Niederösterreich,St. Oswald,908,734,425,142,78,39,3,39,5,4,0,0,0,0,0
+G31542,Niederösterreich,Schönbühel-Aggsbach,834,686,316,106,133,51,10,64,4,3,0,0,0,0,0
+G31543,Niederösterreich,Schollach,806,676,296,144,140,32,9,51,3,1,0,0,0,0,0
+G31546,Niederösterreich,Weiten,901,626,353,91,101,27,4,42,7,1,0,0,0,0,0
+G31549,Niederösterreich,Ybbs an der Donau,4164,3129,1110,999,512,157,47,277,9,18,0,0,0,0,0
+G31550,Niederösterreich,Zelking-Matzleinsdorf,1005,889,429,152,121,79,13,89,4,2,0,0,0,0,0
+G31551,Niederösterreich,Texingtal,1305,1116,660,123,134,70,18,100,2,8,0,0,0,0,0
+G31552,Niederösterreich,Yspertal,1640,1204,504,271,248,77,20,76,2,5,0,0,0,0,0
+G31553,Niederösterreich,Emmersdorf an der Donau,1409,1066,476,207,155,68,20,128,5,7,0,0,0,0,0
+G31601,Niederösterreich,Altlichtenwarth,627,482,251,80,96,17,11,21,3,2,0,0,0,0,0
+G31603,Niederösterreich,Asparn an der Zaya,1485,1268,624,228,242,64,15,85,5,5,0,0,0,0,0
+G31604,Niederösterreich,Bernhardsthal,1303,1066,526,252,164,51,12,53,2,5,0,0,0,0,0
+G31605,Niederösterreich,Bockfließ,1047,928,415,221,129,65,10,75,6,6,0,0,0,0,0
+G31606,Niederösterreich,Drasenhofen,881,695,420,68,140,32,3,26,3,4,0,0,0,0,0
+G31608,Niederösterreich,Falkenstein,404,357,225,21,31,28,6,44,2,0,0,0,0,0,0
+G31609,Niederösterreich,Fallbach,693,550,360,52,68,29,2,37,0,0,0,0,0,0,0
+G31611,Niederösterreich,Gaubitsch,734,633,405,45,89,42,4,40,5,3,0,0,0,0,0
+G31612,Niederösterreich,Gaweinstal,3102,2432,1133,413,490,157,30,192,9,8,0,0,0,0,0
+G31613,Niederösterreich,Gnadendorf,967,743,449,90,95,50,10,48,2,1,0,0,0,0,0
+G31614,Niederösterreich,Großebersdorf,1784,1523,761,219,248,119,37,120,9,9,0,0,0,0,0
+G31615,Niederösterreich,Großengersdorf,1125,1010,415,284,142,66,14,83,4,2,0,0,0,0,0
+G31616,Niederösterreich,Großharras,957,790,437,107,144,40,14,43,3,3,0,0,0,0,0
+G31617,Niederösterreich,Großkrut,1341,1143,545,224,224,59,10,66,9,7,0,0,0,0,0
+G31620,Niederösterreich,Hausbrunn,683,550,229,162,90,28,10,22,1,6,0,0,0,0,0
+G31621,Niederösterreich,Herrnbaumgarten,765,632,374,67,106,30,5,46,3,1,0,0,0,0,0
+G31622,Niederösterreich,Hochleithen,947,777,389,171,112,45,11,44,4,2,0,0,0,0,0
+G31627,Niederösterreich,Kreuttal,1215,971,423,204,139,58,21,116,6,4,0,0,0,0,0
+G31628,Niederösterreich,Kreuzstetten,1252,970,379,195,158,76,15,139,4,4,0,0,0,0,0
+G31629,Niederösterreich,Laa an der Thaya,5099,4013,1712,804,812,214,68,361,24,18,0,0,0,0,0
+G31630,Niederösterreich,Ladendorf,1876,1446,673,266,235,84,24,153,7,3,0,0,0,0,0
+G31633,Niederösterreich,Mistelbach,9286,7051,3011,1321,1137,570,124,822,30,35,0,0,0,0,0
+G31634,Niederösterreich,Neudorf im Weinviertel,1162,937,401,172,217,47,11,76,10,3,0,0,0,0,0
+G31636,Niederösterreich,Niederleis,738,587,277,105,105,43,5,47,2,4,0,0,0,0,0
+G31642,Niederösterreich,Pillichsdorf,930,845,367,149,101,61,13,145,3,7,0,0,0,0,0
+G31644,Niederösterreich,Poysdorf,4364,3466,1906,504,562,187,36,241,21,10,0,0,0,0,0
+G31645,Niederösterreich,Rabensburg,860,595,198,210,134,14,15,22,1,1,0,0,0,0,0
+G31646,Niederösterreich,Schrattenberg,668,542,331,70,84,28,5,20,2,0,0,0,0,0,0
+G31649,Niederösterreich,Staatz,1629,1301,694,216,230,62,10,81,6,1,0,0,0,0,0
+G31650,Niederösterreich,Stronsdorf,1366,1166,652,119,246,68,10,65,3,2,0,0,0,0,0
+G31651,Niederösterreich,Ulrichskirchen-Schleinbach,2098,1802,768,352,270,129,25,242,11,6,0,0,0,0,0
+G31652,Niederösterreich,Unterstinkenbrunn,472,382,236,39,61,20,3,21,0,1,0,0,0,0,0
+G31653,Niederösterreich,Wildendürnbach,1276,1059,659,103,174,50,8,58,3,4,0,0,0,0,0
+G31654,Niederösterreich,Wilfersdorf,1731,1403,690,240,262,81,18,100,4,8,0,0,0,0,0
+G31655,Niederösterreich,Wolkersdorf im Weinviertel,5610,4557,1992,720,504,435,85,776,20,23,0,0,0,0,0
+G31658,Niederösterreich,Ottenthal,471,393,287,34,40,13,1,15,2,0,0,0,0,0,0
+G31701,Niederösterreich,Achau,1066,853,274,198,130,102,12,133,3,3,0,0,0,0,0
+G31702,Niederösterreich,Biedermannsdorf,2444,2084,803,348,300,271,51,284,13,15,0,0,0,0,0
+G31703,Niederösterreich,Breitenfurt bei Wien,4666,3984,1499,714,399,558,106,670,16,21,0,0,0,0,0
+G31704,Niederösterreich,Brunn am Gebirge,8746,7213,2506,1330,862,1015,158,1255,42,45,0,0,0,0,0
+G31706,Niederösterreich,Gaaden,1302,1162,469,168,102,198,22,194,4,4,0,0,0,0,0
+G31707,Niederösterreich,Gießhübl,1749,1447,576,196,127,259,36,245,1,7,0,0,0,0,0
+G31709,Niederösterreich,Gumpoldskirchen,2892,2473,907,369,303,342,59,467,13,12,0,0,0,0,0
+G31710,Niederösterreich,Guntramsdorf,6840,5728,1983,1267,896,640,126,758,30,28,0,0,0,0,0
+G31711,Niederösterreich,Hennersdorf,1254,1152,443,242,161,107,21,165,10,3,0,0,0,0,0
+G31712,Niederösterreich,Hinterbrühl,2946,2381,984,328,246,359,43,398,10,14,0,0,0,0,0
+G31713,Niederösterreich,Kaltenleutgeben,2588,2186,765,438,311,272,55,326,13,7,0,0,0,0,0
+G31714,Niederösterreich,Laab im Walde,896,722,294,101,54,89,18,161,3,3,0,0,0,0,0
+G31715,Niederösterreich,Laxenburg,2149,1703,751,268,173,216,41,236,11,7,0,0,0,0,0
+G31716,Niederösterreich,Maria Enzersdorf,6542,5015,1975,629,451,745,130,1052,15,17,0,0,0,0,0
+G31717,Niederösterreich,Mödling,14930,11323,3898,2003,1181,1558,237,2316,61,68,0,0,0,0,0
+G31718,Niederösterreich,Münchendorf,2269,1896,729,375,283,225,40,221,10,14,0,0,0,0,0
+G31719,Niederösterreich,Perchtoldsdorf,11762,9538,3749,1257,953,1498,216,1776,45,44,0,0,0,0,0
+G31723,Niederösterreich,Vösendorf,5348,4092,1347,959,718,447,99,482,23,17,0,0,0,0,0
+G31725,Niederösterreich,Wiener Neudorf,7163,5873,1948,1362,807,642,171,873,38,32,0,0,0,0,0
+G31726,Niederösterreich,Wienerwald,2250,2072,852,330,307,228,48,293,6,8,0,0,0,0,0
+G31801,Niederösterreich,Altendorf,285,236,150,20,37,10,3,14,3,0,0,0,0,0,0
+G31802,Niederösterreich,Aspang-Markt,1528,1196,561,236,210,76,15,93,3,3,0,0,0,0,0
+G31803,Niederösterreich,Aspangberg-St. Peter,1545,1242,691,158,235,64,22,65,4,3,0,0,0,0,0
+G31804,Niederösterreich,Breitenau,1274,1068,396,297,212,73,14,65,1,9,0,0,0,0,0
+G31805,Niederösterreich,Breitenstein,258,175,73,34,38,8,1,21,0,0,0,0,0,0,0
+G31806,Niederösterreich,Buchbach,293,250,110,71,30,14,1,20,1,3,0,0,0,0,0
+G31807,Niederösterreich,Edlitz,746,606,318,92,95,35,5,56,0,3,0,0,0,0,0
+G31808,Niederösterreich,Enzenreith,1593,1281,521,263,255,86,12,131,12,2,0,0,0,0,0
+G31809,Niederösterreich,Feistritz am Wechsel,870,742,393,104,145,43,7,42,6,3,0,0,0,0,0
+G31810,Niederösterreich,Gloggnitz,4595,3451,1267,801,745,206,62,309,34,26,0,0,0,0,0
+G31811,Niederösterreich,Grafenbach-St. Valentin,1768,1462,500,430,297,88,28,110,4,5,0,0,0,0,0
+G31812,Niederösterreich,Grimmenstein,1111,883,401,193,157,50,13,64,2,3,0,0,0,0,0
+G31813,Niederösterreich,Grünbach am Schneeberg,1226,951,333,295,165,46,20,85,3,4,0,0,0,0,0
+G31814,Niederösterreich,Kirchberg am Wechsel,2021,1630,866,166,330,106,17,136,4,6,0,0,0,0,0
+G31815,Niederösterreich,Mönichkirchen,520,383,208,49,69,23,8,20,2,3,0,0,0,0,0
+G31817,Niederösterreich,Natschbach-Loipersbach,1393,1097,510,183,213,61,14,104,6,6,0,0,0,0,0
+G31818,Niederösterreich,Neunkirchen,8932,6226,2121,1746,1169,352,125,641,38,33,0,0,0,0,0
+G31820,Niederösterreich,Otterthal,486,403,178,81,96,21,2,24,1,0,0,0,0,0,0
+G31821,Niederösterreich,Payerbach,1651,1202,477,276,229,68,34,101,9,8,0,0,0,0,0
+G31823,Niederösterreich,Pitten,2276,1686,665,352,325,127,34,168,7,8,0,0,0,0,0
+G31825,Niederösterreich,Prigglitz,359,283,136,44,59,13,8,22,1,0,0,0,0,0,0
+G31826,Niederösterreich,Puchberg am Schneeberg,2229,1794,682,466,352,102,34,136,7,14,0,0,0,0,0
+G31827,Niederösterreich,Raach am Hochgebirge,240,220,127,32,44,4,2,11,0,0,0,0,0,0,0
+G31829,Niederösterreich,Reichenau an der Rax,2068,1614,675,376,283,88,31,141,13,6,0,0,0,0,0
+G31830,Niederösterreich,St. Corona am Wechsel,311,238,140,13,58,6,3,17,0,1,0,0,0,0,0
+G31831,Niederösterreich,St. Egyden am Steinfeld,1582,1283,549,242,249,103,19,110,5,6,0,0,0,0,0
+G31832,Niederösterreich,Scheiblingkirchen-Thernberg,1571,1256,660,180,197,84,13,113,6,3,0,0,0,0,0
+G31833,Niederösterreich,Schottwien,525,384,176,77,80,15,6,25,4,0,0,0,0,0,0
+G31834,Niederösterreich,Schrattenbach,305,242,115,35,46,19,6,20,0,1,0,0,0,0,0
+G31835,Niederösterreich,Schwarzau am Steinfeld,1539,1229,452,313,266,76,21,87,8,6,0,0,0,0,0
+G31836,Niederösterreich,Schwarzau im Gebirge,490,386,162,84,87,19,7,21,4,0,0,0,0,0,0
+G31837,Niederösterreich,Seebenstein,1183,896,351,200,185,62,12,82,3,2,0,0,0,0,0
+G31838,Niederösterreich,Semmering,409,276,123,53,54,22,5,18,1,0,0,0,0,0,0
+G31839,Niederösterreich,Ternitz,11346,8709,2765,2698,1682,509,173,775,69,37,0,0,0,0,0
+G31840,Niederösterreich,Thomasberg,1041,890,465,138,192,33,12,47,1,1,0,0,0,0,0
+G31841,Niederösterreich,Trattenbach,439,356,191,40,92,16,4,11,1,1,0,0,0,0,0
+G31842,Niederösterreich,Bürg-Vöstenhof,132,122,58,26,26,3,0,9,0,0,0,0,0,0,0
+G31843,Niederösterreich,Warth,1248,1073,590,146,165,58,10,95,3,5,0,0,0,0,0
+G31844,Niederösterreich,Wartmannstetten,1346,1234,625,204,201,79,20,92,7,5,0,0,0,0,0
+G31845,Niederösterreich,Willendorf,784,600,235,104,119,39,21,75,5,1,0,0,0,0,0
+G31846,Niederösterreich,Wimpassing im Schwarzatale,1169,866,220,323,186,36,12,67,17,6,0,0,0,0,0
+G31847,Niederösterreich,Würflach,1303,1005,420,222,164,65,21,99,4,10,0,0,0,0,0
+G31848,Niederösterreich,Zöbern,1181,1029,600,129,169,57,10,58,6,1,0,0,0,0,0
+G31849,Niederösterreich,Höflein an der Hohen Wand,732,612,211,178,102,40,11,66,0,4,0,0,0,0,0
+G31901,Niederösterreich,Altlengbach,2364,1892,791,326,340,154,36,223,8,14,0,0,0,0,0
+G31902,Niederösterreich,Asperhofen,1722,1411,668,145,298,122,25,140,9,6,0,0,0,0,0
+G31903,Niederösterreich,Böheimkirchen,3980,3440,1376,662,583,256,64,469,16,15,0,0,0,0,0
+G31904,Niederösterreich,Brand-Laaben,983,772,348,111,144,54,13,92,5,4,0,0,0,0,0
+G31905,Niederösterreich,Eichgraben,3476,2796,1021,445,349,296,71,585,13,15,0,0,0,0,0
+G31906,Niederösterreich,Frankenfels,1599,1439,758,262,214,68,10,118,3,5,0,0,0,0,0
+G31907,Niederösterreich,Gerersdorf,768,657,344,112,71,44,12,67,2,6,0,0,0,0,0
+G31909,Niederösterreich,Hofstetten-Grünau,2146,1899,944,279,314,144,21,180,8,8,0,0,0,0,0
+G31910,Niederösterreich,Hafnerbach,1359,1216,546,205,190,99,15,147,5,9,0,0,0,0,0
+G31911,Niederösterreich,Haunoldstein,916,772,325,161,135,51,22,72,4,1,0,0,0,0,0
+G31912,Niederösterreich,Herzogenburg,5981,4608,1602,1240,815,283,75,549,29,15,0,0,0,0,0
+G31913,Niederösterreich,Inzersdorf-Getzersdorf,1244,1040,450,193,180,77,20,111,7,3,0,0,0,0,0
+G31915,Niederösterreich,Kapelln,1103,947,485,115,160,67,10,100,6,5,0,0,0,0,0
+G31916,Niederösterreich,Karlstetten,1779,1516,662,282,252,108,29,164,14,5,0,0,0,0,0
+G31917,Niederösterreich,Kasten bei Böheimkirchen,1123,1037,454,151,134,118,22,144,11,4,0,0,0,0,0
+G31918,Niederösterreich,Kirchberg an der Pielach,2624,2167,1056,342,315,135,31,264,14,10,0,0,0,0,0
+G31919,Niederösterreich,Kirchstetten,1768,1317,549,238,203,118,30,164,6,8,0,0,0,0,0
+G31920,Niederösterreich,Loich,507,414,211,73,66,15,6,38,1,4,0,0,0,0,0
+G31921,Niederösterreich,Maria-Anzbach,2374,1892,741,314,266,166,41,342,9,13,0,0,0,0,0
+G31922,Niederösterreich,Markersdorf-Haindorf,1621,1433,643,253,245,87,22,163,11,9,0,0,0,0,0
+G31923,Niederösterreich,Michelbach,717,634,353,54,101,62,7,50,5,2,0,0,0,0,0
+G31925,Niederösterreich,Neidling,1189,1025,477,183,131,82,16,128,5,3,0,0,0,0,0
+G31926,Niederösterreich,Neulengbach,6417,4742,1969,762,712,421,103,728,29,19,0,0,0,0,0
+G31927,Niederösterreich,Neustift-Innermanzing,1249,951,395,165,166,86,17,109,4,9,0,0,0,0,0
+G31928,Niederösterreich,Nußdorf ob der Traisen,1474,1291,621,212,205,94,15,131,7,6,0,0,0,0,0
+G31929,Niederösterreich,Ober-Grafendorf,3602,3013,1167,745,470,222,51,330,13,15,0,0,0,0,0
+G31930,Niederösterreich,Obritzberg-Rust,1872,1602,776,229,266,134,22,160,8,8,0,0,0,0,0
+G31932,Niederösterreich,Prinzersdorf,1238,972,388,190,147,76,24,139,5,3,0,0,0,0,0
+G31934,Niederösterreich,Pyhra,2812,2370,1108,351,386,191,43,260,13,18,0,0,0,0,0
+G31935,Niederösterreich,Rabenstein an der Pielach,2044,1722,833,321,270,105,24,157,4,8,0,0,0,0,0
+G31938,Niederösterreich,St. Margarethen an der Sierning,855,723,384,113,99,42,10,70,3,3,0,0,0,0,0
+G31939,Niederösterreich,Schwarzenbach an der Pielach,321,286,157,57,49,7,2,11,1,3,0,0,0,0,0
+G31940,Niederösterreich,Statzendorf,1108,884,354,235,140,62,11,70,7,6,0,0,0,0,0
+G31941,Niederösterreich,Stössing,653,511,256,62,86,39,13,48,3,4,0,0,0,0,0
+G31943,Niederösterreich,Traismauer,4722,3887,1405,973,706,265,71,433,26,8,0,0,0,0,0
+G31945,Niederösterreich,Weinburg,1140,952,361,265,152,67,11,89,4,3,0,0,0,0,0
+G31946,Niederösterreich,Perschling,1122,965,513,86,185,83,12,76,5,5,0,0,0,0,0
+G31947,Niederösterreich,Wilhelmsburg,5069,3989,1357,1097,677,262,74,476,29,16,0,0,0,0,0
+G31948,Niederösterreich,Wölbling,2007,1668,667,385,264,124,23,189,5,12,0,0,0,0,0
+G31949,Niederösterreich,Gablitz,3769,2758,1059,484,366,296,63,470,10,11,0,0,0,0,0
+G31950,Niederösterreich,Mauerbach,2832,2264,908,368,243,265,65,392,11,11,0,0,0,0,0
+G31951,Niederösterreich,Pressbaum,5662,4246,1501,684,588,510,98,809,26,30,0,0,0,0,0
+G31952,Niederösterreich,Purkersdorf,6998,5118,1598,966,636,637,150,1088,19,24,0,0,0,0,0
+G31953,Niederösterreich,Tullnerbach,2087,1622,650,247,166,170,47,328,5,8,0,0,0,0,0
+G31954,Niederösterreich,Wolfsgraben,1301,1083,427,158,161,113,20,186,9,9,0,0,0,0,0
+G32001,Niederösterreich,Gaming,2500,1951,778,612,261,110,29,142,9,11,0,0,0,0,0
+G32002,Niederösterreich,Göstling an der Ybbs,1683,1432,758,279,182,85,13,100,7,7,0,0,0,0,0
+G32003,Niederösterreich,Gresten,1582,1213,559,254,152,85,14,126,12,11,0,0,0,0,0
+G32004,Niederösterreich,Gresten-Land,1193,1000,649,89,127,48,6,69,7,4,0,0,0,0,0
+G32005,Niederösterreich,Lunz am See,1491,1267,573,296,173,76,22,119,1,7,0,0,0,0,0
+G32006,Niederösterreich,Oberndorf an der Melk,2414,2086,1278,211,318,93,18,153,9,6,0,0,0,0,0
+G32007,Niederösterreich,Puchenstuben,235,192,85,54,30,7,5,10,0,0,0,0,0,0,0
+G32008,Niederösterreich,Purgstall an der Erlauf,4274,3402,1690,490,550,222,47,367,13,22,0,0,0,0,0
+G32009,Niederösterreich,Randegg,1517,1316,827,124,165,72,6,107,3,11,0,0,0,0,0
+G32010,Niederösterreich,Reinsberg,825,737,441,84,99,48,6,52,4,4,0,0,0,0,0
+G32011,Niederösterreich,St. Anton an der Jeßnitz,971,815,490,107,135,28,8,40,4,3,0,0,0,0,0
+G32012,Niederösterreich,St. Georgen an der Leys,1100,935,570,84,166,43,6,52,8,5,0,0,0,0,0
+G32013,Niederösterreich,Scheibbs,3405,2608,1165,490,274,209,34,411,15,11,0,0,0,0,0
+G32014,Niederösterreich,Steinakirchen am Forst,1831,1554,871,187,189,104,13,173,7,9,0,0,0,0,0
+G32015,Niederösterreich,Wang,1082,951,540,94,167,53,15,76,2,3,0,0,0,0,0
+G32016,Niederösterreich,Wieselburg,2968,2274,768,625,372,161,37,275,13,23,0,0,0,0,0
+G32017,Niederösterreich,Wieselburg-Land,2681,2237,1039,376,400,155,28,215,11,12,0,0,0,0,0
+G32018,Niederösterreich,Wolfpassing,1245,1114,569,108,226,59,17,122,4,9,0,0,0,0,0
+G32101,Niederösterreich,Absdorf,1608,1302,538,285,190,121,24,126,11,7,0,0,0,0,0
+G32104,Niederösterreich,Atzenbrugg,2360,1909,937,280,340,133,26,170,8,14,0,0,0,0,0
+G32106,Niederösterreich,Fels am Wagram,1889,1531,702,269,259,103,30,148,11,8,0,0,0,0,0
+G32107,Niederösterreich,Grafenwörth,2579,2034,904,391,348,148,42,177,11,12,0,0,0,0,0
+G32109,Niederösterreich,Großriedenthal,768,690,370,109,84,46,6,69,2,3,0,0,0,0,0
+G32110,Niederösterreich,Großweikersdorf,2628,2203,986,365,422,172,29,217,4,7,0,0,0,0,0
+G32112,Niederösterreich,Judenau-Baumgarten,1696,1396,621,201,251,111,25,172,8,8,0,0,0,0,0
+G32114,Niederösterreich,Kirchberg am Wagram,2945,2514,1178,388,385,216,42,281,9,15,0,0,0,0,0
+G32115,Niederösterreich,Königsbrunn am Wagram,1050,901,416,181,133,71,15,73,6,7,0,0,0,0,0
+G32116,Niederösterreich,Königstetten,1870,1605,655,289,220,185,32,211,6,8,0,0,0,0,0
+G32119,Niederösterreich,Langenrohr,1790,1495,766,185,278,111,16,128,7,4,0,0,0,0,0
+G32120,Niederösterreich,Michelhausen,2491,1901,988,247,271,152,33,192,9,9,0,0,0,0,0
+G32131,Niederösterreich,Sieghartskirchen,5760,4779,2008,826,855,409,87,542,19,33,0,0,0,0,0
+G32132,Niederösterreich,Sitzenberg-Reidling,1765,1432,635,237,268,117,18,146,6,5,0,0,0,0,0
+G32134,Niederösterreich,Tulbing,2405,1985,896,318,286,168,41,256,10,10,0,0,0,0,0
+G32135,Niederösterreich,Tulln an der Donau,11870,9052,3738,1445,1321,898,205,1350,48,47,0,0,0,0,0
+G32139,Niederösterreich,Würmla,1135,956,476,105,164,79,12,100,8,13,0,0,0,0,0
+G32140,Niederösterreich,Zeiselmauer-Wolfpassing,1787,1436,503,279,223,151,27,234,14,4,0,0,0,0,0
+G32141,Niederösterreich,Zwentendorf an der Donau,2971,2453,994,622,433,146,29,196,20,13,0,0,0,0,0
+G32142,Niederösterreich,St. Andrä-Wördern,6036,4801,1706,855,683,481,107,920,28,23,0,0,0,0,0
+G32143,Niederösterreich,Muckendorf-Wipfing,1311,1078,453,184,186,88,23,134,6,5,0,0,0,0,0
+G32144,Niederösterreich,Klosterneuburg,20196,15965,5997,2344,1629,2298,397,3150,81,69,0,0,0,0,0
+G32202,Niederösterreich,Dietmanns,922,701,209,219,187,30,9,38,4,4,0,0,0,0,0
+G32203,Niederösterreich,Dobersberg,1331,1080,670,97,184,51,12,57,6,2,0,0,0,0,0
+G32206,Niederösterreich,Gastern,1039,902,487,135,167,37,13,52,8,2,0,0,0,0,0
+G32207,Niederösterreich,Groß-Siegharts,2318,1592,665,363,336,80,13,119,7,10,0,0,0,0,0
+G32209,Niederösterreich,Karlstein an der Thaya,1215,1030,580,129,199,48,14,53,5,2,0,0,0,0,0
+G32210,Niederösterreich,Kautzen,944,791,448,95,139,32,14,54,2,5,0,0,0,0,0
+G32212,Niederösterreich,Ludweis-Aigen,762,622,375,78,84,27,6,47,3,2,0,0,0,0,0
+G32214,Niederösterreich,Pfaffenschlag bei Waidhofen a.d.Thaya,780,665,358,55,145,43,8,51,2,3,0,0,0,0,0
+G32216,Niederösterreich,Raabs an der Thaya,2300,1818,1119,218,257,69,25,108,12,9,0,0,0,0,0
+G32217,Niederösterreich,Thaya,1164,942,513,88,211,53,12,57,6,2,0,0,0,0,0
+G32219,Niederösterreich,Vitis,2224,1808,941,299,299,98,16,144,4,7,0,0,0,0,0
+G32220,Niederösterreich,Waidhofen an der Thaya,4599,3337,1633,425,624,249,49,326,16,15,0,0,0,0,0
+G32221,Niederösterreich,Waidhofen an der Thaya-Land,1056,847,445,86,174,47,16,68,4,5,0,0,0,0,0
+G32222,Niederösterreich,Waldkirchen an der Thaya,457,403,263,41,54,15,6,20,3,1,0,0,0,0,0
+G32223,Niederösterreich,Windigsteig,816,675,365,94,114,30,11,54,3,3,0,0,0,0,0
+G32301,Niederösterreich,Bad Fischau-Brunn,2651,2182,879,406,356,238,28,253,14,7,0,0,0,0,0
+G32302,Niederösterreich,Bad Schönau,604,479,259,51,108,25,4,27,2,3,0,0,0,0,0
+G32304,Niederösterreich,Ebenfurth,2130,1463,464,472,294,84,23,108,9,11,0,0,0,0,0
+G32305,Niederösterreich,Eggendorf,3724,2851,993,712,702,144,62,198,24,16,0,0,0,0,0
+G32306,Niederösterreich,Bad Erlach,2513,1933,852,379,358,143,36,153,2,10,0,0,0,0,0
+G32307,Niederösterreich,Felixdorf,3231,2431,775,789,461,144,36,197,18,11,0,0,0,0,0
+G32308,Niederösterreich,Gutenstein,1030,760,343,141,143,43,16,61,4,9,0,0,0,0,0
+G32309,Niederösterreich,Hochneukirchen-Gschaidt,1398,1205,688,137,245,52,9,70,3,1,0,0,0,0,0
+G32310,Niederösterreich,Hochwolkersdorf,848,724,358,168,110,29,8,47,0,3,0,0,0,0,0
+G32311,Niederösterreich,Hohe Wand,1128,900,436,129,166,75,8,82,4,1,0,0,0,0,0
+G32312,Niederösterreich,Hollenthon,820,729,419,91,134,41,7,32,1,2,0,0,0,0,0
+G32313,Niederösterreich,Katzelsdorf,2594,2049,856,338,342,188,36,272,9,7,0,0,0,0,0
+G32314,Niederösterreich,Kirchschlag in der Buckligen Welt,2329,2001,1186,203,335,108,25,128,8,7,0,0,0,0,0
+G32315,Niederösterreich,Krumbach,1873,1612,901,197,291,101,12,99,6,6,0,0,0,0,0
+G32316,Niederösterreich,Lanzenkirchen,3108,2460,922,533,544,151,40,242,13,15,0,0,0,0,0
+G32317,Niederösterreich,Lichtenegg,870,693,435,49,94,56,5,50,1,3,0,0,0,0,0
+G32318,Niederösterreich,Lichtenwörth,2164,1627,603,404,353,91,27,131,7,11,0,0,0,0,0
+G32319,Niederösterreich,Markt Piesting,2226,1762,733,276,321,169,35,203,17,9,0,0,0,0,0
+G32320,Niederösterreich,Matzendorf-Hölles,1658,1293,572,249,280,83,18,77,8,5,0,0,0,0,0
+G32321,Niederösterreich,Miesenbach,553,461,236,73,87,27,3,33,0,2,0,0,0,0,0
+G32322,Niederösterreich,Muggendorf,427,374,181,56,69,24,3,35,4,2,0,0,0,0,0
+G32323,Niederösterreich,Pernitz,1916,1463,490,346,306,98,34,178,4,9,0,0,0,0,0
+G32324,Niederösterreich,Rohr im Gebirge,368,289,163,42,48,12,3,21,0,0,0,0,0,0,0
+G32325,Niederösterreich,Bromberg,956,802,449,102,137,49,7,51,1,6,0,0,0,0,0
+G32326,Niederösterreich,Schwarzenbach,773,665,282,212,115,19,5,25,1,5,0,0,0,0,0
+G32327,Niederösterreich,Sollenau,3876,2903,946,804,696,169,49,212,15,12,0,0,0,0,0
+G32330,Niederösterreich,Theresienfeld,2452,1821,612,481,405,125,32,146,10,11,0,0,0,0,0
+G32331,Niederösterreich,Waidmannsfeld,1252,990,323,328,160,75,18,71,4,10,0,0,0,0,0
+G32332,Niederösterreich,Waldegg,1498,1149,454,277,202,70,15,114,11,6,0,0,0,0,0
+G32333,Niederösterreich,Walpersbach,916,755,347,166,120,47,12,58,3,3,0,0,0,0,0
+G32334,Niederösterreich,Weikersdorf am Steinfelde,866,755,376,97,158,51,8,60,4,2,0,0,0,0,0
+G32335,Niederösterreich,Wiesmath,1251,1076,578,171,205,48,11,56,5,4,0,0,0,0,0
+G32336,Niederösterreich,Winzendorf-Muthmannsdorf,1509,1133,473,199,204,102,26,116,6,5,0,0,0,0,0
+G32337,Niederösterreich,Wöllersdorf-Steinabrückl,3420,2486,891,494,644,182,45,203,10,17,0,0,0,0,0
+G32338,Niederösterreich,Zillingdorf,1636,1332,471,332,288,95,22,107,12,5,0,0,0,0,0
+G32501,Niederösterreich,Allentsteig,1563,1174,597,168,261,63,14,65,3,3,0,0,0,0,0
+G32502,Niederösterreich,Arbesbach,1369,1162,752,82,169,65,6,81,3,4,0,0,0,0,0
+G32503,Niederösterreich,Bärnkopf,304,274,93,110,46,9,4,9,3,0,0,0,0,0,0
+G32504,Niederösterreich,Echsenbach,1031,878,531,93,142,41,10,54,3,5,0,0,0,0,0
+G32505,Niederösterreich,Göpfritz an der Wild,1539,1267,655,190,269,58,11,81,3,1,0,0,0,0,0
+G32506,Niederösterreich,Grafenschlag,704,595,362,58,99,35,5,33,0,2,0,0,0,0,0
+G32508,Niederösterreich,Groß Gerungs,3735,3113,1904,321,493,156,29,184,14,10,0,0,0,0,0
+G32509,Niederösterreich,Großgöttfritz,1150,995,553,98,229,45,8,58,1,4,0,0,0,0,0
+G32511,Niederösterreich,Gutenbrunn,442,372,157,111,62,22,4,15,1,0,0,0,0,0,0
+G32514,Niederösterreich,Kirchschlag,536,463,266,55,96,20,4,20,0,2,0,0,0,0,0
+G32515,Niederösterreich,Kottes-Purk,1222,973,590,117,143,40,8,68,6,3,0,0,0,0,0
+G32516,Niederösterreich,Langschlag,1434,1184,662,155,224,57,14,62,7,2,0,0,0,0,0
+G32517,Niederösterreich,Martinsberg,907,745,423,110,132,28,8,38,4,3,0,0,0,0,0
+G32518,Niederösterreich,Ottenschlag,843,691,387,78,132,47,4,41,0,3,0,0,0,0,0
+G32519,Niederösterreich,Altmelon,714,623,373,54,131,30,5,25,2,3,0,0,0,0,0
+G32520,Niederösterreich,Pölla,773,615,340,65,143,26,7,31,1,2,0,0,0,0,0
+G32521,Niederösterreich,Rappottenstein,1430,1158,661,101,190,99,9,87,6,6,0,0,0,0,0
+G32522,Niederösterreich,Sallingberg,1053,849,501,78,164,50,5,45,4,3,0,0,0,0,0
+G32523,Niederösterreich,Schönbach,667,560,361,49,90,28,1,28,2,0,0,0,0,0,0
+G32524,Niederösterreich,Schwarzenau,1267,1069,505,241,171,60,7,77,2,5,0,0,0,0,0
+G32525,Niederösterreich,Schweiggers,1640,1422,963,77,235,71,10,62,4,1,0,0,0,0,0
+G32528,Niederösterreich,Bad Traunstein,833,717,431,69,103,44,4,61,2,3,0,0,0,0,0
+G32529,Niederösterreich,Waldhausen,1005,850,491,94,138,55,11,58,2,2,0,0,0,0,0
+G32530,Niederösterreich,Zwettl-Niederösterreich,9252,7082,4066,733,988,511,94,646,20,23,0,0,0,0,0
+G40101,Oberösterreich,Linz,138154,96200,24043,27416,13464,8201,2066,19356,968,622,0,0,0,0,64
+G40201,Oberösterreich,Steyr,27006,19345,4573,6975,3300,1101,362,2770,155,100,0,0,0,0,9
+G40301,Oberösterreich,Wels,39157,26903,7339,7651,5322,2020,412,3853,171,129,0,0,0,0,6
+G40401,Oberösterreich,Altheim,3770,2806,1079,565,677,164,34,255,15,18,0,0,0,0,1
+G40402,Oberösterreich,Aspach,1998,1407,691,184,332,65,18,107,7,4,0,0,0,0,0
+G40403,Oberösterreich,Auerbach,449,372,174,32,101,23,3,38,2,0,0,0,0,0,0
+G40404,Oberösterreich,Braunau am Inn,11603,7502,2478,1788,1428,464,147,1100,41,53,0,0,0,0,3
+G40405,Oberösterreich,Burgkirchen,2080,1583,730,228,334,95,16,167,6,6,0,0,0,0,0
+G40406,Oberösterreich,Eggelsberg,1852,1305,575,181,292,99,17,123,10,9,0,0,0,0,0
+G40407,Oberösterreich,Feldkirchen bei Mattighofen,1604,1284,602,141,336,59,11,126,4,7,0,0,0,0,0
+G40408,Oberösterreich,Franking,780,525,248,56,103,37,9,64,5,3,0,0,0,0,0
+G40409,Oberösterreich,Geretsberg,873,660,335,71,138,49,6,53,4,4,0,0,0,0,0
+G40410,Oberösterreich,Gilgenberg am Weilhart,1041,791,400,81,183,54,4,63,2,4,0,0,0,0,0
+G40411,Oberösterreich,Haigermoos,486,390,201,48,71,20,7,41,3,1,0,0,0,0,0
+G40412,Oberösterreich,Handenberg,1024,821,426,88,158,51,10,76,7,6,0,0,0,0,0
+G40413,Oberösterreich,Helpfau-Uttendorf,2369,1684,747,283,373,99,37,128,9,8,0,0,0,0,0
+G40414,Oberösterreich,Hochburg-Ach,2211,1586,848,200,231,101,15,175,7,6,0,0,0,0,2
+G40415,Oberösterreich,Höhnhart,1113,769,355,133,185,28,6,58,3,1,0,0,0,0,0
+G40416,Oberösterreich,Jeging,511,417,209,60,92,23,4,25,3,2,0,0,0,0,0
+G40417,Oberösterreich,Kirchberg bei Mattighofen,932,736,389,71,156,50,11,55,2,2,0,0,0,0,0
+G40418,Oberösterreich,Lengau,3611,2642,1109,562,518,148,35,229,22,18,0,0,0,0,1
+G40419,Oberösterreich,Lochen am See,2183,1761,847,200,380,121,22,167,12,12,0,0,0,0,0
+G40420,Oberösterreich,Maria Schmolln,1180,879,468,104,147,47,12,90,5,5,0,0,0,0,0
+G40421,Oberösterreich,Mattighofen,3753,2499,871,622,520,154,39,268,14,8,0,0,0,0,2
+G40422,Oberösterreich,Mauerkirchen,1645,1016,370,207,238,88,14,89,5,4,0,0,0,0,1
+G40423,Oberösterreich,Mining,982,742,341,119,130,46,7,94,2,3,0,0,0,0,0
+G40424,Oberösterreich,Moosbach,773,593,248,68,181,34,6,51,2,2,0,0,0,0,1
+G40425,Oberösterreich,Moosdorf,1295,982,377,236,214,45,14,87,7,2,0,0,0,0,0
+G40426,Oberösterreich,Munderfing,2276,1676,710,330,341,106,22,158,2,7,0,0,0,0,0
+G40427,Oberösterreich,Neukirchen an der Enknach,1748,1369,624,208,308,87,14,115,6,8,0,0,0,0,0
+G40428,Oberösterreich,Ostermiething,2435,1676,868,204,278,96,27,186,8,9,0,0,0,0,0
+G40429,Oberösterreich,Palting,796,610,320,64,134,35,7,45,3,2,0,0,0,0,0
+G40430,Oberösterreich,Perwang am Grabensee,783,615,305,60,119,47,6,71,3,4,0,0,0,0,0
+G40431,Oberösterreich,Pfaffstätt,784,626,289,109,104,49,11,56,4,3,0,0,0,0,1
+G40432,Oberösterreich,Pischelsdorf am Engelbach,1276,987,476,114,242,70,11,67,2,4,0,0,0,0,1
+G40433,Oberösterreich,Polling im Innkreis,767,568,260,79,160,24,6,35,4,1,0,0,0,0,0
+G40434,Oberösterreich,Roßbach,752,578,250,93,146,39,4,40,7,1,0,0,0,0,0
+G40435,Oberösterreich,St. Georgen am Fillmannsbach,343,283,123,20,101,12,6,18,1,1,0,0,0,0,0
+G40436,Oberösterreich,St. Johann am Walde,1639,1175,486,251,254,63,9,105,7,2,0,0,0,0,0
+G40437,Oberösterreich,St. Pantaleon,2306,1621,689,317,297,118,25,153,9,11,0,0,0,0,2
+G40438,Oberösterreich,St. Peter am Hart,1811,1216,505,232,213,77,20,160,7,4,0,0,0,0,0
+G40439,Oberösterreich,St. Radegund,462,393,244,25,39,27,5,48,3,3,0,0,0,0,0
+G40440,Oberösterreich,St. Veit im Innkreis,319,266,121,56,58,12,2,14,0,1,0,0,0,0,0
+G40441,Oberösterreich,Schalchen,2872,2165,891,453,414,138,26,220,13,8,0,0,0,0,1
+G40442,Oberösterreich,Schwand im Innkreis,767,601,306,70,118,36,5,63,2,3,0,0,0,0,0
+G40443,Oberösterreich,Tarsdorf,1632,1218,671,120,234,60,14,111,6,3,0,0,0,0,0
+G40444,Oberösterreich,Treubach,574,412,209,33,101,31,2,29,4,3,0,0,0,0,0
+G40445,Oberösterreich,Überackern,441,302,151,45,61,16,5,23,0,0,0,0,0,0,0
+G40446,Oberösterreich,Weng im Innkreis,1144,840,354,126,224,44,6,83,1,2,0,0,0,0,0
+G40501,Oberösterreich,Alkoven,4639,3850,1198,1051,698,279,77,510,14,22,0,0,0,0,1
+G40502,Oberösterreich,Aschach an der Donau,1595,1198,370,295,235,83,16,181,11,6,0,0,0,0,1
+G40503,Oberösterreich,Eferding,2927,2117,721,522,374,173,28,279,10,10,0,0,0,0,1
+G40504,Oberösterreich,Fraham,1871,1377,490,322,249,111,20,172,6,7,0,0,0,0,1
+G40505,Oberösterreich,Haibach ob der Donau,1095,870,385,194,144,55,4,85,2,2,0,0,0,0,0
+G40506,Oberösterreich,Hartkirchen,3384,2848,1097,527,635,209,26,334,10,10,0,0,0,0,0
+G40507,Oberösterreich,Hinzenbach,1620,1282,494,281,233,90,19,155,6,4,0,0,0,0,0
+G40508,Oberösterreich,Prambachkirchen,2276,1731,753,271,360,125,17,191,7,5,0,0,0,0,1
+G40509,Oberösterreich,Pupping,1455,1158,430,232,256,70,18,143,7,2,0,0,0,0,0
+G40510,Oberösterreich,St. Marienkirchen an der Polsenz,1899,1513,555,332,308,107,18,181,7,4,0,0,0,0,0
+G40511,Oberösterreich,Scharten,1772,1443,454,296,327,119,22,212,5,7,0,0,0,0,1
+G40512,Oberösterreich,Stroheim,1336,1076,554,130,212,73,9,90,2,5,0,0,0,0,0
+G40601,Oberösterreich,Freistadt,6134,4818,1724,1119,742,320,72,779,36,23,0,0,0,0,4
+G40602,Oberösterreich,Grünbach,1572,1164,489,227,217,75,11,129,6,8,0,0,0,0,2
+G40603,Oberösterreich,Gutau,2237,1905,835,441,278,78,26,234,6,9,0,0,0,0,0
+G40604,Oberösterreich,Hagenberg im Mühlkreis,2249,1726,557,382,289,133,37,310,12,6,0,0,0,0,0
+G40605,Oberösterreich,Hirschbach im Mühlkreis,958,751,347,128,76,73,8,107,11,2,0,0,0,0,0
+G40606,Oberösterreich,Kaltenberg,499,506,335,38,76,28,1,27,1,0,0,0,0,0,0
+G40607,Oberösterreich,Kefermarkt,1713,1419,578,344,224,74,12,170,11,5,0,0,0,0,1
+G40608,Oberösterreich,Königswiesen,2511,2045,1067,312,374,93,13,174,7,5,0,0,0,0,0
+G40609,Oberösterreich,Lasberg,2328,1934,893,350,263,134,35,243,9,7,0,0,0,0,1
+G40610,Oberösterreich,Leopoldschlag,832,695,356,101,107,41,5,79,3,4,0,0,0,0,0
+G40611,Oberösterreich,Liebenau,1335,1068,591,191,165,42,7,64,5,3,0,0,0,0,0
+G40612,Oberösterreich,Neumarkt im Mühlkreis,2581,2091,839,436,283,143,31,325,20,14,0,0,0,0,0
+G40613,Oberösterreich,Pierbach,805,693,339,116,146,33,4,50,1,4,0,0,0,0,0
+G40614,Oberösterreich,Pregarten,4415,3557,1323,861,596,232,43,470,16,12,0,0,0,0,3
+G40615,Oberösterreich,Rainbach im Mühlkreis,2349,1816,832,365,221,118,22,233,14,9,0,0,0,0,1
+G40616,Oberösterreich,Sandl,1152,978,384,258,144,60,11,109,8,3,0,0,0,0,0
+G40617,Oberösterreich,St. Leonhard bei Freistadt,1153,966,459,223,140,39,11,82,6,7,0,0,0,0,0
+G40618,Oberösterreich,St. Oswald bei Freistadt,2328,1874,793,447,324,100,28,164,6,12,0,0,0,0,0
+G40619,Oberösterreich,Schönau im Mühlkreis,1567,1410,735,248,222,66,9,121,6,3,0,0,0,0,0
+G40620,Oberösterreich,Tragwein,2498,2136,820,546,325,135,28,267,8,6,0,0,0,0,1
+G40621,Oberösterreich,Unterweißenbach,1775,1440,757,218,271,64,8,114,5,3,0,0,0,0,0
+G40622,Oberösterreich,Unterweitersdorf,1757,1458,485,420,209,105,25,198,6,10,0,0,0,0,0
+G40623,Oberösterreich,Waldburg,1120,908,386,169,128,68,17,130,4,6,0,0,0,0,1
+G40624,Oberösterreich,Wartberg ob der Aist,3516,2747,936,662,454,177,40,443,22,11,0,0,0,0,1
+G40625,Oberösterreich,Weitersfelden,826,672,349,118,85,40,4,68,7,2,0,0,0,0,0
+G40626,Oberösterreich,Windhaag bei Freistadt,1263,1012,514,195,112,63,6,114,3,2,0,0,0,0,1
+G40627,Oberösterreich,Bad Zell,2343,1985,901,316,297,114,17,320,8,11,0,0,0,0,1
+G40701,Oberösterreich,Altmünster,7779,6094,2281,1361,862,571,100,866,26,26,0,0,0,0,2
+G40702,Oberösterreich,Bad Goisern am Hallstättersee,6157,4560,1340,1494,689,317,81,559,48,29,0,0,0,0,2
+G40703,Oberösterreich,Bad Ischl,10750,7490,2564,1892,1077,621,141,1094,51,47,0,0,0,0,3
+G40704,Oberösterreich,Ebensee am Traunsee,6260,5034,1584,1542,810,272,112,655,37,21,0,0,0,0,1
+G40705,Oberösterreich,Gmunden,9732,6751,2395,1422,945,657,129,1126,39,32,0,0,0,0,6
+G40706,Oberösterreich,Gosau,1427,1120,388,391,136,79,18,97,4,6,0,0,0,0,1
+G40707,Oberösterreich,Grünau im Almtal,1622,1275,465,315,239,86,18,138,6,7,0,0,0,0,1
+G40708,Oberösterreich,Gschwandt,2230,1899,736,379,302,154,24,284,10,7,0,0,0,0,3
+G40709,Oberösterreich,Hallstatt,579,478,118,193,43,27,10,81,4,3,0,0,0,0,0
+G40710,Oberösterreich,Kirchham,1724,1378,663,202,253,81,17,150,6,6,0,0,0,0,0
+G40711,Oberösterreich,Laakirchen,7075,5439,1692,1673,894,362,100,659,32,23,0,0,0,0,4
+G40712,Oberösterreich,Obertraun,552,463,139,194,29,24,7,59,8,3,0,0,0,0,0
+G40713,Oberösterreich,Ohlsdorf,4074,3235,1133,761,587,223,45,448,23,12,0,0,0,0,3
+G40714,Oberösterreich,Pinsdorf,3018,2298,762,563,429,178,42,300,16,7,0,0,0,0,1
+G40715,Oberösterreich,Roitham am Traunfall,1581,1224,464,284,246,77,13,127,6,6,0,0,0,0,1
+G40716,Oberösterreich,St. Konrad,896,765,341,160,128,46,9,74,3,5,0,0,0,0,0
+G40717,Oberösterreich,St. Wolfgang im Salzkammergut,2126,1581,743,347,194,83,27,170,11,6,0,0,0,0,0
+G40718,Oberösterreich,Traunkirchen,1351,1032,421,223,102,76,19,181,4,5,0,0,0,0,0
+G40719,Oberösterreich,Scharnstein,3774,2916,993,709,482,234,49,417,15,17,0,0,0,0,0
+G40720,Oberösterreich,Vorchdorf,5747,4721,1656,1040,880,356,68,679,20,21,0,0,0,0,1
+G40801,Oberösterreich,Aistersheim,714,536,201,76,142,40,3,68,1,5,0,0,0,0,0
+G40802,Oberösterreich,Bad Schallerbach,3086,2205,764,461,442,198,29,290,11,9,0,0,0,0,0
+G40804,Oberösterreich,Eschenau im Hausruckkreis,897,802,445,82,163,36,4,67,1,2,0,0,0,0,1
+G40805,Oberösterreich,Gallspach,1838,1329,459,277,340,82,11,149,4,7,0,0,0,0,0
+G40806,Oberösterreich,Gaspoltshofen,2842,2007,745,317,487,159,34,247,7,10,0,0,0,0,1
+G40807,Oberösterreich,Geboltskirchen,1160,966,374,209,179,55,12,127,4,6,0,0,0,0,0
+G40808,Oberösterreich,Grieskirchen,3522,2641,947,551,511,193,30,382,10,16,0,0,0,0,0
+G40809,Oberösterreich,Haag am Hausruck,1662,1326,507,244,243,108,14,201,3,5,0,0,0,0,1
+G40810,Oberösterreich,Heiligenberg,569,553,317,39,112,32,2,48,2,1,0,0,0,0,0
+G40811,Oberösterreich,Hofkirchen an der Trattnach,1241,999,427,146,214,70,10,122,6,4,0,0,0,0,0
+G40812,Oberösterreich,Kallham,2060,1520,652,265,305,86,14,186,7,5,0,0,0,0,1
+G40813,Oberösterreich,Kematen am Innbach,1079,884,328,146,244,56,16,91,2,1,0,0,0,0,0
+G40814,Oberösterreich,Meggenhofen,1187,949,432,133,151,78,10,136,4,4,0,0,0,0,0
+G40815,Oberösterreich,Michaelnbach,1034,775,414,98,132,41,10,77,1,2,0,0,0,0,0
+G40816,Oberösterreich,Natternbach,1870,1542,712,281,297,77,14,152,3,6,0,0,0,0,1
+G40817,Oberösterreich,Neukirchen am Walde,1334,1190,550,183,242,79,10,117,4,5,0,0,0,0,0
+G40818,Oberösterreich,Neumarkt im Hausruckkreis,1101,793,282,189,178,37,10,86,5,5,0,0,0,0,0
+G40820,Oberösterreich,Pötting,455,412,237,47,59,33,5,30,0,0,0,0,0,0,0
+G40821,Oberösterreich,Pollham,788,582,265,78,92,40,9,96,1,1,0,0,0,0,0
+G40822,Oberösterreich,Pram,1351,1018,367,161,258,69,12,141,4,6,0,0,0,0,1
+G40823,Oberösterreich,Rottenbach,846,676,233,111,196,41,10,74,6,5,0,0,0,0,0
+G40824,Oberösterreich,St. Agatha,1746,1487,769,191,280,95,15,126,6,6,0,0,0,0,0
+G40825,Oberösterreich,St. Georgen bei Grieskirchen,1084,859,328,152,165,66,12,127,4,5,0,0,0,0,0
+G40826,Oberösterreich,St. Thomas,432,368,179,54,68,15,8,40,1,3,0,0,0,0,0
+G40827,Oberösterreich,Schlüßlberg,2377,1921,679,502,343,119,23,237,11,7,0,0,0,0,0
+G40828,Oberösterreich,Steegen,916,679,324,87,129,37,6,88,1,6,0,0,0,0,0
+G40829,Oberösterreich,Taufkirchen an der Trattnach,1612,1278,532,198,312,63,12,149,7,4,0,0,0,0,0
+G40830,Oberösterreich,Tollet,762,629,257,109,103,55,7,96,1,2,0,0,0,0,0
+G40831,Oberösterreich,Waizenkirchen,2918,2427,1121,323,474,158,32,302,8,10,0,0,0,0,0
+G40832,Oberösterreich,Wallern an der Trattnach,2392,1901,683,387,387,143,28,259,6,9,0,0,0,0,0
+G40833,Oberösterreich,Weibern,1300,1005,475,141,152,84,6,143,2,2,0,0,0,0,0
+G40834,Oberösterreich,Wendling,688,540,245,74,126,26,3,62,1,2,0,0,0,0,1
+G40835,Oberösterreich,Peuerbach,3729,2870,1323,401,532,221,30,337,11,15,0,0,0,0,0
+G40901,Oberösterreich,Edlbach,503,383,184,66,62,32,1,35,1,2,0,0,0,0,0
+G40902,Oberösterreich,Grünburg,2940,2097,780,497,447,106,28,217,11,10,0,0,0,0,0
+G40903,Oberösterreich,Hinterstoder,720,537,248,72,104,43,9,57,3,2,0,0,0,0,0
+G40904,Oberösterreich,Inzersdorf im Kremstal,1507,1138,450,200,215,79,20,163,6,6,0,0,0,0,0
+G40905,Oberösterreich,Kirchdorf an der Krems,3267,2342,702,626,353,177,40,419,9,13,0,0,0,0,3
+G40906,Oberösterreich,Klaus an der Pyhrnbahn,805,633,200,228,105,32,6,58,3,2,0,0,0,0,0
+G40907,Oberösterreich,Kremsmünster,4708,3574,1444,578,618,333,44,515,18,22,0,0,0,0,0
+G40908,Oberösterreich,Micheldorf in Oberösterreich,4513,3524,1156,911,612,261,55,486,15,24,0,0,0,0,2
+G40909,Oberösterreich,Molln,2773,2181,768,528,420,150,28,263,12,12,0,0,0,0,0
+G40910,Oberösterreich,Nußbach,1833,1490,716,248,199,124,15,174,4,10,0,0,0,0,0
+G40911,Oberösterreich,Oberschlierbach,369,322,155,46,38,23,3,55,0,3,0,0,0,0,0
+G40912,Oberösterreich,Pettenbach,4057,3226,1201,537,751,245,33,427,16,15,0,0,0,0,0
+G40913,Oberösterreich,Ried im Traunkreis,2158,1725,775,225,381,122,25,180,3,14,0,0,0,0,0
+G40914,Oberösterreich,Rosenau am Hengstpaß,491,369,125,117,74,20,5,21,3,4,0,0,0,0,0
+G40915,Oberösterreich,Roßleithen,1485,1088,463,224,216,61,10,100,4,8,0,0,0,0,1
+G40916,Oberösterreich,St. Pankraz,278,212,63,39,73,13,3,20,1,0,0,0,0,0,0
+G40917,Oberösterreich,Schlierbach,2183,1714,642,296,308,159,23,273,10,5,0,0,0,0,0
+G40918,Oberösterreich,Spital am Pyhrn,1758,1286,500,283,303,71,15,105,3,5,0,0,0,0,1
+G40919,Oberösterreich,Steinbach am Ziehberg,686,543,239,95,94,41,8,56,6,4,0,0,0,0,0
+G40920,Oberösterreich,Steinbach an der Steyr,1603,1323,616,269,218,67,21,122,2,7,0,0,0,0,1
+G40921,Oberösterreich,Vorderstoder,662,484,249,57,94,31,4,47,1,1,0,0,0,0,0
+G40922,Oberösterreich,Wartberg an der Krems,2304,1812,793,302,310,137,18,230,10,14,0,0,0,0,0
+G40923,Oberösterreich,Windischgarsten,1875,1302,503,303,229,95,22,139,5,7,0,0,0,0,0
+G41001,Oberösterreich,Allhaming,928,775,329,133,130,71,7,97,3,6,0,0,0,0,0
+G41002,Oberösterreich,Ansfelden,10867,7953,2076,2497,1833,525,114,842,34,31,0,0,0,0,1
+G41003,Oberösterreich,Asten,4672,3623,1012,1187,732,247,47,366,16,14,0,0,0,0,2
+G41004,Oberösterreich,Eggendorf im Traunkreis,748,597,237,126,99,49,10,69,3,4,0,0,0,0,0
+G41005,Oberösterreich,Enns,7954,6068,1881,1760,922,486,101,844,38,33,0,0,0,0,2
+G41006,Oberösterreich,Hargelsberg,1074,920,356,207,135,85,15,114,5,2,0,0,0,0,1
+G41007,Oberösterreich,Hörsching,4546,3623,1210,914,678,304,50,428,19,19,0,0,0,0,1
+G41008,Oberösterreich,Hofkirchen im Traunkreis,1433,1134,364,264,176,130,18,170,3,7,0,0,0,0,1
+G41009,Oberösterreich,Kematen an der Krems,2086,1591,605,341,295,139,24,169,8,9,0,0,0,0,0
+G41010,Oberösterreich,Kirchberg-Thening,1961,1624,485,442,254,171,21,237,8,5,0,0,0,0,1
+G41011,Oberösterreich,Kronstorf,2683,2208,725,636,347,173,28,268,8,20,0,0,0,0,2
+G41012,Oberösterreich,Leonding,20907,15772,4650,4154,2354,1505,273,2687,78,69,0,0,0,0,3
+G41013,Oberösterreich,St. Florian,5025,3942,1469,847,556,417,59,555,21,15,0,0,0,0,2
+G41014,Oberösterreich,Neuhofen an der Krems,4974,3427,1084,807,508,317,62,614,14,21,0,0,0,0,0
+G41015,Oberösterreich,Niederneukirchen,1675,1343,535,276,230,95,17,177,8,3,0,0,0,0,1
+G41016,Oberösterreich,Oftering,1647,1390,478,344,245,111,23,176,8,4,0,0,0,0,0
+G41017,Oberösterreich,Pasching,5468,4508,1335,1273,730,448,71,593,24,32,0,0,0,0,2
+G41018,Oberösterreich,Piberbach,1475,1130,419,261,184,101,21,130,9,5,0,0,0,0,0
+G41019,Oberösterreich,Pucking,3157,2490,806,559,580,202,26,293,14,11,0,0,0,0,0
+G41020,Oberösterreich,St. Marien,3785,2981,1077,720,446,263,40,398,18,15,0,0,0,0,2
+G41021,Oberösterreich,Traun,15940,11309,3141,3768,2010,731,173,1382,59,39,0,0,0,0,6
+G41022,Oberösterreich,Wilhering,4630,3799,1300,890,420,424,58,682,16,8,0,0,0,0,0
+G41101,Oberösterreich,Allerheiligen im Mühlkreis,1021,895,384,207,147,56,10,87,1,3,0,0,0,0,0
+G41102,Oberösterreich,Arbing,1158,969,384,216,150,81,6,128,2,1,0,0,0,0,0
+G41103,Oberösterreich,Baumgartenberg,1364,1119,467,208,256,61,8,108,5,5,0,0,0,0,0
+G41104,Oberösterreich,Dimbach,811,637,295,130,109,34,6,57,3,3,0,0,0,0,0
+G41105,Oberösterreich,Grein,2296,1705,670,406,300,103,31,177,8,8,0,0,0,0,2
+G41106,Oberösterreich,Katsdorf,2525,2006,722,494,250,170,34,316,10,9,0,0,0,0,0
+G41107,Oberösterreich,Klam,761,551,221,94,141,32,7,50,2,4,0,0,0,0,0
+G41108,Oberösterreich,Bad Kreuzen,1781,1361,787,147,207,76,11,117,6,11,0,0,0,0,0
+G41109,Oberösterreich,Langenstein,1951,1635,506,597,256,82,16,161,9,8,0,0,0,0,1
+G41110,Oberösterreich,Luftenberg an der Donau,3320,2590,837,768,435,165,45,314,8,15,0,0,0,0,2
+G41111,Oberösterreich,Mauthausen,3641,2770,804,1002,409,158,34,330,16,15,0,0,0,0,1
+G41112,Oberösterreich,Mitterkirchen im Machland,1350,1060,486,240,179,48,9,88,4,5,0,0,0,0,0
+G41113,Oberösterreich,Münzbach,1309,1114,590,144,210,54,10,97,4,4,0,0,0,0,0
+G41114,Oberösterreich,Naarn im Machlande,2799,2392,1043,550,384,145,27,225,10,8,0,0,0,0,1
+G41115,Oberösterreich,Pabneukirchen,1329,1070,530,174,202,52,7,95,6,3,0,0,0,0,0
+G41116,Oberösterreich,Perg,6364,4883,1771,1206,835,336,71,616,22,21,0,0,0,0,5
+G41117,Oberösterreich,Rechberg,751,654,396,85,70,30,4,63,3,3,0,0,0,0,0
+G41118,Oberösterreich,Ried in der Riedmark,3410,2798,1017,807,396,182,26,339,17,11,0,0,0,0,2
+G41119,Oberösterreich,St. Georgen am Walde,1622,1323,611,314,229,61,9,89,5,4,0,0,0,0,0
+G41120,Oberösterreich,St. Georgen an der Gusen,3279,2656,827,821,353,172,39,410,20,13,0,0,0,0,1
+G41121,Oberösterreich,St. Nikola an der Donau,563,445,234,86,55,20,6,34,6,4,0,0,0,0,0
+G41122,Oberösterreich,St. Thomas am Blasenstein,739,603,367,77,76,30,5,44,3,2,0,0,0,0,0
+G41123,Oberösterreich,Saxen,1381,1136,444,243,255,68,12,107,4,4,0,0,0,0,0
+G41124,Oberösterreich,Schwertberg,3957,3176,990,993,488,196,47,435,15,11,0,0,0,0,1
+G41125,Oberösterreich,Waldhausen im Strudengau,2285,1840,821,438,297,76,13,185,6,4,0,0,0,0,0
+G41126,Oberösterreich,Windhaag bei Perg,1132,913,466,139,141,50,10,99,5,3,0,0,0,0,0
+G41201,Oberösterreich,Andrichsfurt,605,492,261,38,104,27,3,56,1,3,0,0,0,0,0
+G41202,Oberösterreich,Antiesenhofen,813,564,246,96,140,33,5,42,2,1,0,0,0,0,0
+G41203,Oberösterreich,Aurolzmünster,2249,1585,593,277,433,96,14,160,4,7,0,0,0,0,0
+G41204,Oberösterreich,Eberschwang,2719,2045,752,405,483,135,20,229,13,8,0,0,0,0,1
+G41205,Oberösterreich,Eitzing,655,501,234,68,116,31,4,48,0,1,0,0,0,0,0
+G41206,Oberösterreich,Geiersberg,423,322,145,38,70,23,5,38,2,0,0,0,0,0,0
+G41207,Oberösterreich,Geinberg,1052,663,295,78,161,41,13,70,5,2,0,0,0,0,0
+G41208,Oberösterreich,Gurten,929,702,292,119,170,51,7,57,4,2,0,0,0,0,0
+G41209,Oberösterreich,Hohenzell,1797,1444,661,157,268,129,18,203,3,4,0,0,0,0,0
+G41210,Oberösterreich,Kirchdorf am Inn,504,433,223,46,91,26,8,36,0,2,0,0,0,0,0
+G41211,Oberösterreich,Kirchheim im Innkreis,587,507,251,54,117,30,4,48,1,2,0,0,0,0,0
+G41212,Oberösterreich,Lambrechten,1077,884,417,91,228,53,8,81,6,1,0,0,0,0,0
+G41213,Oberösterreich,Lohnsburg am Kobernaußerwald,1818,1402,661,165,327,81,15,142,4,7,0,0,0,0,0
+G41214,Oberösterreich,Mehrnbach,1856,1350,580,179,346,70,22,139,8,5,0,0,0,0,0
+G41215,Oberösterreich,Mettmach,1917,1499,619,217,446,78,18,107,7,6,0,0,0,0,0
+G41216,Oberösterreich,Mörschwang,271,225,113,19,33,15,1,42,0,0,0,0,0,0,0
+G41217,Oberösterreich,Mühlheim am Inn,520,436,175,89,95,21,3,45,4,3,0,0,0,0,1
+G41218,Oberösterreich,Neuhofen im Innkreis,1925,1504,620,255,281,123,13,194,9,8,0,0,0,0,0
+G41219,Oberösterreich,Obernberg am Inn,1148,702,268,118,179,49,5,77,1,5,0,0,0,0,0
+G41220,Oberösterreich,Ort im Innkreis,921,740,322,93,189,42,6,80,2,4,0,0,0,0,0
+G41221,Oberösterreich,Pattigham,756,595,264,55,145,39,6,81,5,1,0,0,0,0,0
+G41222,Oberösterreich,Peterskirchen,577,496,261,41,97,37,3,47,8,2,0,0,0,0,0
+G41223,Oberösterreich,Pramet,834,663,295,88,162,39,5,65,4,6,0,0,0,0,1
+G41224,Oberösterreich,Reichersberg,1149,848,391,107,193,49,10,95,2,1,0,0,0,0,1
+G41225,Oberösterreich,Ried im Innkreis,8345,5732,1951,1144,1194,458,102,824,29,29,0,0,0,0,0
+G41226,Oberösterreich,St. Georgen bei Obernberg am Inn,454,397,225,39,56,26,4,44,1,2,0,0,0,0,0
+G41227,Oberösterreich,St. Marienkirchen am Hausruck,676,644,317,50,139,55,4,75,3,2,0,0,0,0,0
+G41228,Oberösterreich,St. Martin im Innkreis,1345,882,356,141,201,55,9,117,2,1,0,0,0,0,0
+G41229,Oberösterreich,Schildorn,962,726,321,126,129,55,13,72,7,3,0,0,0,0,0
+G41230,Oberösterreich,Senftenbach,618,427,194,55,91,28,5,50,3,1,0,0,0,0,0
+G41231,Oberösterreich,Taiskirchen im Innkreis,1931,1609,750,184,327,109,17,211,4,8,0,0,0,0,0
+G41232,Oberösterreich,Tumeltsham,1265,944,431,103,197,77,12,118,2,4,0,0,0,0,0
+G41233,Oberösterreich,Utzenaich,1199,959,431,135,195,66,9,115,4,5,0,0,0,0,0
+G41234,Oberösterreich,Waldzell,1766,1428,635,237,328,89,12,121,2,4,0,0,0,0,0
+G41235,Oberösterreich,Weilbach,482,404,217,43,82,16,1,41,2,2,0,0,0,0,0
+G41236,Oberösterreich,Wippenham,448,366,138,77,72,25,9,44,1,1,0,0,0,0,0
+G41304,Oberösterreich,Altenfelden,1804,1438,617,213,305,122,23,143,8,6,0,0,0,0,0
+G41305,Oberösterreich,Arnreit,909,818,432,84,132,63,9,95,2,2,0,0,0,0,0
+G41306,Oberösterreich,Atzesberg,369,345,176,44,73,19,2,27,0,3,0,0,0,0,0
+G41307,Oberösterreich,Auberg,427,368,195,36,67,24,5,37,1,2,0,0,0,0,0
+G41309,Oberösterreich,Haslach an der Mühl,2074,1624,639,374,233,128,23,210,11,6,0,0,0,0,0
+G41311,Oberösterreich,Hörbich,325,306,169,25,62,14,1,33,0,2,0,0,0,0,0
+G41312,Oberösterreich,Hofkirchen im Mühlkreis,1206,884,428,122,136,59,18,117,3,2,0,0,0,0,0
+G41313,Oberösterreich,Julbach,1283,984,433,264,156,48,7,67,5,4,0,0,0,0,0
+G41314,Oberösterreich,Kirchberg ob der Donau,861,688,324,122,101,57,8,69,4,4,0,0,0,0,0
+G41315,Oberösterreich,Klaffer am Hochficht,1054,803,376,133,188,37,6,58,1,3,0,0,0,0,0
+G41316,Oberösterreich,Kleinzell im Mühlkreis,1312,1037,460,187,144,73,10,155,2,4,0,0,0,0,1
+G41317,Oberösterreich,Kollerschlag,1192,994,525,118,224,42,13,66,2,3,0,0,0,0,0
+G41318,Oberösterreich,Lembach im Mühlkreis,1235,924,423,146,188,59,13,89,3,3,0,0,0,0,0
+G41319,Oberösterreich,Lichtenau im Mühlkreis,404,279,154,36,57,10,2,17,1,0,0,0,0,0,0
+G41320,Oberösterreich,Nebelberg,497,457,259,94,44,18,3,35,3,0,0,0,0,0,0
+G41321,Oberösterreich,Neufelden,931,694,320,103,97,46,6,120,2,2,0,0,0,0,0
+G41322,Oberösterreich,Niederkappel,789,652,369,62,117,45,1,49,7,2,0,0,0,0,0
+G41323,Oberösterreich,Niederwaldkirchen,1456,1156,565,146,174,90,16,158,5,3,0,0,0,0,0
+G41324,Oberösterreich,Oberkappel,527,368,234,42,50,17,1,23,0,0,0,0,0,0,0
+G41325,Oberösterreich,Oepping,1311,1050,531,132,181,71,11,113,6,4,0,0,0,0,0
+G41326,Oberösterreich,Peilstein im Mühlviertel,1268,1054,584,158,144,59,12,90,2,4,0,0,0,0,0
+G41327,Oberösterreich,Pfarrkirchen im Mühlkreis,1161,949,543,93,146,53,12,97,1,4,0,0,0,0,0
+G41328,Oberösterreich,Putzleinsdorf,1253,1018,510,98,163,85,7,138,10,6,0,0,0,0,0
+G41329,Oberösterreich,Neustift im Mühlkreis,1146,913,474,133,114,60,6,118,2,6,0,0,0,0,0
+G41331,Oberösterreich,St. Johann am Wimberg,815,624,293,76,127,45,1,75,3,4,0,0,0,0,0
+G41332,Oberösterreich,St. Martin im Mühlkreis,2970,2399,1089,381,386,181,26,316,9,10,0,0,0,0,0
+G41333,Oberösterreich,St. Oswald bei Haslach,391,317,155,61,56,12,3,27,1,1,0,0,0,0,0
+G41334,Oberösterreich,St. Peter am Wimberg,1455,1233,660,184,135,94,9,140,7,3,0,0,0,0,0
+G41336,Oberösterreich,St. Ulrich im Mühlkreis,511,415,219,41,59,21,5,63,4,2,0,0,0,0,0
+G41337,Oberösterreich,St. Veit im Mühlkreis,983,845,425,92,149,72,9,92,3,3,0,0,0,0,0
+G41338,Oberösterreich,Sarleinsbach,1839,1569,846,187,237,99,16,173,9,2,0,0,0,0,0
+G41341,Oberösterreich,Schwarzenberg am Böhmerwald,457,383,211,64,60,16,6,25,0,0,0,0,0,0,0
+G41342,Oberösterreich,Ulrichsberg,2349,1771,840,252,342,113,16,181,18,8,0,0,0,0,1
+G41343,Oberösterreich,Aigen-Schlägl,2618,1850,904,282,315,100,26,212,3,8,0,0,0,0,0
+G41344,Oberösterreich,Rohrbach-Berg,4159,3054,1417,417,471,245,38,440,15,10,0,0,0,0,1
+G41345,Oberösterreich,Helfenberg,1263,1056,441,185,186,107,13,109,11,3,0,0,0,0,0
+G41346,Oberösterreich,St. Stefan-Afiesl,909,759,385,96,125,57,7,84,3,3,0,0,0,0,0
+G41401,Oberösterreich,Altschwendt,543,468,220,73,92,24,5,50,1,2,0,0,0,0,1
+G41402,Oberösterreich,Andorf,4103,3433,1424,634,850,171,30,298,13,12,0,0,0,0,0
+G41403,Oberösterreich,Brunnenthal,1566,1187,500,179,283,66,10,134,8,8,0,0,0,0,0
+G41404,Oberösterreich,Diersbach,1310,1020,455,143,242,52,11,111,4,1,0,0,0,0,0
+G41405,Oberösterreich,Dorf an der Pram,854,694,379,82,117,47,7,55,5,1,0,0,0,0,0
+G41406,Oberösterreich,Eggerding,1053,790,418,73,170,53,5,64,6,2,0,0,0,0,0
+G41407,Oberösterreich,Engelhartszell,764,473,215,67,108,21,3,55,3,1,0,0,0,0,0
+G41408,Oberösterreich,Enzenkirchen,1442,1165,507,174,336,53,6,78,5,6,0,0,0,0,0
+G41409,Oberösterreich,Esternberg,2347,1850,935,198,416,94,23,157,10,16,0,0,0,0,1
+G41410,Oberösterreich,Freinberg,996,683,374,95,127,31,4,49,0,2,0,0,0,0,0
+G41411,Oberösterreich,Kopfing im Innkreis,1625,1319,614,153,342,69,17,111,5,7,0,0,0,0,0
+G41412,Oberösterreich,Mayrhof,249,212,105,14,60,17,1,14,1,0,0,0,0,0,0
+G41413,Oberösterreich,Münzkirchen,2091,1677,806,215,382,92,15,152,10,4,0,0,0,0,0
+G41414,Oberösterreich,Raab,1819,1374,569,150,386,71,19,162,10,7,0,0,0,0,0
+G41415,Oberösterreich,Rainbach im Innkreis,1187,1000,454,153,243,58,7,82,2,2,0,0,0,0,0
+G41416,Oberösterreich,Riedau,1586,1105,411,245,233,66,10,126,11,4,0,0,0,0,0
+G41417,Oberösterreich,St. Aegidi,1290,1106,570,123,263,43,5,94,4,5,0,0,0,0,0
+G41418,Oberösterreich,St. Florian am Inn,2333,1734,680,331,403,98,15,193,9,5,0,0,0,0,0
+G41419,Oberösterreich,St. Marienkirchen bei Schärding,1454,1081,529,126,265,53,10,87,3,8,0,0,0,0,0
+G41420,Oberösterreich,St. Roman,1427,1188,655,85,288,68,8,77,3,5,0,0,0,0,0
+G41421,Oberösterreich,St. Willibald,931,799,368,115,202,38,7,64,3,2,0,0,0,0,0
+G41422,Oberösterreich,Schärding,3704,2385,856,566,496,138,21,288,11,9,0,0,0,0,0
+G41423,Oberösterreich,Schardenberg,1707,1364,738,141,271,78,12,119,2,3,0,0,0,0,1
+G41424,Oberösterreich,Sigharting,678,584,285,63,141,44,2,42,4,1,0,0,0,0,0
+G41425,Oberösterreich,Suben,951,678,304,119,131,43,7,71,0,3,0,0,0,0,0
+G41426,Oberösterreich,Taufkirchen an der Pram,2311,1828,752,346,442,102,12,160,7,8,0,0,0,0,0
+G41427,Oberösterreich,Vichtenstein,446,361,211,32,78,14,3,22,1,1,0,0,0,0,0
+G41428,Oberösterreich,Waldkirchen am Wesen,1003,805,404,118,158,43,5,71,2,4,0,0,0,0,0
+G41429,Oberösterreich,Wernstein am Inn,1210,898,387,159,199,60,10,73,5,5,0,0,0,0,1
+G41430,Oberösterreich,Zell an der Pram,1571,1193,575,152,217,63,14,160,6,7,0,0,0,0,0
+G41501,Oberösterreich,Adlwang,1473,1166,544,166,204,76,15,146,6,8,0,0,0,0,0
+G41502,Oberösterreich,Aschach an der Steyr,1899,1565,569,328,242,127,31,240,9,17,0,0,0,0,1
+G41503,Oberösterreich,Bad Hall,4034,2768,1055,617,447,223,45,353,14,12,0,0,0,0,1
+G41504,Oberösterreich,Dietach,2484,2138,794,520,323,128,28,332,7,5,0,0,0,0,0
+G41505,Oberösterreich,Gaflenz,1536,1299,627,221,198,90,13,141,3,4,0,0,0,0,2
+G41506,Oberösterreich,Garsten,5172,4137,1515,949,655,275,55,637,23,25,0,0,0,0,2
+G41507,Oberösterreich,Großraming,2166,1818,715,480,269,119,17,196,9,12,0,0,0,0,2
+G41508,Oberösterreich,Laussa,1014,851,358,171,153,39,16,104,4,4,0,0,0,0,1
+G41509,Oberösterreich,Losenstein,1305,998,360,293,168,44,11,113,6,3,0,0,0,0,0
+G41510,Oberösterreich,Maria Neustift,1288,1104,553,158,203,76,6,94,8,6,0,0,0,0,0
+G41511,Oberösterreich,Pfarrkirchen bei Bad Hall,1825,1573,638,348,267,109,15,187,7,3,0,0,0,0,0
+G41512,Oberösterreich,Reichraming,1447,1189,326,479,191,52,13,113,4,11,0,0,0,0,0
+G41513,Oberösterreich,Rohr im Kremstal,1073,829,328,174,135,64,11,111,3,3,0,0,0,0,0
+G41514,Oberösterreich,St. Ulrich bei Steyr,2530,2032,862,412,324,137,26,256,7,5,0,0,0,0,2
+G41515,Oberösterreich,Schiedlberg,1015,813,446,123,105,45,10,77,6,1,0,0,0,0,0
+G41516,Oberösterreich,Sierning,7343,5937,1852,1874,1013,371,78,700,24,24,0,0,0,0,2
+G41517,Oberösterreich,Ternberg,2777,2189,843,523,377,143,37,241,14,11,0,0,0,0,0
+G41518,Oberösterreich,Waldneukirchen,1768,1498,671,270,245,102,21,177,6,6,0,0,0,0,0
+G41521,Oberösterreich,Wolfern,2605,2038,873,429,351,111,20,235,6,9,0,0,0,0,2
+G41522,Oberösterreich,Weyer,3378,2706,984,734,449,154,32,327,13,13,0,0,0,0,0
+G41601,Oberösterreich,Alberndorf in der Riedmark,3291,2651,1094,443,449,204,40,396,12,12,0,0,0,0,0
+G41602,Oberösterreich,Altenberg bei Linz,3674,3182,1417,459,403,321,37,521,11,13,0,0,0,0,0
+G41603,Oberösterreich,Bad Leonfelden,3332,2647,1180,382,404,230,23,398,15,14,0,0,0,0,1
+G41604,Oberösterreich,Eidenberg,1696,1498,733,208,162,131,17,230,7,9,0,0,0,0,2
+G41605,Oberösterreich,Engerwitzdorf,7027,5881,2113,1185,828,515,88,1100,17,30,0,0,0,0,4
+G41606,Oberösterreich,Feldkirchen an der Donau,4412,3724,1347,822,624,258,40,600,18,16,0,0,0,0,0
+G41607,Oberösterreich,Gallneukirchen,5242,4079,1247,966,459,370,68,917,25,27,0,0,0,0,0
+G41608,Oberösterreich,Goldwörth,693,590,251,107,89,42,5,90,4,3,0,0,0,0,0
+G41609,Oberösterreich,Gramastetten,4143,3320,1319,530,408,359,61,606,10,22,0,0,0,0,4
+G41610,Oberösterreich,Haibach im Mühlkreis,749,630,257,112,92,49,13,98,6,2,0,0,0,0,1
+G41611,Oberösterreich,Hellmonsödt,1890,1482,573,255,215,138,20,260,12,9,0,0,0,0,0
+G41612,Oberösterreich,Herzogsdorf,2164,1728,785,248,301,132,28,218,7,9,0,0,0,0,0
+G41613,Oberösterreich,Kirchschlag bei Linz,1721,1435,551,232,205,131,26,274,7,7,0,0,0,0,0
+G41614,Oberösterreich,Lichtenberg,2178,1904,738,336,219,204,26,365,11,6,0,0,0,0,0
+G41615,Oberösterreich,Oberneukirchen,2596,2135,909,344,299,186,23,356,12,6,0,0,0,0,1
+G41616,Oberösterreich,Ottenschlag im Mühlkreis,433,378,177,63,70,27,3,34,2,2,0,0,0,0,0
+G41617,Oberösterreich,Ottensheim,3725,2992,978,512,318,283,43,827,18,13,0,0,0,0,0
+G41618,Oberösterreich,Puchenau,3648,2860,913,579,310,318,52,658,17,15,0,0,0,0,0
+G41619,Oberösterreich,Reichenau im Mühlkreis,1031,859,367,161,118,72,15,118,3,5,0,0,0,0,0
+G41620,Oberösterreich,Reichenthal,1201,1023,506,177,117,74,9,126,5,9,0,0,0,0,0
+G41621,Oberösterreich,St. Gotthard im Mühlkreis,1054,908,355,201,123,60,10,154,4,1,0,0,0,0,0
+G41622,Oberösterreich,Schenkenfelden,1303,1103,563,138,135,99,13,143,6,6,0,0,0,0,0
+G41623,Oberösterreich,Sonnberg im Mühlkreis,794,656,258,119,97,59,7,109,3,4,0,0,0,0,0
+G41624,Oberösterreich,Steyregg,3881,3179,1050,841,449,276,47,492,8,15,0,0,0,0,1
+G41626,Oberösterreich,Walding,3378,2705,1027,613,295,221,38,477,16,18,0,0,0,0,0
+G41627,Oberösterreich,Zwettl an der Rodl,1364,1157,457,205,129,86,10,253,9,7,0,0,0,0,1
+G41628,Oberösterreich,Vorderweißenbach,2161,1878,918,294,280,124,21,228,6,7,0,0,0,0,0
+G41701,Oberösterreich,Ampflwang im Hausruckwald,2560,2043,592,713,365,91,46,215,10,8,0,0,0,0,1
+G41702,Oberösterreich,Attersee am Attersee,1277,937,391,151,137,75,8,168,3,4,0,0,0,0,0
+G41703,Oberösterreich,Attnang-Puchheim,5672,3875,1065,1244,723,232,61,499,34,14,0,0,0,0,2
+G41704,Oberösterreich,Atzbach,966,810,386,85,150,71,10,102,3,4,0,0,0,0,0
+G41705,Oberösterreich,Aurach am Hongar,1373,1143,414,246,248,79,25,116,5,9,0,0,0,0,0
+G41706,Oberösterreich,Berg im Attergau,827,709,399,68,113,37,6,77,3,6,0,0,0,0,0
+G41707,Oberösterreich,Desselbrunn,1412,1139,438,260,203,80,14,134,7,3,0,0,0,0,0
+G41708,Oberösterreich,Fornach,758,669,361,70,111,45,6,69,4,3,0,0,0,0,0
+G41709,Oberösterreich,Frankenburg am Hausruck,3933,3321,1203,786,704,202,54,341,14,16,0,0,0,0,0
+G41710,Oberösterreich,Frankenmarkt,2681,2117,889,416,379,134,43,225,18,12,0,0,0,0,0
+G41711,Oberösterreich,Gampern,2338,2025,868,303,314,160,45,315,6,13,0,0,0,0,1
+G41712,Oberösterreich,Innerschwand am Mondsee,915,667,369,62,76,49,12,91,5,3,0,0,0,0,0
+G41713,Oberösterreich,Lenzing,3925,2974,745,933,668,204,53,338,17,13,0,0,0,0,3
+G41714,Oberösterreich,Manning,654,528,232,95,76,24,8,87,4,2,0,0,0,0,0
+G41715,Oberösterreich,Mondsee,2600,1689,709,216,252,173,25,299,7,9,0,0,0,0,0
+G41716,Oberösterreich,Neukirchen an der Vöckla,2111,1817,756,320,336,117,30,237,10,11,0,0,0,0,0
+G41717,Oberösterreich,Niederthalheim,841,707,308,90,125,66,9,103,1,5,0,0,0,0,0
+G41718,Oberösterreich,Nußdorf am Attersee,894,624,297,74,110,64,7,68,2,3,0,0,0,0,0
+G41719,Oberösterreich,Oberhofen am Irrsee,1248,1004,498,154,147,70,12,111,6,5,0,0,0,0,0
+G41720,Oberösterreich,Oberndorf bei Schwanenstadt,1097,917,316,193,210,72,11,107,4,3,0,0,0,0,0
+G41721,Oberösterreich,Oberwang,1377,1050,608,84,210,50,12,77,5,4,0,0,0,0,0
+G41722,Oberösterreich,Ottnang am Hausruck,3037,2350,808,523,519,156,35,281,13,15,0,0,0,0,0
+G41723,Oberösterreich,Pfaffing,1185,972,405,191,169,63,13,124,2,5,0,0,0,0,0
+G41724,Oberösterreich,Pilsbach,521,449,191,109,56,28,6,57,1,2,0,0,0,0,0
+G41725,Oberösterreich,Pitzenberg,448,362,157,57,66,18,3,59,1,1,0,0,0,0,1
+G41726,Oberösterreich,Pöndorf,1878,1445,695,249,289,59,22,119,6,5,0,0,0,0,0
+G41727,Oberösterreich,Puchkirchen am Trattberg,814,628,271,105,92,50,11,91,5,3,0,0,0,0,0
+G41728,Oberösterreich,Pühret,496,410,158,75,83,30,6,55,0,3,0,0,0,0,0
+G41729,Oberösterreich,Redleiten,401,320,117,58,91,16,2,33,0,1,0,0,0,0,0
+G41730,Oberösterreich,Redlham,1293,1050,355,229,200,85,16,152,8,5,0,0,0,0,0
+G41731,Oberösterreich,Regau,5020,4183,1469,861,834,276,78,622,21,20,0,0,0,0,2
+G41732,Oberösterreich,Rüstorf,1678,1268,418,296,263,97,12,168,10,5,0,0,0,0,0
+G41733,Oberösterreich,Rutzenham,222,209,97,21,32,14,6,35,3,0,0,0,0,0,1
+G41734,Oberösterreich,St. Georgen im Attergau,3173,2371,990,339,500,176,35,309,13,9,0,0,0,0,0
+G41735,Oberösterreich,St. Lorenz,1890,1379,698,138,200,121,22,183,7,10,0,0,0,0,0
+G41736,Oberösterreich,Schlatt,1093,796,331,152,132,53,13,109,2,3,0,0,0,0,0
+G41737,Oberösterreich,Schörfling am Attersee,2695,1934,629,439,326,157,29,328,7,16,0,0,0,0,1
+G41738,Oberösterreich,Schwanenstadt,2967,2248,712,535,459,151,33,331,12,13,0,0,0,0,1
+G41739,Oberösterreich,Seewalchen am Attersee,4514,3453,1159,722,576,307,81,568,22,16,0,0,0,0,1
+G41740,Oberösterreich,Steinbach am Attersee,679,519,254,91,56,36,4,76,2,1,0,0,0,0,0
+G41741,Oberösterreich,Straß im Attergau,1164,853,399,107,181,61,8,89,2,6,0,0,0,0,0
+G41742,Oberösterreich,Tiefgraben,2967,2028,1014,219,290,197,17,273,5,12,0,0,0,0,0
+G41743,Oberösterreich,Timelkam,4414,3414,1160,842,545,247,62,525,14,18,0,0,0,0,1
+G41744,Oberösterreich,Ungenach,1178,1050,463,144,179,66,17,172,1,8,0,0,0,0,0
+G41745,Oberösterreich,Unterach am Attersee,1179,766,348,142,102,57,10,102,2,2,0,0,0,0,0
+G41746,Oberösterreich,Vöcklabruck,8994,6470,2097,1494,1031,512,121,1129,49,36,0,0,0,0,1
+G41747,Oberösterreich,Vöcklamarkt,3812,2986,1216,501,557,218,47,415,13,18,0,0,0,0,2
+G41748,Oberösterreich,Weißenkirchen im Attergau,771,625,320,73,130,31,6,60,4,2,0,0,0,0,0
+G41749,Oberösterreich,Weyregg am Attersee,1275,936,382,158,131,103,13,145,2,2,0,0,0,0,0
+G41750,Oberösterreich,Wolfsegg am Hausruck,1518,1144,428,281,172,66,18,160,13,4,0,0,0,0,1
+G41751,Oberösterreich,Zell am Moos,1229,894,439,99,164,76,10,98,4,3,0,0,0,0,0
+G41752,Oberösterreich,Zell am Pettenfirst,1010,840,345,133,126,72,13,138,8,4,0,0,0,0,0
+G41801,Oberösterreich,Aichkirchen,452,380,189,34,78,32,7,37,0,4,0,0,0,0,0
+G41802,Oberösterreich,Bachmanning,511,400,156,83,80,20,5,54,2,1,0,0,0,0,0
+G41803,Oberösterreich,Bad Wimsbach-Neydharting,2017,1611,688,311,281,116,15,181,7,10,0,0,0,0,1
+G41804,Oberösterreich,Buchkirchen,3299,2571,866,603,509,206,48,316,10,13,0,0,0,0,1
+G41805,Oberösterreich,Eberstalzell,2054,1668,747,189,391,125,16,175,13,12,0,0,0,0,0
+G41806,Oberösterreich,Edt bei Lambach,1750,1370,527,277,287,98,22,148,8,3,0,0,0,0,1
+G41807,Oberösterreich,Fischlham,1091,873,369,152,169,77,9,91,3,2,0,0,0,0,1
+G41808,Oberösterreich,Gunskirchen,4639,3680,1360,784,758,295,51,403,11,18,0,0,0,0,0
+G41809,Oberösterreich,Holzhausen,758,603,218,116,121,60,10,76,0,2,0,0,0,0,0
+G41810,Oberösterreich,Krenglbach,2470,1976,696,426,383,186,16,255,9,4,0,0,0,0,1
+G41811,Oberösterreich,Lambach,2371,1600,541,373,334,117,25,195,6,9,0,0,0,0,0
+G41812,Oberösterreich,Marchtrenk,9807,7572,2151,2078,1694,582,129,863,35,39,0,0,0,0,3
+G41813,Oberösterreich,Neukirchen bei Lambach,729,562,241,90,115,48,6,56,5,1,0,0,0,0,0
+G41814,Oberösterreich,Offenhausen,1274,1055,427,144,252,82,9,133,5,3,0,0,0,0,0
+G41815,Oberösterreich,Pennewang,722,594,292,56,120,44,6,72,2,3,0,0,0,0,0
+G41816,Oberösterreich,Pichl bei Wels,2209,1844,668,351,391,143,25,253,3,11,0,0,0,0,0
+G41817,Oberösterreich,Sattledt,1972,1556,578,292,369,152,27,126,5,6,0,0,0,0,0
+G41818,Oberösterreich,Schleißheim,1053,867,330,152,161,99,13,107,1,4,0,0,0,0,0
+G41819,Oberösterreich,Sipbachzell,1575,1332,577,201,270,109,14,149,6,6,0,0,0,0,0
+G41820,Oberösterreich,Stadl-Paura,3593,2494,734,595,630,151,37,316,17,15,0,0,0,0,0
+G41821,Oberösterreich,Steinerkirchen an der Traun,1855,1555,742,168,294,130,13,196,5,5,0,0,0,0,1
+G41822,Oberösterreich,Steinhaus,1716,1313,508,206,341,109,13,129,2,4,0,0,0,0,0
+G41823,Oberösterreich,Thalheim bei Wels,4218,3224,1129,583,583,326,58,516,16,12,0,0,0,0,1
+G41824,Oberösterreich,Weißkirchen an der Traun,2652,2183,823,440,416,194,36,257,10,7,0,0,0,0,0
+G50101,Salzburg,Salzburg,99178,68817,25197,12673,7745,6831,1474,13621,871,405,0,0,0,0,0
+G50201,Salzburg,Abtenau,4467,3693,2106,596,371,261,38,304,8,10,0,0,0,0,0
+G50202,Salzburg,Adnet,2824,2350,1223,348,264,182,37,276,9,12,0,0,0,0,0
+G50203,Salzburg,Annaberg-Lungötz,1715,1466,853,232,194,76,10,95,4,3,0,0,0,0,0
+G50204,Salzburg,Golling an der Salzach,3044,2403,1047,460,313,228,39,292,16,9,0,0,0,0,0
+G50205,Salzburg,Hallein,13971,9901,3678,2302,1410,809,186,1377,85,54,0,0,0,0,0
+G50206,Salzburg,Krispl,688,619,355,91,99,27,4,41,1,1,0,0,0,0,0
+G50207,Salzburg,Kuchl,5490,4301,2128,571,509,395,67,584,27,20,0,0,0,0,0
+G50208,Salzburg,Oberalm,3288,2544,1091,389,328,244,34,432,15,12,0,0,0,0,0
+G50209,Salzburg,Puch bei Hallein,3394,2498,1198,366,274,238,43,349,21,9,0,0,0,0,0
+G50210,Salzburg,Rußbach am Paß Gschütt,627,528,273,111,63,33,2,39,4,3,0,0,0,0,0
+G50211,Salzburg,Sankt Koloman,1341,1199,765,106,160,68,14,74,7,5,0,0,0,0,0
+G50212,Salzburg,Scheffau am Tennengebirge,1101,928,535,115,124,69,5,65,9,5,0,0,0,0,0
+G50213,Salzburg,Bad Vigaun,1566,1307,661,170,188,111,16,152,3,6,0,0,0,0,0
+G50301,Salzburg,Anif,3075,2269,1094,245,285,241,31,349,10,13,0,0,0,0,0
+G50302,Salzburg,Anthering,2853,2321,1217,254,236,214,31,343,12,13,0,0,0,0,0
+G50303,Salzburg,Bergheim,4002,3064,1500,364,363,301,43,464,15,13,0,0,0,0,0
+G50304,Salzburg,Berndorf bei Salzburg,1388,1077,542,139,161,96,16,114,4,5,0,0,0,0,0
+G50305,Salzburg,Bürmoos,3669,2820,906,783,423,233,52,371,21,30,0,0,0,0,0
+G50306,Salzburg,Dorfbeuern,1205,1017,568,108,131,89,9,107,2,3,0,0,0,0,0
+G50307,Salzburg,Ebenau,1100,907,489,98,132,74,12,94,3,4,0,0,0,0,0
+G50308,Salzburg,Elixhausen,2351,1849,925,267,190,174,24,247,9,12,0,0,0,0,0
+G50309,Salzburg,Elsbethen,4253,3309,1560,396,368,374,40,531,27,14,0,0,0,0,0
+G50310,Salzburg,Eugendorf,5319,4173,2053,495,592,372,58,551,23,29,0,0,0,0,0
+G50311,Salzburg,Faistenau,2385,1995,979,187,438,152,30,186,13,10,0,0,0,0,0
+G50312,Salzburg,Fuschl am See,1105,886,463,88,122,87,5,113,5,3,0,0,0,0,0
+G50313,Salzburg,Göming,613,574,311,49,74,46,6,85,1,2,0,0,0,0,0
+G50314,Salzburg,Grödig,5115,3846,1640,763,476,364,59,488,25,31,0,0,0,0,0
+G50315,Salzburg,Großgmain,1821,1323,588,161,243,114,19,185,7,6,0,0,0,0,0
+G50316,Salzburg,Hallwang,3274,2469,1155,313,300,238,34,392,22,16,0,0,0,0,0
+G50317,Salzburg,Henndorf am Wallersee,3739,2868,1343,367,448,278,35,362,16,19,0,0,0,0,0
+G50318,Salzburg,Hintersee,358,301,179,42,38,20,3,18,0,1,0,0,0,0,0
+G50319,Salzburg,Hof bei Salzburg,2687,2033,1004,236,278,188,33,273,12,9,0,0,0,0,0
+G50320,Salzburg,Köstendorf,2085,1660,883,177,226,159,32,170,6,7,0,0,0,0,0
+G50321,Salzburg,Koppl,2733,2123,1004,236,260,251,31,314,6,21,0,0,0,0,0
+G50322,Salzburg,Lamprechtshausen,2899,2361,1113,317,361,204,42,294,16,14,0,0,0,0,0
+G50323,Salzburg,Mattsee,2511,1951,990,209,196,221,24,292,9,11,0,0,0,0,0
+G50324,Salzburg,Neumarkt am Wallersee,4526,3232,1387,509,534,269,56,444,13,21,0,0,0,0,0
+G50325,Salzburg,Nußdorf am Haunsberg,1870,1540,814,189,184,121,25,192,7,7,0,0,0,0,0
+G50326,Salzburg,Oberndorf bei Salzburg,4068,2946,1251,541,364,259,41,454,23,13,0,0,0,0,0
+G50327,Salzburg,Obertrum am See,3683,3032,1609,281,370,287,47,408,14,15,0,0,0,0,0
+G50328,Salzburg,Plainfeld,978,830,450,84,110,77,10,89,4,6,0,0,0,0,0
+G50329,Salzburg,Sankt Georgen bei Salzburg,2363,2002,1000,288,289,154,18,225,14,13,0,0,0,0,0
+G50330,Salzburg,Sankt Gilgen,2881,1983,1009,251,277,190,22,219,8,7,0,0,0,0,0
+G50331,Salzburg,Schleedorf,841,712,365,60,140,53,10,80,4,1,0,0,0,0,0
+G50332,Salzburg,Seeham,1483,1131,604,101,148,119,12,132,8,7,0,0,0,0,0
+G50335,Salzburg,Straßwalchen,5500,4491,2298,601,728,333,45,454,14,20,0,0,0,0,0
+G50336,Salzburg,Strobl,2832,2100,1016,299,289,189,20,265,12,10,0,0,0,0,0
+G50337,Salzburg,Thalgau,4633,3470,1762,362,547,334,38,393,13,21,0,0,0,0,0
+G50338,Salzburg,Wals-Siezenheim,10031,7746,3702,905,1125,743,122,1054,53,41,0,0,0,0,0
+G50339,Salzburg,Seekirchen am Wallersee,8058,6297,2850,718,897,615,93,1061,30,33,0,0,0,0,0
+G50401,Salzburg,Altenmarkt im Pongau,3106,2337,1336,258,341,184,18,191,6,3,0,0,0,0,0
+G50402,Salzburg,Bad Hofgastein,4973,3681,1847,765,542,238,32,240,6,12,0,0,0,0,0
+G50403,Salzburg,Bad Gastein,2699,2006,935,391,378,131,24,133,8,7,0,0,0,0,0
+G50404,Salzburg,Bischofshofen,7434,5389,2222,1495,881,296,73,387,20,16,0,0,0,0,0
+G50405,Salzburg,Dorfgastein,1284,1098,612,197,133,75,10,66,4,1,0,0,0,0,0
+G50406,Salzburg,Eben im Pongau,1723,1445,819,188,237,92,11,88,5,7,0,0,0,0,0
+G50407,Salzburg,Filzmoos,1019,850,548,77,118,58,5,36,7,1,0,0,0,0,0
+G50408,Salzburg,Flachau,2088,1794,1049,186,302,127,8,112,3,6,0,0,0,0,0
+G50409,Salzburg,Forstau,437,392,232,54,62,27,2,13,1,0,0,0,0,0,0
+G50410,Salzburg,Goldegg,2006,1573,813,238,252,124,7,131,4,4,0,0,0,0,0
+G50411,Salzburg,Großarl,2853,2412,1536,360,235,127,9,134,3,7,0,0,0,0,0
+G50412,Salzburg,Hüttau,1058,856,469,127,169,38,10,38,2,2,0,0,0,0,0
+G50413,Salzburg,Hüttschlag,703,621,400,94,61,25,3,34,3,2,0,0,0,0,0
+G50414,Salzburg,Kleinarl,600,513,317,71,61,27,3,29,2,2,0,0,0,0,0
+G50415,Salzburg,Mühlbach am Hochkönig,1129,868,412,241,114,38,9,46,5,3,0,0,0,0,0
+G50416,Salzburg,Pfarrwerfen,1830,1469,847,206,201,94,9,104,4,5,0,0,0,0,0
+G50417,Salzburg,Radstadt,3321,2407,1228,331,488,160,21,167,6,6,0,0,0,0,0
+G50418,Salzburg,Sankt Johann im Pongau,7895,5947,2867,1008,953,481,73,528,20,17,0,0,0,0,0
+G50419,Salzburg,Sankt Martin am Tennengebirge,1267,1025,588,176,112,73,4,66,5,1,0,0,0,0,0
+G50420,Salzburg,Sankt Veit im Pongau,2944,2451,1288,456,311,160,25,194,10,7,0,0,0,0,0
+G50421,Salzburg,Schwarzach im Pongau,2523,1792,569,686,243,106,26,142,12,8,0,0,0,0,0
+G50422,Salzburg,Untertauern,326,192,114,23,36,8,1,9,0,0,0,0,0,0,0
+G50423,Salzburg,Wagrain,2215,1641,912,211,284,106,15,101,7,5,0,0,0,0,0
+G50424,Salzburg,Werfen,2240,1702,734,399,298,116,19,118,8,10,0,0,0,0,0
+G50425,Salzburg,Werfenweng,716,564,296,36,141,39,6,44,1,1,0,0,0,0,0
+G50501,Salzburg,Göriach,300,239,139,32,42,11,2,12,0,0,0,0,0,0,0
+G50502,Salzburg,Lessach,451,395,241,42,68,22,3,18,0,0,0,0,0,0,0
+G50503,Salzburg,Mariapfarr,1929,1429,771,202,230,102,15,101,3,5,0,0,0,0,0
+G50504,Salzburg,Mauterndorf,1236,1030,574,142,173,61,6,65,6,3,0,0,0,0,0
+G50505,Salzburg,Muhr,414,360,204,58,75,9,3,12,0,0,0,0,0,0,0
+G50506,Salzburg,Ramingstein,895,680,307,158,150,29,3,29,2,1,0,0,0,0,0
+G50507,Salzburg,Sankt Andrä im Lungau,631,491,276,66,106,16,4,22,1,0,0,0,0,0,0
+G50508,Salzburg,Sankt Margarethen im Lungau,537,468,233,82,95,26,2,26,2,0,0,0,0,0,0
+G50509,Salzburg,Sankt Michael im Lungau,2737,2145,1052,364,430,130,27,128,6,8,0,0,0,0,0
+G50510,Salzburg,Tamsweg,4529,3153,1556,436,693,195,25,218,10,19,0,0,0,0,0
+G50511,Salzburg,Thomatal,276,235,105,29,67,18,2,14,0,0,0,0,0,0,0
+G50512,Salzburg,Tweng,172,103,57,15,18,7,1,4,1,0,0,0,0,0,0
+G50513,Salzburg,Unternberg,798,674,353,88,141,40,9,38,2,4,0,0,0,0,0
+G50514,Salzburg,Weißpriach,243,202,115,34,34,8,0,9,0,0,0,0,0,0,0
+G50515,Salzburg,Zederhaus,962,782,469,73,175,26,3,34,1,1,0,0,0,0,0
+G50601,Salzburg,Bramberg am Wildkogel,3173,2468,1332,460,345,146,27,151,1,6,0,0,0,0,0
+G50602,Salzburg,Bruck an der Großglocknerstraße,3475,2589,1339,455,373,186,30,194,5,7,0,0,0,0,0
+G50603,Salzburg,Dienten am Hochkönig,612,427,226,109,41,22,5,24,0,0,0,0,0,0,0
+G50604,Salzburg,Fusch an der Großglocknerstraße,538,444,279,62,44,23,4,32,0,0,0,0,0,0,0
+G50605,Salzburg,Hollersbach im Pinzgau,961,799,446,132,114,54,5,43,3,3,0,0,0,0,0
+G50606,Salzburg,Kaprun,2102,1586,779,385,144,134,14,127,1,1,0,0,0,0,0
+G50607,Salzburg,Krimml,641,489,284,85,59,25,3,31,0,1,0,0,0,0,0
+G50608,Salzburg,Lend,1007,818,408,206,115,39,8,37,3,2,0,0,0,0,0
+G50609,Salzburg,Leogang,2463,2102,1189,350,184,173,21,175,7,2,0,0,0,0,0
+G50610,Salzburg,Lofer,1512,1139,636,122,156,95,13,110,2,5,0,0,0,0,0
+G50611,Salzburg,Maishofen,2645,1962,1056,276,250,152,28,185,5,9,0,0,0,0,0
+G50612,Salzburg,Maria Alm am Steinernen Meer,1571,1240,765,145,149,90,10,76,2,3,0,0,0,0,0
+G50613,Salzburg,Mittersill,3907,2937,1421,504,539,220,22,211,9,11,0,0,0,0,0
+G50614,Salzburg,Neukirchen am Großvenediger,2045,1374,763,246,186,90,14,70,4,2,0,0,0,0,0
+G50615,Salzburg,Niedernsill,2119,1675,834,296,291,118,15,118,3,1,0,0,0,0,0
+G50616,Salzburg,Piesendorf,2860,2087,1117,308,314,158,18,153,12,6,0,0,0,0,0
+G50617,Salzburg,Rauris,2425,1888,1097,266,276,113,16,109,6,4,0,0,0,0,0
+G50618,Salzburg,Saalbach-Hinterglemm,1992,1498,985,134,173,113,16,73,1,3,0,0,0,0,0
+G50619,Salzburg,Saalfelden am Steinernen Meer,12029,8934,4051,1768,1200,721,126,989,33,45,0,0,0,0,0
+G50620,Salzburg,Sankt Martin bei Lofer,875,719,391,121,70,53,10,70,2,2,0,0,0,0,0
+G50621,Salzburg,Stuhlfelden,1282,1130,532,203,247,62,4,74,5,3,0,0,0,0,0
+G50622,Salzburg,Taxenbach,2116,1762,899,317,297,108,19,111,6,5,0,0,0,0,0
+G50623,Salzburg,Unken,1425,1173,586,150,249,77,7,94,5,5,0,0,0,0,0
+G50624,Salzburg,Uttendorf,2330,1668,724,384,271,128,18,128,4,12,0,0,0,0,0
+G50625,Salzburg,Viehhofen,448,327,172,34,75,19,6,18,2,1,0,0,0,0,0
+G50626,Salzburg,Wald im Pinzgau,865,624,344,95,105,38,4,36,0,1,0,0,0,0,0
+G50627,Salzburg,Weißbach bei Lofer,308,262,159,34,30,16,3,20,0,2,0,0,0,0,0
+G50628,Salzburg,Zell am See,6434,4336,2021,902,591,319,56,417,7,22,0,0,0,0,0
+G60101,Steiermark,Graz,196811,143138,40705,23252,16921,15782,3936,38580,3174,788,0,0,0,0,0
+G60305,Steiermark,Frauental an der Laßnitz,2377,1643,573,492,308,97,13,144,16,2,0,0,0,0,0
+G60318,Steiermark,Lannach,2842,2009,841,347,411,149,29,211,9,11,0,0,0,0,0
+G60323,Steiermark,Pölfing-Brunn,1383,945,360,223,224,49,13,61,11,4,0,0,0,0,0
+G60324,Steiermark,Preding,1471,1048,423,216,209,62,21,104,10,1,0,0,0,0,0
+G60326,Steiermark,Sankt Josef (Weststeiermark),1288,1111,471,200,200,87,8,128,13,3,0,0,0,0,0
+G60329,Steiermark,Sankt Peter im Sulmtal,1084,787,351,123,194,44,15,52,4,3,0,0,0,0,0
+G60341,Steiermark,Wettmannstätten,1342,1067,495,155,254,59,11,85,5,2,0,0,0,0,0
+G60344,Steiermark,Deutschlandsberg,9381,6231,2272,1508,1190,393,91,691,62,23,0,0,0,0,0
+G60345,Steiermark,Eibiswald,5426,3946,1645,820,962,192,51,240,26,9,0,0,0,0,0
+G60346,Steiermark,Groß Sankt Florian,3436,2560,1192,439,528,139,25,216,16,5,0,0,0,0,0
+G60347,Steiermark,Sankt Martin im Sulmtal,2610,2110,978,360,507,95,27,124,16,3,0,0,0,0,0
+G60348,Steiermark,Sankt Stefan ob Stainz,2993,2448,1063,367,600,123,36,226,24,9,0,0,0,0,0
+G60349,Steiermark,Schwanberg,3836,2948,1204,657,664,158,30,214,15,6,0,0,0,0,0
+G60350,Steiermark,Stainz,7173,5215,2259,788,1178,315,56,556,46,17,0,0,0,0,0
+G60351,Steiermark,Wies,3644,2651,1119,551,638,125,26,170,18,5,0,0,0,0,0
+G60608,Steiermark,Feldkirchen bei Graz,4601,3287,1223,588,761,232,58,359,53,13,0,0,0,0,0
+G60611,Steiermark,Gössendorf,3041,2277,797,412,549,184,43,259,24,10,0,0,0,0,0
+G60613,Steiermark,Gratkorn,6219,4421,1355,1112,1024,311,64,482,53,21,0,0,0,0,0
+G60617,Steiermark,Hart bei Graz,4027,2896,968,475,478,305,88,548,25,10,0,0,0,0,0
+G60618,Steiermark,Haselsdorf-Tobelbad,1212,894,320,220,176,65,9,90,10,3,0,0,0,0,0
+G60619,Steiermark,Hausmannstätten,2678,2108,844,315,324,223,34,340,21,8,0,0,0,0,0
+G60623,Steiermark,Kainbach bei Graz,2317,1485,617,217,183,137,42,258,24,6,0,0,0,0,0
+G60624,Steiermark,Kalsdorf bei Graz,5254,3565,1340,715,714,269,62,413,35,18,0,0,0,0,0
+G60626,Steiermark,Kumberg,3088,2260,932,303,343,198,34,415,26,9,0,0,0,0,0
+G60628,Steiermark,Laßnitzhöhe,2202,1562,622,258,223,143,33,257,21,5,0,0,0,0,0
+G60629,Steiermark,Lieboch,4107,2906,1040,539,614,233,50,395,18,18,0,0,0,0,0
+G60632,Steiermark,Peggau,1726,1292,447,294,279,78,21,148,17,8,0,0,0,0,0
+G60639,Steiermark,Sankt Bartholomä,1154,919,404,151,182,65,6,101,8,2,0,0,0,0,0
+G60641,Steiermark,Sankt Oswald bei Plankenwarth,1049,775,281,185,140,64,11,86,5,4,0,0,0,0,0
+G60642,Steiermark,Sankt Radegund bei Graz,1797,1275,512,222,153,101,22,248,8,9,0,0,0,0,0
+G60645,Steiermark,Semriach,2578,2004,951,249,445,113,29,197,14,6,0,0,0,0,0
+G60646,Steiermark,Stattegg,2365,1808,675,241,259,196,35,376,23,2,0,0,0,0,0
+G60647,Steiermark,Stiwoll,598,464,200,101,85,23,4,43,8,2,0,0,0,0,0
+G60648,Steiermark,Thal,1795,1397,570,241,187,116,27,243,9,4,0,0,0,0,0
+G60651,Steiermark,Übelbach,1679,1220,507,267,243,67,21,104,9,3,0,0,0,0,0
+G60653,Steiermark,Vasoldsberg,3688,2737,1085,354,648,197,45,378,19,11,0,0,0,0,0
+G60654,Steiermark,Weinitzen,2147,1631,682,211,277,133,28,272,23,5,0,0,0,0,0
+G60655,Steiermark,Werndorf,1764,1353,500,302,298,79,15,137,16,6,0,0,0,0,0
+G60656,Steiermark,Wundschuh,1247,1074,543,132,179,70,14,125,8,3,0,0,0,0,0
+G60659,Steiermark,Deutschfeistritz,3386,2603,933,544,596,166,55,271,31,6,0,0,0,0,0
+G60660,Steiermark,Dobl-Zwaring,2717,2168,998,238,493,148,34,228,20,10,0,0,0,0,0
+G60661,Steiermark,Eggersdorf bei Graz,5322,4219,1784,619,768,304,70,617,41,16,0,0,0,0,0
+G60662,Steiermark,Fernitz-Mellach,3891,3086,1235,467,654,252,57,382,24,14,0,0,0,0,0
+G60663,Steiermark,Frohnleiten,5451,4013,1500,1010,641,276,60,461,42,22,0,0,0,0,0
+G60664,Steiermark,Gratwein-Straßengel,10306,8005,2576,1748,1510,634,132,1268,101,38,0,0,0,0,0
+G60665,Steiermark,Hitzendorf,5808,4541,1857,743,882,347,74,584,39,15,0,0,0,0,0
+G60666,Steiermark,Nestelbach bei Graz,2190,1577,698,208,304,130,26,189,16,7,0,0,0,0,0
+G60667,Steiermark,Raaba-Grambach,3461,2765,1101,471,406,254,55,446,22,9,0,0,0,0,0
+G60668,Steiermark,Sankt Marein bei Graz,3035,2385,1068,298,458,158,38,337,22,8,0,0,0,0,0
+G60669,Steiermark,Seiersberg-Pirka,8444,6611,2350,1259,1269,563,116,934,86,33,0,0,0,0,0
+G60670,Steiermark,Premstätten,4718,3267,1337,513,649,249,51,418,38,11,0,0,0,0,0
+G61001,Steiermark,Allerheiligen bei Wildon,1224,934,498,113,160,60,8,88,4,3,0,0,0,0,0
+G61002,Steiermark,Arnfels,802,570,276,96,119,27,3,46,2,1,0,0,0,0,0
+G61007,Steiermark,Empersdorf,1154,936,441,119,208,50,11,85,13,8,0,0,0,0,0
+G61008,Steiermark,Gabersdorf,959,749,372,102,180,36,6,50,4,1,0,0,0,0,0
+G61012,Steiermark,Gralla,1928,1358,505,309,316,72,23,112,13,7,0,0,0,0,0
+G61013,Steiermark,Großklein,1883,1396,657,184,337,72,14,120,7,5,0,0,0,0,0
+G61016,Steiermark,Heimschuh,1616,1247,573,187,304,56,15,99,10,4,0,0,0,0,0
+G61017,Steiermark,Hengsberg,1183,836,366,146,194,46,11,69,2,2,0,0,0,0,0
+G61019,Steiermark,Kitzeck im Sausal,1036,775,357,150,152,46,11,54,4,1,0,0,0,0,0
+G61020,Steiermark,Lang,1070,858,469,118,144,47,8,61,7,3,0,0,0,0,0
+G61021,Steiermark,Lebring-Sankt Margarethen,1680,1233,509,254,247,82,15,107,13,5,0,0,0,0,0
+G61024,Steiermark,Oberhaag,1702,1340,669,221,315,55,9,65,4,2,0,0,0,0,0
+G61027,Steiermark,Ragnitz,1257,950,473,126,230,42,10,57,7,5,0,0,0,0,0
+G61030,Steiermark,Sankt Andrä-Höch,1470,1117,504,162,305,45,20,71,9,3,0,0,0,0,0
+G61032,Steiermark,Sankt Johann im Saggautal,1693,1250,622,164,322,48,13,71,8,3,0,0,0,0,0
+G61033,Steiermark,Sankt Nikolai im Sausal,1900,1379,645,218,295,82,13,110,10,5,0,0,0,0,0
+G61043,Steiermark,Tillmitsch,2752,1978,794,392,483,113,26,154,11,4,0,0,0,0,0
+G61045,Steiermark,Wagna,4721,3212,1183,746,725,189,35,304,23,7,0,0,0,0,0
+G61049,Steiermark,Ehrenhausen an der Weinstraße,1981,1348,575,272,307,68,11,99,11,5,0,0,0,0,0
+G61050,Steiermark,Gamlitz,2646,2065,960,338,498,107,24,125,9,6,0,0,0,0,0
+G61051,Steiermark,Gleinstätten,2350,1765,841,274,404,89,12,135,9,2,0,0,0,0,0
+G61052,Steiermark,Heiligenkreuz am Waasen,2241,1734,767,204,424,114,32,166,23,4,0,0,0,0,0
+G61053,Steiermark,Leibnitz,9471,6250,2426,1247,1387,392,104,631,45,19,0,0,0,0,0
+G61054,Steiermark,Leutschach an der Weinstraße,3048,2122,1084,240,550,80,16,134,11,5,0,0,0,0,0
+G61055,Steiermark,Sankt Georgen an der Stiefing,1225,966,463,141,165,64,9,115,7,3,0,0,0,0,0
+G61056,Steiermark,Sankt Veit in der Südsteiermark,3317,2452,1321,297,515,136,14,149,12,8,0,0,0,0,0
+G61057,Steiermark,Schwarzautal,1900,1422,787,140,313,68,5,95,10,4,0,0,0,0,0
+G61058,Steiermark,Straß in Steiermark,3671,2578,1070,501,647,139,29,171,14,6,0,0,0,0,0
+G61059,Steiermark,Wildon,4218,2857,1172,548,611,172,41,276,25,13,0,0,0,0,0
+G61101,Steiermark,Eisenerz,3468,2476,712,988,388,105,44,166,69,4,0,0,0,0,0
+G61105,Steiermark,Kalwang,825,640,296,140,99,42,9,49,4,2,0,0,0,0,0
+G61106,Steiermark,Kammern im Liesingtal,1326,1050,446,240,199,63,14,76,10,2,0,0,0,0,0
+G61107,Steiermark,Kraubath an der Mur,1131,831,330,186,169,61,9,66,7,3,0,0,0,0,0
+G61108,Steiermark,Leoben,18457,12063,3585,3451,2302,962,256,1166,291,49,0,0,0,0,0
+G61109,Steiermark,Mautern in Steiermark,1502,1294,652,272,181,68,21,83,12,6,0,0,0,0,0
+G61110,Steiermark,Niklasdorf,1923,1470,435,481,307,88,21,116,16,6,0,0,0,0,0
+G61111,Steiermark,Proleb,1318,999,346,296,162,82,14,83,12,5,0,0,0,0,0
+G61112,Steiermark,Radmer,485,397,167,124,55,20,5,21,3,1,0,0,0,0,0
+G61113,Steiermark,Sankt Michael in Obersteiermark,2444,1943,603,609,392,99,36,162,31,11,0,0,0,0,0
+G61114,Steiermark,Sankt Peter-Freienstein,1929,1387,478,370,311,72,15,110,24,7,0,0,0,0,0
+G61115,Steiermark,Sankt Stefan ob Leoben,1625,1253,436,385,230,65,16,94,22,6,0,0,0,0,0
+G61116,Steiermark,Traboch,1167,903,366,216,183,46,14,62,7,8,0,0,0,0,0
+G61118,Steiermark,Vordernberg,790,591,135,270,109,24,3,36,13,2,0,0,0,0,0
+G61119,Steiermark,Wald am Schoberpaß,462,361,177,93,54,14,1,18,3,0,0,0,0,0,0
+G61120,Steiermark,Trofaiach,9340,7054,2294,2021,1347,440,159,620,146,27,0,0,0,0,0
+G61203,Steiermark,Aigen im Ennstal,2185,1709,719,304,386,109,20,151,13,7,0,0,0,0,0
+G61204,Steiermark,Altaussee,1534,951,369,255,88,101,19,96,21,2,0,0,0,0,0
+G61205,Steiermark,Altenmarkt bei Sankt Gallen,661,551,199,194,61,33,10,47,4,3,0,0,0,0,0
+G61206,Steiermark,Ardning,1032,913,335,240,192,49,18,70,7,2,0,0,0,0,0
+G61207,Steiermark,Bad Aussee,3659,2429,936,577,268,242,50,302,39,14,0,0,0,0,0
+G61213,Steiermark,Gröbming,2249,1525,696,267,299,107,12,131,7,7,0,0,0,0,0
+G61215,Steiermark,Grundlsee,1010,700,323,150,62,59,12,81,9,5,0,0,0,0,0
+G61217,Steiermark,Haus,1913,1383,695,201,254,88,15,112,9,9,0,0,0,0,0
+G61222,Steiermark,Lassing,1450,1027,472,162,218,67,18,84,4,2,0,0,0,0,0
+G61236,Steiermark,Ramsau am Dachstein,2149,1633,835,158,308,147,18,146,9,12,0,0,0,0,0
+G61243,Steiermark,Selzthal,1239,957,290,398,120,42,9,80,11,6,0,0,0,0,0
+G61247,Steiermark,Trieben,2644,1940,543,634,428,102,30,164,35,4,0,0,0,0,0
+G61251,Steiermark,Wildalpen,411,356,139,137,40,13,5,18,3,1,0,0,0,0,0
+G61252,Steiermark,Wörschach,919,790,355,151,104,61,9,95,14,2,0,0,0,0,0
+G61253,Steiermark,Admont,4092,2920,1079,773,505,197,48,286,21,11,0,0,0,0,0
+G61254,Steiermark,Aich,1015,868,506,97,143,47,9,62,3,2,0,0,0,0,0
+G61255,Steiermark,Bad Mitterndorf,3850,2631,1086,471,537,219,40,238,33,8,0,0,0,0,0
+G61256,Steiermark,Gaishorn am See,1087,862,338,205,158,60,10,76,13,4,0,0,0,0,0
+G61257,Steiermark,Irdning-Donnersbachtal,3385,2419,1078,350,525,175,35,232,17,7,0,0,0,0,0
+G61258,Steiermark,Landl,2346,1894,662,662,295,104,24,124,19,4,0,0,0,0,0
+G61259,Steiermark,Liezen,5918,4066,1534,1030,696,276,79,392,40,19,0,0,0,0,0
+G61260,Steiermark,Michaelerberg-Pruggern,869,729,391,120,118,35,10,51,4,1,0,0,0,0,0
+G61261,Steiermark,Mitterberg-Sankt Martin,1537,1157,582,177,204,83,9,89,9,4,0,0,0,0,0
+G61262,Steiermark,Öblarn,1557,1114,478,237,207,83,10,89,7,3,0,0,0,0,0
+G61263,Steiermark,Rottenmann,4010,2964,1025,748,625,165,44,281,68,8,0,0,0,0,0
+G61264,Steiermark,Sankt Gallen,1428,1092,488,277,163,62,10,84,5,3,0,0,0,0,0
+G61265,Steiermark,Schladming,5065,3319,1509,486,655,274,43,314,21,17,0,0,0,0,0
+G61266,Steiermark,Sölk,1254,943,477,154,186,46,15,54,9,1,0,0,0,0,0
+G61267,Steiermark,Stainach-Pürgg,2150,1456,646,311,229,85,32,135,13,5,0,0,0,0,0
+G61410,Steiermark,Mühlen,746,692,293,181,128,33,5,50,1,1,0,0,0,0,0
+G61413,Steiermark,Niederwölz,476,378,193,73,63,23,2,21,2,0,0,0,0,0,0
+G61425,Steiermark,St. Peter am Kammersberg,1701,1328,653,332,190,67,12,69,5,1,0,0,0,0,0
+G61428,Steiermark,Schöder,783,641,317,134,108,32,5,40,4,1,0,0,0,0,0
+G61437,Steiermark,Krakau,1205,1032,575,172,183,46,10,41,3,3,0,0,0,0,0
+G61438,Steiermark,Murau,2977,2091,1060,333,334,132,28,184,11,9,0,0,0,0,0
+G61439,Steiermark,Neumarkt in der Steiermark,4154,2963,1289,547,665,175,41,222,18,7,0,0,0,0,0
+G61440,Steiermark,Oberwölz,2475,1995,1110,318,333,97,20,103,7,7,0,0,0,0,0
+G61441,Steiermark,Ranten,987,847,492,133,121,43,9,46,1,1,0,0,0,0,0
+G61442,Steiermark,Sankt Georgen am Kreischberg,1406,1001,519,143,202,51,9,71,5,1,0,0,0,0,0
+G61443,Steiermark,Sankt Lambrecht,1510,1175,532,287,194,66,11,79,4,2,0,0,0,0,0
+G61444,Steiermark,Scheifling,1754,1225,539,240,272,74,12,77,6,5,0,0,0,0,0
+G61445,Steiermark,Stadl-Predlitz,1394,1115,489,299,212,54,8,48,4,1,0,0,0,0,0
+G61446,Steiermark,Teufenbach-Katsch,1549,1170,522,243,224,80,14,72,9,5,0,0,0,0,0
+G61611,Steiermark,Krottendorf-Gaisfeld,2075,1574,683,301,308,100,28,137,10,8,0,0,0,0,0
+G61612,Steiermark,Ligist,2719,2056,794,391,490,125,23,207,19,6,0,0,0,0,0
+G61615,Steiermark,Mooskirchen,1797,1234,559,185,276,84,12,94,19,5,0,0,0,0,0
+G61618,Steiermark,Rosental an der Kainach,1412,1013,276,338,248,44,12,64,27,4,0,0,0,0,0
+G61621,Steiermark,Sankt Martin am Wöllmißberg,693,532,242,114,116,24,4,27,2,2,0,0,0,0,0
+G61624,Steiermark,Stallhofen,2586,1890,811,271,514,99,25,145,17,7,0,0,0,0,0
+G61625,Steiermark,Voitsberg,7829,5378,1615,1503,1281,285,89,501,90,15,0,0,0,0,0
+G61626,Steiermark,Bärnbach,4638,3334,1033,958,757,182,62,273,52,16,0,0,0,0,0
+G61627,Steiermark,Edelschrott,1477,1007,509,164,210,42,20,53,6,3,0,0,0,0,0
+G61628,Steiermark,Geistthal-Södingberg,1295,925,422,184,221,28,6,59,3,1,0,0,0,0,0
+G61629,Steiermark,Hirschegg-Pack,889,676,360,97,143,36,7,27,4,1,0,0,0,0,0
+G61630,Steiermark,Kainach bei Voitsberg,1353,1061,419,241,252,47,14,78,8,3,0,0,0,0,0
+G61631,Steiermark,Köflach,8247,6143,1974,1654,1509,326,108,466,87,20,0,0,0,0,0
+G61632,Steiermark,Maria Lankowitz,2382,1684,571,442,405,88,23,134,16,4,0,0,0,0,0
+G61633,Steiermark,Söding-Sankt Johann,3325,2215,926,395,437,174,31,211,26,15,0,0,0,0,0
+G61701,Steiermark,Albersdorf-Prebuch,1663,1317,541,187,276,108,23,162,16,4,0,0,0,0,0
+G61708,Steiermark,Fischbach,1273,1088,494,185,264,66,11,55,6,8,0,0,0,0,0
+G61710,Steiermark,Floing,978,740,350,130,158,34,9,53,4,2,0,0,0,0,0
+G61711,Steiermark,Gasen,726,655,372,116,75,28,7,48,6,2,0,0,0,0,0
+G61716,Steiermark,Markt Hartmannsdorf,2381,1857,851,185,390,141,34,235,16,5,0,0,0,0,0
+G61719,Steiermark,Hofstätten an der Raab,1797,1317,570,165,262,91,22,188,11,8,0,0,0,0,0
+G61727,Steiermark,Ludersdorf-Wilfersdorf,1896,1346,506,205,283,93,25,208,17,9,0,0,0,0,0
+G61728,Steiermark,Miesenbach bei Birkfeld,582,540,265,83,117,33,4,32,4,1,0,0,0,0,0
+G61729,Steiermark,Mitterdorf an der Raab,1720,1352,600,243,243,77,21,142,20,7,0,0,0,0,0
+G61730,Steiermark,Mortantsch,1719,1415,581,291,244,105,23,151,13,6,0,0,0,0,0
+G61731,Steiermark,Naas,1149,908,453,142,180,36,7,85,3,3,0,0,0,0,0
+G61740,Steiermark,Puch bei Weiz,1698,1265,603,190,240,78,13,119,18,4,0,0,0,0,0
+G61741,Steiermark,Ratten,939,740,368,175,113,26,14,41,2,1,0,0,0,0,0
+G61743,Steiermark,Rettenegg,596,478,243,104,74,19,7,27,2,1,0,0,0,0,0
+G61744,Steiermark,St. Kathrein am Hauenstein,524,469,226,95,90,22,6,26,3,1,0,0,0,0,0
+G61745,Steiermark,Sankt Kathrein am Offenegg,908,739,390,119,128,29,5,59,5,4,0,0,0,0,0
+G61746,Steiermark,St. Margarethen an der Raab,3308,2512,1153,332,503,146,30,317,18,13,0,0,0,0,0
+G61748,Steiermark,Sinabelkirchen,3363,2577,1126,302,703,120,28,267,17,13,0,0,0,0,0
+G61750,Steiermark,Strallegg,1553,1420,762,202,307,64,6,65,9,4,0,0,0,0,0
+G61751,Steiermark,Thannhausen,1965,1532,729,257,256,82,16,172,17,2,0,0,0,0,0
+G61756,Steiermark,Anger,3383,2727,1297,491,488,142,24,260,20,6,0,0,0,0,0
+G61757,Steiermark,Birkfeld,4192,3230,1556,447,762,144,27,262,26,7,0,0,0,0,0
+G61758,Steiermark,Fladnitz an der Teichalm,1478,1279,667,137,272,69,7,113,10,4,0,0,0,0,0
+G61759,Steiermark,Gersdorf an der Feistritz,1399,1209,636,94,291,56,14,106,9,2,0,0,0,0,0
+G61760,Steiermark,Gleisdorf,8469,5479,2247,756,948,426,81,938,59,24,0,0,0,0,0
+G61761,Steiermark,Gutenberg-Stenzengreith,1455,1101,417,232,205,62,17,156,11,1,0,0,0,0,0
+G61762,Steiermark,Ilztal,1784,1435,677,173,307,92,16,149,12,8,0,0,0,0,0
+G61763,Steiermark,Passail,3495,2829,1380,499,533,123,23,241,22,8,0,0,0,0,0
+G61764,Steiermark,Pischelsdorf am Kulm,3004,2301,985,304,582,118,30,240,27,15,0,0,0,0,0
+G61765,Steiermark,Sankt Ruprecht an der Raab,4234,3117,1321,392,719,224,38,383,26,14,0,0,0,0,0
+G61766,Steiermark,Weiz,8998,6157,2032,1749,926,422,93,847,64,25,0,0,0,0,0
+G62007,Steiermark,Fohnsdorf,6457,4479,1404,1410,925,241,79,299,107,13,0,0,0,0,0
+G62008,Steiermark,Gaal,1114,962,536,174,136,45,8,57,5,2,0,0,0,0,0
+G62010,Steiermark,Hohentauern,350,276,107,92,46,13,2,12,2,1,0,0,0,0,0
+G62014,Steiermark,Kobenz,1568,1189,501,246,189,96,22,123,10,3,0,0,0,0,0
+G62021,Steiermark,Pusterwald,374,321,174,66,55,12,1,12,1,0,0,0,0,0,0
+G62026,Steiermark,Sankt Georgen ob Judenburg,706,549,253,126,72,37,7,46,7,0,0,0,0,0,0
+G62032,Steiermark,Sankt Peter ob Judenburg,898,772,389,158,111,40,15,50,7,2,0,0,0,0,0
+G62034,Steiermark,Seckau,1065,906,486,168,128,53,6,58,6,2,0,0,0,0,0
+G62036,Steiermark,Unzmarkt-Frauenburg,1115,848,337,215,168,49,6,60,10,3,0,0,0,0,0
+G62038,Steiermark,Zeltweg,5537,3845,1136,1276,811,204,67,264,70,17,0,0,0,0,0
+G62039,Steiermark,Lobmingtal,1504,1116,447,287,201,64,13,91,10,3,0,0,0,0,0
+G62040,Steiermark,Judenburg,8068,5313,1710,1629,1025,307,97,427,100,17,0,0,0,0,0
+G62041,Steiermark,Knittelfeld,9073,5997,1689,2058,1204,287,132,486,125,16,0,0,0,0,0
+G62042,Steiermark,Obdach,3159,2394,1198,473,389,133,31,147,18,5,0,0,0,0,0
+G62043,Steiermark,Pöls-Oberkurzheim,2522,1762,667,560,303,81,23,109,12,7,0,0,0,0,0
+G62044,Steiermark,Pölstal,2227,1762,798,385,342,93,20,104,17,3,0,0,0,0,0
+G62045,Steiermark,Sankt Marein-Feistritz,1635,1305,522,295,243,84,16,132,13,1,0,0,0,0,0
+G62046,Steiermark,Sankt Margarethen bei Knittelfeld,2250,1770,750,440,297,103,32,122,20,4,0,0,0,0,0
+G62047,Steiermark,Spielberg,4430,3354,1174,1035,624,166,56,236,53,10,0,0,0,0,0
+G62048,Steiermark,Weißkirchen in Steiermark,4032,3152,1457,674,492,217,32,247,20,11,0,0,0,0,0
+G62105,Steiermark,Breitenau am Hochlantsch,1398,1088,464,339,168,46,16,47,7,1,0,0,0,0,0
+G62115,Steiermark,Krieglach,4464,3329,1252,801,614,235,59,305,39,25,0,0,0,0,0
+G62116,Steiermark,Langenwang,3301,2408,1020,523,449,164,30,187,26,8,0,0,0,0,0
+G62125,Steiermark,Pernegg an der Mur,1947,1635,542,485,289,98,30,157,26,8,0,0,0,0,0
+G62128,Steiermark,Sankt Lorenzen im Mürztal,2931,2156,777,566,379,158,47,202,20,8,0,0,0,0,0
+G62131,Steiermark,Spital am Semmering,1260,1012,387,257,214,49,16,66,18,4,0,0,0,0,0
+G62132,Steiermark,Stanz im Mürztal,1530,1258,513,377,203,61,15,71,14,4,0,0,0,0,0
+G62135,Steiermark,Turnau,1312,1159,414,363,208,75,16,71,8,4,0,0,0,0,0
+G62138,Steiermark,Aflenz,2055,1605,628,385,236,108,29,199,13,7,0,0,0,0,0
+G62139,Steiermark,Bruck an der Mur,12660,9218,2966,2751,1599,574,181,948,150,48,0,0,0,0,0
+G62140,Steiermark,Kapfenberg,16522,11206,3232,3789,2192,572,228,943,204,45,0,0,0,0,0
+G62141,Steiermark,Kindberg,6853,5091,1738,1653,816,271,104,422,59,27,0,0,0,0,0
+G62142,Steiermark,Mariazell,3089,2311,941,647,391,122,30,157,19,5,0,0,0,0,0
+G62143,Steiermark,Mürzzuschlag,6700,4596,1358,1527,830,241,82,435,111,12,0,0,0,0,0
+G62144,Steiermark,Neuberg an der Mürz,2064,1580,630,382,321,95,22,114,11,6,0,0,0,0,0
+G62145,Steiermark,Sankt Barbara im Mürztal,5582,3951,1260,1274,779,195,83,279,65,16,0,0,0,0,0
+G62146,Steiermark,Sankt Marein im Mürztal,2095,1651,542,458,343,103,32,151,17,4,0,0,0,0,0
+G62147,Steiermark,Thörl,1943,1513,478,537,257,76,18,122,21,4,0,0,0,0,0
+G62148,Steiermark,Tragöß-Sankt Katharein,1585,1263,486,345,238,74,46,61,11,2,0,0,0,0,0
+G62202,Steiermark,Bad Blumau,1302,1062,512,93,281,61,14,93,5,3,0,0,0,0,0
+G62205,Steiermark,Buch-St. Magdalena,1812,1499,755,160,371,68,15,116,8,5,0,0,0,0,0
+G62206,Steiermark,Burgau,846,621,308,110,118,34,5,43,3,0,0,0,0,0,0
+G62209,Steiermark,Ebersdorf,1053,862,436,81,242,35,3,59,5,1,0,0,0,0,0
+G62211,Steiermark,Friedberg,2148,1632,723,333,328,78,24,133,9,5,0,0,0,0,0
+G62214,Steiermark,Greinbach,1477,1249,644,133,329,53,6,76,3,4,0,0,0,0,0
+G62216,Steiermark,Großsteinbach,1060,871,481,65,182,45,9,81,6,3,0,0,0,0,0
+G62219,Steiermark,Hartberg,5333,3641,1687,400,692,256,47,519,26,14,0,0,0,0,0
+G62220,Steiermark,Hartberg Umgebung,1757,1464,844,92,297,81,7,134,4,4,0,0,0,0,0
+G62226,Steiermark,Lafnitz,1141,946,394,207,229,41,8,63,3,2,0,0,0,0,0
+G62232,Steiermark,Ottendorf an der Rittschein,1302,938,481,111,208,49,5,73,7,5,0,0,0,0,0
+G62233,Steiermark,Pinggau,2555,1951,968,262,466,96,24,123,8,3,0,0,0,0,0
+G62235,Steiermark,Pöllauberg,1724,1446,835,149,288,53,9,100,7,4,0,0,0,0,0
+G62242,Steiermark,Sankt Jakob im Walde,866,703,416,94,114,26,6,40,6,1,0,0,0,0,0
+G62244,Steiermark,Sankt Johann in der Haide,1796,1354,588,215,349,51,14,127,4,4,0,0,0,0,0
+G62245,Steiermark,Sankt Lorenzen am Wechsel,1261,1029,529,131,214,69,8,73,3,3,0,0,0,0,0
+G62247,Steiermark,Schäffern,1098,945,574,73,197,41,6,48,4,3,0,0,0,0,0
+G62252,Steiermark,Söchau,1212,910,455,108,201,41,13,82,5,4,0,0,0,0,0
+G62256,Steiermark,Stubenberg,1830,1295,670,149,261,65,19,125,4,2,0,0,0,0,0
+G62262,Steiermark,Wenigzell,1146,961,577,88,162,40,7,80,4,3,0,0,0,0,0
+G62264,Steiermark,Bad Waltersdorf,3125,2496,1257,240,575,141,25,234,11,12,0,0,0,0,0
+G62265,Steiermark,Dechantskirchen,1699,1364,655,261,249,71,12,108,2,7,0,0,0,0,0
+G62266,Steiermark,Feistritztal,1995,1449,638,217,347,76,18,139,4,8,0,0,0,0,0
+G62267,Steiermark,Fürstenfeld,6929,4790,2172,670,949,305,79,558,32,25,0,0,0,0,0
+G62268,Steiermark,Grafendorf bei Hartberg,2595,2116,1122,206,488,101,18,168,8,6,0,0,0,0,0
+G62269,Steiermark,Großwilfersdorf,1678,1243,680,117,232,72,15,113,7,6,0,0,0,0,0
+G62270,Steiermark,Hartl,1768,1479,799,124,388,51,11,97,5,3,0,0,0,0,0
+G62271,Steiermark,Ilz,3039,2372,1100,228,584,138,40,260,15,8,0,0,0,0,0
+G62272,Steiermark,Kaindorf,2416,1809,920,168,411,102,22,170,10,6,0,0,0,0,0
+G62273,Steiermark,Loipersdorf bei Fürstenfeld,1544,1162,625,83,291,51,11,90,4,6,0,0,0,0,0
+G62274,Steiermark,Neudau,1036,763,267,248,138,32,14,60,3,2,0,0,0,0,0
+G62275,Steiermark,Pöllau,5088,3932,2007,608,751,203,26,312,19,5,0,0,0,0,0
+G62276,Steiermark,Rohr bei Hartberg,1217,948,418,157,240,37,6,84,5,3,0,0,0,0,0
+G62277,Steiermark,Rohrbach an der Lafnitz,2256,1778,758,353,444,81,18,109,11,5,0,0,0,0,0
+G62278,Steiermark,Vorau,3942,3195,1730,325,746,146,18,203,20,6,0,0,0,0,0
+G62279,Steiermark,Waldbach-Mönichwald,1257,1086,587,133,221,57,12,69,4,3,0,0,0,0,0
+G62311,Steiermark,Edelsbach bei Feldbach,1110,942,462,131,201,54,9,79,5,2,0,0,0,0,0
+G62314,Steiermark,Eichkögl,1060,816,386,88,217,31,15,64,12,3,0,0,0,0,0
+G62326,Steiermark,Halbenrain,1480,1054,568,93,249,50,15,73,3,3,0,0,0,0,0
+G62330,Steiermark,Jagerberg,1383,1061,591,84,267,41,9,58,8,2,0,0,0,0,0
+G62332,Steiermark,Kapfenstein,1281,1022,557,104,238,36,7,74,3,3,0,0,0,0,0
+G62335,Steiermark,Klöch,1022,794,514,67,106,35,10,57,4,0,0,0,0,0,0
+G62343,Steiermark,Mettersdorf am Saßbach,1074,776,423,92,167,39,4,44,5,1,0,0,0,0,0
+G62347,Steiermark,Murfeld,1367,1002,503,139,219,51,14,69,5,3,0,0,0,0,0
+G62368,Steiermark,Tieschen,1042,764,352,146,155,46,8,51,6,0,0,0,0,0,0
+G62372,Steiermark,Unterlamm,1053,797,434,69,222,23,10,31,5,3,0,0,0,0,0
+G62375,Steiermark,Bad Gleichenberg,4240,2747,1337,381,589,142,28,238,24,9,0,0,0,0,0
+G62376,Steiermark,Bad Radkersburg,2500,1651,801,251,306,105,25,149,9,5,0,0,0,0,0
+G62377,Steiermark,Deutsch Goritz,1526,1194,650,135,228,55,9,102,14,1,0,0,0,0,0
+G62378,Steiermark,Fehring,6032,4391,2073,593,1014,252,53,371,22,14,0,0,0,0,0
+G62379,Steiermark,Feldbach,10300,7462,3508,1056,1624,465,79,641,57,31,0,0,0,0,0
+G62380,Steiermark,Gnas,5057,4046,2236,324,965,210,27,255,16,11,0,0,0,0,0
+G62381,Steiermark,Kirchbach-Zerlach,2721,2146,1110,193,509,114,30,171,14,5,0,0,0,0,0
+G62382,Steiermark,Kirchberg an der Raab,3713,2708,1284,345,668,156,25,206,16,9,0,0,0,0,0
+G62383,Steiermark,Mureck,2856,2021,1003,292,428,123,28,132,14,2,0,0,0,0,0
+G62384,Steiermark,Paldau,2608,1978,988,275,491,72,22,112,14,4,0,0,0,0,0
+G62385,Steiermark,Pirching am Traubenberg,2100,1595,871,134,366,81,22,112,8,2,0,0,0,0,0
+G62386,Steiermark,Riegersburg,4135,2984,1604,337,574,158,27,254,19,10,0,0,0,0,0
+G62387,Steiermark,Sankt Anna am Aigen,2042,1565,925,130,331,60,12,101,4,2,0,0,0,0,0
+G62388,Steiermark,Sankt Peter am Ottersbach,2458,1774,937,194,435,79,10,107,8,3,0,0,0,0,0
+G62389,Steiermark,Sankt Stefan im Rosental,3277,2692,1393,302,601,137,33,203,17,7,0,0,0,0,0
+G62390,Steiermark,Straden,3014,2325,1261,249,461,124,26,187,13,5,0,0,0,0,0
+G70101,Tirol,Innsbruck,86625,60743,17478,10299,8163,6761,1678,15190,690,343,0,0,0,141,0
+G70201,Tirol,Arzl im Pitztal,2364,1714,872,196,262,151,40,179,4,7,0,0,0,3,0
+G70202,Tirol,Haiming,3541,2427,1047,359,408,220,44,331,6,6,0,0,0,5,0
+G70203,Tirol,Imst,7483,4864,2069,718,791,450,86,694,25,22,0,0,0,9,0
+G70204,Tirol,Imsterberg,627,462,237,60,87,31,5,39,1,2,0,0,0,0,0
+G70205,Tirol,Jerzens,704,536,341,33,93,25,5,34,3,1,0,0,0,1,0
+G70206,Tirol,Karres,507,393,193,44,96,25,4,27,0,0,0,0,0,2,0
+G70207,Tirol,Karrösten,564,408,190,68,62,35,17,35,0,0,0,0,0,0,0
+G70208,Tirol,Längenfeld,3444,2498,1571,145,310,195,34,224,5,10,0,0,0,5,0
+G70209,Tirol,Mieming,2819,1998,952,176,286,237,36,279,9,15,0,0,0,7,0
+G70210,Tirol,Mils bei Imst,467,383,160,43,57,71,6,44,1,0,0,0,0,1,0
+G70211,Tirol,Mötz,931,568,262,66,89,50,12,82,2,3,0,0,0,2,0
+G70212,Tirol,Nassereith,1663,1181,640,113,201,84,17,106,9,2,0,0,0,8,0
+G70213,Tirol,Obsteig,964,655,313,57,98,53,7,117,2,5,0,0,0,4,0
+G70214,Tirol,Oetz,1764,1240,670,97,162,125,26,149,4,5,0,0,0,2,0
+G70215,Tirol,Rietz,1816,1268,514,175,271,106,24,150,7,8,0,0,0,12,0
+G70216,Tirol,Roppen,1343,943,463,155,125,71,9,107,6,5,0,0,0,4,0
+G70217,Tirol,St. Leonhard im Pitztal,1078,745,532,24,105,30,4,47,1,3,0,0,0,1,0
+G70218,Tirol,Sautens,1128,733,385,65,115,69,15,71,7,4,0,0,0,3,0
+G70219,Tirol,Silz,1966,1358,563,202,212,122,39,197,11,6,0,0,0,6,0
+G70220,Tirol,Sölden,2186,1418,926,51,195,113,18,102,3,9,0,0,0,1,0
+G70221,Tirol,Stams,1122,746,343,94,118,65,15,106,3,2,0,0,0,2,0
+G70222,Tirol,Tarrenz,2100,1416,667,131,319,108,26,150,3,9,0,0,0,4,0
+G70223,Tirol,Umhausen,2414,1689,962,112,301,151,24,128,3,3,0,0,0,5,0
+G70224,Tirol,Wenns,1609,1033,623,74,162,66,16,84,3,3,0,0,0,2,0
+G70301,Tirol,Absam,5720,4374,1727,594,590,520,65,830,33,13,0,0,0,4,0
+G70302,Tirol,Aldrans,1976,1474,650,125,167,188,24,300,12,6,0,0,0,2,0
+G70303,Tirol,Ampass,1308,980,407,101,143,113,17,189,4,3,0,0,0,2,0
+G70304,Tirol,Axams,4670,3341,1336,468,489,324,52,630,25,12,0,0,0,5,0
+G70305,Tirol,Baumkirchen,956,654,282,84,106,58,19,96,4,3,0,0,0,2,0
+G70306,Tirol,Birgitz,1118,859,374,98,107,93,16,158,6,6,0,0,0,1,0
+G70307,Tirol,Ellbögen,911,750,397,78,105,70,10,80,5,2,0,0,0,1,0
+G70308,Tirol,Flaurling,982,778,348,114,90,70,21,129,4,1,0,0,0,1,0
+G70309,Tirol,Fritzens,1669,1249,511,177,196,135,25,185,11,5,0,0,0,3,0
+G70310,Tirol,Fulpmes,3091,2203,946,373,333,205,33,296,8,5,0,0,0,2,0
+G70311,Tirol,Gnadenwald,620,493,257,38,60,55,8,72,1,2,0,0,0,0,0
+G70312,Tirol,Götzens,3091,2206,931,272,356,231,35,361,9,9,0,0,0,3,0
+G70313,Tirol,Gries am Brenner,991,779,384,96,151,49,13,76,5,5,0,0,0,0,0
+G70314,Tirol,Gries im Sellrain,478,401,208,80,41,24,4,38,0,4,0,0,0,1,0
+G70315,Tirol,Grinzens,1078,794,339,116,129,74,21,110,3,2,0,0,0,0,0
+G70317,Tirol,Gschnitz,342,254,147,28,43,19,2,14,1,0,0,0,0,0,0
+G70318,Tirol,Hatting,1079,767,302,103,120,85,18,132,4,3,0,0,0,1,0
+G70319,Tirol,Inzing,2958,2268,915,317,296,242,40,417,20,17,0,0,0,3,0
+G70320,Tirol,Kematen in Tirol,2211,1554,619,201,230,149,36,306,9,3,0,0,0,1,0
+G70322,Tirol,Kolsass,1260,1015,438,124,151,85,15,190,3,4,0,0,0,3,0
+G70323,Tirol,Kolsassberg,626,493,258,42,95,39,5,50,2,0,0,0,0,2,0
+G70325,Tirol,Lans,821,584,258,48,75,75,5,116,4,1,0,0,0,1,0
+G70326,Tirol,Leutasch,1601,1064,569,74,145,110,14,144,2,3,0,0,0,3,0
+G70327,Tirol,Matrei am Brenner,714,538,235,83,76,64,10,65,2,3,0,0,0,0,0
+G70328,Tirol,Mieders,1336,939,420,109,138,106,11,150,2,2,0,0,0,1,0
+G70329,Tirol,Mils,3412,2725,1149,297,386,325,50,485,17,10,0,0,0,7,0
+G70330,Tirol,Mühlbachl,1055,754,400,116,105,56,8,62,3,2,0,0,0,2,0
+G70331,Tirol,Mutters,1610,1256,586,112,156,150,22,223,4,3,0,0,0,1,0
+G70332,Tirol,Natters,1604,1177,519,139,148,131,20,206,6,7,0,0,0,2,0
+G70333,Tirol,Navis,1616,1269,738,142,186,81,14,101,1,3,0,0,0,2,0
+G70334,Tirol,Neustift im Stubaital,3477,2756,1459,250,464,218,45,299,11,6,0,0,0,4,0
+G70335,Tirol,Oberhofen im Inntal,1367,1069,400,172,208,113,18,149,5,4,0,0,0,1,0
+G70336,Tirol,Obernberg am Brenner,289,268,146,21,59,18,2,20,0,1,0,0,0,0,0
+G70337,Tirol,Oberperfuss,2419,1904,886,253,221,200,33,291,14,4,0,0,0,2,0
+G70338,Tirol,Patsch,811,636,276,75,83,69,5,119,7,1,0,0,0,1,0
+G70339,Tirol,Pettnau,847,586,258,68,86,69,12,81,2,5,0,0,0,5,0
+G70340,Tirol,Pfaffenhofen,825,509,196,80,81,57,5,82,3,1,0,0,0,4,0
+G70341,Tirol,Pfons,1004,788,398,98,110,61,16,96,4,2,0,0,0,3,0
+G70342,Tirol,Polling in Tirol,850,638,276,85,134,54,7,71,5,7,0,0,0,0,0
+G70343,Tirol,Ranggen,835,691,322,65,93,61,11,129,5,5,0,0,0,1,0
+G70344,Tirol,Reith bei Seefeld,873,592,286,52,74,54,18,102,3,3,0,0,0,0,0
+G70345,Tirol,Rinn,1448,1192,517,113,181,133,21,214,10,1,0,0,0,2,0
+G70346,Tirol,Rum,6810,5060,1816,983,810,475,91,812,30,27,0,0,0,14,0
+G70347,Tirol,St. Sigmund im Sellrain,139,116,71,16,16,6,1,6,0,0,0,0,0,0,0
+G70348,Tirol,Scharnitz,867,551,263,71,87,43,11,73,1,1,0,0,0,1,0
+G70349,Tirol,Schmirn,709,669,451,52,70,35,6,49,4,2,0,0,0,0,0
+G70350,Tirol,Schönberg im Stubaital,714,520,263,53,61,49,6,80,2,0,0,0,0,6,0
+G70351,Tirol,Seefeld in Tirol,2063,1362,702,115,188,133,25,186,6,3,0,0,0,2,0
+G70352,Tirol,Sellrain,1090,761,350,197,80,45,11,68,8,2,0,0,0,1,0
+G70353,Tirol,Sistrans,1735,1374,531,148,141,196,22,323,5,5,0,0,0,4,0
+G70354,Tirol,Hall in Tirol,9567,6801,2207,1229,1035,751,165,1320,54,29,0,0,0,12,0
+G70355,Tirol,Steinach am Brenner,2693,1955,923,280,301,175,34,222,13,4,0,0,0,4,0
+G70356,Tirol,Telfes im Stubai,1212,892,438,113,121,77,15,114,9,3,0,0,0,2,0
+G70357,Tirol,Telfs,10899,6790,2289,1326,1102,670,131,1177,46,28,0,0,0,20,0
+G70358,Tirol,Thaur,3031,2436,1110,294,370,245,51,346,8,8,0,0,0,3,0
+G70359,Tirol,Trins,1036,818,421,100,100,67,13,108,5,2,0,0,0,2,0
+G70360,Tirol,Tulfes,1208,951,466,74,162,92,16,127,8,3,0,0,0,3,0
+G70361,Tirol,Unterperfuss,182,83,41,15,12,3,1,11,0,0,0,0,0,0,0
+G70362,Tirol,Vals,447,351,209,34,50,18,2,36,1,0,0,0,0,0,0
+G70364,Tirol,Völs,5133,3783,1473,580,564,355,74,683,29,11,0,0,0,13,0
+G70365,Tirol,Volders,3403,2545,1147,288,473,224,45,336,15,8,0,0,0,8,0
+G70366,Tirol,Wattenberg,587,479,239,23,118,33,12,51,2,0,0,0,0,1,0
+G70367,Tirol,Wattens,6030,4175,1740,649,756,347,69,559,21,22,0,0,0,12,0
+G70368,Tirol,Wildermieming,709,574,249,53,71,82,13,103,3,0,0,0,0,0,0
+G70369,Tirol,Zirl,6004,4274,1521,656,623,516,88,811,25,23,0,0,0,10,0
+G70401,Tirol,Aurach bei Kitzbühel,826,606,384,49,80,29,4,55,3,0,0,0,0,0,0
+G70402,Tirol,Brixen im Thale,1995,1477,867,190,144,99,16,141,7,4,0,0,0,8,0
+G70403,Tirol,Fieberbrunn,3279,2496,1250,363,278,213,28,343,8,5,0,0,0,8,0
+G70404,Tirol,Going am Wilden Kaiser,1290,906,514,77,151,48,17,95,1,2,0,0,0,2,0
+G70405,Tirol,Hochfilzen,927,693,358,138,77,45,10,61,2,1,0,0,0,2,0
+G70406,Tirol,Hopfgarten im Brixental,4236,3306,1905,305,438,237,41,355,7,6,0,0,0,11,0
+G70407,Tirol,Itter,896,755,423,79,115,48,9,73,4,1,0,0,0,3,0
+G70408,Tirol,Jochberg,1160,861,496,99,129,50,6,78,2,1,0,0,0,1,0
+G70409,Tirol,Kirchberg in Tirol,3674,2648,1495,328,326,197,31,252,7,5,0,0,0,7,0
+G70410,Tirol,Kirchdorf in Tirol,2840,2152,1176,186,335,170,18,252,5,7,0,0,0,3,0
+G70411,Tirol,Kitzbühel,5776,3572,1878,392,500,300,51,421,15,9,0,0,0,6,0
+G70412,Tirol,Kössen,2985,2105,1300,147,288,123,17,207,13,7,0,0,0,4,0
+G70413,Tirol,Oberndorf in Tirol,1636,1205,670,142,143,89,7,146,3,4,0,0,0,2,0
+G70414,Tirol,Reith bei Kitzbühel,1141,825,482,58,94,72,10,104,3,3,0,0,0,0,0
+G70415,Tirol,St. Jakob in Haus,575,458,268,53,36,41,8,51,1,0,0,0,0,0,0
+G70416,Tirol,St. Johann in Tirol,6569,4575,2273,501,628,404,44,686,17,13,0,0,0,9,0
+G70417,Tirol,St. Ulrich am Pillersee,1214,924,550,68,108,76,15,98,4,2,0,0,0,3,0
+G70418,Tirol,Schwendt,581,434,263,32,66,26,3,43,0,0,0,0,0,0,0
+G70419,Tirol,Waidring,1522,1205,626,120,200,89,11,153,3,2,0,0,0,2,0
+G70420,Tirol,Westendorf,2769,2062,1226,199,214,141,20,245,7,5,0,0,0,4,0
+G70501,Tirol,Alpbach,1912,1558,1011,65,220,111,13,129,4,2,0,0,0,3,0
+G70502,Tirol,Angath,750,520,271,55,96,29,13,52,1,0,0,0,0,3,0
+G70503,Tirol,Bad Häring,2003,1447,596,305,178,94,21,239,8,3,0,0,0,2,0
+G70504,Tirol,Brandenberg,1219,897,525,116,128,52,7,63,4,1,0,0,0,1,0
+G70505,Tirol,Breitenbach am Inn,2668,2192,1201,230,355,132,20,224,11,5,0,0,0,15,0
+G70506,Tirol,Brixlegg,2248,1528,691,198,277,113,28,197,7,8,0,0,0,8,0
+G70508,Tirol,Ebbs,4083,2985,1600,288,518,205,43,305,8,8,0,0,0,9,0
+G70509,Tirol,Ellmau,1867,1355,750,101,231,78,20,164,4,3,0,0,0,2,0
+G70510,Tirol,Erl,1053,853,523,56,99,59,12,93,5,6,0,0,0,1,0
+G70511,Tirol,Kirchbichl,4328,3222,1327,626,581,222,49,375,16,11,0,0,0,15,0
+G70512,Tirol,Kramsach,3827,2792,1150,335,494,233,55,492,11,9,0,0,0,13,0
+G70513,Tirol,Kufstein,12099,7595,2983,1297,1202,607,153,1247,40,34,0,0,0,33,0
+G70514,Tirol,Kundl,3331,2315,1009,368,391,190,32,291,12,9,0,0,0,12,0
+G70515,Tirol,Langkampfen,3045,2269,1042,331,435,153,27,256,6,7,0,0,0,14,0
+G70516,Tirol,Mariastein,306,215,102,17,33,26,2,33,0,1,0,0,0,2,0
+G70517,Tirol,Münster,2609,1898,825,267,371,146,28,232,13,8,0,0,0,8,0
+G70518,Tirol,Niederndorf,2033,1493,797,106,273,115,29,153,7,3,0,0,0,9,0
+G70519,Tirol,Niederndorferberg,490,352,236,10,51,16,4,31,0,2,0,0,0,1,0
+G70520,Tirol,Radfeld,1772,1204,494,168,271,96,29,133,4,3,0,0,0,6,0
+G70521,Tirol,Rattenberg,256,181,57,25,41,19,6,27,4,2,0,0,0,0,0
+G70522,Tirol,Reith im Alpbachtal,1998,1466,869,134,203,97,17,137,3,4,0,0,0,1,0
+G70523,Tirol,Rettenschöss,375,262,191,8,28,12,1,21,1,0,0,0,0,0,0
+G70524,Tirol,Scheffau am Wilden Kaiser,1060,724,468,38,86,43,11,73,4,1,0,0,0,1,0
+G70525,Tirol,Schwoich,1911,1506,809,153,228,94,23,175,5,8,0,0,0,11,0
+G70526,Tirol,Söll,2647,1981,1195,182,246,127,22,192,5,5,0,0,0,7,0
+G70527,Tirol,Thiersee,2120,1749,1051,144,232,117,19,172,5,5,0,0,0,3,0
+G70528,Tirol,Angerberg,1464,1136,560,119,166,103,17,157,7,3,0,0,0,4,0
+G70529,Tirol,Walchsee,1312,958,541,60,177,57,4,113,3,1,0,0,0,2,0
+G70530,Tirol,Wildschönau,3179,2493,1603,133,348,130,34,222,9,8,0,0,0,7,0
+G70531,Tirol,Wörgl,9032,5659,2107,1270,989,350,99,778,24,25,0,0,0,19,0
+G70601,Tirol,Faggen,291,187,119,14,21,17,0,14,0,0,0,0,0,0,0
+G70602,Tirol,Fendels,209,159,114,8,7,17,0,11,1,0,0,0,0,0,0
+G70603,Tirol,Fiss,721,485,357,17,28,44,2,33,0,1,0,0,0,1,0
+G70604,Tirol,Fließ,2346,1752,963,225,247,121,31,150,6,5,0,0,0,4,0
+G70605,Tirol,Flirsch,774,550,282,87,55,48,16,52,6,3,0,0,0,1,0
+G70606,Tirol,Galtür,606,485,336,21,55,33,6,32,0,0,0,0,0,0,0
+G70607,Tirol,Grins,1098,746,398,83,87,75,13,82,2,4,0,0,0,1,0
+G70608,Tirol,Ischgl,1234,921,676,40,93,58,8,43,1,0,0,0,0,1,0
+G70609,Tirol,Kappl,2064,1648,1227,68,184,78,8,76,5,2,0,0,0,1,0
+G70610,Tirol,Kaunerberg,324,238,173,15,18,14,2,17,0,0,0,0,0,0,0
+G70611,Tirol,Kaunertal,465,353,260,21,12,24,4,29,1,0,0,0,0,1,0
+G70612,Tirol,Kauns,401,263,161,17,17,34,3,31,0,0,0,0,0,0,0
+G70613,Tirol,Ladis,418,272,158,17,37,23,3,30,2,0,0,0,0,2,0
+G70614,Tirol,Landeck,5576,3631,1506,713,427,411,65,471,18,14,0,0,0,6,0
+G70615,Tirol,Nauders,1097,789,514,70,91,56,4,53,1,0,0,0,0,0,0
+G70616,Tirol,Pettneu am Arlberg,1122,784,399,104,76,74,12,110,1,4,0,0,0,3,0
+G70617,Tirol,Pfunds,1976,1387,859,151,162,90,16,100,5,4,0,0,0,1,0
+G70618,Tirol,Pians,610,477,282,60,55,31,6,41,0,0,0,0,0,0,0
+G70619,Tirol,Prutz,1330,864,436,122,96,67,17,117,4,3,0,0,0,1,0
+G70620,Tirol,Ried im Oberinntal,907,597,356,53,63,41,13,67,3,0,0,0,0,0,0
+G70621,Tirol,St. Anton am Arlberg,1763,1083,648,74,69,136,13,138,2,3,0,0,0,0,0
+G70622,Tirol,Schönwies,1308,996,427,255,105,87,14,101,3,3,0,0,0,1,0
+G70623,Tirol,See,948,702,488,25,116,40,3,26,2,0,0,0,0,2,0
+G70624,Tirol,Serfaus,865,614,396,37,46,64,6,59,1,3,0,0,0,1,0
+G70625,Tirol,Spiss,90,59,40,5,10,2,0,1,0,0,0,0,0,0,0
+G70626,Tirol,Stanz bei Landeck,476,361,171,73,19,35,6,53,2,0,0,0,0,0,0
+G70627,Tirol,Strengen,977,716,388,123,82,53,20,44,0,5,0,0,0,1,0
+G70628,Tirol,Tobadill,404,277,170,29,28,22,3,21,0,3,0,0,0,0,0
+G70629,Tirol,Tösens,577,361,219,33,50,23,5,27,1,1,0,0,0,0,0
+G70630,Tirol,Zams,2635,1862,871,295,160,225,36,261,5,4,0,0,0,6,0
+G70701,Tirol,Abfaltersbach,511,423,287,18,47,26,3,39,1,2,0,0,0,0,0
+G70702,Tirol,Ainet,764,559,304,40,99,37,11,65,2,0,0,0,0,0,0
+G70703,Tirol,Amlach,373,281,136,25,59,23,5,29,2,1,0,0,0,1,0
+G70704,Tirol,Anras,989,786,538,45,89,53,3,54,2,2,0,0,0,0,0
+G70705,Tirol,Assling,1489,1175,732,85,132,81,16,118,5,4,0,0,0,1,0
+G70706,Tirol,Außervillgraten,640,541,370,32,46,37,5,47,0,1,0,0,0,2,0
+G70707,Tirol,Dölsach,1858,1307,653,153,206,114,17,158,5,2,0,0,0,0,0
+G70708,Tirol,Gaimberg,678,514,257,51,70,52,14,67,2,1,0,0,0,0,0
+G70709,Tirol,Hopfgarten in Defereggen,587,414,295,16,43,30,4,24,0,1,0,0,0,0,0
+G70710,Tirol,Innervillgraten,741,550,418,21,44,29,5,30,0,0,0,0,0,1,0
+G70711,Tirol,Iselsberg-Stronach,479,307,160,28,45,22,9,40,2,0,0,0,0,1,0
+G70712,Tirol,Kals am Großglockner,940,626,408,32,100,27,3,49,4,1,0,0,0,0,0
+G70713,Tirol,Kartitsch,635,467,342,13,38,24,7,39,3,0,0,0,0,0,0
+G70714,Tirol,Lavant,261,207,99,19,48,21,0,17,0,0,0,0,0,2,0
+G70715,Tirol,Leisach,596,417,224,41,58,25,9,52,8,0,0,0,0,0,0
+G70716,Tirol,Lienz,9441,6097,2622,922,834,562,128,957,23,28,0,0,0,22,0
+G70717,Tirol,Matrei in Osttirol,3840,2643,1412,149,584,197,30,248,9,11,0,0,0,2,0
+G70718,Tirol,Nikolsdorf,701,494,287,46,56,35,8,59,0,1,0,0,0,0,0
+G70719,Tirol,Nußdorf-Debant,2743,1788,806,252,331,144,21,220,5,5,0,0,0,4,0
+G70720,Tirol,Oberlienz,1232,838,488,59,112,63,12,99,3,2,0,0,0,0,0
+G70721,Tirol,Obertilliach,571,467,358,14,42,27,1,22,1,1,0,0,0,0,0
+G70723,Tirol,Prägraten am Großvenediger,959,644,409,21,131,32,1,47,2,0,0,0,0,0,0
+G70724,Tirol,St. Jakob in Defereggen,700,503,333,18,64,40,4,43,0,0,0,0,0,0,0
+G70725,Tirol,St. Johann im Walde,227,193,123,14,29,12,3,8,0,1,0,0,0,2,0
+G70726,Tirol,St. Veit in Defereggen,532,408,267,17,57,32,2,33,0,0,0,0,0,0,0
+G70727,Tirol,Schlaiten,388,274,153,23,40,26,3,27,1,0,0,0,0,1,0
+G70728,Tirol,Sillian,1650,1248,762,89,148,105,10,127,3,3,0,0,0,1,0
+G70729,Tirol,Strassen,624,482,333,26,38,30,4,50,0,1,0,0,0,0,0
+G70731,Tirol,Thurn,510,377,221,22,45,30,3,54,2,0,0,0,0,0,0
+G70732,Tirol,Tristach,1165,863,446,77,100,77,19,136,3,5,0,0,0,0,0
+G70733,Tirol,Untertilliach,183,112,82,4,9,6,0,10,0,0,0,0,0,0,0
+G70734,Tirol,Virgen,1750,1145,605,87,297,69,9,68,2,7,0,0,0,1,0
+G70735,Tirol,Heinfels,779,585,366,28,63,62,3,54,6,0,0,0,0,2,0
+G70801,Tirol,Bach,486,334,201,22,51,29,5,25,1,0,0,0,0,0,0
+G70802,Tirol,Berwang,405,343,197,24,47,33,6,35,0,0,0,0,0,0,0
+G70803,Tirol,Biberwier,443,349,172,39,55,37,7,35,0,1,0,0,0,1,0
+G70804,Tirol,Bichlbach,549,400,235,39,43,35,9,36,0,0,0,0,0,1,0
+G70805,Tirol,Breitenwang,1086,725,314,119,82,67,9,126,3,3,0,0,0,2,0
+G70806,Tirol,Ehenbichl,622,465,249,48,56,43,5,59,4,1,0,0,0,0,0
+G70807,Tirol,Ehrwald,1722,1164,609,114,176,112,19,124,3,1,0,0,0,5,0
+G70808,Tirol,Elbigenalp,644,445,248,33,59,32,10,58,0,1,0,0,0,4,0
+G70809,Tirol,Elmen,286,213,141,8,18,15,2,25,0,0,0,0,0,2,0
+G70810,Tirol,Forchach,193,162,86,12,37,12,4,10,0,0,0,0,0,1,0
+G70811,Tirol,Grän,369,288,198,12,26,26,3,24,0,0,0,0,0,0,0
+G70812,Tirol,Gramais,32,30,26,1,1,1,0,2,0,0,0,0,0,0,0
+G70813,Tirol,Häselgehr,530,327,201,24,45,24,3,29,0,0,0,0,0,1,0
+G70814,Tirol,Heiterwang,400,280,161,21,41,25,2,24,2,4,0,0,0,0,0
+G70815,Tirol,Hinterhornbach,70,71,57,1,7,2,0,2,0,0,0,0,0,0,0
+G70816,Tirol,Höfen,930,651,365,76,74,55,7,67,5,0,0,0,0,0,0
+G70817,Tirol,Holzgau,299,244,155,16,35,15,2,17,1,1,0,0,0,1,0
+G70818,Tirol,Jungholz,97,64,51,1,6,2,0,3,0,0,0,0,0,0,0
+G70819,Tirol,Kaisers,58,51,30,2,5,5,3,6,0,0,0,0,0,0,0
+G70820,Tirol,Lechaschau,1506,991,466,138,144,92,17,127,3,1,0,0,0,2,0
+G70821,Tirol,Lermoos,745,543,330,38,65,47,8,48,4,1,0,0,0,2,0
+G70822,Tirol,Musau,283,225,132,28,22,18,4,22,0,1,0,0,0,0,0
+G70823,Tirol,Namlos,60,56,33,2,14,2,0,4,0,0,0,0,0,0,0
+G70824,Tirol,Nesselwängle,320,213,138,13,27,16,1,15,0,0,0,0,0,1,0
+G70825,Tirol,Pfafflar,85,54,40,3,6,1,0,4,0,0,0,0,0,0,0
+G70826,Tirol,Pflach,911,628,317,89,85,46,9,76,4,2,0,0,0,1,0
+G70827,Tirol,Pinswang,277,218,119,24,23,18,3,27,1,0,0,0,0,1,0
+G70828,Tirol,Reutte,4179,2532,1031,547,306,236,36,344,14,13,0,0,0,5,0
+G70829,Tirol,Schattwald,301,193,117,11,12,19,3,31,0,0,0,0,0,0,0
+G70830,Tirol,Stanzach,350,259,136,22,36,23,6,34,0,0,0,0,0,1,0
+G70831,Tirol,Steeg,523,433,297,15,50,31,10,28,0,1,0,0,0,0,0
+G70832,Tirol,Tannheim,703,481,298,29,62,45,7,37,1,3,0,0,0,0,0
+G70833,Tirol,Vils,1063,763,435,83,87,53,13,85,6,0,0,0,0,1,0
+G70834,Tirol,Vorderhornbach,208,186,112,10,27,18,3,16,0,0,0,0,0,0,0
+G70835,Tirol,Wängle,705,517,298,52,55,41,4,61,3,0,0,0,0,2,0
+G70836,Tirol,Weißenbach am Lech,951,600,306,70,120,41,12,40,4,3,0,0,0,3,0
+G70837,Tirol,Zöblen,171,121,88,3,13,4,0,12,0,0,0,0,0,0,0
+G70901,Tirol,Achenkirch,1573,1030,611,77,167,68,19,74,5,7,0,0,0,2,0
+G70902,Tirol,Aschau im Zillertal,1330,838,491,74,137,50,11,68,3,4,0,0,0,1,0
+G70903,Tirol,Brandberg,277,201,126,12,42,9,1,12,0,0,0,0,0,0,0
+G70904,Tirol,Bruck am Ziller,854,682,401,57,122,39,9,51,2,2,0,0,0,0,0
+G70905,Tirol,Buch in Tirol,2018,1461,630,174,317,118,24,180,6,3,0,0,0,9,0
+G70907,Tirol,Eben am Achensee,2088,1322,679,146,210,117,17,143,4,2,0,0,0,4,0
+G70908,Tirol,Finkenberg,1080,791,473,85,96,54,9,67,3,3,0,0,0,2,0
+G70909,Tirol,Fügen,2810,1762,901,208,317,123,25,173,5,6,0,0,0,3,0
+G70910,Tirol,Fügenberg,1047,717,438,50,127,32,15,49,5,1,0,0,0,0,0
+G70911,Tirol,Gallzein,495,393,206,24,101,21,3,34,1,2,0,0,0,0,0
+G70912,Tirol,Gerlos,596,479,286,54,74,29,12,23,0,2,0,0,0,1,0
+G70913,Tirol,Gerlosberg,375,279,177,22,48,10,3,18,0,1,0,0,0,0,0
+G70914,Tirol,Hainzenberg,530,387,214,50,66,21,4,30,1,0,0,0,0,0,0
+G70915,Tirol,Hart im Zillertal,1187,813,473,65,140,47,9,73,2,3,0,0,0,1,0
+G70916,Tirol,Hippach,1097,757,530,38,90,46,4,47,1,1,0,0,0,0,0
+G70917,Tirol,Jenbach,4919,3171,1172,706,600,231,52,368,24,12,0,0,0,6,0
+G70918,Tirol,Kaltenbach,913,650,329,106,105,29,6,71,1,3,0,0,0,1,0
+G70920,Tirol,Mayrhofen,2599,1661,894,149,234,147,24,199,5,7,0,0,0,2,0
+G70921,Tirol,Pill,915,709,347,46,189,31,8,83,1,2,0,0,0,1,0
+G70922,Tirol,Ramsau im Zillertal,1234,809,454,71,143,48,13,73,4,3,0,0,0,0,0
+G70923,Tirol,Ried im Zillertal,910,671,375,87,79,50,7,65,4,1,0,0,0,3,0
+G70924,Tirol,Rohrberg,432,322,185,46,49,16,5,17,1,1,0,0,0,0,0
+G70925,Tirol,Schlitters,1080,758,402,93,122,45,9,79,3,4,0,0,0,1,0
+G70926,Tirol,Schwaz,9973,6640,2514,1215,1134,552,123,1018,42,30,0,0,0,12,0
+G70927,Tirol,Schwendau,1254,848,529,55,126,64,6,64,1,2,0,0,0,3,0
+G70928,Tirol,Stans,1632,1242,605,146,204,112,14,149,6,4,0,0,0,3,0
+G70929,Tirol,Steinberg am Rofan,210,150,110,8,16,7,0,8,1,0,0,0,0,0,0
+G70930,Tirol,Strass im Zillertal,648,500,258,52,67,45,8,64,3,2,0,0,0,0,0
+G70931,Tirol,Stumm,1466,983,530,127,143,56,14,106,1,4,0,0,0,1,0
+G70932,Tirol,Stummerberg,671,449,294,29,78,16,5,24,0,1,0,0,0,0,0
+G70933,Tirol,Terfens,1618,1254,570,118,203,144,27,166,10,10,0,0,0,6,0
+G70934,Tirol,Tux,1399,1108,705,97,126,76,12,84,5,1,0,0,0,2,0
+G70935,Tirol,Uderns,1338,903,437,134,184,55,9,75,2,6,0,0,0,2,0
+G70936,Tirol,Vomp,3831,2794,1155,452,509,222,39,386,15,9,0,0,0,7,0
+G70937,Tirol,Weer,1208,859,411,109,152,62,11,104,6,4,0,0,0,1,0
+G70938,Tirol,Weerberg,1933,1501,921,84,247,100,16,124,6,2,0,0,0,2,0
+G70939,Tirol,Wiesing,1652,1159,501,165,232,100,23,131,3,2,0,0,0,2,0
+G70940,Tirol,Zell am Ziller,1289,840,404,119,153,68,13,77,3,1,0,0,0,2,0
+G70941,Tirol,Zellberg,519,357,204,29,67,27,4,23,1,1,0,0,0,0,0
+G80101,Vorarlberg,Bartholomäberg,1767,1294,531,152,283,145,18,143,11,9,0,0,0,2,0
+G80102,Vorarlberg,Blons,237,208,109,13,24,40,2,19,0,0,0,0,0,0,0
+G80103,Vorarlberg,Bludenz,9598,6129,1875,1368,903,702,138,1009,53,56,0,0,0,25,0
+G80104,Vorarlberg,Bludesch,1558,1060,342,203,188,134,24,148,6,9,0,0,0,4,0
+G80105,Vorarlberg,Brand,487,353,178,26,54,46,8,35,3,2,0,0,0,0,0
+G80106,Vorarlberg,Bürs,2313,1502,469,340,233,185,26,220,9,18,0,0,0,2,0
+G80107,Vorarlberg,Bürserberg,425,283,138,26,46,29,6,31,0,3,0,0,0,3,0
+G80108,Vorarlberg,Dalaas,1143,835,282,147,139,140,13,108,4,3,0,0,0,1,0
+G80109,Vorarlberg,Fontanella,338,293,215,10,23,27,2,15,1,1,0,0,0,0,0
+G80110,Vorarlberg,Gaschurn,1127,754,338,94,150,80,12,64,4,9,0,0,0,3,0
+G80111,Vorarlberg,Innerbraz,744,562,186,116,78,73,12,88,6,3,0,0,0,1,0
+G80112,Vorarlberg,Klösterle,500,342,161,50,47,41,3,37,1,1,0,0,0,0,0
+G80113,Vorarlberg,Lech,1144,576,331,35,34,100,6,63,2,4,0,0,0,2,0
+G80114,Vorarlberg,Lorüns,198,170,75,17,30,17,2,27,0,1,0,0,0,0,0
+G80115,Vorarlberg,Ludesch,2452,1618,528,232,249,241,39,295,6,18,0,0,0,11,0
+G80116,Vorarlberg,Nenzing,4570,3233,1096,410,668,430,72,493,16,31,0,0,0,16,0
+G80117,Vorarlberg,Nüziders,3722,2696,918,518,342,373,50,448,14,21,0,0,0,13,0
+G80118,Vorarlberg,Raggal,637,519,295,33,51,55,11,66,1,4,0,0,0,3,0
+G80119,Vorarlberg,St. Anton im Montafon,524,389,143,55,60,63,5,57,2,2,0,0,0,3,0
+G80120,Vorarlberg,St. Gallenkirch,1689,1111,479,175,238,104,18,81,5,5,0,0,0,5,0
+G80121,Vorarlberg,St. Gerold,295,236,119,19,36,27,5,27,0,2,0,0,0,0,0
+G80122,Vorarlberg,Schruns,2753,1821,743,202,273,258,33,274,8,17,0,0,0,13,0
+G80123,Vorarlberg,Silbertal,679,522,254,65,104,50,3,38,3,1,0,0,0,3,0
+G80124,Vorarlberg,Sonntag,496,413,262,20,30,37,4,50,4,7,0,0,0,0,0
+G80125,Vorarlberg,Stallehr,203,147,66,13,23,19,3,20,0,1,0,0,0,1,0
+G80126,Vorarlberg,Thüringen,1618,1187,430,137,159,173,20,237,11,17,0,0,0,3,0
+G80127,Vorarlberg,Thüringerberg,550,467,217,38,54,71,8,74,3,1,0,0,0,1,0
+G80128,Vorarlberg,Tschagguns,1688,1138,469,164,186,134,16,143,9,10,0,0,0,5,0
+G80129,Vorarlberg,Vandans,2003,1389,538,204,275,166,32,161,5,5,0,0,0,3,0
+G80201,Vorarlberg,Alberschwende,2431,1905,864,119,275,237,29,351,6,16,0,0,0,7,0
+G80202,Vorarlberg,Andelsbuch,1880,1392,672,79,120,195,23,288,2,11,0,0,0,1,0
+G80203,Vorarlberg,Au,1353,984,573,40,117,121,5,119,2,5,0,0,0,2,0
+G80204,Vorarlberg,Bezau,1412,945,497,56,103,126,11,148,2,3,0,0,0,1,0
+G80205,Vorarlberg,Bildstein,594,440,228,26,62,54,7,57,1,2,0,0,0,3,0
+G80206,Vorarlberg,Bizau,786,590,307,24,56,73,7,118,3,1,0,0,0,2,0
+G80207,Vorarlberg,Bregenz,19132,11949,3669,2367,1678,1366,285,2367,80,96,0,0,0,41,0
+G80208,Vorarlberg,Buch,464,401,203,20,71,39,1,56,3,6,0,0,0,1,0
+G80209,Vorarlberg,Damüls,225,187,129,5,15,18,2,18,0,0,0,0,0,0,0
+G80210,Vorarlberg,Doren,748,651,358,37,82,66,4,95,2,3,0,0,0,3,0
+G80211,Vorarlberg,Egg,2720,2004,990,102,230,285,30,350,3,10,0,0,0,3,0
+G80212,Vorarlberg,Eichenberg,263,208,132,10,11,21,7,25,0,1,0,0,0,1,0
+G80213,Vorarlberg,Fußach,2692,1822,622,267,331,243,33,300,12,8,0,0,0,7,0
+G80214,Vorarlberg,Gaißau,1325,885,348,121,139,112,18,134,5,5,0,0,0,3,0
+G80215,Vorarlberg,Hard,9324,5948,1964,985,875,793,147,1079,33,44,0,0,0,27,0
+G80216,Vorarlberg,Hittisau,1407,1033,493,75,149,123,8,171,2,7,0,0,0,4,0
+G80217,Vorarlberg,Höchst,5701,3351,1286,404,497,443,66,593,18,27,0,0,0,18,0
+G80218,Vorarlberg,Hörbranz,4579,3125,1234,391,483,417,62,497,13,15,0,0,0,12,0
+G80219,Vorarlberg,Hohenweiler,916,625,268,60,81,71,16,120,4,4,0,0,0,1,0
+G80220,Vorarlberg,Kennelbach,1380,918,324,128,120,123,25,183,7,4,0,0,0,4,0
+G80221,Vorarlberg,Krumbach,794,590,285,35,111,61,14,79,1,2,0,0,0,3,0
+G80222,Vorarlberg,Langen bei Bregenz,1074,823,414,60,136,92,10,107,1,3,0,0,0,1,0
+G80223,Vorarlberg,Langenegg,823,647,347,39,89,65,8,92,1,3,0,0,0,3,0
+G80224,Vorarlberg,Lauterach,7106,4990,1796,702,810,672,97,819,26,50,0,0,0,19,0
+G80225,Vorarlberg,Lingenau,1089,863,440,45,81,109,11,171,2,2,0,0,0,3,0
+G80226,Vorarlberg,Lochau,4158,2541,925,368,315,373,59,459,15,13,0,0,0,14,0
+G80227,Vorarlberg,Mellau,939,666,330,36,110,79,10,93,1,1,0,0,0,5,0
+G80228,Vorarlberg,Mittelberg,2389,1437,725,105,174,151,19,243,8,9,0,0,0,4,0
+G80229,Vorarlberg,Möggers,388,344,206,19,40,37,4,35,0,1,0,0,0,1,0
+G80230,Vorarlberg,Reuthe,445,277,135,16,41,48,4,30,1,1,0,0,0,0,0
+G80231,Vorarlberg,Riefensberg,700,558,318,28,87,48,7,63,1,5,0,0,0,1,0
+G80232,Vorarlberg,Schnepfau,334,239,128,9,22,37,3,39,0,0,0,0,0,0,0
+G80233,Vorarlberg,Schoppernau,703,595,339,22,81,82,10,59,1,1,0,0,0,1,0
+G80234,Vorarlberg,Schröcken,150,101,68,4,6,11,0,12,0,0,0,0,0,0,0
+G80235,Vorarlberg,Schwarzach,2848,2049,772,223,283,327,32,383,7,12,0,0,0,10,0
+G80236,Vorarlberg,Schwarzenberg,1357,1012,503,48,98,174,9,169,2,7,0,0,0,3,0
+G80237,Vorarlberg,Sibratsgfäll,318,266,174,12,26,15,1,36,0,0,0,0,0,1,0
+G80238,Vorarlberg,Sulzberg,1247,1043,597,44,87,134,10,159,2,5,0,0,0,5,0
+G80239,Vorarlberg,Warth,140,90,65,6,9,3,1,6,0,0,0,0,0,0,0
+G80240,Vorarlberg,Wolfurt,6017,4337,1684,481,584,616,80,824,19,33,0,0,0,15,0
+G80301,Vorarlberg,Dornbirn,34009,22532,7465,3180,3209,3222,558,4565,98,157,0,0,0,79,0
+G80302,Vorarlberg,Hohenems,11072,6540,2079,961,1222,826,206,1134,29,47,0,0,0,35,0
+G80303,Vorarlberg,Lustenau,15598,9506,3253,1259,1604,1336,206,1707,33,70,0,0,0,38,0
+G80401,Vorarlberg,Altach,5005,3335,1148,384,469,500,86,675,9,38,0,0,0,26,0
+G80402,Vorarlberg,Düns,312,266,95,21,37,44,6,60,2,1,0,0,0,0,0
+G80403,Vorarlberg,Dünserberg,106,74,44,2,13,5,0,10,0,1,0,0,0,0,0
+G80404,Vorarlberg,Feldkirch,23118,14817,4626,1950,2238,2193,377,3138,69,138,0,0,0,89,0
+G80405,Vorarlberg,Frastanz,4371,2727,957,406,442,331,50,491,12,24,0,0,0,14,0
+G80406,Vorarlberg,Fraxern,529,409,191,20,53,54,7,74,3,5,0,0,0,2,0
+G80407,Vorarlberg,Göfis,2517,1874,698,176,265,293,39,372,10,16,0,0,0,6,0
+G80408,Vorarlberg,Götzis,8036,5290,1735,752,737,766,120,1090,17,43,0,0,0,28,0
+G80409,Vorarlberg,Klaus,2264,1661,608,170,162,280,30,384,4,14,0,0,0,11,0
+G80410,Vorarlberg,Koblach,3523,2359,803,249,333,394,58,456,9,36,0,0,0,21,0
+G80411,Vorarlberg,Laterns,521,385,196,21,48,53,4,45,1,8,0,0,0,9,0
+G80412,Vorarlberg,Mäder,2908,1990,670,272,355,261,38,356,10,19,0,0,0,9,0
+G80413,Vorarlberg,Meiningen,1595,1087,350,139,185,159,31,202,4,7,0,0,0,10,0
+G80414,Vorarlberg,Rankweil,8406,5560,1812,720,752,770,134,1244,35,52,0,0,0,40,0
+G80415,Vorarlberg,Röns,254,205,87,17,31,22,6,41,1,0,0,0,0,0,0
+G80416,Vorarlberg,Röthis,1562,1044,394,101,117,182,20,208,4,12,0,0,0,6,0
+G80417,Vorarlberg,Satteins,2092,1559,557,189,240,229,21,295,5,14,0,0,0,9,0
+G80418,Vorarlberg,Schlins,1673,1249,430,178,192,180,38,210,3,14,0,0,0,4,0
+G80419,Vorarlberg,Schnifis,596,397,173,29,48,73,9,59,2,3,0,0,0,2,0
+G80420,Vorarlberg,Sulz,1887,1419,501,186,172,204,18,311,10,9,0,0,0,7,0
+G80421,Vorarlberg,Übersaxen,490,384,184,21,68,51,3,52,0,2,0,0,0,3,0
+G80422,Vorarlberg,Viktorsberg,300,238,120,19,22,38,2,34,0,1,0,0,0,1,0
+G80423,Vorarlberg,Weiler,1508,966,373,101,128,140,16,178,8,13,0,0,0,9,0
+G80424,Vorarlberg,Zwischenwasser,2439,1730,661,138,270,259,47,328,5,13,0,0,0,10,0
+G90101,Wien,Innere Stadt,11772,8942,3274,1487,677,1493,259,1667,36,26,0,23,0,0,0
+G90201,Wien,Leopoldstadt,59836,41759,8038,11524,4054,4126,1264,11835,433,251,0,234,0,0,0
+G90301,Wien,Landstraße,55943,40703,9638,9696,3743,4899,1294,10667,355,217,0,194,0,0,0
+G90401,Wien,Wieden,20440,15495,3657,3191,1068,2123,535,4683,122,73,0,43,0,0,0
+G90501,Wien,Margareten,31030,21907,4125,5847,1806,2257,755,6603,235,167,0,112,0,0,0
+G90601,Wien,Mariahilf,20431,15131,3001,3211,1059,1913,532,5148,132,80,0,55,0,0,0
+G90701,Wien,Neubau,20645,16099,2892,3121,928,2121,692,6044,153,110,0,38,0,0,0
+G90801,Wien,Josefstadt,15824,12659,2912,2283,781,1813,510,4120,133,63,0,44,0,0,0
+G90901,Wien,Alsergrund,26128,19976,4390,3919,1340,2827,708,6408,180,112,0,92,0,0,0
+G91001,Wien,Favoriten,109553,70134,16110,25830,12083,4265,1721,8729,562,344,0,490,0,0,0
+G91101,Wien,Simmering,60628,38776,8870,13418,8049,2304,962,4313,311,187,0,362,0,0,0
+G91201,Wien,Meidling,55143,36172,8521,11172,4752,2910,1068,7007,319,197,0,226,0,0,0
+G91301,Wien,Hietzing,38030,29597,10084,5624,2768,4181,878,5716,128,92,0,126,0,0,0
+G91401,Wien,Penzing,59858,43316,11371,10824,5124,4552,1276,9373,290,247,0,259,0,0,0
+G91501,Wien,Rudolfsheim-Fünfhaus,39246,25800,4665,7592,2705,1976,797,7449,303,179,0,134,0,0,0
+G91601,Wien,Ottakring,57151,39214,8485,11298,4487,3192,1182,9700,416,244,0,210,0,0,0
+G91701,Wien,Hernals,32524,23614,5647,5452,2315,2700,769,6295,191,156,0,89,0,0,0
+G91801,Wien,Währing,32809,25530,6803,4376,1885,3857,787,7433,164,135,0,90,0,0,0
+G91901,Wien,Döbling,48508,36005,11874,7461,3482,5179,1036,6459,214,154,0,146,0,0,0
+G92001,Wien,Brigittenau,46247,29938,6158,10228,4012,2012,842,6008,306,194,0,178,0,0,0
+G92101,Wien,Floridsdorf,106895,71665,18866,21658,13486,5192,1949,9088,462,368,0,596,0,0,0
+G92201,Wien,Donaustadt,127344,88847,23269,25855,15113,7474,2508,12849,561,444,0,774,0,0,0
+G92301,Wien,Liesing,73679,54034,15392,14631,7969,5491,1395,8265,322,228,0,341,0,0,0
