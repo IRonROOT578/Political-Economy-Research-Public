@@ -249,10 +249,10 @@
 <circle cx="-6.5624" cy="-12.1951" r="0.4921" fill="#E4003B" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="-5.4429" cy="-12.7342" r="0.4921" fill="#E4003B" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="-4.2795" cy="-13.1708" r="0.4921" fill="#E4003B" stroke="#ffffff" stroke-width="0.04"/>
-<circle cx="-3.0816" cy="-13.5014" r="0.4921" fill="#F6CB2F" stroke="#ffffff" stroke-width="0.04"/>
+<circle cx="-3.0816" cy="-13.5014" r="0.4921" fill="#E4003B" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="-1.8589" cy="-13.7233" r="0.4921" fill="#FAA61A" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="-0.6213" cy="-13.8347" r="0.4921" fill="#FAA61A" stroke="#ffffff" stroke-width="0.04"/>
-<circle cx="0.6213" cy="-13.8347" r="0.4921" fill="#0087DC" stroke="#ffffff" stroke-width="0.04"/>
+<circle cx="0.6213" cy="-13.8347" r="0.4921" fill="#FAA61A" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="1.8589" cy="-13.7233" r="0.4921" fill="#0087DC" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="3.0816" cy="-13.5014" r="0.4921" fill="#0087DC" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="4.2795" cy="-13.1708" r="0.4921" fill="#0087DC" stroke="#ffffff" stroke-width="0.04"/>
@@ -272,7 +272,7 @@
 <circle cx="13.8487" cy="0.0000" r="0.4921" fill="#6B2D5C" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="-12.6184" cy="-0.0000" r="0.4921" fill="#02A95B" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="-12.5576" cy="-1.2368" r="0.4921" fill="#02A95B" stroke="#ffffff" stroke-width="0.04"/>
-<circle cx="-12.3759" cy="-2.4617" r="0.4921" fill="#E4003B" stroke="#ffffff" stroke-width="0.04"/>
+<circle cx="-12.3759" cy="-2.4617" r="0.4921" fill="#005B54" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="-12.0750" cy="-3.6629" r="0.4921" fill="#E4003B" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="-11.6579" cy="-4.8288" r="0.4921" fill="#E4003B" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="-11.1284" cy="-5.9483" r="0.4921" fill="#E4003B" stroke="#ffffff" stroke-width="0.04"/>
@@ -284,7 +284,7 @@
 <circle cx="-5.9483" cy="-11.1284" r="0.4921" fill="#E4003B" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="-4.8288" cy="-11.6579" r="0.4921" fill="#E4003B" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="-3.6629" cy="-12.0750" r="0.4921" fill="#E4003B" stroke="#ffffff" stroke-width="0.04"/>
-<circle cx="-2.4617" cy="-12.3759" r="0.4921" fill="#FAA61A" stroke="#ffffff" stroke-width="0.04"/>
+<circle cx="-2.4617" cy="-12.3759" r="0.4921" fill="#F6CB2F" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="-1.2368" cy="-12.5576" r="0.4921" fill="#FAA61A" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="0.0000" cy="-12.6184" r="0.4921" fill="#FAA61A" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="1.2368" cy="-12.5576" r="0.4921" fill="#0087DC" stroke="#ffffff" stroke-width="0.04"/>
@@ -359,7 +359,7 @@
 <circle cx="9.4977" cy="-3.6020" r="0.4921" fill="#0087DC" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="9.8627" cy="-2.4309" r="0.4921" fill="#12B6CF" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="10.0838" cy="-1.2244" r="0.4921" fill="#12B6CF" stroke="#ffffff" stroke-width="0.04"/>
-<circle cx="10.1578" cy="0.0000" r="0.4921" fill="#12B6CF" stroke="#ffffff" stroke-width="0.04"/>
+<circle cx="10.1578" cy="0.0000" r="0.4921" fill="#6B2D5C" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="-8.9276" cy="-0.0000" r="0.4921" fill="#02A95B" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="-8.8367" cy="-1.2705" r="0.4921" fill="#02A95B" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="-8.5659" cy="-2.5152" r="0.4921" fill="#E4003B" stroke="#ffffff" stroke-width="0.04"/>
@@ -413,7 +413,7 @@
 <rect x="-20.369" y="2.900" width="1.05" height="1.05" fill="#FDF38E" stroke="#555" stroke-width="0.06" rx="0.12"/>
 <text x="-19.019" y="3.780" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="0.95" fill="#111">SNP 3</text>
 <rect x="-6.626" y="2.900" width="1.05" height="1.05" fill="#005B54" stroke="#555" stroke-width="0.06" rx="0.12"/>
-<text x="-5.276" y="3.780" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="0.95" fill="#111">PC 1</text>
+<text x="-5.276" y="3.780" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="0.95" fill="#111">PC 2</text>
 <rect x="7.118" y="2.900" width="1.05" height="1.05" fill="#E4003B" stroke="#555" stroke-width="0.06" rx="0.12"/>
 <text x="8.468" y="3.780" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="0.95" fill="#111">Lab 143</text>
 <rect x="-20.369" y="4.450" width="1.05" height="1.05" fill="#F6CB2F" stroke="#555" stroke-width="0.06" rx="0.12"/>
@@ -421,11 +421,11 @@
 <rect x="-6.626" y="4.450" width="1.05" height="1.05" fill="#FAA61A" stroke="#555" stroke-width="0.06" rx="0.12"/>
 <text x="-5.276" y="5.330" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="0.95" fill="#111">LD 31</text>
 <rect x="7.118" y="4.450" width="1.05" height="1.05" fill="#0087DC" stroke="#555" stroke-width="0.06" rx="0.12"/>
-<text x="8.468" y="5.330" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="0.95" fill="#111">Con 154</text>
+<text x="8.468" y="5.330" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="0.95" fill="#111">Con 153</text>
 <rect x="-20.369" y="6.000" width="1.05" height="1.05" fill="#12B6CF" stroke="#555" stroke-width="0.06" rx="0.12"/>
-<text x="-19.019" y="6.880" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="0.95" fill="#111">Reform 33</text>
+<text x="-19.019" y="6.880" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="0.95" fill="#111">Reform 32</text>
 <rect x="-6.626" y="6.000" width="1.05" height="1.05" fill="#6B2D5C" stroke="#555" stroke-width="0.06" rx="0.12"/>
-<text x="-5.276" y="6.880" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="0.95" fill="#111">RB 4</text>
+<text x="-5.276" y="6.880" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="0.95" fill="#111">RB 5</text>
 <rect x="7.118" y="6.000" width="1.05" height="1.05" fill="#48A5EE" stroke="#555" stroke-width="0.06" rx="0.12"/>
 <text x="8.468" y="6.880" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="0.95" fill="#111">UUP 2</text>
 <rect x="-20.369" y="7.550" width="1.05" height="1.05" fill="#D46A4C" stroke="#555" stroke-width="0.06" rx="0.12"/>

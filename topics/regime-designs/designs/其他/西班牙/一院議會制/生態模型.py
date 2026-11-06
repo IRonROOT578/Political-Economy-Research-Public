@@ -59,6 +59,10 @@ ACTUAL = {
                       "CC": 1, "UPN": 1},
     "congreso-2019": {"PSOE": 120, "PP": 89, "VOX": 52, "SUMAR": 38, "ERC": 13, "Cs": 10, "JUNTS": 8, "PNV": 6, "BILDU": 5,
                       "CUP": 2, "CC": 2, "UPN": 2, "地方": 2, "BNG": 1},
+    "congreso-201904": {"PSOE": 123, "PP": 66, "Cs": 57, "SUMAR": 43, "VOX": 24, "ERC": 15, "JUNTS": 7, "PNV": 6, "BILDU": 4,
+                        "CC": 2, "UPN": 2, "地方": 1},
+    "congreso-201606": {"PP": 137, "PSOE": 85, "SUMAR": 71, "Cs": 32, "ERC": 9, "JUNTS": 8, "PNV": 5, "BILDU": 2, "CC": 1},
+    "congreso-201512": {"PP": 123, "PSOE": 90, "SUMAR": 71, "Cs": 40, "ERC": 9, "JUNTS": 8, "PNV": 6, "BILDU": 2, "CC": 1},
 }
 SMD_TOTAL, LIST_TOTAL, NEED = 210, 140, 176
 
@@ -398,6 +402,9 @@ def main():
     print(f"每席選舉人（單一）：{QUOTA:.0f}")
     report("2023-07 眾議院選舉", "congreso-2023")
     report("2019-11 眾議院選舉", "congreso-2019")
+    report("2019-04 眾議院選舉", "congreso-201904")
+    report("2016-06 眾議院選舉", "congreso-201606")
+    report("2015-12 眾議院選舉", "congreso-201512")
 
 
 if __name__ == "__main__":

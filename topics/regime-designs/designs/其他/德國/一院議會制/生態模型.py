@@ -9,8 +9,9 @@
     python 生態模型.py --projection # 推估第 3 屆
     python 生態模型.py --poll       # 民調縮放
 
-得票：Bundeswahlleiterin 終局 Wahlkreis Zweitstimme → 資料/bt-2025.csv（及 bt-2021.csv）。
-單一 252：依人口配額固定到十六邦（見 SMD_N），邦內依 wk_nr 序切有效票相近選區；top-3 孔多賽。
+得票：Bundeswahlleiterin **Wahlbezirksstatistik**（逐投票區 Zweitstimme；郵寄票依各投票區已領郵寄選票人數 A2 分回）
+→ 資料/wbz-2025.csv、wbz-2021.csv（_build_wbz.py）、wbz-2017.csv、wbz-2013.csv（_build_wbz_old.py；約 13,400–16,700 個單位＝投票區號 //100 合併）。
+單一 252：依人口配額固定到十六邦（見 SMD_N），邦內依選區號、單位序切有效票相近選區；top-3 孔多賽。
 複數 168：十六邦名單區，聖拉古，無全國門檻，M 見 LIST_M（純 Hare）。
 偏好：二維（經濟：左 −1 … 右 +1；文化：開放 −1 … 保守、限移民 +1）。
 行政首長：全院 420 記名排名；須 ≥211 排在「維持空缺」之上。
@@ -51,27 +52,32 @@ LIST_M = {
 ACTUAL = {
     2025: {"CDU": 164, "AfD": 152, "SPD": 120, "GRÜNE": 85, "LINKE": 64, "CSU": 44, "SSW": 1},
     2021: {"SPD": 206, "CDU": 152, "GRÜNE": 118, "FDP": 91, "AfD": 83, "CSU": 45, "LINKE": 39, "SSW": 1},
+    2017: {"CDU": 200, "SPD": 153, "AfD": 94, "FDP": 80, "LINKE": 69, "GRÜNE": 67, "CSU": 46},
+    2013: {"CDU": 255, "SPD": 193, "LINKE": 64, "GRÜNE": 63, "CSU": 56},
 }
 CABINET = {
     2025: ("Merz（CDU）", ("CDU", "CSU", "SPD"), 0),
     2021: ("Scholz（SPD）", ("SPD", "GRÜNE", "FDP"), 0),
+    2017: ("Merkel（CDU）", ("CDU", "CSU", "SPD"), 0),
+    2013: ("Merkel（CDU）", ("CDU", "CSU", "SPD"), 0),
 }
 SMD_TOTAL, LIST_TOTAL, NEED = 252, 168, 211
 MAIN = ["SPD", "CDU", "GRÜNE", "FDP", "AfD", "CSU", "LINKE", "BSW", "FW", "SSW"]
 
 
 def load(year=2025):
-    with open(os.path.join(HERE, "資料", f"bt-{year}.csv"), encoding="utf-8") as f:
+    """逐投票區（資料/wbz-YYYY.csv，_build_wbz.py 產生）：(land, unit, name, valid, valid, votes)。"""
+    with open(os.path.join(HERE, "資料", f"wbz-{year}.csv"), encoding="utf-8") as f:
         rows = list(csv.reader(f))
-    cols = rows[0][5:]
+    cols = rows[0][6:]
     out = []
     for r in rows[1:]:
-        votes = {c: int(v) for c, v in zip(cols, r[5:])}
+        votes = {c: int(v) for c, v in zip(cols, r[6:])}
         merged = {p: votes.get(p, 0) for p in MAIN}
         other = votes.get("其他", 0)
         merged["其他"] = other
         # land, wk_nr, wk_name, valid, votes — land_code unused for cut
-        out.append((r[1], r[2], r[3], int(r[4]), int(r[4]), merged))
+        out.append((r[1], r[3], r[4], int(r[5]), int(r[5]), merged))
     return out
 
 
@@ -335,7 +341,7 @@ def report(label, year, units):
     print(f"\n## {label}")
     print("得票%：", "、".join(f"{k} {v:.1f}" for k, v in sorted(national(units).items(), key=lambda x: -x[1]) if k != "其他"))
     if year in ACTUAL and str(year) in label:
-        print("實際 630：", fmt(ACTUAL[year]), "；實際內閣", CABINET[year])
+        print(f"實際 {sum(ACTUAL[year].values())}：", fmt(ACTUAL[year]), "；實際內閣", CABINET[year])
     print("單一 252：", fmt(smd), stats)
     print("複數 168：", fmt(lst))
     print("全院 420：", fmt(total), "合計", sum(total.values()))
@@ -385,6 +391,11 @@ def main():
         u21 = load(2021)
         print("2021 單位", len(u21), "有效票", sum(x[4] for x in u21))
         report("2021-09", 2021, u21)
+    for y, lab in ((2017, "2017-09"), (2013, "2013-09")):
+        if os.path.isfile(os.path.join(HERE, "資料", f"wbz-{y}.csv")):
+            uy = load(y)
+            print(f"{y} 單位", len(uy), "有效票", sum(x[4] for x in uy))
+            report(lab, y, uy)
 
 
 if __name__ == "__main__":

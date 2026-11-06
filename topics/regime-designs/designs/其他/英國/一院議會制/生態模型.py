@@ -30,7 +30,8 @@ POS = {
     "SF": (-0.5, -0.5, -1.0), "SDLP": (-0.4, -0.6, -0.7), "Alliance": (0.0, -0.7, 0.0),
     "UUP": (0.3, 0.2, 1.0), "DUP": (0.3, 0.7, 1.0), "TUV": (0.4, 1.0, 1.0),
 }
-OVERRIDE = {2019: {"Lab": (-0.8, -0.3, 0.5), "Reform": (0.5, 1.0, 0.9)}}   # 2019：Corbyn 的工黨；Reform 欄＝脫歐黨
+OVERRIDE = {2019: {"Lab": (-0.8, -0.3, 0.5), "Reform": (0.5, 1.0, 0.9)},   # 2019：Corbyn 的工黨；Reform 欄＝脫歐黨
+            2017: {"Lab": (-0.8, -0.3, 0.5), "Reform": (0.4, 1.0, 0.9)}}   # 2017：Corbyn 的工黨；Reform 欄＝UKIP
 TYPES = [(0.30, 1.0, 0.6, 0.6), (0.30, 0.6, 1.0, 0.6), (0.40, 0.8, 0.8, 0.8)]
 BALANCED = (0.8, 0.8, 0.8)
 CURRENT = [2024]
@@ -42,6 +43,7 @@ LIST_GROUPS = [
 ACTUAL = {
     2024: {"Lab": 411, "Con": 121, "LD": 72, "SNP": 9, "SF": 7, "Reform": 5, "DUP": 5, "Green": 4, "PC": 4, "其他": 12},
     2019: {"Con": 365, "Lab": 202, "SNP": 48, "LD": 11, "DUP": 8, "SF": 7, "PC": 4, "SDLP": 2, "Green": 1, "Alliance": 1, "其他": 1},
+    2017: {"Con": 317, "Lab": 262, "SNP": 35, "LD": 12, "DUP": 10, "SF": 7, "PC": 4, "Green": 1, "其他": 2},
 }
 GB = ("Lab", "Con", "Reform", "LD", "Green", "SNP", "PC")
 
@@ -52,6 +54,15 @@ def pos(p):
 
 def load(year):
     with open(os.path.join(HERE, "資料", f"ge-{year}.csv"), encoding="utf-8") as f:
+        rows = list(csv.reader(f))
+    cols = rows[0][5:]
+    return [(r[0], hilbert(float(r[2]), float(r[3])), 0, r[1], int(r[4]), {c: int(v) for c, v in zip(cols, r[5:])})
+            for r in rows[1:]]
+
+
+def load_ep2019():
+    """2019-05 歐洲議會選舉得票（估計到 2010–19 年國會選區；北愛爾蘭沿用 2019 國會選舉）。格式同 load()。"""
+    with open(os.path.join(HERE, "資料", "ep-2019.csv"), encoding="utf-8") as f:
         rows = list(csv.reader(f))
     cols = rows[0][5:]
     return [(r[0], hilbert(float(r[2]), float(r[3])), 0, r[1], int(r[4]), {c: int(v) for c, v in zip(cols, r[5:])})
@@ -353,12 +364,15 @@ def main():
         return
     print("單一 240 各區：", SMD_N)
     print("複數 160 各區 M：", LIST_M)
-    for year in (2024, 2019):
+    for year in (2024, 2019, 2017):
         units = load(year)
         if "--sincere" in sys.argv:
             report(f"{year}（誠實偏好，前 2 名讓出 10%）", year, sincere(units))
         else:
             report(f"{year}", year, units)
+    if "--sincere" not in sys.argv:
+        # 2019-05 歐洲議會選舉：大不列顛唯一的全國比例代表政黨票，估計到國會選區（資料/ep-2019.csv，_build_ep2019.py）
+        report("2019-05 歐洲議會名單票當第一偏好", 2019, load_ep2019())
 
 
 if __name__ == "__main__":

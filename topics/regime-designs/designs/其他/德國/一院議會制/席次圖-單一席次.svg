@@ -34,13 +34,13 @@
 <circle cx="11.7557" cy="-16.1803" r="0.6352" fill="#000000" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="12.9890" cy="-15.2081" r="0.6352" fill="#000000" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="14.1421" cy="-14.1421" r="0.6352" fill="#000000" stroke="#ffffff" stroke-width="0.04"/>
-<circle cx="15.2081" cy="-12.9890" r="0.6352" fill="#008AC7" stroke="#ffffff" stroke-width="0.04"/>
+<circle cx="15.2081" cy="-12.9890" r="0.6352" fill="#000000" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="16.1803" cy="-11.7557" r="0.6352" fill="#008AC7" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="17.0528" cy="-10.4500" r="0.6352" fill="#008AC7" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="17.8201" cy="-9.0798" r="0.6352" fill="#008AC7" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="18.4776" cy="-7.6537" r="0.6352" fill="#008AC7" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="19.0211" cy="-6.1803" r="0.6352" fill="#008AC7" stroke="#ffffff" stroke-width="0.04"/>
-<circle cx="19.4474" cy="-4.6689" r="0.6352" fill="#009EE0" stroke="#ffffff" stroke-width="0.04"/>
+<circle cx="19.4474" cy="-4.6689" r="0.6352" fill="#008AC7" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="19.7538" cy="-3.1287" r="0.6352" fill="#009EE0" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="19.9383" cy="-1.5692" r="0.6352" fill="#009EE0" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="20.0000" cy="0.0000" r="0.6352" fill="#009EE0" stroke="#ffffff" stroke-width="0.04"/>
@@ -78,7 +78,7 @@
 <circle cx="16.0739" cy="-8.9794" r="0.6352" fill="#008AC7" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="16.7775" cy="-7.5839" r="0.6352" fill="#008AC7" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="17.3602" cy="-6.1338" r="0.6352" fill="#008AC7" stroke="#ffffff" stroke-width="0.04"/>
-<circle cx="17.8179" cy="-4.6394" r="0.6352" fill="#009EE0" stroke="#ffffff" stroke-width="0.04"/>
+<circle cx="17.8179" cy="-4.6394" r="0.6352" fill="#008AC7" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="18.1471" cy="-3.1116" r="0.6352" fill="#009EE0" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="18.3457" cy="-1.5614" r="0.6352" fill="#009EE0" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="18.4120" cy="-0.0000" r="0.6352" fill="#009EE0" stroke="#ffffff" stroke-width="0.04"/>
@@ -176,12 +176,12 @@
 <circle cx="13.2801" cy="-3.1474" r="0.6352" fill="#008AC7" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="13.5557" cy="-1.5844" r="0.6352" fill="#009EE0" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="13.6480" cy="0.0000" r="0.6352" fill="#009EE0" stroke="#ffffff" stroke-width="0.04"/>
-<circle cx="-12.0599" cy="-0.0000" r="0.6352" fill="#E3000F" stroke="#ffffff" stroke-width="0.04"/>
+<circle cx="-12.0599" cy="-0.0000" r="0.6352" fill="#BE3075" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="-11.9568" cy="-1.5741" r="0.6352" fill="#E3000F" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="-11.6490" cy="-3.1213" r="0.6352" fill="#E3000F" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="-11.1419" cy="-4.6151" r="0.6352" fill="#E3000F" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="-10.4442" cy="-6.0300" r="0.6352" fill="#E3000F" stroke="#ffffff" stroke-width="0.04"/>
-<circle cx="-9.5678" cy="-7.3416" r="0.6352" fill="#E3000F" stroke="#ffffff" stroke-width="0.04"/>
+<circle cx="-9.5678" cy="-7.3416" r="0.6352" fill="#000000" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="-8.5277" cy="-8.5277" r="0.6352" fill="#000000" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="-7.3416" cy="-9.5678" r="0.6352" fill="#000000" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="-6.0300" cy="-10.4442" r="0.6352" fill="#000000" stroke="#ffffff" stroke-width="0.04"/>
@@ -201,7 +201,7 @@
 <circle cx="11.6490" cy="-3.1213" r="0.6352" fill="#008AC7" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="11.9568" cy="-1.5741" r="0.6352" fill="#009EE0" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="12.0599" cy="0.0000" r="0.6352" fill="#009EE0" stroke="#ffffff" stroke-width="0.04"/>
-<circle cx="-10.4719" cy="-0.0000" r="0.6352" fill="#E3000F" stroke="#ffffff" stroke-width="0.04"/>
+<circle cx="-10.4719" cy="-0.0000" r="0.6352" fill="#BE3075" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="-10.3430" cy="-1.6382" r="0.6352" fill="#E3000F" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="-9.9594" cy="-3.2360" r="0.6352" fill="#E3000F" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="-9.3306" cy="-4.7542" r="0.6352" fill="#E3000F" stroke="#ffffff" stroke-width="0.04"/>
@@ -243,7 +243,7 @@
 <circle cx="-7.2959" cy="-0.0000" r="0.6352" fill="#E3000F" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="-7.1130" cy="-1.6235" r="0.6352" fill="#E3000F" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="-6.5734" cy="-3.1656" r="0.6352" fill="#E3000F" stroke="#ffffff" stroke-width="0.04"/>
-<circle cx="-5.7042" cy="-4.5489" r="0.6352" fill="#E3000F" stroke="#ffffff" stroke-width="0.04"/>
+<circle cx="-5.7042" cy="-4.5489" r="0.6352" fill="#000000" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="-4.5489" cy="-5.7042" r="0.6352" fill="#000000" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="-3.1656" cy="-6.5734" r="0.6352" fill="#000000" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="-1.6235" cy="-7.1130" r="0.6352" fill="#000000" stroke="#ffffff" stroke-width="0.04"/>
@@ -257,14 +257,14 @@
 <circle cx="7.2959" cy="0.0000" r="0.6352" fill="#009EE0" stroke="#ffffff" stroke-width="0.04"/>
 <text x="0" y="-2.400" text-anchor="middle" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="2.1" font-weight="700" fill="#111">252</text>
 <rect x="-20.476" y="1.350" width="1.05" height="1.05" fill="#BE3075" stroke="#555" stroke-width="0.06" rx="0.12"/>
-<text x="-19.126" y="2.230" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="0.95" fill="#111">LINKE 5</text>
+<text x="-19.126" y="2.230" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="0.95" fill="#111">LINKE 7</text>
 <rect x="-6.614" y="1.350" width="1.05" height="1.05" fill="#E3000F" stroke="#555" stroke-width="0.06" rx="0.12"/>
-<text x="-5.264" y="2.230" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="0.95" fill="#111">SPD 52</text>
+<text x="-5.264" y="2.230" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="0.95" fill="#111">SPD 48</text>
 <rect x="7.249" y="1.350" width="1.05" height="1.05" fill="#000000" stroke="#555" stroke-width="0.06" rx="0.12"/>
-<text x="8.599" y="2.230" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="0.95" fill="#111">CDU 137</text>
+<text x="8.599" y="2.230" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="0.95" fill="#111">CDU 140</text>
 <rect x="-20.476" y="2.900" width="1.05" height="1.05" fill="#008AC7" stroke="#555" stroke-width="0.06" rx="0.12"/>
-<text x="-19.126" y="3.780" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="0.95" fill="#111">CSU 36</text>
+<text x="-19.126" y="3.780" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="0.95" fill="#111">CSU 37</text>
 <rect x="-6.614" y="2.900" width="1.05" height="1.05" fill="#009EE0" stroke="#555" stroke-width="0.06" rx="0.12"/>
-<text x="-5.264" y="3.780" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="0.95" fill="#111">AfD 22</text>
+<text x="-5.264" y="3.780" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="0.95" fill="#111">AfD 20</text>
 <text x="0" y="4.800" text-anchor="middle" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="0.85" fill="#444">AfD 軟化後東德拿回部分區；仍遠低於第一偏好份額</text>
 </svg>

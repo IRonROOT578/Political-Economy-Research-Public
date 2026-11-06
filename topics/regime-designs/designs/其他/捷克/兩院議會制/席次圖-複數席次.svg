@@ -14,7 +14,7 @@
 <circle cx="-10.0000" cy="-17.3205" r="1.0794" fill="#2DB3A8" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="-7.6537" cy="-18.4776" r="1.0794" fill="#2DB3A8" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="-5.1764" cy="-19.3185" r="1.0794" fill="#2DB3A8" stroke="#ffffff" stroke-width="0.04"/>
-<circle cx="-2.6105" cy="-19.8289" r="1.0794" fill="#2DB3A8" stroke="#ffffff" stroke-width="0.04"/>
+<circle cx="-2.6105" cy="-19.8289" r="1.0794" fill="#4FC3F7" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="0.0000" cy="-20.0000" r="1.0794" fill="#4FC3F7" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="2.6105" cy="-19.8289" r="1.0794" fill="#4FC3F7" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="5.1764" cy="-19.3185" r="1.0794" fill="#4FC3F7" stroke="#ffffff" stroke-width="0.04"/>
@@ -99,14 +99,14 @@
 <rect x="-6.577" y="1.350" width="1.05" height="1.05" fill="#23238E" stroke="#555" stroke-width="0.06" rx="0.12"/>
 <text x="-5.227" y="2.230" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="0.95" fill="#111">SPOLU 21</text>
 <rect x="7.656" y="1.350" width="1.05" height="1.05" fill="#2DB3A8" stroke="#555" stroke-width="0.06" rx="0.12"/>
-<text x="9.006" y="2.230" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="0.95" fill="#111">STAN 12</text>
+<text x="9.006" y="2.230" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="0.95" fill="#111">STAN 11</text>
 <rect x="-20.810" y="2.900" width="1.05" height="1.05" fill="#4FC3F7" stroke="#555" stroke-width="0.06" rx="0.12"/>
-<text x="-19.460" y="3.780" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="0.95" fill="#111">ANO 30</text>
+<text x="-19.460" y="3.780" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="0.95" fill="#111">ANO 31</text>
 <rect x="-6.577" y="2.900" width="1.05" height="1.05" fill="#C2185B" stroke="#555" stroke-width="0.06" rx="0.12"/>
 <text x="-5.227" y="3.780" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="0.95" fill="#111">AUTO 8</text>
 <rect x="7.656" y="2.900" width="1.05" height="1.05" fill="#E53935" stroke="#555" stroke-width="0.06" rx="0.12"/>
 <text x="9.006" y="3.780" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="0.95" fill="#111">Stačilo! 2</text>
 <rect x="-20.810" y="4.450" width="1.05" height="1.05" fill="#8B0000" stroke="#555" stroke-width="0.06" rx="0.12"/>
 <text x="-19.460" y="5.330" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="0.95" fill="#111">SPD 8</text>
-<text x="0" y="6.350" text-anchor="middle" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="0.85" fill="#444">3/5 ≥54；ANO 30，改規則要拉兩個反對黨</text>
+<text x="0" y="6.350" text-anchor="middle" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="0.85" fill="#444">3/5 ≥54；ANO 31，改規則要拉兩個反對黨</text>
 </svg>

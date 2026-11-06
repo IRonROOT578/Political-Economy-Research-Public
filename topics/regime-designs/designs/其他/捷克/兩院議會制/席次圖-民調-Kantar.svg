@@ -56,7 +56,7 @@
 <circle cx="-3.5515" cy="-17.8548" r="0.7182" fill="#2DB3A8" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="-1.7844" cy="-18.1169" r="0.7182" fill="#2DB3A8" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="0.0000" cy="-18.2046" r="0.7182" fill="#2DB3A8" stroke="#ffffff" stroke-width="0.04"/>
-<circle cx="1.7844" cy="-18.1169" r="0.7182" fill="#4FC3F7" stroke="#ffffff" stroke-width="0.04"/>
+<circle cx="1.7844" cy="-18.1169" r="0.7182" fill="#2DB3A8" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="3.5515" cy="-17.8548" r="0.7182" fill="#4FC3F7" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="5.2845" cy="-17.4207" r="0.7182" fill="#4FC3F7" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="6.9666" cy="-16.8188" r="0.7182" fill="#4FC3F7" stroke="#ffffff" stroke-width="0.04"/>
@@ -116,7 +116,7 @@
 <circle cx="-3.4973" cy="-14.1891" r="0.7182" fill="#2DB3A8" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="-1.7615" cy="-14.5072" r="0.7182" fill="#2DB3A8" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="0.0000" cy="-14.6137" r="0.7182" fill="#2DB3A8" stroke="#ffffff" stroke-width="0.04"/>
-<circle cx="1.7615" cy="-14.5072" r="0.7182" fill="#4FC3F7" stroke="#ffffff" stroke-width="0.04"/>
+<circle cx="1.7615" cy="-14.5072" r="0.7182" fill="#2DB3A8" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="3.4973" cy="-14.1891" r="0.7182" fill="#4FC3F7" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="5.1821" cy="-13.6641" r="0.7182" fill="#4FC3F7" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="6.7913" cy="-12.9398" r="0.7182" fill="#4FC3F7" stroke="#ffffff" stroke-width="0.04"/>
@@ -209,12 +209,12 @@
 <rect x="-6.607" y="1.350" width="1.05" height="1.05" fill="#23238E" stroke="#555" stroke-width="0.06" rx="0.12"/>
 <text x="-5.257" y="2.230" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="0.95" fill="#111">SPOLU 21</text>
 <rect x="7.325" y="1.350" width="1.05" height="1.05" fill="#2DB3A8" stroke="#555" stroke-width="0.06" rx="0.12"/>
-<text x="8.675" y="2.230" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="0.95" fill="#111">STAN 76</text>
+<text x="8.675" y="2.230" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="0.95" fill="#111">STAN 78</text>
 <rect x="-20.539" y="2.900" width="1.05" height="1.05" fill="#4FC3F7" stroke="#555" stroke-width="0.06" rx="0.12"/>
-<text x="-19.189" y="3.780" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="0.95" fill="#111">ANO 79</text>
+<text x="-19.189" y="3.780" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="0.95" fill="#111">ANO 77</text>
 <rect x="-6.607" y="2.900" width="1.05" height="1.05" fill="#C2185B" stroke="#555" stroke-width="0.06" rx="0.12"/>
 <text x="-5.257" y="3.780" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="0.95" fill="#111">AUTO 7</text>
 <rect x="7.325" y="2.900" width="1.05" height="1.05" fill="#8B0000" stroke="#555" stroke-width="0.06" rx="0.12"/>
 <text x="8.675" y="3.780" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="0.95" fill="#111">SPD 8</text>
-<text x="0" y="4.800" text-anchor="middle" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="0.85" fill="#444">州相對形狀＋孔多賽／聖拉古；首長 STAN</text>
+<text x="0" y="4.800" text-anchor="middle" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="0.85" fill="#444">逐投票區縮放＋孔多賽／聖拉古；首長 STAN</text>
 </svg>

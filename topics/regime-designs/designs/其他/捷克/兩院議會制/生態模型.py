@@ -6,7 +6,8 @@
     python 生態模型.py            # 2025-10、2021-10 眾議院重算；參議院；2023 總統 top-3
     python 生態模型.py --sweep    # 敏感度
 
-地區：14 州的實際得票（Wikipedia 引 volby.cz）；州內單一選區加城鄉梯度與隨機擾動。
+得票：volby.cz 開放資料**逐投票區（okrsek）**，2025 年 14,816 個、2021 年 14,883 個（資料/ps-YYYY.csv）。
+州內依市鎮座標（Wikidata；市轄區用所屬城市座標）的 Hilbert 曲線排序，再依有效票連續切成單一選區。
 偏好：二維空間（地緣：西方整合 −1 … 主權派 +1；社經：自由市場、改革 −1 … 民粹、國家主義 +1）。
 每黨選民分三型（重地緣、重社經、均衡）。
 眾議院單一 110：依人口分到 14 州；top-3 孔多賽；循環用 Ranked Pairs。
@@ -14,8 +15,11 @@
 參議院 81：依人口分到 14 州；top-3 孔多賽（模型假設 81 席同時以同一次民意選出）。
 行政首長：眾議院全院 200 記名排名投票，孔多賽完成法；須 ≥101。
 """
-import random
+import csv
+import os
 import sys
+
+HERE = os.path.dirname(os.path.abspath(__file__))
 
 POS = {
     # 2025
@@ -69,8 +73,6 @@ REGION = {
     "摩拉維亞-西里西亞": (1176380, "摩拉維亞-西里西亞", (43.42, 17.98, 8.37, 7.18, 8.09, 6.42, 5.52, 2.91), 66.31,
                   (20.6, 33.7, 11.1, 12.8, 4.9, 5.4, 4.0, 7.5), 60.6),
 }
-# 海外（2025）：得票 %；有效票約 6 萬（假設），照現行併入南摩拉維亞所在的「東南」區
-ABROAD25 = ((3.95, 39.26, 21.48, 28.24, 2.04, 2.32, 1.04, 1.56), 60000)
 CH_SMD, CH_LIST, SENATE = 110, 90, 81
 
 
@@ -100,13 +102,71 @@ for r, v in REGION.items():
 LIST_M = largest_remainder({d: sum(POP[r] for r in rs) for d, rs in DISTRICTS.items()}, CH_LIST)
 
 
-def shares(year):
-    """回傳 (政黨清單, {州: {黨: %}}, {州: 權重})。"""
-    parties = P25 if year == 2025 else P21
-    si, ti = (2, 3) if year == 2025 else (4, 5)
-    sh = {r: dict(zip(parties, v[si])) for r, v in REGION.items()}
-    w = {r: v[0] * v[ti] / 100 for r, v in REGION.items()}
-    return parties, sh, w
+_UNITS = {}
+
+
+def hilbert(x, y, n=1 << 10):
+    d, t = 0, n >> 1
+    while t:
+        rx, ry = int(x & t > 0), int(y & t > 0)
+        d += t * t * ((3 * rx) ^ ry)
+        if ry == 0:
+            if rx == 1:
+                x, y = n - 1 - x, n - 1 - y
+            x, y = y, x
+        t >>= 1
+    return d
+
+
+def units(year):
+    """逐投票區：[(州, (市鎮碼, 投票區), 經度, 緯度, 有效票, {黨: 票})]，州內依 Hilbert 排序。"""
+    if year not in _UNITS:
+        with open(os.path.join(HERE, "資料", f"ps-{year}.csv"), encoding="utf-8") as f:
+            rows = list(csv.reader(f))
+        cols = rows[0][6:]
+        us = [(r[0], (int(r[1]), int(r[2])), float(r[3]), float(r[4]), int(r[5]),
+               {c: int(v) for c, v in zip(cols, r[6:])}) for r in rows[1:]]
+        out = []
+        for reg in REGION:
+            part = [u for u in us if u[0] == reg]
+            xs, ys = [u[2] * 0.65 for u in part], [u[3] for u in part]
+            x0, y0 = min(xs), min(ys)
+            span = max(max(xs) - x0, max(ys) - y0) or 1.0
+            part.sort(key=lambda u: (hilbert(int((u[2] * 0.65 - x0) / span * 1023), int((u[3] - y0) / span * 1023)), u[1]))
+            out += part
+        out += [u for u in us if u[0] == "海外"]
+        _UNITS[year] = out
+    return _UNITS[year]
+
+
+def apply(year, override):
+    """override：{黨: 全國份額}；每黨在每個投票區的票 ×（目標／實際）。"""
+    us = units(year)
+    if not override:
+        return us
+    base = national(year)
+    return [(u[0], u[1], u[2], u[3], u[4], {p: v * override[p] / base[p] if base.get(p) else v for p, v in u[5].items()})
+            for u in us]
+
+
+def cut(rows, n, shift=False):
+    target = sum(u[4] for u in rows) / n
+    if shift and n > 1:
+        acc, k = 0, 0
+        while acc < target / 2:
+            acc += rows[k][4]
+            k += 1
+        rows = rows[k:] + rows[:k]
+    out, cur, acc = [], [], 0
+    for u in rows:
+        cur.append(u)
+        acc += u[4]
+        if acc >= target * (len(out) + 1) - u[4] / 2 and len(out) < n - 1:
+            out.append(cur)
+            cur = []
+    out.append(cur)
+    assert len(out) == n and all(out)
+    return out
 
 
 def rank_from(pos, cands, wx, wy, where=POS):
@@ -157,39 +217,21 @@ def pairwise_winner(cands, groups, weight):
     return next(c for c in cands if not any(t == c for _, t in locked)), True, P
 
 
-URBAN = {"SPOLU": 0.25, "Piráti": 0.35, "PirSTAN": 0.3, "STAN": 0.1, "ANO": -0.15, "SPD": -0.15,
-         "Stačilo": -0.1, "KSČM": -0.1, "ČSSD": -0.05}
-
-
-def smd_local(base, i, n, rng, sd):
-    """州內第 i 個（共 n 個）單一選區：城鄉梯度（i=0 最城市）＋隨機擾動。"""
-    d = dict(base)
-    if n >= 3:
-        u = 1 - 2 * i / (n - 1)
-        for p, k in URBAN.items():
-            if p in d:
-                d[p] *= 1 + k * u
-    for p in d:
-        if p != "其他":
-            d[p] = max(0.3, d[p] + rng.gauss(0, sd))
-    t = sum(d.values())
-    return {p: v * 100 / t for p, v in d.items()}
-
-
-def smd_seats(year, counts, types=TYPES, seed=7, sd=2.5, override=None):
-    rng = random.Random(seed)
-    parties, sh, _ = shares(year)
-    if override:
-        sh = override
+def smd_seats(year, counts, types=TYPES, override=None, shift=False):
+    parties = P25 if year == 2025 else P21
     cands = [p for p in parties if p != "其他"]
     groups = voter_groups(cands, types)
     out = {p: 0 for p in cands}
     stats = {"循環": 0, "非第一偏好第一名當選": 0}
     by = {}
+    us = apply(year, override)
     for r, n in counts.items():
-        for i in range(n):
-            d = smd_local(sh[r], i, n, rng, sd)
-            finals = sorted(cands, key=lambda p: d[p], reverse=True)[:3]
+        for part in cut([u for u in us if u[0] == r], n, shift):
+            d = {}
+            for u in part:
+                for p, v in u[5].items():
+                    d[p] = d.get(p, 0) + v
+            finals = sorted(cands, key=lambda p: d.get(p, 0), reverse=True)[:3]
             w, cyc, _ = pairwise_winner(finals, groups, lambda s: d.get(s, 0))
             out[w] += 1
             by.setdefault(r, []).append(w)
@@ -199,18 +241,16 @@ def smd_seats(year, counts, types=TYPES, seed=7, sd=2.5, override=None):
 
 
 def list_seats(year, override=None):
-    parties, sh, w = shares(year)
-    if override:
-        sh = override
+    parties = P25 if year == 2025 else P21
     out = {p: 0 for p in parties}
-    for dname, rs in DISTRICTS.items():
-        tot = sum(w[r] for r in rs)
-        d = {p: sum(w[r] * sh[r][p] for r in rs) for p in parties}
-        if year == 2025 and dname == "東南":
-            for p, v in zip(parties, ABROAD25[0]):
-                d[p] += ABROAD25[1] * v
-            tot += ABROAD25[1]
-        d = {p: v / tot for p, v in d.items()}
+    agg = {}
+    for u in apply(year, override):
+        dname = "東南" if u[0] == "海外" else REGION[u[0]][1]   # 海外票照現行併入南摩拉維亞所在的區
+        d = agg.setdefault(dname, {})
+        for p, v in u[5].items():
+            d[p] = d.get(p, 0) + v
+    for dname, d in agg.items():
+        d = dict(d)
         o = d.pop("其他", 0)
         for i in range(5):  # 「其他」視為 5 個小黨
             d[f"其他{i}"] = o / 5
@@ -229,21 +269,19 @@ def head_of_gov(total):
 
 
 def national(year):
-    parties, sh, w = shares(year)
-    tot = sum(w.values())
-    return {p: sum(w[r] * sh[r][p] for r in sh) / tot for p in parties}
+    tot = {}
+    for u in units(year):
+        for p, v in u[5].items():
+            tot[p] = tot.get(p, 0) + v
+    t = sum(tot.values())
+    return {p: v / t for p, v in tot.items()}
 
 
 def scaled(year, party, x):
-    """把某黨的全國第一偏好調到 x%，其餘按比例；各州維持相對形狀。"""
-    parties, sh, _ = shares(year)
-    nat = national(year)[party]
-    out = {}
-    for r, d in sh.items():
-        k = d[party] * x / nat
-        rest = 100 - d[party]
-        out[r] = {p: (k if p == party else v * (100 - k) / rest) for p, v in d.items()}
-    return out
+    """把某黨的全國第一偏好調到 x%，其餘按比例；回傳全國份額（apply 再逐投票區縮放）。"""
+    nat = national(year)
+    k = x / 100
+    return {p: (k if p == party else v * (1 - k) / (1 - nat[party])) for p, v in nat.items()}
 
 
 # 總統 2023：top-3 候選人位置與第一輪各候選人選民的位置
@@ -270,14 +308,15 @@ def fmt(d):
     return "、".join(f"{k} {v}" for k, v in sorted(d.items(), key=lambda x: -x[1]) if v)
 
 
-def chamber(year, types=TYPES, override=None, seed=7, sd=2.5):
-    smd, st, by = smd_seats(year, SMD_N, types, seed, sd, override)
+def chamber(year, types=TYPES, override=None, shift=False):
+    smd, st, by = smd_seats(year, SMD_N, types, override, shift)
     lst = list_seats(year, override)
     total = {k: smd.get(k, 0) + lst.get(k, 0) for k in set(smd) | set(lst)}
     return smd, lst, total, st, by
 
 
 def main():
+    sys.stdout.reconfigure(encoding="utf-8")
     if "--sweep" in sys.argv:
         print("| 選民類型 | 2025 單一 110 | 2021 單一 110 |")
         print("|---|---|---|")
@@ -285,11 +324,10 @@ def main():
                              ("全部重社經", [(1.0, 0.4, 1.0)])):
             print(f"| {label} | {fmt(chamber(2025, types)[0])} | {fmt(chamber(2021, types)[0])} |")
         print()
-        print("| 擾動 sd | 種子 | 2025 單一 110 |")
+        print("| 切線 | 2025 單一 110 | 2021 單一 110 |")
         print("|---|---|---|")
-        for sd in (0, 2.5, 5):
-            for seed in (1, 7):
-                print(f"| {sd} | {seed} | {fmt(chamber(2025, seed=seed, sd=sd)[0])} |")
+        for shift in (False, True):
+            print(f"| {'位移半區' if shift else '基準'} | {fmt(chamber(2025, shift=shift)[0])} | {fmt(chamber(2021, shift=shift)[0])} |")
         print()
         print("| ANO 第一偏好（2025 形狀，其餘按比例） | 單一 110 | 全院 200 | 首長 |")
         print("|:--:|---|---|---|")
@@ -310,7 +348,7 @@ def main():
         smd, lst, total, st, by = chamber(year)
         w, cyc, worst = head_of_gov(total)
         print(f"\n## 眾議院 {year}-10")
-        print("全國（模型加權）：", {p: round(v, 1) for p, v in national(year).items()})
+        print("全國（逐投票區加總）：", {p: round(v * 100, 1) for p, v in national(year).items()})
         print("單一 110：", fmt(smd), st)
         print("布拉格：", fmt({p: by["布拉格"].count(p) for p in set(by["布拉格"])}))
         print("複數 90：", fmt(lst))

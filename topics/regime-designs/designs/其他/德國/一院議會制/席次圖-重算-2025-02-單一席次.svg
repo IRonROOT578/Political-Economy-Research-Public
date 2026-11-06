@@ -89,7 +89,7 @@
 <circle cx="-15.6879" cy="-6.0775" r="0.6352" fill="#E3000F" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="-15.0602" cy="-7.4991" r="0.6352" fill="#E3000F" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="-14.3040" cy="-8.8567" r="0.6352" fill="#E3000F" stroke="#ffffff" stroke-width="0.04"/>
-<circle cx="-13.4258" cy="-10.1387" r="0.6352" fill="#E3000F" stroke="#ffffff" stroke-width="0.04"/>
+<circle cx="-13.4258" cy="-10.1387" r="0.6352" fill="#000000" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="-12.4331" cy="-11.3342" r="0.6352" fill="#000000" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="-11.3342" cy="-12.4331" r="0.6352" fill="#000000" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="-10.1387" cy="-13.4258" r="0.6352" fill="#000000" stroke="#ffffff" stroke-width="0.04"/>
@@ -181,7 +181,7 @@
 <circle cx="-11.6490" cy="-3.1213" r="0.6352" fill="#E3000F" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="-11.1419" cy="-4.6151" r="0.6352" fill="#E3000F" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="-10.4442" cy="-6.0300" r="0.6352" fill="#E3000F" stroke="#ffffff" stroke-width="0.04"/>
-<circle cx="-9.5678" cy="-7.3416" r="0.6352" fill="#E3000F" stroke="#ffffff" stroke-width="0.04"/>
+<circle cx="-9.5678" cy="-7.3416" r="0.6352" fill="#000000" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="-8.5277" cy="-8.5277" r="0.6352" fill="#000000" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="-7.3416" cy="-9.5678" r="0.6352" fill="#000000" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="-6.0300" cy="-10.4442" r="0.6352" fill="#000000" stroke="#ffffff" stroke-width="0.04"/>
@@ -200,7 +200,7 @@
 <circle cx="11.1419" cy="-4.6151" r="0.6352" fill="#008AC7" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="11.6490" cy="-3.1213" r="0.6352" fill="#008AC7" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="11.9568" cy="-1.5741" r="0.6352" fill="#008AC7" stroke="#ffffff" stroke-width="0.04"/>
-<circle cx="12.0599" cy="0.0000" r="0.6352" fill="#009EE0" stroke="#ffffff" stroke-width="0.04"/>
+<circle cx="12.0599" cy="0.0000" r="0.6352" fill="#008AC7" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="-10.4719" cy="-0.0000" r="0.6352" fill="#E3000F" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="-10.3430" cy="-1.6382" r="0.6352" fill="#E3000F" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="-9.9594" cy="-3.2360" r="0.6352" fill="#E3000F" stroke="#ffffff" stroke-width="0.04"/>
@@ -259,12 +259,12 @@
 <rect x="-20.476" y="1.350" width="1.05" height="1.05" fill="#BE3075" stroke="#555" stroke-width="0.06" rx="0.12"/>
 <text x="-19.126" y="2.230" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="0.95" fill="#111">LINKE 5</text>
 <rect x="-6.614" y="1.350" width="1.05" height="1.05" fill="#E3000F" stroke="#555" stroke-width="0.06" rx="0.12"/>
-<text x="-5.264" y="2.230" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="0.95" fill="#111">SPD 51</text>
+<text x="-5.264" y="2.230" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="0.95" fill="#111">SPD 49</text>
 <rect x="7.249" y="1.350" width="1.05" height="1.05" fill="#000000" stroke="#555" stroke-width="0.06" rx="0.12"/>
-<text x="8.599" y="2.230" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="0.95" fill="#111">CDU 154</text>
+<text x="8.599" y="2.230" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="0.95" fill="#111">CDU 156</text>
 <rect x="-20.476" y="2.900" width="1.05" height="1.05" fill="#008AC7" stroke="#555" stroke-width="0.06" rx="0.12"/>
-<text x="-19.126" y="3.780" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="0.95" fill="#111">CSU 36</text>
+<text x="-19.126" y="3.780" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="0.95" fill="#111">CSU 37</text>
 <rect x="-6.614" y="2.900" width="1.05" height="1.05" fill="#009EE0" stroke="#555" stroke-width="0.06" rx="0.12"/>
-<text x="-5.264" y="3.780" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="0.95" fill="#111">AfD 6</text>
-<text x="0" y="4.800" text-anchor="middle" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="0.85" fill="#444">AfD 第一偏好第二卻只贏 6 區</text>
+<text x="-5.264" y="3.780" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="0.95" fill="#111">AfD 5</text>
+<text x="0" y="4.800" text-anchor="middle" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="0.85" fill="#444">逐投票區；AfD 第一偏好第二卻只贏 5 區</text>
 </svg>

@@ -120,7 +120,7 @@
 <circle cx="1.0686" cy="-11.5319" r="0.8419" fill="#152484" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="3.1694" cy="-11.1392" r="0.8419" fill="#152484" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="5.1622" cy="-10.3671" r="0.8419" fill="#152484" stroke="#ffffff" stroke-width="0.04"/>
-<circle cx="6.9793" cy="-9.2420" r="0.8419" fill="#E61E2B" stroke="#ffffff" stroke-width="0.04"/>
+<circle cx="6.9793" cy="-9.2420" r="0.8419" fill="#152484" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="8.5587" cy="-7.8022" r="0.8419" fill="#E61E2B" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="9.8466" cy="-6.0968" r="0.8419" fill="#E61E2B" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="10.7992" cy="-4.1836" r="0.8419" fill="#E61E2B" stroke="#ffffff" stroke-width="0.04"/>
@@ -155,8 +155,8 @@
 <circle cx="7.3719" cy="0.0000" r="0.8419" fill="#E61E2B" stroke="#ffffff" stroke-width="0.04"/>
 <text x="0" y="-2.400" text-anchor="middle" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="2.1" font-weight="700" fill="#111">150</text>
 <rect x="-20.631" y="1.350" width="1.05" height="1.05" fill="#152484" stroke="#555" stroke-width="0.06" rx="0.12"/>
-<text x="-19.281" y="2.230" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="0.95" fill="#111">民主黨 102</text>
+<text x="-19.281" y="2.230" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="0.95" fill="#111">民主黨 103</text>
 <rect x="-6.597" y="1.350" width="1.05" height="1.05" fill="#E61E2B" stroke="#555" stroke-width="0.06" rx="0.12"/>
-<text x="-5.247" y="2.230" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="0.95" fill="#111">國民力量 48</text>
-<text x="0" y="3.250" text-anchor="middle" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="0.85" fill="#444">民主黨 102</text>
+<text x="-5.247" y="2.230" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="0.95" fill="#111">國民力量 47</text>
+<text x="0" y="3.250" text-anchor="middle" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="0.85" fill="#444">民主黨 103</text>
 </svg>

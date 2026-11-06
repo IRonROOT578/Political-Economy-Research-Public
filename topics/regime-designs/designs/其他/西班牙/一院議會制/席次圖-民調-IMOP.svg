@@ -5,7 +5,7 @@
 <text x="0" y="-21.375" text-anchor="middle" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="1.35" fill="#111">IMOP 民調套本夾（350）</text>
 <circle cx="-20.0000" cy="-0.0000" r="0.5402" fill="#B5CF18" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="-19.9553" cy="-1.3359" r="0.5402" fill="#E51C55" stroke="#ffffff" stroke-width="0.04"/>
-<circle cx="-19.8215" cy="-2.6657" r="0.5402" fill="#E30613" stroke="#ffffff" stroke-width="0.04"/>
+<circle cx="-19.8215" cy="-2.6657" r="0.5402" fill="#FFB232" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="-19.5992" cy="-3.9837" r="0.5402" fill="#E30613" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="-19.2894" cy="-5.2839" r="0.5402" fill="#E30613" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="-18.8934" cy="-6.5605" r="0.5402" fill="#E30613" stroke="#ffffff" stroke-width="0.04"/>
@@ -109,7 +109,7 @@
 <circle cx="-12.2323" cy="-12.2323" r="0.5402" fill="#E30613" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="-11.2348" cy="-13.1543" r="0.5402" fill="#E30613" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="-10.1681" cy="-13.9952" r="0.5402" fill="#E30613" stroke="#ffffff" stroke-width="0.04"/>
-<circle cx="-9.0387" cy="-14.7499" r="0.5402" fill="#00C3B2" stroke="#ffffff" stroke-width="0.04"/>
+<circle cx="-9.0387" cy="-14.7499" r="0.5402" fill="#008000" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="-7.8536" cy="-15.4136" r="0.5402" fill="#1D84CE" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="-6.6201" cy="-15.9823" r="0.5402" fill="#1D84CE" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="-5.3457" cy="-16.4524" r="0.5402" fill="#1D84CE" stroke="#ffffff" stroke-width="0.04"/>
@@ -176,7 +176,7 @@
 <circle cx="15.8912" cy="-1.3525" r="0.5402" fill="#63BE21" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="15.9486" cy="0.0000" r="0.5402" fill="#63BE21" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="-14.5981" cy="-0.0000" r="0.5402" fill="#E51C55" stroke="#ffffff" stroke-width="0.04"/>
-<circle cx="-14.5359" cy="-1.3469" r="0.5402" fill="#FFB232" stroke="#ffffff" stroke-width="0.04"/>
+<circle cx="-14.5359" cy="-1.3469" r="0.5402" fill="#76B3DD" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="-14.3496" cy="-2.6824" r="0.5402" fill="#E30613" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="-14.0409" cy="-3.9950" r="0.5402" fill="#E30613" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="-13.6124" cy="-5.2735" r="0.5402" fill="#E30613" stroke="#ffffff" stroke-width="0.04"/>
@@ -279,7 +279,7 @@
 <circle cx="-8.3673" cy="-6.4205" r="0.5402" fill="#E30613" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="-7.4577" cy="-7.4577" r="0.5402" fill="#E30613" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="-6.4205" cy="-8.3673" r="0.5402" fill="#E30613" stroke="#ffffff" stroke-width="0.04"/>
-<circle cx="-5.2734" cy="-9.1338" r="0.5402" fill="#1D84CE" stroke="#ffffff" stroke-width="0.04"/>
+<circle cx="-5.2734" cy="-9.1338" r="0.5402" fill="#00C3B2" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="-4.0361" cy="-9.7439" r="0.5402" fill="#1D84CE" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="-2.7297" cy="-10.1874" r="0.5402" fill="#1D84CE" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="-1.3766" cy="-10.4565" r="0.5402" fill="#1D84CE" stroke="#ffffff" stroke-width="0.04"/>
@@ -324,7 +324,7 @@
 <circle cx="-6.7947" cy="-3.9229" r="0.5402" fill="#E30613" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="-6.0103" cy="-5.0432" r="0.5402" fill="#E30613" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="-5.0432" cy="-6.0103" r="0.5402" fill="#E30613" stroke="#ffffff" stroke-width="0.04"/>
-<circle cx="-3.9229" cy="-6.7947" r="0.5402" fill="#008000" stroke="#ffffff" stroke-width="0.04"/>
+<circle cx="-3.9229" cy="-6.7947" r="0.5402" fill="#FFD700" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="-2.6834" cy="-7.3727" r="0.5402" fill="#1D84CE" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="-1.3624" cy="-7.7266" r="0.5402" fill="#1D84CE" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="0.0000" cy="-7.8458" r="0.5402" fill="#1D84CE" stroke="#ffffff" stroke-width="0.04"/>
@@ -359,19 +359,19 @@
 <rect x="-6.622" y="1.350" width="1.05" height="1.05" fill="#E51C55" stroke="#555" stroke-width="0.06" rx="0.12"/>
 <text x="-5.272" y="2.230" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="0.95" fill="#111">SUMAR 11</text>
 <rect x="7.162" y="1.350" width="1.05" height="1.05" fill="#76B3DD" stroke="#555" stroke-width="0.06" rx="0.12"/>
-<text x="8.512" y="2.230" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="0.95" fill="#111">BNG 1</text>
+<text x="8.512" y="2.230" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="0.95" fill="#111">BNG 2</text>
 <rect x="-20.405" y="2.900" width="1.05" height="1.05" fill="#FFB232" stroke="#555" stroke-width="0.06" rx="0.12"/>
 <text x="-19.055" y="3.780" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="0.95" fill="#111">ERC 4</text>
 <rect x="-6.622" y="2.900" width="1.05" height="1.05" fill="#E30613" stroke="#555" stroke-width="0.06" rx="0.12"/>
-<text x="-5.272" y="3.780" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="0.95" fill="#111">PSOE 97</text>
+<text x="-5.272" y="3.780" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="0.95" fill="#111">PSOE 96</text>
 <rect x="7.162" y="2.900" width="1.05" height="1.05" fill="#FFD700" stroke="#555" stroke-width="0.06" rx="0.12"/>
-<text x="8.512" y="3.780" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="0.95" fill="#111">CC 1</text>
+<text x="8.512" y="3.780" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="0.95" fill="#111">CC 2</text>
 <rect x="-20.405" y="4.450" width="1.05" height="1.05" fill="#008000" stroke="#555" stroke-width="0.06" rx="0.12"/>
 <text x="-19.055" y="5.330" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="0.95" fill="#111">PNV 1</text>
 <rect x="-6.622" y="4.450" width="1.05" height="1.05" fill="#00C3B2" stroke="#555" stroke-width="0.06" rx="0.12"/>
 <text x="-5.272" y="5.330" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="0.95" fill="#111">JUNTS 2</text>
 <rect x="7.162" y="4.450" width="1.05" height="1.05" fill="#1D84CE" stroke="#555" stroke-width="0.06" rx="0.12"/>
-<text x="8.512" y="5.330" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="0.95" fill="#111">PP 201</text>
+<text x="8.512" y="5.330" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="0.95" fill="#111">PP 200</text>
 <rect x="-20.405" y="6.000" width="1.05" height="1.05" fill="#63BE21" stroke="#555" stroke-width="0.06" rx="0.12"/>
 <text x="-19.055" y="6.880" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="0.95" fill="#111">VOX 29</text>
 <text x="0" y="7.900" text-anchor="middle" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="0.85" fill="#444">2023 地理縮放＋孔多賽／聖拉古；首長 PP</text>

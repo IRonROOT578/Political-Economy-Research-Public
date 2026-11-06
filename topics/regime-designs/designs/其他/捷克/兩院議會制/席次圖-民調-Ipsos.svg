@@ -18,7 +18,7 @@
 <circle cx="-9.4774" cy="-17.6119" r="0.7182" fill="#2DB3A8" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="-7.8605" cy="-18.3906" r="0.7182" fill="#2DB3A8" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="-6.1803" cy="-19.0211" r="0.7182" fill="#2DB3A8" stroke="#ffffff" stroke-width="0.04"/>
-<circle cx="-4.4504" cy="-19.4986" r="0.7182" fill="#2DB3A8" stroke="#ffffff" stroke-width="0.04"/>
+<circle cx="-4.4504" cy="-19.4986" r="0.7182" fill="#4FC3F7" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="-2.6847" cy="-19.8190" r="0.7182" fill="#4FC3F7" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="-0.8973" cy="-19.9799" r="0.7182" fill="#4FC3F7" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="0.8973" cy="-19.9799" r="0.7182" fill="#4FC3F7" stroke="#ffffff" stroke-width="0.04"/>
@@ -36,11 +36,11 @@
 <circle cx="18.0194" cy="-8.6777" r="0.7182" fill="#4FC3F7" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="18.7247" cy="-7.0275" r="0.7182" fill="#4FC3F7" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="19.2793" cy="-5.3207" r="0.7182" fill="#4FC3F7" stroke="#ffffff" stroke-width="0.04"/>
-<circle cx="19.6786" cy="-3.5711" r="0.7182" fill="#4FC3F7" stroke="#ffffff" stroke-width="0.04"/>
+<circle cx="19.6786" cy="-3.5711" r="0.7182" fill="#C2185B" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="19.9195" cy="-1.7928" r="0.7182" fill="#8B0000" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="20.0000" cy="0.0000" r="0.7182" fill="#8B0000" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="-18.2046" cy="-0.0000" r="0.7182" fill="#000000" stroke="#ffffff" stroke-width="0.04"/>
-<circle cx="-18.1169" cy="-1.7844" r="0.7182" fill="#000000" stroke="#ffffff" stroke-width="0.04"/>
+<circle cx="-18.1169" cy="-1.7844" r="0.7182" fill="#23238E" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="-17.8548" cy="-3.5515" r="0.7182" fill="#23238E" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="-17.4207" cy="-5.2845" r="0.7182" fill="#23238E" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="-16.8188" cy="-6.9666" r="0.7182" fill="#23238E" stroke="#ffffff" stroke-width="0.04"/>
@@ -53,7 +53,7 @@
 <circle cx="-8.5816" cy="-16.0550" r="0.7182" fill="#2DB3A8" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="-6.9666" cy="-16.8188" r="0.7182" fill="#2DB3A8" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="-5.2845" cy="-17.4207" r="0.7182" fill="#2DB3A8" stroke="#ffffff" stroke-width="0.04"/>
-<circle cx="-3.5515" cy="-17.8548" r="0.7182" fill="#2DB3A8" stroke="#ffffff" stroke-width="0.04"/>
+<circle cx="-3.5515" cy="-17.8548" r="0.7182" fill="#4FC3F7" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="-1.7844" cy="-18.1169" r="0.7182" fill="#4FC3F7" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="0.0000" cy="-18.2046" r="0.7182" fill="#4FC3F7" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="1.7844" cy="-18.1169" r="0.7182" fill="#4FC3F7" stroke="#ffffff" stroke-width="0.04"/>
@@ -76,7 +76,7 @@
 <circle cx="-16.3130" cy="-1.7741" r="0.7182" fill="#23238E" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="-16.0255" cy="-3.5275" r="0.7182" fill="#23238E" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="-15.5502" cy="-5.2395" r="0.7182" fill="#23238E" stroke="#ffffff" stroke-width="0.04"/>
-<circle cx="-14.8925" cy="-6.8900" r="0.7182" fill="#23238E" stroke="#ffffff" stroke-width="0.04"/>
+<circle cx="-14.8925" cy="-6.8900" r="0.7182" fill="#2DB3A8" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="-14.0603" cy="-8.4598" r="0.7182" fill="#2DB3A8" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="-13.0632" cy="-9.9304" r="0.7182" fill="#2DB3A8" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="-11.9130" cy="-11.2846" r="0.7182" fill="#2DB3A8" stroke="#ffffff" stroke-width="0.04"/>
@@ -85,7 +85,7 @@
 <circle cx="-7.6862" cy="-14.4977" r="0.7182" fill="#2DB3A8" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="-6.0737" cy="-15.2437" r="0.7182" fill="#2DB3A8" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="-4.3899" cy="-15.8110" r="0.7182" fill="#2DB3A8" stroke="#ffffff" stroke-width="0.04"/>
-<circle cx="-2.6547" cy="-16.1930" r="0.7182" fill="#2DB3A8" stroke="#ffffff" stroke-width="0.04"/>
+<circle cx="-2.6547" cy="-16.1930" r="0.7182" fill="#4FC3F7" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="-0.8884" cy="-16.3851" r="0.7182" fill="#4FC3F7" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="0.8884" cy="-16.3851" r="0.7182" fill="#4FC3F7" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="2.6547" cy="-16.1930" r="0.7182" fill="#4FC3F7" stroke="#ffffff" stroke-width="0.04"/>
@@ -132,7 +132,7 @@
 <circle cx="-12.8183" cy="-0.0000" r="0.7182" fill="#000000" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="-12.6878" cy="-1.8242" r="0.7182" fill="#23238E" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="-12.2991" cy="-3.6113" r="0.7182" fill="#23238E" stroke="#ffffff" stroke-width="0.04"/>
-<circle cx="-11.6599" cy="-5.3249" r="0.7182" fill="#23238E" stroke="#ffffff" stroke-width="0.04"/>
+<circle cx="-11.6599" cy="-5.3249" r="0.7182" fill="#2DB3A8" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="-10.7834" cy="-6.9301" r="0.7182" fill="#2DB3A8" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="-9.6874" cy="-8.3942" r="0.7182" fill="#2DB3A8" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="-8.3942" cy="-9.6874" r="0.7182" fill="#2DB3A8" stroke="#ffffff" stroke-width="0.04"/>
@@ -179,7 +179,7 @@
 <circle cx="-6.5248" cy="-6.5248" r="0.7182" fill="#2DB3A8" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="-5.1265" cy="-7.6724" r="0.7182" fill="#2DB3A8" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="-3.5312" cy="-8.5251" r="0.7182" fill="#2DB3A8" stroke="#ffffff" stroke-width="0.04"/>
-<circle cx="-1.8002" cy="-9.0502" r="0.7182" fill="#2DB3A8" stroke="#ffffff" stroke-width="0.04"/>
+<circle cx="-1.8002" cy="-9.0502" r="0.7182" fill="#4FC3F7" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="0.0000" cy="-9.2275" r="0.7182" fill="#4FC3F7" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="1.8002" cy="-9.0502" r="0.7182" fill="#4FC3F7" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="3.5312" cy="-8.5251" r="0.7182" fill="#4FC3F7" stroke="#ffffff" stroke-width="0.04"/>
@@ -195,7 +195,7 @@
 <circle cx="-5.5630" cy="-4.9284" r="0.7182" fill="#2DB3A8" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="-4.2219" cy="-6.1164" r="0.7182" fill="#2DB3A8" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="-2.6354" cy="-6.9491" r="0.7182" fill="#2DB3A8" stroke="#ffffff" stroke-width="0.04"/>
-<circle cx="-0.8958" cy="-7.3779" r="0.7182" fill="#2DB3A8" stroke="#ffffff" stroke-width="0.04"/>
+<circle cx="-0.8958" cy="-7.3779" r="0.7182" fill="#4FC3F7" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="0.8958" cy="-7.3779" r="0.7182" fill="#4FC3F7" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="2.6354" cy="-6.9491" r="0.7182" fill="#4FC3F7" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="4.2219" cy="-6.1164" r="0.7182" fill="#4FC3F7" stroke="#ffffff" stroke-width="0.04"/>
@@ -205,18 +205,18 @@
 <circle cx="7.4320" cy="0.0000" r="0.7182" fill="#C2185B" stroke="#ffffff" stroke-width="0.04"/>
 <text x="0" y="-2.400" text-anchor="middle" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="2.1" font-weight="700" fill="#111">200</text>
 <rect x="-20.539" y="1.350" width="1.05" height="1.05" fill="#000000" stroke="#555" stroke-width="0.06" rx="0.12"/>
-<text x="-19.189" y="2.230" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="0.95" fill="#111">Piráti 10</text>
+<text x="-19.189" y="2.230" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="0.95" fill="#111">Piráti 9</text>
 <rect x="-6.607" y="1.350" width="1.05" height="1.05" fill="#23238E" stroke="#555" stroke-width="0.06" rx="0.12"/>
-<text x="-5.257" y="2.230" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="0.95" fill="#111">SPOLU 21</text>
+<text x="-5.257" y="2.230" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="0.95" fill="#111">SPOLU 20</text>
 <rect x="7.325" y="1.350" width="1.05" height="1.05" fill="#2DB3A8" stroke="#555" stroke-width="0.06" rx="0.12"/>
-<text x="8.675" y="2.230" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="0.95" fill="#111">STAN 60</text>
+<text x="8.675" y="2.230" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="0.95" fill="#111">STAN 57</text>
 <rect x="-20.539" y="2.900" width="1.05" height="1.05" fill="#4FC3F7" stroke="#555" stroke-width="0.06" rx="0.12"/>
-<text x="-19.189" y="3.780" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="0.95" fill="#111">ANO 97</text>
+<text x="-19.189" y="3.780" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="0.95" fill="#111">ANO 101</text>
 <rect x="-6.607" y="2.900" width="1.05" height="1.05" fill="#C2185B" stroke="#555" stroke-width="0.06" rx="0.12"/>
-<text x="-5.257" y="3.780" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="0.95" fill="#111">AUTO 3</text>
+<text x="-5.257" y="3.780" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="0.95" fill="#111">AUTO 4</text>
 <rect x="7.325" y="2.900" width="1.05" height="1.05" fill="#E53935" stroke="#555" stroke-width="0.06" rx="0.12"/>
 <text x="8.675" y="3.780" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="0.95" fill="#111">Stačilo 1</text>
 <rect x="-20.539" y="4.450" width="1.05" height="1.05" fill="#8B0000" stroke="#555" stroke-width="0.06" rx="0.12"/>
 <text x="-19.189" y="5.330" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="0.95" fill="#111">SPD 8</text>
-<text x="0" y="6.350" text-anchor="middle" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="0.85" fill="#444">州相對形狀＋孔多賽／聖拉古；首長 ANO</text>
+<text x="0" y="6.350" text-anchor="middle" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="0.85" fill="#444">逐投票區縮放＋孔多賽／聖拉古；首長 ANO</text>
 </svg>

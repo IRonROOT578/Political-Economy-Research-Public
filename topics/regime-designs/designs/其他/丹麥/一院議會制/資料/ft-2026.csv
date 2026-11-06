@@ -1,0 +1,1315 @@
+id,op,land,storkreds,name,valid,S,V,M,SF,DD,LA,C,EL,RV,BP,ALT,DF
+1,20,Hovedstaden,København,1. Østerbro,7077,1162,264,699,968,35,607,704,943,973,51,409,247
+2,20,Hovedstaden,København,1. Nord,5398,756,271,563,598,26,571,740,591,694,24,273,269
+3,20,Hovedstaden,København,1. Syd,6747,1006,230,595,908,17,570,640,994,990,39,503,227
+4,20,Hovedstaden,København,1. Vest,9101,1428,326,737,1319,55,724,847,1407,1071,70,591,478
+5,20,Hovedstaden,København,1. Nordvest,8087,1240,295,712,971,42,704,843,1185,1073,46,527,414
+6,20,Hovedstaden,København,1. Øst,6885,877,381,804,765,45,723,858,799,972,25,386,228
+7,20,Hovedstaden,København,1. Nordhavn,6692,802,396,787,627,21,998,944,597,949,43,285,220
+8,21,Hovedstaden,København,2. Sundbyvester,7312,1447,200,511,1027,73,479,488,1221,701,90,455,587
+9,21,Hovedstaden,København,2. Nord,5136,827,172,385,775,29,337,320,953,644,34,372,260
+10,21,Hovedstaden,København,2. Ørestad,5169,753,269,421,657,49,586,438,788,543,43,287,314
+11,21,Hovedstaden,København,2. Vest,9657,1434,447,1105,1244,45,1005,1010,1096,1216,63,575,371
+12,21,Hovedstaden,København,2. Øst,6242,995,198,438,959,48,396,376,1115,787,60,510,330
+13,21,Hovedstaden,København,2. Kalvebod Fælled,5207,758,198,458,646,38,665,483,754,584,39,244,329
+14,21,Hovedstaden,København,2. Peder Lykke,5229,773,126,340,828,49,345,324,1029,607,45,409,334
+15,22,Hovedstaden,København,3. Indre By,8193,908,283,735,1001,35,776,738,1489,1218,47,680,246
+16,22,Hovedstaden,København,3. Nord,5781,777,259,672,608,23,581,697,718,857,27,355,185
+17,22,Hovedstaden,København,3. Syd,8388,1183,296,717,1070,43,564,596,1696,1005,65,853,250
+18,22,Hovedstaden,København,3. Øst,6171,783,419,745,533,23,879,827,635,714,22,318,253
+19,22,Hovedstaden,København,3. Midt,3103,301,164,402,233,14,469,381,357,433,15,191,136
+20,22,Hovedstaden,København,3. Sølvgade,4343,552,226,524,431,15,520,490,551,611,18,251,143
+21,23,Hovedstaden,København,4. Sundbyøster,6221,1100,168,377,960,65,447,388,1079,625,82,418,472
+22,23,Hovedstaden,København,4. Nord,7738,1127,212,496,1131,50,616,566,1425,973,72,547,478
+23,23,Hovedstaden,København,4. Syd,6653,1300,224,515,974,55,536,506,895,676,76,405,462
+24,23,Hovedstaden,København,4. Øst,8063,1396,347,766,1192,54,676,746,948,961,68,432,445
+25,23,Hovedstaden,København,4. Nordøst,7090,1098,260,622,949,59,732,587,997,822,60,442,431
+26,24,Hovedstaden,København,5. Nørrebro,5236,645,82,259,787,20,197,231,1574,592,28,604,178
+27,24,Hovedstaden,København,5. Nord,8383,735,192,487,1198,25,475,521,2328,1292,32,836,211
+28,24,Hovedstaden,København,5. Syd,4907,561,111,311,561,23,226,300,1518,622,24,484,131
+29,24,Hovedstaden,København,5. Øst,5883,591,145,428,745,16,393,422,1425,949,27,602,117
+30,24,Hovedstaden,København,5. Vest,5840,689,120,320,930,28,266,296,1585,783,32,561,199
+31,24,Hovedstaden,København,5. Nordvest,8418,733,159,430,1249,21,357,458,2552,1293,31,874,219
+32,24,Hovedstaden,København,5. Nørrebrohallen,7644,726,125,382,1142,18,368,358,2407,1079,22,759,222
+33,25,Hovedstaden,København,6. Bispebjerg,8350,851,159,425,1191,55,440,426,2508,1020,51,818,366
+34,25,Hovedstaden,København,6. Nord,5698,960,144,356,866,63,287,326,1230,570,53,455,358
+35,25,Hovedstaden,København,6. Øst,3120,629,70,176,447,28,175,229,607,269,47,183,244
+36,25,Hovedstaden,København,6. Syd,7334,813,130,338,1137,39,358,351,2145,862,58,730,341
+37,25,Hovedstaden,København,6. Vest,4052,506,67,190,631,24,160,207,1116,446,39,415,221
+38,26,Hovedstaden,København,7. Nord,1868,236,21,87,190,9,48,61,780,156,16,154,88
+39,26,Hovedstaden,København,7. Rødkilde,7914,1363,236,593,1276,54,511,671,1235,927,53,513,449
+40,26,Hovedstaden,København,7. Øst,8255,1385,202,582,1416,49,412,505,1574,1012,59,577,440
+41,26,Hovedstaden,København,7. Vest,4503,736,111,261,667,40,217,265,1004,517,30,304,330
+42,26,Hovedstaden,København,7. Nordvest,7037,1335,198,501,1167,72,365,549,1082,708,64,412,553
+43,26,Hovedstaden,København,7. Kirkebjerg,6973,1183,255,517,1166,49,509,652,947,785,56,417,404
+44,26,Hovedstaden,København,7. Vanløse,8253,1479,350,613,1314,69,636,758,1154,845,77,419,513
+45,27,Hovedstaden,København,8. Valby,6878,1132,217,542,1046,61,583,593,973,864,59,377,403
+46,27,Hovedstaden,København,8. Nord,7709,1211,275,609,1122,51,663,695,1132,929,43,497,448
+47,27,Hovedstaden,København,8. Syd,5159,809,180,396,786,40,498,431,806,538,36,290,337
+48,27,Hovedstaden,København,8. Vest,4984,885,164,335,742,69,371,374,771,470,63,300,423
+49,27,Hovedstaden,København,8. Sydøst,3784,612,115,246,527,33,268,233,739,426,32,248,281
+50,27,Hovedstaden,København,8. Midt,5884,868,209,446,906,47,550,532,879,700,45,364,324
+51,28,Hovedstaden,København,9. Vesterbro,6359,767,137,425,1074,27,366,403,1458,905,21,542,200
+52,28,Hovedstaden,København,9. Nord,7139,780,194,521,995,19,512,517,1524,1167,47,625,201
+53,28,Hovedstaden,København,9. Syd,4133,642,96,196,625,54,223,218,944,356,56,373,320
+54,28,Hovedstaden,København,9. Øst,5615,571,174,446,845,18,440,393,1128,921,20,472,153
+55,28,Hovedstaden,København,9. Vest,7829,909,303,693,1079,15,747,692,1251,1286,32,563,219
+56,28,Hovedstaden,København,9. Midt,4500,649,90,237,659,48,293,203,1088,454,53,404,289
+57,28,Hovedstaden,København,9. Sydhavn,6499,704,356,787,721,28,1052,831,614,836,32,278,244
+58,28,Hovedstaden,København,9. Sluseholmen,3860,497,167,440,436,30,447,400,572,413,28,268,142
+59,29,Hovedstaden,København,"10. Kreds, Søerne",7403,1112,352,787,784,38,609,953,965,1044,32,424,270
+60,29,Hovedstaden,København,"10. Kreds, Grundtvigsvej",7675,1127,436,856,801,40,710,1080,832,1080,19,418,257
+61,29,Hovedstaden,København,"10. Kreds, Bülowsvej",10080,1516,450,937,1183,42,932,1183,1397,1429,57,579,345
+62,29,Hovedstaden,København,"10. Kreds, Duevej",9131,1385,439,836,1073,58,737,1214,1201,1317,53,438,347
+63,30,Hovedstaden,Københavns Omegn,"11. Kreds, Lindevang",8426,1470,393,725,965,57,658,1090,1113,906,75,389,539
+64,30,Hovedstaden,Københavns Omegn,"11. Kreds, Frederiksberghallerne",7638,1446,412,674,795,75,599,1051,976,761,40,356,424
+65,30,Hovedstaden,Københavns Omegn,"11. Kreds, Rådhuset",8283,1368,428,801,934,36,737,1101,988,949,55,436,418
+66,30,Hovedstaden,Københavns Omegn,"11. Kreds, Nyelandsvej",7167,1066,337,605,898,48,689,914,890,970,43,364,315
+67,31,Hovedstaden,Københavns Omegn,Dragør Skole,3460,679,230,532,266,34,358,630,113,216,29,86,274
+68,31,Hovedstaden,Københavns Omegn,Hollænderhallen,5654,1180,327,698,478,108,540,1029,216,270,75,113,610
+69,31,Hovedstaden,Københavns Omegn,Vestamager,4099,963,189,344,412,132,427,313,197,162,65,103,787
+70,31,Hovedstaden,Københavns Omegn,Pilegården,4468,1139,222,493,465,69,370,482,249,272,58,106,537
+71,31,Hovedstaden,Københavns Omegn,Tårnby,3732,1126,129,259,461,79,258,240,270,143,79,90,589
+72,31,Hovedstaden,Københavns Omegn,Korsvejen,3313,916,116,294,446,54,230,221,285,169,40,76,462
+73,31,Hovedstaden,Københavns Omegn,Løjtegården,3159,791,140,330,419,63,255,304,151,172,46,74,408
+74,31,Hovedstaden,Københavns Omegn,Kastrup,6388,2039,190,411,714,151,463,301,472,217,138,139,1134
+75,32,Hovedstaden,Københavns Omegn,Jægersborg,4790,453,521,715,305,40,646,1133,154,432,37,127,227
+76,32,Hovedstaden,Københavns Omegn,Munkegård,3935,623,292,415,484,21,303,604,257,515,35,161,225
+77,32,Hovedstaden,Københavns Omegn,Rådhuset,5118,539,663,708,267,21,678,1104,200,541,27,159,211
+78,32,Hovedstaden,Københavns Omegn,Bakkegård,4180,699,330,425,403,67,418,605,271,462,51,130,319
+79,32,Hovedstaden,Københavns Omegn,Dyssegård,4601,523,434,572,312,39,593,908,210,591,43,158,218
+80,32,Hovedstaden,Københavns Omegn,Maglegård,5214,459,702,799,294,31,739,1080,205,462,34,170,239
+81,32,Hovedstaden,Københavns Omegn,Hellerup,4798,533,566,680,336,38,629,897,217,439,33,166,264
+82,32,Hovedstaden,Københavns Omegn,Ordrup,4075,445,455,586,224,30,513,911,149,330,35,134,263
+83,32,Hovedstaden,Københavns Omegn,Skovshoved,4665,384,589,722,201,24,871,942,127,383,35,138,249
+84,32,Hovedstaden,Københavns Omegn,Skovgård,4179,415,515,546,227,16,597,935,150,327,29,130,292
+85,33,Hovedstaden,Københavns Omegn,Lyngby Midt,4191,684,288,410,494,47,469,599,243,441,32,137,347
+86,33,Hovedstaden,Københavns Omegn,Lyngby Idrætsby,3506,737,171,286,520,43,269,368,260,301,34,115,402
+87,33,Hovedstaden,Københavns Omegn,Trongård,4244,550,256,454,494,21,471,688,297,561,42,134,276
+88,33,Hovedstaden,Københavns Omegn,Engelsborg,4410,683,326,585,476,44,475,710,183,515,39,127,247
+89,33,Hovedstaden,Københavns Omegn,Taarbæk,1002,131,69,163,73,2,91,164,57,122,3,74,53
+90,33,Hovedstaden,Københavns Omegn,Virum,4468,498,416,686,391,27,509,939,148,572,12,114,156
+91,33,Hovedstaden,Københavns Omegn,Hummeltofte,3341,525,237,443,421,29,238,574,146,475,18,90,145
+92,33,Hovedstaden,Københavns Omegn,Virumhallerne,5512,962,318,660,736,51,444,810,276,661,48,209,337
+93,33,Hovedstaden,Københavns Omegn,Lundtofte,3707,660,228,415,500,21,251,505,213,487,33,132,262
+94,34,Hovedstaden,Københavns Omegn,Bagsværd,4036,807,303,444,571,32,349,380,253,416,40,121,320
+95,34,Hovedstaden,Københavns Omegn,Hovedbiblioteket,4975,1122,273,386,795,69,374,356,437,437,70,168,488
+96,34,Hovedstaden,Københavns Omegn,Egegård,4309,995,217,383,605,92,352,314,294,319,75,98,565
+97,34,Hovedstaden,Københavns Omegn,Grønnemose,5055,1096,198,389,802,66,239,271,708,605,61,205,415
+98,34,Hovedstaden,Københavns Omegn,Mørkhøj,4739,1168,207,316,693,115,300,265,567,348,83,127,550
+99,34,Hovedstaden,Københavns Omegn,Stengård,5415,1176,326,505,830,60,371,499,375,695,48,198,332
+100,34,Hovedstaden,Københavns Omegn,Søborg,3314,664,159,315,547,33,206,277,292,412,23,132,254
+101,34,Hovedstaden,Københavns Omegn,Vadgård,3383,803,200,303,482,47,263,277,247,315,45,74,327
+102,34,Hovedstaden,Københavns Omegn,Værebro,2175,401,166,204,242,34,191,156,232,237,37,67,208
+103,35,Hovedstaden,Københavns Omegn,Herlev Medborgerhus,5969,1526,261,398,772,115,501,384,665,392,140,118,697
+104,35,Hovedstaden,Københavns Omegn,Herlev Hallerne,5462,1600,297,457,680,68,444,503,362,339,75,98,539
+105,35,Hovedstaden,Københavns Omegn,Kildegårdhallen,4966,1303,212,326,679,91,356,325,510,250,132,127,655
+106,35,Hovedstaden,Københavns Omegn,Ørbygård,2586,622,108,248,386,37,209,196,203,212,42,88,235
+107,35,Hovedstaden,Københavns Omegn,Tinderhøj,3157,905,117,204,431,63,208,200,268,183,64,63,451
+108,35,Hovedstaden,Københavns Omegn,Rødovre,4901,1229,194,419,680,72,371,394,387,350,61,162,582
+109,35,Hovedstaden,Københavns Omegn,Valhøj,2833,728,78,170,422,62,182,147,283,186,61,60,454
+110,35,Hovedstaden,Københavns Omegn,Rødovrehallen,5284,1460,222,446,725,84,434,373,379,372,88,119,582
+111,35,Hovedstaden,Københavns Omegn,Islev,3438,832,138,307,396,67,314,234,363,249,54,65,419
+112,35,Hovedstaden,Københavns Omegn,Milestedet,1193,311,24,51,134,26,65,32,206,66,33,41,204
+113,36,Hovedstaden,Københavns Omegn,Holmegårdshallen,3540,776,153,273,562,62,315,281,292,251,61,118,396
+114,36,Hovedstaden,Københavns Omegn,Præstemoseskolen,2481,660,83,197,349,55,216,154,168,136,38,66,359
+115,36,Hovedstaden,Københavns Omegn,Sønderkærskolen,3146,866,93,184,472,63,211,191,255,190,57,88,476
+116,36,Hovedstaden,Københavns Omegn,Kometen,3699,1053,128,289,609,74,216,239,269,200,50,101,471
+117,36,Hovedstaden,Københavns Omegn,Dansborghallen,4217,969,192,372,638,77,343,358,301,332,61,121,453
+118,36,Hovedstaden,Københavns Omegn,Frihedens Idrætscenter,4233,1186,153,295,646,65,275,316,290,278,74,97,558
+119,36,Hovedstaden,Københavns Omegn,Avedøre Skole,4511,1173,203,403,551,101,323,363,351,325,71,68,579
+120,36,Hovedstaden,Københavns Omegn,Avedøre Idrætscenter,3328,758,82,211,468,84,217,154,438,238,80,57,541
+121,37,Hovedstaden,Københavns Omegn,Brøndbyvester Skole,2895,758,133,220,325,78,223,199,206,170,57,35,491
+122,37,Hovedstaden,Københavns Omegn,Tjørnehøjhallen,3449,909,136,208,381,101,256,177,322,178,80,58,643
+123,37,Hovedstaden,Københavns Omegn,Lindelundshallen,2449,756,92,145,297,59,168,114,183,81,53,59,442
+124,37,Hovedstaden,Københavns Omegn,Nørregård,3909,1166,101,197,465,99,167,186,421,204,95,85,723
+125,37,Hovedstaden,Københavns Omegn,Kulturhuset Brønden,2951,686,112,244,273,66,163,147,449,319,46,52,394
+126,37,Hovedstaden,Københavns Omegn,Søholthallen,2503,572,73,209,266,41,118,114,467,298,36,50,259
+127,37,Hovedstaden,Københavns Omegn,Ishøj Landsby,1221,233,72,143,124,64,121,105,57,95,23,28,156
+128,37,Hovedstaden,Københavns Omegn,Vibeholmskolen,2041,551,79,145,234,78,118,91,205,157,37,28,318
+129,37,Hovedstaden,Københavns Omegn,Gildbroskolen,2321,546,64,152,253,56,122,67,331,199,58,36,437
+130,37,Hovedstaden,Københavns Omegn,Strandgårdskolen,1900,404,49,123,174,33,107,28,417,234,47,40,244
+131,37,Hovedstaden,Københavns Omegn,Ishøj Bymidte,2337,616,109,226,200,68,169,141,232,218,19,50,289
+132,37,Hovedstaden,Københavns Omegn,"Vallensbæk Skole, Multisalen",2817,519,136,255,247,66,235,326,329,271,47,39,347
+133,37,Hovedstaden,Københavns Omegn,Egholmskolen,2898,660,170,316,299,70,247,426,152,168,22,44,324
+134,37,Hovedstaden,Københavns Omegn,Pilehaveskolen,3231,738,179,299,286,73,253,448,236,256,42,35,386
+135,38,Hovedstaden,Københavns Omegn,Herstedøster Skole,3462,745,112,216,582,62,233,218,516,225,52,117,384
+136,38,Hovedstaden,Københavns Omegn,Egelundskolen,2743,793,83,140,425,52,139,165,324,188,32,72,330
+137,38,Hovedstaden,Københavns Omegn,Herstedlund Skole,2137,546,43,112,312,37,90,71,356,202,41,52,275
+138,38,Hovedstaden,Københavns Omegn,Kongsholmcenteret,2570,709,49,93,365,58,98,71,339,205,81,46,456
+139,38,Hovedstaden,Københavns Omegn,Herstedvester Skole,3240,913,79,185,569,47,151,123,402,338,42,83,308
+140,38,Hovedstaden,Københavns Omegn,Børne- og Kulturhuset,1285,233,44,98,143,37,92,101,169,137,31,20,180
+141,38,Hovedstaden,Københavns Omegn,Parkskolen,2500,635,116,193,249,69,151,304,179,198,32,37,337
+142,38,Hovedstaden,Københavns Omegn,Taastrup Kulturcenter,3347,818,159,270,348,87,236,437,205,234,46,47,460
+143,38,Hovedstaden,Københavns Omegn,Rådhuset,2990,516,124,235,305,65,200,238,482,377,53,61,334
+144,38,Hovedstaden,Københavns Omegn,Hallen ved Rønnevangsstrøget,3881,998,163,312,422,106,266,329,269,274,60,80,602
+145,38,Hovedstaden,Københavns Omegn,Torstorp Skole,2292,536,72,140,238,62,166,158,241,200,60,37,382
+146,38,Hovedstaden,Københavns Omegn,Sengeløse,1587,332,119,148,139,65,143,208,78,64,52,27,212
+147,38,Hovedstaden,Københavns Omegn,Charlotteskolen,1888,417,71,149,197,62,138,152,191,170,34,25,282
+148,38,Hovedstaden,Københavns Omegn,Fløng Hallen,3295,766,171,235,432,117,327,352,136,162,65,50,482
+149,38,Hovedstaden,Københavns Omegn,Reerslev Skole,626,130,31,62,86,17,59,68,33,41,17,9,73
+150,38,Hovedstaden,Københavns Omegn,Springcenter Nærheden,3607,694,172,297,483,82,425,322,304,246,70,66,446
+151,39,Hovedstaden,Københavns Omegn,Tapeten,2989,955,126,165,324,69,181,137,205,164,72,59,532
+152,39,Hovedstaden,Københavns Omegn,Balleruphallen - Rugvænget,4867,1436,182,304,614,115,330,228,441,234,107,110,766
+153,39,Hovedstaden,Københavns Omegn,Højagerhallen - Skovvejens Skole Vest,2162,637,123,167,291,26,148,164,107,147,35,53,264
+154,39,Hovedstaden,Københavns Omegn,Grantoftehallen,2510,693,58,162,298,48,192,119,207,114,92,41,486
+155,39,Hovedstaden,Københavns Omegn,Idrætshallen (tidl. UCC-hallen) - Rosenlund,3349,916,203,346,418,38,280,344,148,245,37,76,298
+156,39,Hovedstaden,Københavns Omegn,Skovlunde Skole - Lundebjerg,4466,1320,158,267,590,87,296,282,386,257,85,72,666
+157,39,Hovedstaden,Københavns Omegn,Måløv Ny Hal - Måløvhøj Skole - Måløv,3541,951,208,343,484,50,251,326,190,282,59,79,318
+158,39,Hovedstaden,Københavns Omegn,Egebjerghallen - Skovvejens Skole Øst,2971,712,171,284,449,31,214,255,184,287,32,124,228
+159,39,Hovedstaden,Københavns Omegn,Østerhøjhallen - Måløvhøj Skole - Østerhøj,1854,457,93,146,297,22,127,137,150,143,32,70,180
+160,39,Hovedstaden,Københavns Omegn,Nordvanghallen,2031,521,138,196,224,48,178,169,117,135,24,33,248
+161,39,Hovedstaden,Københavns Omegn,Sognegården,1882,452,100,171,232,53,150,154,130,109,37,42,252
+162,39,Hovedstaden,Københavns Omegn,Søndervanghallen,3056,743,139,227,360,80,250,199,227,188,67,69,507
+163,39,Hovedstaden,Københavns Omegn,Vestervangskolen,2396,726,59,112,275,57,122,80,276,153,42,42,452
+164,39,Hovedstaden,Københavns Omegn,Ejbyhallen,1270,261,130,183,105,27,129,123,47,90,22,21,132
+165,39,Hovedstaden,Københavns Omegn,Hvissingehallen,2463,661,126,193,271,52,220,162,163,130,44,39,402
+166,40,Hovedstaden,Nordsjælland,Helsingør Hallen,6212,1509,278,513,930,131,521,600,430,347,92,210,651
+167,40,Hovedstaden,Nordsjælland,Skolen ved Gurrevej,5435,1495,224,365,816,168,421,381,393,212,99,118,743
+168,40,Hovedstaden,Nordsjælland,"Laden, Gl. Vapnagård",4153,924,179,404,534,95,321,366,353,275,62,135,505
+169,40,Hovedstaden,Nordsjælland,Bølgen,3956,802,278,482,471,77,391,507,155,241,67,108,377
+170,40,Hovedstaden,Nordsjælland,Hornbæk Skole,3593,715,265,455,360,91,372,443,145,252,56,120,319
+171,40,Hovedstaden,Nordsjælland,Nygård Skole,910,164,84,97,93,48,98,85,43,40,32,26,100
+172,40,Hovedstaden,Nordsjælland,Tikøb Skole,1127,203,97,112,109,55,121,121,40,57,40,40,132
+173,40,Hovedstaden,Nordsjælland,Kvistgård Idrætsanlæg,710,137,40,49,88,34,76,68,32,45,23,21,97
+174,40,Hovedstaden,Nordsjælland,Snekkersten Hallen,3122,679,190,355,342,72,278,459,149,260,30,83,225
+175,40,Hovedstaden,Nordsjælland,Espergærde Bibliotek,3235,545,233,390,373,31,368,517,151,358,25,88,156
+176,40,Hovedstaden,Nordsjælland,Mørdrupskolen,4806,927,320,526,660,102,441,577,267,424,57,134,371
+177,40,Hovedstaden,Nordsjælland,Toldkammeret,1880,400,60,144,330,36,187,140,181,146,29,75,152
+178,41,Hovedstaden,Nordsjælland,Asminderød,4356,900,367,405,436,113,524,530,131,311,106,80,453
+179,41,Hovedstaden,Nordsjælland,Fredensborg,3023,481,321,426,292,34,324,433,97,300,40,73,202
+180,41,Hovedstaden,Nordsjælland,Humlebæk,2987,459,302,329,354,40,296,359,151,369,25,120,183
+181,41,Hovedstaden,Nordsjælland,Baunebjerg,3082,624,216,276,467,57,231,292,171,306,34,127,281
+182,41,Hovedstaden,Nordsjælland,Kokkedal,5331,998,418,541,589,107,539,634,325,471,77,110,522
+183,41,Hovedstaden,Nordsjælland,Nivå,4966,989,396,492,651,68,424,471,319,417,78,184,477
+184,41,Hovedstaden,Nordsjælland,Karlebo,834,95,116,103,61,19,140,107,27,67,17,23,59
+185,41,Hovedstaden,Nordsjælland,Hørsholm,4118,493,496,592,275,54,583,807,96,290,33,58,341
+186,41,Hovedstaden,Nordsjælland,Usserød,4440,622,488,620,380,53,613,772,75,320,57,62,378
+187,41,Hovedstaden,Nordsjælland,Rungsted,3164,163,578,489,67,20,769,669,27,211,25,30,116
+188,41,Hovedstaden,Nordsjælland,Grønnegade,282,15,20,41,16,4,77,39,6,24,4,6,30
+189,41,Hovedstaden,Nordsjælland,Vallerød,4275,510,547,586,258,52,692,759,91,324,40,65,351
+190,42,Hovedstaden,Nordsjælland,Royal Stage,6378,1190,420,622,994,98,622,799,405,450,77,200,501
+191,42,Hovedstaden,Nordsjælland,Hillerødsholmsskolen,4522,1001,298,455,656,95,396,578,229,350,52,117,295
+192,42,Hovedstaden,Nordsjælland,Brødeskov,582,84,56,60,66,18,74,83,12,45,8,14,62
+193,42,Hovedstaden,Nordsjælland,Hammersholt,1066,203,59,91,214,15,70,109,66,118,13,49,59
+194,42,Hovedstaden,Nordsjælland,Alsønderup,1566,272,174,157,192,52,160,175,62,77,33,36,176
+195,42,Hovedstaden,Nordsjælland,Ullerød,4206,815,344,431,603,85,423,582,185,256,39,74,369
+196,42,Hovedstaden,Nordsjælland,Nødebo,1399,219,114,132,182,18,153,187,66,173,16,58,81
+197,42,Hovedstaden,Nordsjælland,Gadevang,780,115,45,96,117,11,64,123,41,105,11,36,16
+198,42,Hovedstaden,Nordsjælland,"Grønnevang Skole, Østervang",6678,1453,478,588,1080,118,468,734,404,561,112,163,519
+199,42,Hovedstaden,Nordsjælland,Lille Lyngby,1250,217,118,92,129,67,166,124,38,40,50,19,190
+200,42,Hovedstaden,Nordsjælland,"Skævinge, Harløse, Strø",2727,462,266,224,302,139,340,369,69,98,76,44,338
+201,42,Hovedstaden,Nordsjælland,Gørløse,930,156,79,75,128,32,126,106,31,35,26,16,120
+202,42,Hovedstaden,Nordsjælland,Uvelse,923,196,97,78,115,34,85,99,18,46,23,20,112
+203,42,Hovedstaden,Nordsjælland,Blistrup,2853,556,202,313,269,133,245,248,106,90,114,66,511
+204,42,Hovedstaden,Nordsjælland,Esbønderup,2064,373,141,226,242,75,192,182,108,97,57,77,294
+205,42,Hovedstaden,Nordsjælland,Valby,348,37,38,46,37,20,44,37,15,13,12,10,39
+206,42,Hovedstaden,Nordsjælland,Græsted,3055,595,246,366,319,180,231,266,113,122,83,51,483
+207,42,Hovedstaden,Nordsjælland,Annisse,1962,311,169,259,178,77,236,258,60,90,46,44,234
+208,42,Hovedstaden,Nordsjælland,Gilleleje,4709,966,381,651,497,186,392,543,167,178,91,99,558
+209,42,Hovedstaden,Nordsjælland,Søborg,957,182,74,122,81,54,95,67,45,45,21,33,138
+210,42,Hovedstaden,Nordsjælland,Helsinge,5319,1153,385,514,571,222,507,577,190,201,131,96,772
+211,42,Hovedstaden,Nordsjælland,Mårum,694,91,75,88,76,31,61,63,44,38,20,25,82
+212,42,Hovedstaden,Nordsjælland,Ramløse,2065,371,164,258,211,95,195,237,81,90,69,25,269
+213,42,Hovedstaden,Nordsjælland,Vejby,1788,365,129,162,215,71,137,165,68,67,45,68,296
+214,42,Hovedstaden,Nordsjælland,Tibirke,1232,253,60,160,167,17,83,122,96,110,18,60,86
+215,43,Hovedstaden,Nordsjælland,Frederikssund Midt,5171,1140,466,391,717,123,617,401,216,210,92,86,712
+216,43,Hovedstaden,Nordsjælland,Frederikssund Nord,3828,838,341,292,531,118,403,320,150,143,82,54,556
+217,43,Hovedstaden,Nordsjælland,Frederikssund Syd,4644,980,420,379,626,125,588,369,159,251,107,75,565
+218,43,Hovedstaden,Nordsjælland,Skibby,5447,1188,542,371,665,309,497,305,249,132,194,103,892
+219,43,Hovedstaden,Nordsjælland,Jægerspris,5634,1393,379,423,785,206,465,299,315,187,135,124,923
+220,43,Hovedstaden,Nordsjælland,Slangerup,5226,1086,564,434,554,178,657,406,166,188,141,84,768
+221,43,Hovedstaden,Nordsjælland,Hundested,6294,1546,354,469,1031,252,408,399,454,200,116,300,765
+222,43,Hovedstaden,Nordsjælland,Melby,2666,699,156,219,343,117,200,210,115,80,63,93,371
+223,43,Hovedstaden,Nordsjælland,Enghaven,2391,625,133,192,271,116,187,243,92,56,61,46,369
+224,43,Hovedstaden,Nordsjælland,Frederiksværk,5805,1514,388,374,771,267,454,420,297,150,156,151,863
+225,43,Hovedstaden,Nordsjælland,Ølsted,2092,469,163,154,242,165,182,166,73,51,63,30,334
+226,44,Hovedstaden,Nordsjælland,Værløse,6109,1245,538,601,718,67,440,886,325,635,61,140,453
+227,44,Hovedstaden,Nordsjælland,Hareskov,2427,439,166,296,234,12,202,451,98,386,17,70,56
+228,44,Hovedstaden,Nordsjælland,Søndersø,3558,648,339,392,436,27,283,540,125,497,36,96,139
+229,44,Hovedstaden,Nordsjælland,Jonstrup,1526,289,86,141,304,20,101,150,104,188,9,81,53
+230,44,Hovedstaden,Nordsjælland,Stavnsholt,3545,640,341,396,427,34,304,518,227,359,26,95,178
+231,44,Hovedstaden,Nordsjælland,Solvang,5615,1011,489,741,754,56,529,703,281,602,50,124,275
+232,44,Hovedstaden,Nordsjælland,Paltholm,2680,538,153,205,418,56,199,185,338,159,59,84,286
+233,44,Hovedstaden,Nordsjælland,Ledøje Forsamlingshus,773,134,74,71,85,16,101,89,28,40,10,17,108
+234,44,Hovedstaden,Nordsjælland,Smørum Idrætscenter,6922,1470,582,697,946,152,812,789,273,400,89,99,613
+235,44,Hovedstaden,Nordsjælland,Stenløse,4057,951,399,353,485,94,432,371,164,228,68,70,442
+236,44,Hovedstaden,Nordsjælland,Veksø,1247,299,71,110,177,26,102,104,72,97,16,30,143
+237,44,Hovedstaden,Nordsjælland,Ganløse,2321,421,204,269,325,45,239,269,85,175,60,49,180
+238,44,Hovedstaden,Nordsjælland,Slagslunde,1077,204,74,98,165,20,82,98,110,66,18,39,103
+239,44,Hovedstaden,Nordsjælland,Ølstykke,4741,1089,359,400,617,174,512,436,175,213,111,66,589
+240,44,Hovedstaden,Nordsjælland,Stengårdsskolen,3652,843,322,305,449,101,379,361,108,142,87,31,524
+241,44,Hovedstaden,Nordsjælland,Bækkegårdsskolen,3564,824,316,305,448,85,358,337,143,187,57,44,460
+242,45,Hovedstaden,Nordsjælland,Blovstrød,2298,321,236,297,318,24,237,333,85,258,13,57,119
+243,45,Hovedstaden,Nordsjælland,Skovvang,3153,620,263,318,469,46,234,347,201,318,38,79,220
+244,45,Hovedstaden,Nordsjælland,Lillerød,3739,643,397,446,509,41,327,508,152,415,26,77,198
+245,45,Hovedstaden,Nordsjælland,Lynge,3450,591,396,377,343,89,389,433,131,218,51,74,358
+246,45,Hovedstaden,Nordsjælland,Ravnsholt,3961,604,520,507,454,44,444,619,96,396,21,42,214
+247,45,Hovedstaden,Nordsjælland,Birkerød,4444,717,427,444,551,43,390,637,244,611,47,88,245
+248,45,Hovedstaden,Nordsjælland,Grünersvej,4522,396,590,619,299,17,722,960,102,535,26,77,179
+249,45,Hovedstaden,Nordsjælland,Nærum,3198,531,282,330,330,55,312,522,168,284,42,68,274
+250,45,Hovedstaden,Nordsjælland,Sjælsø,4756,597,467,600,491,31,518,749,221,659,50,131,242
+251,45,Hovedstaden,Nordsjælland,Skovly,2327,196,320,315,160,6,302,496,76,291,8,55,102
+252,45,Hovedstaden,Nordsjælland,Toftevang,4912,683,453,540,521,43,441,770,278,712,48,148,275
+253,45,Hovedstaden,Nordsjælland,Trørød,3571,418,430,495,249,32,527,681,89,328,33,53,236
+254,45,Hovedstaden,Nordsjælland,Vangebo,2744,183,381,368,161,17,440,553,118,344,21,65,93
+255,45,Hovedstaden,Nordsjælland,Vedbæk,5269,452,800,699,262,38,926,1062,133,485,43,106,263
+256,46,Hovedstaden,Bornholm,Klemensker,1475,407,293,83,125,121,80,48,59,10,35,20,194
+257,46,Hovedstaden,Bornholm,Rønne,8692,3018,1390,483,1101,250,431,343,402,138,139,113,884
+258,46,Hovedstaden,Bornholm,Hasle,1738,565,280,96,169,82,75,61,98,30,41,26,215
+259,47,Hovedstaden,Bornholm,Christiansø,53,17,2,3,12,2,0,2,6,1,1,6,1
+260,47,Hovedstaden,Bornholm,Allinge,1937,591,356,108,242,68,89,42,128,45,28,46,194
+261,47,Hovedstaden,Bornholm,Østerlars,1680,372,299,102,223,79,91,74,159,35,31,53,162
+262,47,Hovedstaden,Bornholm,Svaneke,1309,321,220,94,248,30,48,46,136,39,18,56,53
+263,47,Hovedstaden,Bornholm,Nexø,2697,854,443,185,300,108,137,101,138,58,49,54,270
+264,47,Hovedstaden,Bornholm,Pedersker,1024,252,215,59,83,72,57,36,54,19,17,18,142
+265,47,Hovedstaden,Bornholm,Aakirkeby,3122,849,669,163,261,189,192,121,142,42,62,46,386
+266,48,Sjælland,Sjælland,Errindlev,441,111,55,16,35,64,18,29,16,5,7,3,82
+267,48,Sjælland,Sjælland,Holeby,1337,410,101,65,117,186,64,34,35,14,64,19,228
+268,48,Sjælland,Sjælland,Sandby,518,140,54,38,40,86,22,24,7,2,27,6,72
+269,48,Sjælland,Sjælland,Søllested,1304,317,97,39,102,237,68,51,44,18,71,12,248
+270,48,Sjælland,Sjælland,Maribo,4015,1303,335,261,412,448,242,237,118,61,70,42,486
+271,48,Sjælland,Sjælland,Askø,38,4,3,3,2,12,0,2,2,0,0,3,7
+272,48,Sjælland,Sjælland,Østofte,1703,399,169,117,158,232,101,82,60,16,75,40,254
+273,48,Sjælland,Sjælland,Nakskov,7225,2580,346,365,884,683,351,250,222,80,260,77,1127
+274,48,Sjælland,Sjælland,Birket,267,72,32,15,15,29,13,8,15,2,11,7,48
+275,48,Sjælland,Sjælland,Fejø,289,45,9,9,25,91,4,5,14,10,8,46,23
+276,48,Sjælland,Sjælland,Femø,85,19,2,9,9,23,5,3,3,0,0,5,7
+277,48,Sjælland,Sjælland,Horslunde,1231,296,90,69,114,262,42,38,40,13,62,26,179
+278,48,Sjælland,Sjælland,Dannemare,1444,401,144,89,98,237,70,49,44,13,43,28,228
+279,48,Sjælland,Sjælland,Rødby,1877,490,143,104,163,319,97,59,52,18,91,19,322
+280,48,Sjælland,Sjælland,Rødbyhavn,722,200,32,32,81,91,34,14,24,8,33,11,162
+281,49,Sjælland,Sjælland,Byen,2968,785,181,251,414,136,246,201,147,95,53,35,424
+282,49,Sjælland,Sjælland,Østerbro,2404,676,149,166,380,106,167,153,97,61,64,49,336
+283,49,Sjælland,Sjælland,Lindeskov,2150,674,140,195,273,133,141,123,86,47,62,29,247
+284,49,Sjælland,Sjælland,Ejegod,2670,782,188,249,345,135,160,165,131,69,57,40,349
+285,49,Sjælland,Sjælland,Kraghave,1887,515,148,163,218,147,198,107,47,39,57,22,226
+286,49,Sjælland,Sjælland,Toreby,1101,261,100,79,126,110,78,47,36,22,52,18,172
+287,49,Sjælland,Sjælland,Sundby,2400,647,246,196,329,136,178,168,65,50,54,39,292
+288,49,Sjælland,Sjælland,Nysted,1813,514,188,129,195,156,105,79,61,41,71,26,248
+289,49,Sjælland,Sjælland,Øster Ulslev,891,173,108,37,84,119,59,29,42,7,61,14,158
+290,49,Sjælland,Sjælland,Nørre Alslev,1953,525,159,121,211,141,138,101,56,23,101,32,345
+291,49,Sjælland,Sjælland,Nørre Vedby,1327,329,106,93,146,127,83,54,46,21,64,29,229
+292,49,Sjælland,Sjælland,Eskilstrup,1592,414,113,83,179,176,130,55,49,27,76,18,272
+293,49,Sjælland,Sjælland,Sakskøbing,3436,1051,287,204,380,330,228,213,88,43,104,56,452
+294,49,Sjælland,Sjælland,Majbølle,956,217,76,82,89,120,52,49,30,15,36,19,171
+295,49,Sjælland,Sjælland,Våbensted,675,141,65,46,59,124,45,35,21,4,37,10,88
+296,49,Sjælland,Sjælland,Stubbekøbing,2227,637,148,152,263,186,116,93,98,38,77,80,339
+297,49,Sjælland,Sjælland,Horreby,1784,414,150,86,193,182,149,83,70,43,94,35,285
+298,49,Sjælland,Sjælland,Idestrup,1179,306,104,96,126,103,93,74,32,15,38,12,180
+299,49,Sjælland,Sjælland,Væggerløse,2329,669,212,228,217,164,149,178,49,33,53,26,351
+300,49,Sjælland,Sjælland,Gedser,733,203,30,32,92,55,37,41,40,12,22,10,159
+301,50,Sjælland,Sjælland,Vordingborg,5780,1555,378,505,805,248,456,290,320,176,166,148,733
+302,50,Sjælland,Sjælland,Nyråd,2051,511,173,232,300,96,199,112,84,79,38,42,185
+303,50,Sjælland,Sjælland,Kastrup,1593,389,112,142,218,104,158,56,60,31,64,20,239
+304,50,Sjælland,Sjælland,Bårse,785,145,79,62,72,65,86,35,28,21,56,15,121
+305,50,Sjælland,Sjælland,Lundby,2348,478,182,155,250,282,223,100,84,50,95,38,411
+306,50,Sjælland,Sjælland,Ørslev,1369,370,109,104,141,108,109,65,25,17,70,15,236
+307,50,Sjælland,Sjælland,Stege,3517,919,298,495,458,167,192,127,173,91,104,127,366
+308,50,Sjælland,Sjælland,Østmøn,858,180,74,101,105,58,45,26,63,36,31,37,102
+309,50,Sjælland,Sjælland,Vestmøn,1415,252,118,132,191,92,72,35,159,50,58,99,157
+310,50,Sjælland,Sjælland,Bogø,844,192,51,81,192,42,51,31,37,19,34,20,94
+311,50,Sjælland,Sjælland,Præstø,2931,788,234,275,443,133,211,142,146,89,62,75,333
+312,50,Sjælland,Sjælland,Allerslev,764,139,65,72,98,48,73,29,44,20,31,30,115
+313,50,Sjælland,Sjælland,Jungshoved,485,100,25,43,79,21,42,14,46,22,16,18,59
+314,50,Sjælland,Sjælland,Mern,1086,242,97,80,131,102,71,35,37,19,58,22,192
+315,50,Sjælland,Sjælland,Kalvehave,1332,349,74,153,176,70,91,46,60,33,57,30,193
+316,50,Sjælland,Sjælland,Stensved,1269,335,121,119,146,64,118,49,50,24,43,29,171
+317,51,Sjælland,Sjælland,Fuglebjerg,2774,623,211,194,308,236,211,139,91,61,136,58,506
+318,51,Sjælland,Sjælland,Everdrup,630,162,59,44,45,63,63,24,20,10,20,21,99
+319,51,Sjælland,Sjælland,Grønbro Hallen,1200,248,95,73,103,126,103,47,31,36,66,22,250
+320,51,Sjælland,Sjælland,Fladså Hallen,1787,382,159,194,204,101,212,142,31,38,61,26,237
+321,51,Sjælland,Sjælland,Tybjerg,613,105,68,36,72,47,75,34,15,10,23,13,115
+322,51,Sjælland,Sjælland,Tappernøje,1575,327,108,106,170,125,178,51,50,25,93,28,314
+323,51,Sjælland,Sjælland,Hammer - Vester Egesborg,1024,218,87,72,88,109,103,41,35,28,52,20,171
+324,51,Sjælland,Sjælland,Fensmark,3397,921,242,309,388,154,323,240,96,46,89,35,554
+325,51,Sjælland,Sjælland,Holme-Olstrup,982,242,74,81,106,63,99,49,29,26,23,13,177
+326,51,Sjælland,Sjælland,Toksværd,1009,212,94,82,84,73,111,45,34,28,54,16,176
+327,51,Sjælland,Sjælland,Glumsø,2148,541,161,145,299,113,203,117,99,65,62,57,286
+328,51,Sjælland,Sjælland,Sandby,336,52,23,13,33,47,40,20,12,17,16,4,59
+329,51,Sjælland,Sjælland,Skelby,408,83,34,21,31,35,61,19,16,11,17,13,67
+330,51,Sjælland,Sjælland,Herlufmagle,1998,483,136,132,229,129,171,94,67,34,89,35,399
+331,51,Sjælland,Sjælland,Lille Næstved Skole - Digtervej,3210,845,271,338,395,139,332,246,123,108,54,32,327
+332,51,Sjælland,Sjælland,Grønnegades Kaserne,2648,588,209,255,340,72,354,164,133,106,64,39,324
+333,51,Sjælland,Sjælland,Næstved Firma Sport,5523,1488,316,367,771,206,559,294,319,175,155,89,784
+334,51,Sjælland,Sjælland,Arena Næstved,7876,2217,517,656,1031,299,798,468,327,250,169,123,1021
+335,51,Sjælland,Sjælland,Lille Næstved Skole - Herlufsholmvej,2539,612,241,302,271,53,299,274,73,114,39,46,215
+336,51,Sjælland,Sjælland,Herlufsholmhallen,4133,1062,410,431,436,152,468,324,108,120,89,52,481
+337,51,Sjælland,Sjælland,Kobberbakkeskolen - Sydby,2692,812,151,176,320,113,223,137,126,74,103,35,422
+338,51,Sjælland,Sjælland,Kobberbakkeskolen - Rønnebæk,638,140,42,54,72,34,73,44,16,26,13,15,109
+339,51,Sjælland,Sjælland,Hyllinge,1190,225,113,76,120,111,136,49,26,27,68,21,218
+340,51,Sjælland,Sjælland,Lille Næstved Skole - Karrebæk,1927,498,170,276,208,97,131,133,66,37,32,24,255
+341,52,Sjælland,Sjælland,Nordskov,5142,1098,448,457,630,262,641,253,155,120,167,60,851
+342,52,Sjælland,Sjælland,Sofiendal,4957,1081,346,408,658,248,554,272,176,137,121,94,862
+343,52,Sjælland,Sjælland,Faxe,2850,712,218,206,287,160,264,125,55,49,110,33,631
+344,52,Sjælland,Sjælland,Hylleholt,2613,664,193,233,328,154,204,122,138,42,69,78,388
+345,52,Sjælland,Sjælland,Karise,2645,556,185,207,284,220,231,122,113,54,116,93,464
+346,52,Sjælland,Sjælland,Dalby,2474,467,227,201,220,137,307,132,49,24,116,30,564
+347,52,Sjælland,Sjælland,Rønnede,2530,537,217,203,205,167,236,132,77,36,108,29,583
+348,52,Sjælland,Sjælland,Hårlevhallen,3759,792,371,290,444,257,286,221,103,92,136,79,688
+349,52,Sjælland,Sjælland,Strøby Idrætscenter,5082,972,539,570,625,193,500,360,124,207,117,93,782
+350,52,Sjælland,Sjælland,Stevnshallen,3859,873,267,260,454,279,351,194,145,111,158,66,701
+351,52,Sjælland,Sjælland,Sydstevnshallen,2504,591,212,257,279,164,168,149,102,81,91,57,353
+352,53,Sjælland,Sjælland,Køge By,7586,1448,838,926,1009,193,820,736,238,328,94,133,823
+353,53,Sjælland,Sjælland,Køge By - Vest,3369,813,284,273,520,102,259,194,176,139,60,58,491
+354,53,Sjælland,Sjælland,Ølby,4117,831,387,364,590,152,364,276,204,190,82,50,627
+355,53,Sjælland,Sjælland,Ølsemagle,2915,529,276,290,416,75,365,203,136,123,64,39,399
+356,53,Sjælland,Sjælland,Hastrup,3450,787,317,334,551,102,289,237,164,96,53,57,463
+357,53,Sjælland,Sjælland,Herfølge,4964,970,397,446,812,222,419,321,210,143,140,108,776
+358,53,Sjælland,Sjælland,Ejby,2721,489,312,264,342,133,342,164,68,78,72,48,409
+359,53,Sjælland,Sjælland,Vemmedrup,1628,327,220,157,189,74,174,116,37,47,41,11,235
+360,53,Sjælland,Sjælland,Bjæverskov,2308,382,361,190,223,144,264,136,30,55,69,17,437
+361,53,Sjælland,Sjælland,Gørslev,812,119,108,85,72,67,83,45,17,23,34,11,148
+362,53,Sjælland,Sjælland,Borup,4131,837,416,347,640,186,344,283,191,151,92,91,553
+363,53,Sjælland,Sjælland,Hyllinge-Lyndby,2895,589,284,265,384,163,271,181,117,88,77,58,418
+364,53,Sjælland,Sjælland,Rye,1753,365,153,163,268,59,184,80,68,71,49,48,245
+365,53,Sjælland,Sjælland,Sæby-Gershøj,1126,211,116,95,183,50,86,90,43,45,31,32,144
+366,53,Sjælland,Sjælland,Sonnerup,904,174,77,69,135,60,106,56,25,26,24,19,133
+367,53,Sjælland,Sjælland,Glim,809,133,94,82,123,37,83,44,31,43,10,18,111
+368,53,Sjælland,Sjælland,Hvalsø,3482,651,274,292,722,102,200,218,265,227,50,162,319
+369,53,Sjælland,Sjælland,Kr.Såby,1839,379,166,147,284,99,146,112,60,55,64,35,292
+370,53,Sjælland,Sjælland,Gevninge,1957,337,252,195,336,66,161,147,106,84,35,52,186
+371,53,Sjælland,Sjælland,Lejre,2342,310,196,246,592,20,149,171,188,226,21,119,104
+372,53,Sjælland,Sjælland,Osted,1981,361,213,199,271,104,174,115,87,86,49,67,255
+373,54,Sjælland,Sjælland,Arenaskolen ved Greve Kultur-Base,3947,902,390,335,396,94,397,233,250,145,85,47,673
+374,54,Sjælland,Sjælland,Greve Idrætscenter,6459,1200,931,762,619,164,759,438,262,294,88,86,856
+375,54,Sjælland,Sjælland,Mosedeskolen,3922,664,594,483,382,79,521,366,95,172,70,34,462
+376,54,Sjælland,Sjælland,Karlslundehallerne,5735,1114,904,704,574,138,628,437,119,229,87,76,725
+377,54,Sjælland,Sjælland,Tunehallerne,4373,887,541,488,429,158,462,284,113,128,97,30,756
+378,54,Sjælland,Sjælland,Holmeagerskolen,3128,718,317,279,357,61,295,216,126,99,50,38,572
+379,54,Sjælland,Sjælland,Sundhedshuset,3201,699,257,279,339,96,237,120,350,182,77,56,509
+380,54,Sjælland,Sjælland,Havdrup,3286,651,271,337,385,148,435,231,109,80,90,42,507
+381,54,Sjælland,Sjælland,Det Nordlige Strandområde,5355,935,586,707,492,125,884,442,136,238,85,58,667
+382,54,Sjælland,Sjælland,Det Sydlige Strandområde,6679,1204,665,834,689,205,1014,578,174,267,94,84,871
+383,55,Sjælland,Sjælland,Roskilde Bymidte,3826,725,255,468,589,43,360,387,336,252,38,120,253
+384,55,Sjælland,Sjælland,Klostermarken,4106,846,305,563,628,52,364,427,217,305,39,104,256
+385,55,Sjælland,Sjælland,Sankt Jørgen,5112,1117,251,500,1035,71,307,368,436,415,49,163,400
+386,55,Sjælland,Sjælland,Hedegårdene,2992,608,163,263,526,39,256,218,265,195,51,89,319
+387,55,Sjælland,Sjælland,Østervang,5163,980,265,382,935,96,495,399,442,359,87,186,537
+388,55,Sjælland,Sjælland,Himmelev,5398,975,540,716,746,65,492,667,275,471,50,135,266
+389,55,Sjælland,Sjælland,Svogerslev,3006,704,249,355,533,63,219,263,111,151,27,42,289
+390,55,Sjælland,Sjælland,Vindinge,2033,384,160,270,303,51,213,226,74,127,29,26,170
+391,55,Sjælland,Sjælland,Vor Frue,770,132,53,63,125,32,93,71,51,33,15,19,83
+392,55,Sjælland,Sjælland,Tjørnegård,4016,805,196,341,736,87,316,275,349,232,75,102,502
+393,55,Sjælland,Sjælland,Gundsølille,2360,464,213,241,307,79,255,157,115,115,71,54,289
+394,55,Sjælland,Sjælland,Jyllinge,4973,885,400,605,551,123,633,603,106,246,110,71,640
+395,55,Sjælland,Sjælland,Gundsømagle,2051,409,148,194,268,66,225,230,61,72,43,43,292
+396,55,Sjælland,Sjælland,Baunehøj,2430,497,205,303,270,58,261,307,52,100,38,35,304
+397,55,Sjælland,Sjælland,Gadstrup,1571,346,121,163,212,55,154,161,45,62,34,26,192
+398,55,Sjælland,Sjælland,Viby,4167,909,341,375,629,173,371,327,189,150,84,89,530
+399,55,Sjælland,Sjælland,Snoldelev,704,104,77,65,78,39,80,51,21,28,21,12,128
+400,55,Sjælland,Sjælland,Trekroner,3620,529,208,360,730,36,303,307,385,364,13,221,164
+401,56,Sjælland,Sjælland,Holbæk Øst,6665,1603,549,780,978,177,546,398,386,355,113,150,630
+402,56,Sjælland,Sjælland,Holbæk Vest,5803,1560,403,546,912,173,386,275,343,249,125,126,705
+403,56,Sjælland,Sjælland,Holbæk Midt,4794,1274,335,445,755,138,487,242,269,189,77,93,490
+404,56,Sjælland,Sjælland,Vipperød,3110,756,260,309,391,144,327,178,94,112,88,62,389
+405,56,Sjælland,Sjælland,Tuse,3079,691,258,343,456,159,318,181,100,122,76,51,324
+406,56,Sjælland,Sjælland,Udby,1580,384,136,167,210,116,130,60,49,48,37,43,200
+407,56,Sjælland,Sjælland,Tølløse,3286,826,319,249,522,118,227,160,155,167,84,77,382
+408,56,Sjælland,Sjælland,St. Merløse,2180,423,238,137,300,143,187,85,114,70,89,71,323
+409,56,Sjælland,Sjælland,Regstrup,2587,529,248,238,308,177,249,134,107,74,108,50,365
+410,56,Sjælland,Sjælland,Undløse,2028,424,190,158,210,179,185,65,58,48,83,21,407
+411,56,Sjælland,Sjælland,Jyderup,3082,811,245,204,379,208,247,131,122,88,109,55,483
+412,56,Sjælland,Sjælland,Mørkøv,2541,586,163,166,243,204,238,92,132,51,133,50,483
+413,56,Sjælland,Sjælland,Svinninge,2237,588,175,120,254,221,207,84,72,36,78,25,377
+414,56,Sjælland,Sjælland,Gislinge,2104,474,201,161,198,201,199,73,59,31,85,27,395
+415,56,Sjælland,Sjælland,Orø,708,168,28,62,158,32,39,19,61,19,16,33,73
+416,57,Sjælland,Sjælland,Asnæs,2569,615,246,241,355,164,188,108,73,64,72,33,410
+417,57,Sjælland,Sjælland,Fårevejle,2395,503,169,172,294,234,175,95,90,77,100,57,429
+418,57,Sjælland,Sjælland,Grevinge,1531,375,98,89,170,165,105,55,54,34,71,29,286
+419,57,Sjælland,Sjælland,Hørve,1974,363,170,118,237,214,168,64,63,51,97,58,371
+420,57,Sjælland,Sjælland,Odden,795,220,49,81,96,59,40,35,37,23,19,18,118
+421,57,Sjælland,Sjælland,Vig,2120,448,203,151,278,163,151,93,76,48,80,39,390
+422,57,Sjælland,Sjælland,Nykøbing,3981,1157,240,307,570,195,217,171,182,128,104,118,592
+423,57,Sjælland,Sjælland,Rørvig,1096,256,93,138,164,49,46,58,73,58,21,56,84
+424,57,Sjælland,Sjælland,Egebjerg,927,192,51,55,128,60,63,35,82,30,39,75,117
+425,57,Sjælland,Sjælland,Højby,2191,559,159,192,280,145,155,72,89,60,53,69,358
+426,57,Sjælland,Sjælland,Lumsås,418,107,35,40,52,31,19,21,15,14,20,15,49
+427,57,Sjælland,Sjælland,Nr. Asmindrup,635,148,47,35,76,50,57,12,42,11,39,16,102
+428,57,Sjælland,Sjælland,Snertinge,2110,416,181,143,220,208,154,57,95,56,89,40,451
+429,57,Sjælland,Sjælland,Sejerø,208,59,21,17,19,34,4,6,6,4,10,5,23
+430,57,Sjælland,Sjælland,Svebølle,2653,614,192,147,304,227,185,78,117,59,149,53,528
+431,57,Sjælland,Sjælland,Gørlev,1855,436,197,118,184,157,172,48,46,26,76,15,380
+432,57,Sjælland,Sjælland,Kr. Helsinge,1177,250,128,116,113,99,97,48,18,22,60,17,209
+433,57,Sjælland,Sjælland,Reersø,432,110,37,36,38,31,18,14,23,9,19,6,91
+434,57,Sjælland,Sjælland,Svallerup,799,195,93,67,73,70,44,28,29,21,30,10,139
+435,57,Sjælland,Sjælland,Ubby,1820,394,184,99,176,173,152,66,43,30,116,21,366
+436,57,Sjælland,Sjælland,Høng,3101,755,301,236,338,228,256,126,72,60,107,40,582
+437,57,Sjælland,Sjælland,Buerup,1129,196,104,77,127,109,98,45,58,34,65,24,192
+438,57,Sjælland,Sjælland,Gierslev,895,170,97,53,80,107,99,44,21,17,47,10,150
+439,57,Sjælland,Sjælland,Kalundborghallen,2277,573,199,221,347,107,193,122,91,80,33,50,261
+440,57,Sjælland,Sjælland,Rynkevang,1957,523,133,93,258,106,166,53,80,51,59,26,409
+441,57,Sjælland,Sjælland,Tømmerup,1077,240,110,78,129,82,114,34,20,22,57,11,180
+442,57,Sjælland,Sjælland,Årby-Rørby,2103,455,193,139,228,192,209,73,43,43,92,17,419
+443,57,Sjælland,Sjælland,Raklev,2741,620,262,286,321,138,292,113,108,99,69,45,388
+444,57,Sjælland,Sjælland,Røsnæs,498,107,47,40,75,19,34,27,30,12,11,15,81
+445,57,Sjælland,Sjælland,Ulshøj,2276,631,221,194,252,102,191,106,144,84,53,27,271
+446,58,Sjælland,Sjælland,Ringsted Nørretorv,6942,1492,574,716,907,245,556,729,318,246,146,93,920
+447,58,Sjælland,Sjælland,Bringstrup,510,68,47,44,50,45,49,39,29,15,22,12,90
+448,58,Sjælland,Sjælland,Gyrstinge,526,91,47,48,61,42,55,41,26,18,12,11,74
+449,58,Sjælland,Sjælland,Benløse,3402,748,313,330,384,156,324,320,144,115,70,31,467
+450,58,Sjælland,Sjælland,Haraldsted,863,166,80,68,115,55,68,56,40,20,33,37,125
+451,58,Sjælland,Sjælland,Ringsted Dagmarskolen,3293,715,197,275,461,108,289,266,253,108,83,73,465
+452,58,Sjælland,Sjælland,Jystrup,1047,184,81,89,173,37,92,82,106,61,18,62,62
+453,58,Sjælland,Sjælland,Kværkeby,792,136,61,56,85,53,90,89,21,11,33,12,145
+454,58,Sjælland,Sjælland,Vetterslev,864,185,61,86,114,50,88,91,15,21,19,12,122
+455,58,Sjælland,Sjælland,Sneslev,438,66,43,25,50,40,45,28,18,6,19,12,86
+456,58,Sjælland,Sjælland,Nordrup,743,140,65,50,79,54,95,66,26,21,29,16,102
+457,58,Sjælland,Sjælland,Vigersted,847,156,59,81,99,69,87,78,26,25,20,31,116
+458,58,Sjælland,Sjælland,Ørslev,496,104,32,22,43,54,51,30,17,6,23,9,105
+459,58,Sjælland,Sjælland,Dianalund,3577,848,311,296,346,239,274,158,124,65,186,48,682
+460,58,Sjælland,Sjælland,Ruds Vedby,1165,261,77,78,121,95,79,51,46,10,72,15,260
+461,58,Sjælland,Sjælland,Alsted Fjenneslev,1126,233,147,90,105,94,89,37,49,33,45,26,178
+462,58,Sjælland,Sjælland,Sorø,3526,814,326,352,535,92,265,222,223,212,41,118,326
+463,58,Sjælland,Sjælland,Frederiksberg,3636,809,377,318,643,95,233,161,277,271,50,142,260
+464,58,Sjælland,Sjælland,Pedersborg,2718,595,282,242,329,173,299,130,86,89,59,55,379
+465,58,Sjælland,Sjælland,Stenlille,3495,710,302,256,381,282,277,161,140,62,158,64,702
+466,59,Sjælland,Sjælland,Vemmelev - Vemmelevhallen,2239,480,231,170,180,176,259,118,38,26,101,20,440
+467,59,Sjælland,Sjælland,Tårnborg - Taarnborg Forsamlingshus,1611,452,107,115,179,114,111,53,54,26,61,16,323
+468,59,Sjælland,Sjælland,Korsør - Broskolen,3740,1039,180,263,459,197,253,134,235,57,135,61,727
+469,59,Sjælland,Sjælland,Korsør - Storebæltshallen,4621,1391,281,357,522,225,353,205,147,104,137,72,827
+470,59,Sjælland,Sjælland,Boeslunde - Boeslunde Hallen,878,197,82,88,60,78,81,29,19,21,43,23,157
+471,59,Sjælland,Sjælland,Skælskør - Skælskør Badmintoncenter,5137,1285,509,513,542,338,375,214,173,107,163,85,833
+472,59,Sjælland,Sjælland,Agersø - Agersøhallen,120,30,14,9,10,13,4,3,2,5,10,4,16
+473,59,Sjælland,Sjælland,Omø - Omø Forsamlingshus,104,23,14,5,14,15,2,1,5,0,1,10,14
+474,59,Sjælland,Sjælland,Rude - Kirkeskovskolen,1095,241,113,99,137,76,68,35,42,21,44,46,173
+475,59,Sjælland,Sjælland,Dalmose - Dalmosehallen,1945,434,157,138,174,174,151,82,43,45,114,19,414
+476,59,Sjælland,Sjælland,Slots Bjergby - Hashøjskolen,1156,227,162,92,113,101,124,38,20,41,48,14,176
+477,59,Sjælland,Sjælland,Sørbymagle - Sørbymagle forsamlingshus,1223,306,112,100,119,102,110,50,28,31,48,16,201
+478,59,Sjælland,Sjælland,Vestermose - Hallelev Forsamlingshus,850,141,104,75,57,87,108,37,26,23,33,15,144
+479,59,Sjælland,Sjælland,Stillinge - Stillingehallen,2311,583,245,241,221,217,178,127,49,27,63,26,334
+480,59,Sjælland,Sjælland,Slagelse - Vesthallen,4153,1059,409,423,449,186,366,249,142,127,89,50,604
+481,59,Sjælland,Sjælland,Slagelse - Nordhallen,5152,1209,468,472,601,219,466,265,289,166,102,62,833
+482,59,Sjælland,Sjælland,Slagelse - Søndermarkshallen,3975,1027,322,367,479,148,304,222,211,141,105,54,595
+483,59,Sjælland,Sjælland,Slagelse - Slagelse Hallen,7212,1573,651,674,894,301,792,385,341,205,155,96,1145
+484,60,Syddanmark,Fyn,Skt. Jørgens Hallen,7767,1406,633,508,1261,95,823,567,911,659,87,289,528
+485,60,Syddanmark,Fyn,Marienlystcentret,6886,1727,445,504,1197,138,577,418,546,511,96,192,535
+486,60,Syddanmark,Fyn,Risingskolen,2206,541,144,124,368,35,183,121,272,148,49,68,153
+487,60,Syddanmark,Fyn,Munkebjergskolen,6267,1332,576,472,976,90,631,528,507,558,61,184,352
+488,60,Syddanmark,Fyn,Ejerslykkeskolen,4105,1049,248,265,625,96,251,199,638,262,51,100,321
+489,60,Syddanmark,Fyn,Agedrup Skole,1904,569,128,108,205,111,177,137,128,43,44,20,234
+490,60,Syddanmark,Fyn,Fjordager-Hallen,3866,1115,270,243,504,127,257,221,460,141,60,64,404
+491,60,Syddanmark,Fyn,Fraugde Fritidscenter,2101,548,174,125,282,80,203,131,147,73,49,51,238
+492,60,Syddanmark,Fyn,Camp U,2832,609,72,114,314,47,77,90,1070,150,37,50,202
+493,60,Syddanmark,Fyn,UngOdense (Tidl.Bækholmskolen),2681,722,173,170,453,52,172,175,261,124,42,95,242
+494,61,Syddanmark,Fyn,UCL Seebladsgade,8930,1559,780,619,1371,104,1032,750,955,871,96,309,484
+495,61,Syddanmark,Fyn,CSV-Skolen,7676,1987,526,405,1256,205,730,429,733,389,139,177,700
+496,61,Syddanmark,Fyn,Lumby Skole,740,203,85,55,94,51,48,40,39,19,20,16,70
+497,61,Syddanmark,Fyn,Stige Skole,4112,1262,354,320,504,162,345,262,176,122,88,66,451
+498,61,Syddanmark,Fyn,Spurvelundskolen,2583,775,243,214,282,111,236,192,91,102,45,30,262
+499,61,Syddanmark,Fyn,Kroggårdsskolen,4084,1251,348,339,559,118,265,284,227,190,68,76,359
+500,61,Syddanmark,Fyn,Tarup Skole,3901,1103,413,380,521,107,285,350,156,196,59,65,266
+501,61,Syddanmark,Fyn,Paarup Hallen,3304,930,329,296,431,113,253,296,147,171,35,45,258
+502,61,Syddanmark,Fyn,Korup Skole,2993,904,300,228,348,122,265,204,104,87,63,47,321
+503,61,Syddanmark,Fyn,Ubberud Kultur og Bevægelseshus,1850,435,199,149,203,109,185,147,82,63,58,41,179
+504,62,Syddanmark,Fyn,Rådhuset,8798,1682,804,760,1256,92,920,808,791,840,82,312,451
+505,62,Syddanmark,Fyn,Sct. Knuds Gymnasium,3756,636,502,573,325,37,455,521,135,325,27,54,166
+506,62,Syddanmark,Fyn,Rosengårdskolen,6159,1411,507,447,958,99,575,475,570,420,81,159,457
+507,62,Syddanmark,Fyn,Sanderumhallen,7021,1941,740,660,828,191,600,640,300,321,93,133,574
+508,62,Syddanmark,Fyn,Rasmus Rask-Skolen,3947,977,550,394,399,113,406,442,103,167,59,41,296
+509,62,Syddanmark,Fyn,Tingløkkeskolen,4398,1015,409,545,498,87,436,462,245,292,50,84,275
+510,62,Syddanmark,Fyn,Dalumskolen,5847,1514,524,494,802,123,490,477,390,330,78,136,489
+511,62,Syddanmark,Fyn,Skt. Klemensskolen,2239,521,270,221,301,49,212,231,99,109,37,36,153
+512,62,Syddanmark,Fyn,Fangel Forsamlingshus,566,122,79,51,58,40,62,35,23,22,17,12,45
+513,62,Syddanmark,Fyn,Højby Skole,3274,914,303,241,466,104,293,249,114,153,62,63,312
+514,63,Syddanmark,Fyn,Assens,4097,1284,490,288,456,253,309,230,135,104,97,65,386
+515,63,Syddanmark,Fyn,Ebberup/Helnæs,1175,326,162,65,136,101,116,42,40,15,46,21,105
+516,63,Syddanmark,Fyn,Turup,492,129,77,31,46,39,41,19,12,10,20,11,57
+517,63,Syddanmark,Fyn,Salbrovad,520,108,69,31,41,37,55,38,17,15,28,12,69
+518,63,Syddanmark,Fyn,Aarup/Kerte,2658,695,417,198,265,201,247,138,73,83,61,44,236
+519,63,Syddanmark,Fyn,Rørup,438,94,63,13,39,63,44,16,11,13,26,9,47
+520,63,Syddanmark,Fyn,Orte/Ørsted,787,148,106,56,102,65,77,44,40,32,36,17,64
+521,63,Syddanmark,Fyn,Glamsbjerg/Søllested,1977,571,228,120,243,119,150,105,63,58,54,39,227
+522,63,Syddanmark,Fyn,Flemløse,592,118,72,34,41,70,61,29,21,11,51,12,72
+523,63,Syddanmark,Fyn,Køng,612,139,78,39,72,57,69,27,19,20,13,17,62
+524,63,Syddanmark,Fyn,Vissenbjerg,3665,921,420,229,363,297,328,230,159,115,152,59,392
+525,63,Syddanmark,Fyn,Dreslette,540,135,61,37,62,45,34,31,25,17,19,13,61
+526,63,Syddanmark,Fyn,Haarby,2136,659,267,129,203,183,186,80,64,30,83,33,219
+527,63,Syddanmark,Fyn,Jordløse,406,94,50,15,44,38,40,23,20,11,19,13,39
+528,63,Syddanmark,Fyn,Brylle,1150,306,186,94,126,75,91,62,26,25,36,18,105
+529,63,Syddanmark,Fyn,Tommerup,1195,294,139,87,172,67,104,75,33,43,52,17,112
+530,63,Syddanmark,Fyn,Tommerup St,1687,486,173,156,247,55,117,92,59,80,37,46,139
+531,63,Syddanmark,Fyn,Verninge/Nårup,988,252,122,56,95,101,94,46,21,23,61,15,102
+532,64,Syddanmark,Fyn,Middelfart V,4877,1342,511,492,533,197,421,405,189,228,83,112,364
+533,64,Syddanmark,Fyn,Middelfart Ø,4816,1410,484,433,573,220,421,330,144,216,89,84,412
+534,64,Syddanmark,Fyn,Strib,3155,666,384,395,389,106,341,339,79,185,29,61,181
+535,64,Syddanmark,Fyn,Hyllehøj,2121,549,256,171,239,122,225,148,59,75,61,42,174
+536,64,Syddanmark,Fyn,Aulby,1300,305,171,125,124,88,134,98,36,45,39,38,97
+537,64,Syddanmark,Fyn,Nørre Aaby,2365,638,268,194,246,181,233,134,87,75,64,55,190
+538,64,Syddanmark,Fyn,Baaring,1279,266,170,98,122,118,145,72,49,47,52,39,101
+539,64,Syddanmark,Fyn,Ejby,1829,468,217,139,155,178,164,103,54,46,78,29,198
+540,64,Syddanmark,Fyn,Gelsted,1635,412,194,86,142,211,162,77,40,37,77,27,170
+541,64,Syddanmark,Fyn,Brenderup,1728,421,243,95,182,187,166,72,36,52,66,39,169
+542,64,Syddanmark,Fyn,Fjelsted/Harndrup,964,204,118,63,91,123,111,41,18,14,53,8,120
+543,64,Syddanmark,Fyn,Bogense,3698,1079,589,246,334,395,215,194,79,75,116,48,328
+544,64,Syddanmark,Fyn,Klinte,527,104,82,31,31,81,48,24,13,8,26,7,72
+545,64,Syddanmark,Fyn,Krogsbølle,1906,400,260,133,174,281,143,80,52,32,97,38,216
+546,64,Syddanmark,Fyn,Otterup,4028,1182,597,237,367,361,316,174,82,84,113,35,480
+547,64,Syddanmark,Fyn,Skovløkken,738,169,83,56,82,88,45,33,22,22,24,14,100
+548,64,Syddanmark,Fyn,Veflinge,875,199,143,48,102,100,65,35,25,14,34,17,93
+549,64,Syddanmark,Fyn,Hårslev,772,172,114,31,80,110,46,28,29,11,48,8,95
+550,64,Syddanmark,Fyn,Morud,1914,410,319,215,231,84,167,162,42,80,47,35,122
+551,64,Syddanmark,Fyn,Særslev,912,188,174,55,81,89,83,38,25,25,52,9,93
+552,64,Syddanmark,Fyn,Søndersø,2634,732,463,152,246,175,224,156,61,49,59,19,298
+553,65,Syddanmark,Fyn,Hindsholm,1290,337,100,83,158,95,112,120,88,32,28,36,101
+554,65,Syddanmark,Fyn,Kerteminde,4654,1412,341,466,473,173,387,636,163,126,60,57,360
+555,65,Syddanmark,Fyn,Nymarken,1469,356,126,98,153,97,182,137,79,35,38,28,140
+556,65,Syddanmark,Fyn,Marslev,1307,300,96,85,110,108,130,160,74,23,51,13,157
+557,65,Syddanmark,Fyn,Langeskov,3065,850,240,207,286,165,256,533,77,58,75,21,297
+558,65,Syddanmark,Fyn,Munkebo,3441,1022,159,188,393,179,273,400,161,84,90,57,435
+559,65,Syddanmark,Fyn,Aunslevhallen,1049,218,150,66,123,74,96,51,26,27,49,29,140
+560,65,Syddanmark,Fyn,Nyborghallen,6090,1782,527,412,979,203,426,370,315,243,138,118,577
+561,65,Syddanmark,Fyn,Bastionen,4421,1242,407,397,739,142,320,294,191,187,78,73,351
+562,65,Syddanmark,Fyn,Vindinge Forsamlingshus,1674,416,177,147,264,74,114,99,65,67,44,37,170
+563,65,Syddanmark,Fyn,"Langå, Svindinge og Øksendrup",630,96,116,32,69,60,44,29,44,14,40,13,73
+564,65,Syddanmark,Fyn,Ullerslev,1887,574,191,111,196,148,165,100,45,27,82,33,215
+565,65,Syddanmark,Fyn,Ellinge,308,63,42,25,19,30,27,20,5,10,20,5,42
+566,65,Syddanmark,Fyn,Skellerup,359,84,44,16,29,46,38,16,7,8,27,2,42
+567,65,Syddanmark,Fyn,Langtved,566,124,68,42,55,64,52,30,25,16,26,13,51
+568,65,Syddanmark,Fyn,Ørbæk,1225,285,246,85,98,105,116,41,13,28,46,9,153
+569,65,Syddanmark,Fyn,Frørup og Tårup,920,199,155,66,102,63,74,24,38,32,46,18,103
+570,65,Syddanmark,Fyn,Ellested og Herrested,753,172,116,38,84,63,83,31,24,12,39,10,81
+571,65,Syddanmark,Fyn,Kullerup og Refsvindinge,743,157,126,40,66,68,55,38,27,15,44,22,85
+572,66,Syddanmark,Fyn,Byen,9493,2851,641,690,1287,279,725,561,1029,409,131,276,614
+573,66,Syddanmark,Fyn,Nordre,2101,702,112,101,286,74,145,68,230,61,59,55,208
+574,66,Syddanmark,Fyn,Østre,4133,1318,235,250,560,136,266,224,483,156,83,108,314
+575,66,Syddanmark,Fyn,Bjerreby,725,198,73,47,86,65,42,33,43,25,30,19,64
+576,66,Syddanmark,Fyn,Bregninge,2957,791,268,304,368,85,261,254,173,145,35,83,190
+577,66,Syddanmark,Fyn,Drejø,47,12,2,9,6,3,5,1,1,4,0,2,2
+578,66,Syddanmark,Fyn,Egense,1945,532,158,218,242,77,147,150,149,88,17,62,105
+579,66,Syddanmark,Fyn,Landet,719,191,79,46,70,63,69,32,45,22,19,16,67
+580,66,Syddanmark,Fyn,Skårup,1895,567,170,150,231,94,148,77,143,68,32,41,174
+581,66,Syddanmark,Fyn,Thurø,2564,717,218,291,302,82,192,255,129,135,31,71,141
+582,66,Syddanmark,Fyn,Tved,1866,748,168,107,175,97,119,88,86,34,30,25,189
+583,66,Syddanmark,Fyn,Kirkeby,865,257,89,44,58,55,81,47,60,25,37,31,81
+584,66,Syddanmark,Fyn,Ollerup,1504,287,132,86,254,60,90,75,214,90,22,111,83
+585,66,Syddanmark,Fyn,Stenstrup,1588,448,157,104,152,125,147,58,65,32,76,38,186
+586,66,Syddanmark,Fyn,V.Skerninge,1829,441,181,104,277,99,125,67,193,93,29,113,107
+587,66,Syddanmark,Fyn,Gudbjerg,789,190,123,56,59,69,75,37,40,19,40,14,67
+588,66,Syddanmark,Fyn,Gudme,972,278,126,69,88,75,100,38,46,26,28,12,86
+589,66,Syddanmark,Fyn,Hesselager,900,254,118,52,95,77,64,42,41,14,31,22,90
+590,66,Syddanmark,Fyn,Oure,1206,311,121,80,166,88,73,53,91,37,32,48,106
+591,66,Syddanmark,Fyn,Bagenkop,596,165,103,32,41,80,25,37,26,7,7,12,61
+592,66,Syddanmark,Fyn,Humble,1423,389,208,73,106,182,81,68,66,30,41,33,146
+593,66,Syddanmark,Fyn,Rudkøbing,3657,1334,364,228,368,196,224,213,177,80,81,87,305
+594,66,Syddanmark,Fyn,Tullebølle,1144,386,147,63,94,81,67,66,38,26,35,25,116
+595,66,Syddanmark,Fyn,Snøde,926,251,119,73,92,60,43,56,50,28,27,29,98
+596,67,Syddanmark,Fyn,Allested-Vejle,995,268,105,65,105,75,79,42,33,18,26,15,164
+597,67,Syddanmark,Fyn,Brobyværk,788,203,87,35,71,63,72,46,29,32,38,20,92
+598,67,Syddanmark,Fyn,Nørre Broby,1226,291,160,82,105,101,129,56,35,27,60,15,165
+599,67,Syddanmark,Fyn,Vester Hæsinge,640,118,89,36,72,75,30,34,26,16,42,16,86
+600,67,Syddanmark,Fyn,Avernakø,62,11,5,6,11,2,5,7,8,3,0,0,4
+601,67,Syddanmark,Fyn,Faaborg,5259,1670,546,486,603,268,301,301,264,170,90,112,448
+602,67,Syddanmark,Fyn,Horne,1246,372,149,94,117,113,59,77,56,33,44,42,90
+603,67,Syddanmark,Fyn,Korinth,1170,265,137,84,131,119,75,48,56,30,56,33,136
+604,67,Syddanmark,Fyn,Lyø,70,12,14,7,11,4,4,4,3,3,1,3,4
+605,67,Syddanmark,Fyn,Svanninge,1353,332,142,121,146,126,84,71,57,55,40,47,132
+606,67,Syddanmark,Fyn,Vester Aaby,1094,309,110,72,122,70,68,45,63,24,50,35,126
+607,67,Syddanmark,Fyn,Espe,904,219,115,73,92,92,73,46,40,12,31,21,90
+608,67,Syddanmark,Fyn,Hillerslev,826,133,121,51,76,99,76,41,27,16,40,20,126
+609,67,Syddanmark,Fyn,Ringe,5246,1479,643,413,593,321,437,321,170,176,126,80,487
+610,67,Syddanmark,Fyn,Søllinge,667,171,63,55,74,56,47,33,15,30,30,16,77
+611,67,Syddanmark,Fyn,Gislev,1250,316,165,88,127,119,104,42,39,29,55,21,145
+612,67,Syddanmark,Fyn,Kværndrup,1340,376,152,82,134,101,132,53,40,35,65,21,149
+613,67,Syddanmark,Fyn,Ryslinge,1612,509,132,101,205,111,108,72,60,53,46,32,183
+614,67,Syddanmark,Fyn,Nr. Lyndelse,2472,634,278,223,271,151,245,184,72,77,58,46,233
+615,67,Syddanmark,Fyn,Ferritslev,1224,346,129,98,111,67,109,109,38,38,40,26,113
+616,67,Syddanmark,Fyn,Årslev,3195,968,330,265,398,116,262,203,108,127,78,69,271
+617,67,Syddanmark,Fyn,Marstal,1725,514,96,118,202,106,94,203,119,46,27,40,160
+618,67,Syddanmark,Fyn,Ærøskøbing,1314,363,188,110,130,156,32,73,80,55,13,52,62
+619,67,Syddanmark,Fyn,Søby,649,162,80,57,58,88,25,36,41,18,7,26,51
+620,68,Syddanmark,Sydjylland,Nordborg,3000,830,454,186,168,300,225,95,63,47,135,27,470
+621,68,Syddanmark,Sydjylland,Havnbjerg,1450,458,187,67,96,166,108,41,23,19,73,11,201
+622,68,Syddanmark,Sydjylland,Egen,2048,541,325,112,108,238,185,58,43,31,96,13,298
+623,68,Syddanmark,Sydjylland,Fynshav,1404,331,223,73,81,174,117,31,47,32,77,16,202
+624,68,Syddanmark,Sydjylland,Augustenborg,2309,651,309,145,155,219,204,83,45,46,89,17,346
+625,68,Syddanmark,Sydjylland,Hørup,2148,551,417,230,136,119,238,120,29,87,36,24,161
+626,68,Syddanmark,Sydjylland,Sydals,1361,306,205,82,92,194,138,34,35,23,56,11,185
+627,68,Syddanmark,Sydjylland,Kegnæs,283,84,37,22,25,34,24,12,2,7,8,3,25
+628,68,Syddanmark,Sydjylland,"Humlehøj, Sønderborg",4726,1336,668,289,373,303,478,189,228,136,125,44,557
+629,68,Syddanmark,Sydjylland,"Sønderskov, Sønderborg",4241,1285,540,280,386,210,388,176,206,159,90,50,471
+630,68,Syddanmark,Sydjylland,"Kongevej, Sønderborg",4402,1060,704,406,369,189,508,259,164,184,92,44,423
+631,68,Syddanmark,Sydjylland,Dybbøl,3835,913,712,356,274,213,431,228,98,154,58,37,361
+632,68,Syddanmark,Sydjylland,Vester Sottrup,2000,439,348,109,136,181,240,96,39,32,76,21,283
+633,68,Syddanmark,Sydjylland,Ullerup,1024,224,168,58,66,120,107,33,30,19,55,14,130
+634,68,Syddanmark,Sydjylland,Broager,2788,724,445,199,215,213,287,126,55,47,82,20,375
+635,68,Syddanmark,Sydjylland,Gråsten,4675,1284,794,328,339,330,434,199,101,103,143,49,571
+636,68,Syddanmark,Sydjylland,Kværs,508,108,73,13,19,76,61,13,7,5,26,4,103
+637,69,Syddanmark,Sydjylland,Hovslund,484,74,79,27,19,66,50,22,9,2,33,1,102
+638,69,Syddanmark,Sydjylland,Hellevad,522,84,124,25,22,83,72,12,3,4,28,3,62
+639,69,Syddanmark,Sydjylland,Rødekro,4258,1070,813,241,243,398,385,222,43,72,145,17,609
+640,69,Syddanmark,Sydjylland,Løjt,2844,667,539,189,224,223,249,172,58,74,97,23,329
+641,69,Syddanmark,Sydjylland,Hjordkær,1152,271,173,51,52,138,113,62,15,15,58,5,199
+642,69,Syddanmark,Sydjylland,Ravsted,463,51,109,12,28,108,48,7,5,3,29,1,62
+643,69,Syddanmark,Sydjylland,Bolderslev,1139,199,245,36,56,194,114,33,8,12,73,7,162
+644,69,Syddanmark,Sydjylland,Ensted,1452,312,216,110,114,128,165,99,39,24,37,16,192
+645,69,Syddanmark,Sydjylland,Felsted,1274,231,286,67,70,148,147,54,17,24,51,9,170
+646,69,Syddanmark,Sydjylland,Varnæs,684,130,152,31,45,67,60,52,9,14,42,11,71
+647,69,Syddanmark,Sydjylland,Bylderup,1353,215,294,48,44,266,132,86,9,7,68,11,173
+648,69,Syddanmark,Sydjylland,Tinglev,1741,387,356,66,88,283,128,70,19,19,75,7,243
+649,69,Syddanmark,Sydjylland,Kliplev,1227,252,263,56,62,150,108,35,20,21,71,9,180
+650,69,Syddanmark,Sydjylland,Kruså,2062,401,400,134,118,223,205,121,30,39,74,22,295
+651,69,Syddanmark,Sydjylland,Padborg,2373,513,423,126,131,227,181,119,61,36,115,10,431
+652,69,Syddanmark,Sydjylland,Aabenraa Midt,5621,1337,925,409,492,272,612,346,182,205,125,76,640
+653,69,Syddanmark,Sydjylland,Aabenraa Syd,2371,654,410,194,211,120,170,128,80,57,45,18,284
+654,69,Syddanmark,Sydjylland,Aabenraa Nord,1680,445,249,131,163,101,114,80,77,46,50,23,201
+655,70,Syddanmark,Sydjylland,Bredebro,1021,196,200,78,44,191,78,32,4,12,40,1,145
+656,70,Syddanmark,Sydjylland,Ballum,336,67,71,28,19,52,26,9,3,4,8,3,46
+657,70,Syddanmark,Sydjylland,Visby,292,72,56,17,11,46,28,7,5,3,3,2,42
+658,70,Syddanmark,Sydjylland,Højer,839,214,122,68,58,91,46,22,25,7,35,3,148
+659,70,Syddanmark,Sydjylland,Sdr. Sejerslev,275,51,52,16,17,58,34,8,4,2,12,2,19
+660,70,Syddanmark,Sydjylland,Møgeltønder,629,148,120,42,52,77,46,29,9,5,19,3,79
+661,70,Syddanmark,Sydjylland,Løgumkloster,1982,376,513,99,99,270,177,54,28,38,62,14,252
+662,70,Syddanmark,Sydjylland,Nr. Løgum,757,112,196,43,30,117,82,15,5,4,43,2,108
+663,70,Syddanmark,Sydjylland,Bedsted,396,53,111,13,17,72,30,15,8,10,28,1,38
+664,70,Syddanmark,Sydjylland,Øster Højst,436,47,113,15,20,97,31,9,5,1,33,1,64
+665,70,Syddanmark,Sydjylland,Agerskov,1159,157,321,66,35,165,133,59,19,11,52,9,132
+666,70,Syddanmark,Sydjylland,Arrild,430,66,111,24,21,66,31,10,7,4,21,6,63
+667,70,Syddanmark,Sydjylland,Branderup,277,50,77,19,8,39,23,9,5,3,9,2,33
+668,70,Syddanmark,Sydjylland,Døstrup,312,62,50,21,10,65,28,5,5,2,6,6,52
+669,70,Syddanmark,Sydjylland,Toftlund,2417,556,498,212,102,325,199,64,33,26,100,7,295
+670,70,Syddanmark,Sydjylland,Brøns,546,90,59,48,34,108,56,12,11,6,29,7,86
+671,70,Syddanmark,Sydjylland,Tønder,4517,1223,727,439,471,295,366,173,137,86,94,44,462
+672,70,Syddanmark,Sydjylland,Abild,579,107,104,34,27,112,40,12,3,5,31,2,102
+673,70,Syddanmark,Sydjylland,Hostrup,470,102,96,33,32,64,37,10,9,9,18,3,57
+674,70,Syddanmark,Sydjylland,Rømø,330,68,55,60,21,27,22,17,1,7,9,3,40
+675,70,Syddanmark,Sydjylland,Skærbæk,2231,448,301,362,87,285,234,55,18,23,89,16,313
+676,70,Syddanmark,Sydjylland,Vodder,319,32,71,27,19,50,34,9,4,1,11,0,61
+677,71,Syddanmark,Sydjylland,Esbjerg Rådhus,7499,1523,1113,424,753,262,1125,546,452,241,165,119,776
+678,71,Syddanmark,Sydjylland,Skovbo,1520,439,185,69,146,69,151,79,66,44,33,14,225
+679,71,Syddanmark,Sydjylland,Rørkjær,2769,779,320,131,367,134,252,117,150,79,95,39,306
+680,71,Syddanmark,Sydjylland,Jerne,3039,869,320,96,345,153,201,100,339,92,128,22,374
+681,71,Syddanmark,Sydjylland,Boldesager,3702,952,526,209,422,151,361,258,191,128,86,43,375
+682,71,Syddanmark,Sydjylland,Østerbyen,2505,725,286,98,314,130,194,76,162,79,84,40,317
+683,71,Syddanmark,Sydjylland,Gjesing,2609,636,513,145,258,118,255,157,82,82,47,21,295
+684,71,Syddanmark,Sydjylland,Sædding,4450,1146,832,249,446,241,400,273,137,141,100,39,446
+685,71,Syddanmark,Sydjylland,Kvaglund,1655,460,210,58,173,89,116,70,159,35,66,13,206
+686,71,Syddanmark,Sydjylland,Ådalen,1972,518,374,79,158,140,174,104,34,38,60,10,283
+687,71,Syddanmark,Sydjylland,Grønlandsparken,2360,727,316,89,235,141,158,120,78,57,96,23,320
+688,71,Syddanmark,Sydjylland,Nordby,2040,611,251,140,222,89,112,138,149,121,33,51,123
+689,71,Syddanmark,Sydjylland,Sønderho,232,68,30,12,32,3,13,24,20,9,1,10,10
+690,72,Syddanmark,Sydjylland,Skads,1314,287,268,88,105,86,128,75,35,34,29,5,174
+691,72,Syddanmark,Sydjylland,Bryndum,2033,419,393,118,169,197,235,104,37,50,63,10,238
+692,72,Syddanmark,Sydjylland,Hjerting,5078,1081,1167,357,329,216,651,359,96,184,82,36,520
+693,72,Syddanmark,Sydjylland,Guldager,988,209,189,58,77,83,126,65,16,24,31,6,104
+694,72,Syddanmark,Sydjylland,Tjæreborg,2256,573,403,127,215,154,229,129,50,67,79,22,208
+695,72,Syddanmark,Sydjylland,Sønderris,2547,609,481,184,220,111,287,173,53,65,55,14,295
+696,72,Syddanmark,Sydjylland,Bramming,6523,1583,1207,451,483,572,706,308,134,121,209,59,690
+697,72,Syddanmark,Sydjylland,Ribe,7215,1742,1504,487,833,441,554,314,296,220,156,94,574
+698,72,Syddanmark,Sydjylland,Egebæk-Hviding,1171,225,202,70,134,108,118,30,39,26,51,19,149
+699,72,Syddanmark,Sydjylland,Gredstedbro,1640,336,362,81,107,179,204,43,29,25,84,11,179
+700,72,Syddanmark,Sydjylland,Mandø,31,11,6,2,2,2,3,0,1,1,0,1,2
+701,72,Syddanmark,Sydjylland,Høm,853,139,198,43,58,130,78,16,13,22,44,16,96
+702,72,Syddanmark,Sydjylland,Gørding,2144,360,445,114,121,307,231,90,41,34,101,11,289
+703,73,Syddanmark,Sydjylland,Varde By,8845,2177,1839,606,645,701,938,477,204,187,181,71,819
+704,73,Syddanmark,Sydjylland,Sig,701,148,176,37,66,86,66,27,9,14,16,4,52
+705,73,Syddanmark,Sydjylland,Billum,526,95,107,32,39,64,65,22,14,12,16,7,53
+706,73,Syddanmark,Sydjylland,Tinghøj,498,80,126,27,28,84,45,19,9,9,35,4,32
+707,73,Syddanmark,Sydjylland,Alslev,1037,216,219,45,72,108,138,44,9,18,49,9,110
+708,73,Syddanmark,Sydjylland,Horne,619,127,174,28,26,105,54,13,3,5,36,2,46
+709,73,Syddanmark,Sydjylland,Janderup,806,150,177,53,55,123,82,37,8,11,22,6,82
+710,73,Syddanmark,Sydjylland,Lunde,660,95,160,33,34,126,53,20,7,13,44,3,72
+711,73,Syddanmark,Sydjylland,Nørre Nebel,1329,283,312,72,58,178,106,56,37,23,44,13,147
+712,73,Syddanmark,Sydjylland,Henne,458,84,124,30,22,63,35,26,12,5,14,5,38
+713,73,Syddanmark,Sydjylland,Outrup,875,149,219,52,50,135,77,29,20,14,31,4,95
+714,73,Syddanmark,Sydjylland,Oksbøl,2358,564,418,165,203,225,258,106,35,36,73,15,260
+715,73,Syddanmark,Sydjylland,Blåvand,318,60,79,18,27,35,39,18,3,4,4,0,31
+716,73,Syddanmark,Sydjylland,Årre,716,105,185,41,35,122,66,12,7,12,27,6,98
+717,73,Syddanmark,Sydjylland,Agerbæk,962,163,284,50,42,135,125,31,8,4,25,4,91
+718,73,Syddanmark,Sydjylland,Fåborg,394,37,118,17,35,63,35,16,5,5,14,5,44
+719,73,Syddanmark,Sydjylland,Næsbjerg,941,166,236,40,76,121,107,46,8,19,36,5,81
+720,73,Syddanmark,Sydjylland,Starup,606,66,215,32,27,72,78,15,4,7,22,2,66
+721,73,Syddanmark,Sydjylland,Nordenskov,865,139,228,38,35,136,92,38,13,17,32,4,93
+722,73,Syddanmark,Sydjylland,Ølgod,3464,613,954,203,165,506,307,146,51,53,119,26,321
+723,73,Syddanmark,Sydjylland,Tistrup,1160,199,387,55,57,141,115,37,20,12,43,14,80
+724,73,Syddanmark,Sydjylland,Ansager,1077,210,233,61,71,163,112,24,18,23,36,7,119
+725,73,Syddanmark,Sydjylland,Skovlund,463,56,136,27,30,72,49,13,12,6,14,1,47
+726,74,Syddanmark,Sydjylland,Billund,4080,859,892,371,292,347,426,238,77,113,85,41,339
+727,74,Syddanmark,Sydjylland,Sdr. Omme,1394,265,241,59,95,293,129,45,25,19,54,12,157
+728,74,Syddanmark,Sydjylland,Vorbasse,1290,263,277,74,59,198,148,38,24,20,39,7,143
+729,74,Syddanmark,Sydjylland,Filskov,627,88,186,34,12,119,59,23,2,5,27,1,71
+730,74,Syddanmark,Sydjylland,St./Krogager,547,82,204,15,20,74,37,10,6,5,22,5,67
+731,74,Syddanmark,Sydjylland,Grindsted,6068,1522,1405,329,310,704,614,220,95,83,162,28,596
+732,74,Syddanmark,Sydjylland,Hejnsvig,1143,169,305,39,48,226,115,26,7,13,63,8,124
+733,74,Syddanmark,Sydjylland,Brørup,3251,706,711,206,223,328,353,114,58,41,130,12,369
+734,74,Syddanmark,Sydjylland,Lindknud,497,78,96,24,26,84,68,16,6,6,27,7,59
+735,74,Syddanmark,Sydjylland,Holsted,1952,384,381,128,136,219,199,59,41,36,93,20,256
+736,74,Syddanmark,Sydjylland,Føvling,684,75,142,71,21,118,78,14,9,6,53,7,90
+737,74,Syddanmark,Sydjylland,Glejbjerg,722,114,191,44,38,133,61,14,7,8,22,7,83
+738,74,Syddanmark,Sydjylland,Hovborg,305,51,87,17,23,28,29,8,8,3,15,5,31
+739,74,Syddanmark,Sydjylland,Rødding,2001,354,451,103,117,214,212,124,39,26,75,23,263
+740,74,Syddanmark,Sydjylland,Sdr. Hygum,538,75,128,23,23,97,51,14,22,4,29,3,69
+741,74,Syddanmark,Sydjylland,Jels,1649,335,374,103,107,156,169,77,24,31,66,12,195
+742,74,Syddanmark,Sydjylland,Lintrup,410,55,117,16,15,77,41,19,2,3,14,1,50
+743,74,Syddanmark,Sydjylland,Skodborg,975,179,235,38,60,105,102,35,14,24,47,5,131
+744,74,Syddanmark,Sydjylland,Københoved,290,27,80,10,13,32,39,20,7,9,15,3,35
+745,74,Syddanmark,Sydjylland,Øster Lindet,434,80,80,22,18,55,53,25,10,0,30,3,58
+746,74,Syddanmark,Sydjylland,Vejen,5423,1383,959,333,433,416,537,292,128,137,130,35,640
+747,74,Syddanmark,Sydjylland,Læborg,444,65,102,27,25,58,64,19,7,5,15,3,54
+748,74,Syddanmark,Sydjylland,Askov-Malt,2470,471,490,261,194,150,354,145,36,80,68,29,192
+749,74,Syddanmark,Sydjylland,Andst,854,148,154,45,58,92,119,56,19,15,38,13,97
+750,74,Syddanmark,Sydjylland,Gesten,854,184,117,39,58,110,103,36,20,22,45,14,106
+751,74,Syddanmark,Sydjylland,Bække,1145,189,184,60,58,196,137,38,14,18,76,10,165
+752,75,Syddanmark,Sydjylland,Skibet Hallen,1781,398,306,187,196,61,181,132,48,94,24,26,128
+753,75,Syddanmark,Sydjylland,Give,3873,707,719,268,226,546,436,221,54,76,114,29,477
+754,75,Syddanmark,Sydjylland,Thyregod Nord,1336,226,181,82,128,247,129,60,25,37,49,17,155
+755,75,Syddanmark,Sydjylland,Gadbjerg Nord,732,151,138,50,57,78,52,47,11,25,16,13,94
+756,75,Syddanmark,Sydjylland,Givskud Nord,699,149,108,53,50,110,50,30,19,11,27,9,83
+757,75,Syddanmark,Sydjylland,Grønbjerg Nord,612,76,128,45,31,125,51,31,11,16,23,6,69
+758,75,Syddanmark,Sydjylland,Lindeballe Nord,312,41,61,21,14,47,33,20,3,18,19,3,32
+759,75,Syddanmark,Sydjylland,Øster Nykirke Nord,970,167,169,58,75,147,92,44,15,15,42,12,134
+760,75,Syddanmark,Sydjylland,Jelling Nord,3185,809,511,246,505,172,220,158,121,163,45,58,177
+761,75,Syddanmark,Sydjylland,Kollerup-Sandvad Nord,1026,166,174,69,86,117,102,50,30,39,42,21,130
+762,75,Syddanmark,Sydjylland,Grejs Nord,1251,273,180,109,130,58,158,94,35,56,32,25,101
+763,75,Syddanmark,Sydjylland,Bredsten Nord,1549,330,288,149,120,115,151,81,37,56,42,22,158
+764,75,Syddanmark,Sydjylland,Nørup Nord,1055,185,215,74,96,147,109,36,32,28,31,8,94
+765,75,Syddanmark,Sydjylland,Vandel Nord,880,188,142,63,71,100,88,39,17,23,36,10,103
+766,75,Syddanmark,Sydjylland,Nørremarkshallen Nord,3899,887,487,363,502,125,340,238,288,233,55,71,310
+767,75,Syddanmark,Sydjylland,Engum Nord,1954,339,393,276,146,59,296,144,40,94,31,16,120
+768,75,Syddanmark,Sydjylland,Hældagerhallen Nord,5772,1169,1011,693,498,172,635,574,147,347,66,50,410
+769,75,Syddanmark,Sydjylland,Grejsdalen Nord,1436,314,139,112,236,56,158,72,74,71,27,27,150
+770,75,Syddanmark,Sydjylland,Petersmindehallen Nord,2959,672,417,269,357,118,325,217,81,161,43,40,259
+771,76,Syddanmark,Sydjylland,Brejning Syd,1968,483,233,208,239,78,171,132,58,100,47,42,177
+772,76,Syddanmark,Sydjylland,Børkop Syd,4425,1098,564,365,520,248,462,272,108,148,100,60,480
+773,76,Syddanmark,Sydjylland,Gårslev Syd,1545,397,213,128,140,101,137,114,41,45,32,19,178
+774,76,Syddanmark,Sydjylland,Smidstrup Syd,1440,259,266,113,110,177,141,66,30,32,34,16,196
+775,76,Syddanmark,Sydjylland,Ødsted Syd,1284,255,243,98,115,118,142,52,30,35,26,12,158
+776,76,Syddanmark,Sydjylland,Egtved Syd,2220,384,486,165,178,234,238,80,46,78,73,23,235
+777,76,Syddanmark,Sydjylland,Jerlev Syd,737,151,124,49,55,64,85,53,21,14,23,3,95
+778,76,Syddanmark,Sydjylland,Øster Starup Syd,1307,255,208,101,123,131,151,54,27,68,30,29,130
+779,76,Syddanmark,Sydjylland,DGI-Huset Syd,8282,1811,995,603,1005,314,980,530,467,373,184,177,843
+780,76,Syddanmark,Sydjylland,Multihuset Højen Syd,818,171,140,88,62,51,100,39,24,33,14,13,83
+781,76,Syddanmark,Sydjylland,Vinding Idræts Center Syd,3279,749,714,310,282,124,297,246,83,148,38,21,267
+782,76,Syddanmark,Sydjylland,Mølholmhallen Syd,2594,500,437,331,241,78,303,215,81,200,31,50,127
+783,76,Syddanmark,Sydjylland,Kvartershuset Syd,1590,425,146,102,218,80,95,67,194,74,23,22,144
+784,76,Syddanmark,Sydjylland,CSV - Vejle Syd,1725,461,175,144,245,79,142,90,89,81,42,24,153
+785,76,Syddanmark,Sydjylland,Rødkilde Gymnasium Syd,2810,671,389,228,300,87,315,163,142,113,61,54,287
+786,77,Syddanmark,Sydjylland,Gymnasiet 1,3837,1054,280,251,483,157,381,212,264,129,101,71,454
+787,77,Syddanmark,Sydjylland,Bredstrup-Pjedsted,947,216,125,73,77,74,90,60,37,22,37,12,124
+788,77,Syddanmark,Sydjylland,Erritsø,6342,1554,852,578,645,325,770,394,198,182,145,71,628
+789,77,Syddanmark,Sydjylland,Herslev,480,73,57,22,37,63,55,20,17,12,30,4,90
+790,77,Syddanmark,Sydjylland,Taulov,3999,867,555,371,319,249,483,273,100,138,126,48,470
+791,77,Syddanmark,Sydjylland,Søndermarken,6058,1845,599,371,614,334,497,276,348,150,157,56,811
+792,77,Syddanmark,Sydjylland,Bøgeskov,1270,309,163,119,119,101,124,70,34,44,38,16,133
+793,77,Syddanmark,Sydjylland,Indre By,3867,1017,359,261,425,165,450,210,228,125,92,72,463
+794,77,Syddanmark,Sydjylland,Gymnasiet 2,4309,1191,438,287,507,198,421,240,234,87,121,55,530
+795,78,Syddanmark,Sydjylland,Centrum Nord,4517,795,573,402,560,124,607,303,345,207,85,92,424
+796,78,Syddanmark,Sydjylland,Nordbyen,2220,478,208,123,313,73,207,86,310,117,33,37,235
+797,78,Syddanmark,Sydjylland,Vestbyen,2974,728,333,200,408,136,238,155,196,146,55,31,348
+798,78,Syddanmark,Sydjylland,Strandhuse/Nr. Bjert/ Eltang,6063,1107,1056,758,465,228,829,579,136,288,77,62,478
+799,78,Syddanmark,Sydjylland,Bramdrupdam,3273,709,554,285,305,184,317,237,138,135,47,27,335
+800,78,Syddanmark,Sydjylland,Alminde-Viuf/Vester Nebel,3221,641,595,300,249,243,384,205,45,98,82,34,345
+801,78,Syddanmark,Sydjylland,Lunderskov/Jordrup,3557,674,584,237,320,311,419,225,76,91,149,47,424
+802,79,Syddanmark,Sydjylland,Centrum Syd,3297,703,303,192,443,149,415,146,243,111,95,60,437
+803,79,Syddanmark,Sydjylland,Sydbyen,4997,970,530,378,643,221,676,322,297,234,138,78,510
+804,79,Syddanmark,Sydjylland,Seest,4023,953,554,312,446,214,483,262,118,139,86,51,405
+805,79,Syddanmark,Sydjylland,Dalby/Tved/Rebæk,3293,574,589,403,276,125,490,302,73,132,43,28,258
+806,79,Syddanmark,Sydjylland,S Bjert/S Stenderup/Vejstrup,2993,626,373,218,390,196,319,133,119,127,97,59,336
+807,79,Syddanmark,Sydjylland,Vonsild,2724,623,400,219,271,157,379,141,74,67,57,23,313
+808,79,Syddanmark,Sydjylland,Vamdrup/Hjarup/Ødis,4473,962,799,266,318,467,457,225,77,84,222,32,564
+809,79,Syddanmark,Sydjylland,Chr.Feld/Stepping/Taps/Hejls,4244,853,738,257,331,383,442,178,76,113,164,44,665
+810,80,Syddanmark,Sydjylland,Haderslev Nord,5755,1485,814,410,517,226,517,366,328,197,119,46,730
+811,80,Syddanmark,Sydjylland,Haderslev Syd,3867,983,488,290,352,193,362,252,153,110,99,41,544
+812,80,Syddanmark,Sydjylland,Haderslev Vest,2972,759,414,256,265,123,300,223,102,91,71,30,338
+813,80,Syddanmark,Sydjylland,Moltrup,612,123,96,27,29,71,57,36,12,11,22,6,122
+814,80,Syddanmark,Sydjylland,Fjelstrup,719,164,115,45,56,66,68,27,14,15,34,10,105
+815,80,Syddanmark,Sydjylland,Aastrup,1178,321,170,86,111,66,74,83,41,47,28,15,136
+816,80,Syddanmark,Sydjylland,Aarø,120,27,24,6,7,21,5,4,4,3,3,0,16
+817,80,Syddanmark,Sydjylland,Øsby,957,209,156,61,64,128,80,47,22,14,43,13,120
+818,80,Syddanmark,Sydjylland,Starup,1869,489,270,134,172,87,192,130,58,30,47,12,248
+819,80,Syddanmark,Sydjylland,Kelstrup,982,204,171,69,54,95,72,54,28,23,44,10,158
+820,80,Syddanmark,Sydjylland,Hoptrup,728,172,94,44,53,51,73,51,24,12,28,2,124
+821,80,Syddanmark,Sydjylland,Marstrup,584,126,81,52,40,49,64,38,5,13,22,6,88
+822,80,Syddanmark,Sydjylland,Hammelev,1005,264,214,52,52,79,99,51,10,22,44,7,111
+823,80,Syddanmark,Sydjylland,Over Jerstal,1091,222,152,47,54,147,114,33,18,16,62,8,218
+824,80,Syddanmark,Sydjylland,Bevtoft,742,139,147,31,39,127,65,15,9,1,47,7,115
+825,80,Syddanmark,Sydjylland,Skrydstrup,546,108,103,19,29,50,51,17,2,5,34,2,126
+826,80,Syddanmark,Sydjylland,Vojens,4239,1166,621,197,263,364,308,165,78,53,208,27,789
+827,80,Syddanmark,Sydjylland,Sommersted,1391,247,274,77,76,140,153,54,16,11,84,16,243
+828,80,Syddanmark,Sydjylland,Nustrup,618,111,127,30,20,100,68,18,4,10,34,0,96
+829,80,Syddanmark,Sydjylland,Gram,1800,410,339,121,95,178,160,61,34,33,83,20,266
+830,80,Syddanmark,Sydjylland,Arnum,411,78,68,15,11,78,37,16,7,4,24,4,69
+831,80,Syddanmark,Sydjylland,Fole,272,41,54,12,11,55,32,9,3,8,15,2,30
+832,81,Midtjylland,Østjylland,Frederiksbjerghallerne,13126,1982,1027,1125,2049,119,1498,1229,1274,1735,66,675,345
+833,81,Midtjylland,Østjylland,Folkehuset Ankersgade,5453,956,392,377,948,76,538,378,653,570,69,256,239
+834,81,Midtjylland,Østjylland,"Rundhøjhallen, Holme",5250,1167,396,419,862,115,398,515,424,392,70,169,319
+835,81,Midtjylland,Østjylland,"Kragelundskolen, Højbjerg",3682,731,286,354,525,51,294,432,262,391,52,165,139
+836,81,Midtjylland,Østjylland,Tranbjerg Skole,6196,1720,550,431,870,265,550,467,275,357,121,121,468
+837,81,Midtjylland,Østjylland,Beder Skole,3072,740,236,267,581,66,157,290,234,214,24,133,130
+838,81,Midtjylland,Østjylland,Malling Skole,4110,941,335,330,696,126,349,339,260,297,73,150,213
+839,81,Midtjylland,Østjylland,Mårslet Hallen,3729,829,335,391,586,60,345,343,205,315,37,138,145
+840,81,Midtjylland,Østjylland,Solbjergskolen,3523,778,427,289,455,185,363,308,142,192,93,84,207
+841,81,Midtjylland,Østjylland,Skåde Skole,4039,645,497,485,436,52,441,558,211,346,49,147,171
+842,82,Midtjylland,Østjylland,"Rosenvangskolen, Viby J",4286,870,338,415,617,70,387,483,303,431,45,176,151
+843,82,Midtjylland,Østjylland,Viby Hallen,6823,1456,431,479,997,183,685,474,713,619,99,245,439
+844,82,Midtjylland,Østjylland,Ormslev Præstegård,502,105,55,33,75,23,43,31,29,49,15,16,28
+845,82,Midtjylland,Østjylland,Hasselager Hallen,4466,1158,380,273,680,211,436,326,196,250,105,73,378
+846,82,Midtjylland,Østjylland,"Højvangskolen, Stavtrup",3276,767,237,270,563,105,255,262,238,244,30,127,177
+847,82,Midtjylland,Østjylland,Brabrand Hallen,5489,1077,401,539,978,106,388,508,416,579,44,240,213
+848,82,Midtjylland,Østjylland,"Globus 1, Brabrand",3348,414,124,134,378,26,179,157,869,809,28,136,93
+849,82,Midtjylland,Østjylland,"Skjoldhøjskolen, Tilst",3240,738,215,183,419,111,181,238,457,329,54,107,205
+850,82,Midtjylland,Østjylland,"TST Aktiv-Center, Tilst",5164,1129,349,298,635,192,469,296,631,519,101,153,389
+851,82,Midtjylland,Østjylland,"Næshøjhallen, Harlev",3052,689,291,254,395,159,308,246,132,175,128,72,202
+852,82,Midtjylland,Østjylland,Borum Forsamlingshus,452,80,36,33,67,23,36,24,44,34,12,30,33
+853,82,Midtjylland,Østjylland,"Sabro-Korsvejskolen, Sabro",2350,519,223,164,297,140,210,202,158,125,75,36,201
+854,82,Midtjylland,Østjylland,"Søndervangskolen, Viby J",1688,313,80,63,196,43,98,44,366,295,27,37,126
+855,82,Midtjylland,Østjylland,Åby Hallen,6035,1127,454,399,1044,92,649,418,653,639,59,256,245
+856,83,Midtjylland,Østjylland,"Gammelgaardsskolen, Åbyhøj",2794,595,180,212,483,35,204,259,247,338,34,107,100
+857,83,Midtjylland,Østjylland,Hasle Skole,4993,969,307,308,821,86,353,372,706,617,52,235,166
+858,83,Midtjylland,Østjylland,"VIA University College, Aarhus C",6397,806,649,505,936,64,1024,527,572,829,40,238,204
+859,83,Midtjylland,Østjylland,"Skovvangskolen, Aarhus N",9812,1430,585,635,1926,97,866,695,1251,1358,80,585,303
+860,83,Midtjylland,Østjylland,"Møllevangskolen, Aarhus V",5732,913,349,371,1046,62,514,436,717,732,51,309,231
+861,83,Midtjylland,Østjylland,Lisbjergskolen,1518,275,96,84,290,21,166,81,153,136,29,95,92
+862,83,Midtjylland,Østjylland,Lystrup Idrætscenter,7551,1819,619,618,1223,266,583,669,463,516,113,252,409
+863,83,Midtjylland,Østjylland,Folkehuset Trige,2092,517,181,142,279,105,177,122,153,101,64,49,202
+864,83,Midtjylland,Østjylland,Spørring Fælleshus,802,193,75,47,88,59,99,52,30,38,27,25,68
+865,83,Midtjylland,Østjylland,Hårup Hallen,1369,316,197,85,165,81,132,60,78,68,36,38,113
+866,83,Midtjylland,Østjylland,"FrydenlundHUSET, Aarhus V",6269,1122,290,339,1114,112,409,289,1150,807,63,292,278
+867,83,Midtjylland,Østjylland,"Katrinebjergskolen, Aarhus N",5713,802,387,334,1025,76,659,422,682,762,40,306,218
+868,83,Midtjylland,Østjylland,"Vorrevangskolen, Aarhus N",1960,505,62,94,375,39,114,90,240,153,30,104,153
+869,84,Midtjylland,Østjylland,"DOKK1, Aarhus C",7036,818,569,555,1070,42,1013,580,864,943,29,379,173
+870,84,Midtjylland,Østjylland,"Generationernes Hus, Aarhus Ø",4575,573,475,551,440,55,964,516,216,471,31,111,172
+871,84,Midtjylland,Østjylland,"Godsbanen, Aarhus C",6998,804,760,576,981,55,1266,661,518,920,31,236,188
+872,84,Midtjylland,Østjylland,Aarhus Rådhus,9916,1109,848,753,1517,72,1382,837,1065,1499,60,522,249
+873,84,Midtjylland,Østjylland,"Samsøgades Skole, Aarhus C",6410,733,388,475,1190,26,628,427,940,1053,37,386,126
+874,84,Midtjylland,Østjylland,"Bellevuehallerne, Risskov",8832,1453,958,1114,1009,112,970,1184,476,926,51,335,243
+875,84,Midtjylland,Østjylland,"Virupskolen, Hjortshøj",2481,570,158,141,591,54,113,129,262,181,43,144,91
+876,84,Midtjylland,Østjylland,"Sølystskolen, Egå",3320,709,361,353,382,78,310,402,135,270,38,89,191
+877,84,Midtjylland,Østjylland,Skæring Skole,4305,866,527,464,418,132,491,561,144,271,65,122,243
+878,84,Midtjylland,Østjylland,Midtpunktet - Skødstrup Idræts- og Kulturcenter,5863,1250,682,619,827,201,582,516,272,392,93,138,291
+879,84,Midtjylland,Østjylland,Vejlby-Risskov Hallen,9606,1713,590,528,1826,145,921,679,1193,1025,100,449,433
+880,84,Midtjylland,Østjylland,"Ellevangskolen, Risskov",6820,1429,499,533,1159,138,684,548,540,631,84,261,314
+881,85,Midtjylland,Østjylland,Ebeltoft,6210,1535,614,594,678,382,445,506,330,252,137,284,451
+882,85,Midtjylland,Østjylland,Mols,2639,518,283,188,350,247,161,137,198,133,58,199,167
+883,85,Midtjylland,Østjylland,Tirstrup,1341,299,101,80,162,160,101,51,91,20,58,88,129
+884,85,Midtjylland,Østjylland,Kolind,2103,484,246,129,230,223,224,119,78,48,94,57,171
+885,85,Midtjylland,Østjylland,Ryomgård,3020,752,262,162,336,283,345,193,117,90,134,73,272
+886,85,Midtjylland,Østjylland,Hornslet,5209,1350,514,382,652,307,488,394,215,278,117,137,374
+887,85,Midtjylland,Østjylland,Mørke,2240,510,201,106,301,232,223,109,90,97,93,54,223
+888,85,Midtjylland,Østjylland,Rønde,5551,1197,555,420,711,353,514,461,283,288,123,278,368
+889,85,Midtjylland,Østjylland,Kulturhuset Pavillonen,5789,1849,566,298,509,486,651,279,163,137,223,93,535
+890,85,Midtjylland,Østjylland,Anholt Skole,90,18,5,8,4,8,4,4,17,4,0,11,7
+891,85,Midtjylland,Østjylland,Kulturhuset Stationen,1510,371,148,45,121,225,169,39,68,22,93,35,172
+892,85,Midtjylland,Østjylland,Grenaa Idrætscenter,3908,1349,346,193,355,314,375,167,114,86,128,57,419
+893,85,Midtjylland,Østjylland,Glesborg,2481,588,270,134,264,320,235,124,96,51,82,79,234
+894,85,Midtjylland,Østjylland,Ørum,1250,294,162,60,99,177,140,60,38,22,60,19,117
+895,85,Midtjylland,Østjylland,Ørsted,1821,451,169,87,173,220,269,43,47,24,86,38,214
+896,85,Midtjylland,Østjylland,Allingåbro,1507,427,121,50,128,144,232,52,29,32,82,20,190
+897,85,Midtjylland,Østjylland,Auning,2853,699,261,131,210,233,756,119,43,42,88,31,240
+898,85,Midtjylland,Østjylland,Vivild,1175,320,142,58,126,119,137,51,36,22,40,27,97
+899,86,Midtjylland,Østjylland,Havndalhallen,853,203,67,42,56,182,82,25,21,12,65,8,90
+900,86,Midtjylland,Østjylland,Råby Forsamlingshus,656,156,43,21,48,140,66,12,17,9,53,21,69
+901,86,Midtjylland,Østjylland,Øster Tørslev Fritidslokaler,895,222,95,38,78,177,83,28,13,13,32,14,102
+902,86,Midtjylland,Østjylland,Korshøjskolen,1735,426,219,101,179,185,189,92,39,52,51,18,184
+903,86,Midtjylland,Østjylland,Hald Forsamlingshus,965,216,89,51,90,155,126,39,13,9,46,10,121
+904,86,Midtjylland,Østjylland,Gjerlev Aktivitetshus,827,174,70,33,80,199,71,18,23,12,46,6,94
+905,86,Midtjylland,Østjylland,Rismølleskolen,3606,955,330,234,519,213,400,221,124,134,86,56,334
+906,86,Midtjylland,Østjylland,Trekløverskolen,2110,522,244,168,226,166,243,166,25,55,56,21,217
+907,86,Midtjylland,Østjylland,Hornbækhallen,2939,597,454,324,297,137,390,276,61,120,37,29,216
+908,86,Midtjylland,Østjylland,Blicherskolen,1705,474,189,70,175,193,184,90,26,37,61,17,189
+909,86,Midtjylland,Østjylland,Kultur-Aktivitetshuset Gassum,507,86,39,23,32,110,50,27,6,2,46,9,77
+910,86,Midtjylland,Østjylland,Randers Badmintonhaller,2941,868,201,124,469,194,272,134,140,68,103,32,335
+911,86,Midtjylland,Østjylland,Nørrevangsskolen,2585,746,149,78,380,177,218,73,188,63,110,43,359
+912,86,Midtjylland,Østjylland,Vestervangsskolen,4181,1128,364,270,618,216,450,219,205,164,86,69,392
+913,86,Midtjylland,Østjylland,Østervangsskolen,2039,557,109,105,359,109,173,94,105,69,68,49,242
+914,87,Midtjylland,Østjylland,Kulturhuset Langå,2071,543,171,128,333,138,171,129,124,93,51,56,132
+915,87,Midtjylland,Østjylland,Stevnstrup Forsamlingshus,2085,479,286,150,197,159,316,140,45,61,46,25,181
+916,87,Midtjylland,Østjylland,Jebjerg Forsamlingshus,563,111,69,34,68,76,67,31,17,10,26,8,46
+917,87,Midtjylland,Østjylland,Asferg Træningshus,745,153,75,36,51,145,72,31,14,11,35,10,112
+918,87,Midtjylland,Østjylland,Purhushallen,831,175,79,39,112,127,97,21,11,18,48,6,98
+919,87,Midtjylland,Østjylland,Ø. Bjerregrav Forsamlingshus,1549,311,195,103,207,160,183,90,28,53,63,23,131
+920,87,Midtjylland,Østjylland,Huset Tværs,3462,859,280,205,521,198,331,164,201,121,90,84,405
+921,87,Midtjylland,Østjylland,Hobrovejens Skole,2129,424,161,132,347,100,293,117,142,85,53,62,213
+922,87,Midtjylland,Østjylland,Fritidscentret,2656,490,248,143,402,123,367,170,188,97,86,86,256
+923,87,Midtjylland,Østjylland,Søndermarkskolen,5401,1432,533,335,729,370,646,325,134,146,140,56,555
+924,87,Midtjylland,Østjylland,Tirsdalens Skole,2542,687,224,155,349,145,284,157,74,90,74,42,261
+925,87,Midtjylland,Østjylland,Paderup Gymnasium,1511,359,196,122,156,150,163,101,44,25,23,22,150
+926,87,Midtjylland,Østjylland,Romalt Aktivitetshal,2623,664,318,211,296,173,364,159,48,60,58,16,256
+927,87,Midtjylland,Østjylland,Assentofthallen,2956,667,396,227,282,243,394,233,45,96,82,32,259
+928,87,Midtjylland,Østjylland,Uggelhuse Forsamlingshus,615,134,37,33,78,84,71,34,23,26,25,12,57
+929,88,Midtjylland,Østjylland,Hadsten Nord,3502,820,355,233,405,188,325,420,138,211,97,82,228
+930,88,Midtjylland,Østjylland,Hadsten Syd,2675,652,307,195,298,164,277,261,74,148,67,56,175
+931,88,Midtjylland,Østjylland,Hadbjerg,1434,297,140,97,147,109,177,147,44,83,52,35,106
+932,88,Midtjylland,Østjylland,Hammel Nord,4941,1224,610,350,541,315,431,474,161,201,115,72,442
+933,88,Midtjylland,Østjylland,Hammel Syd,1285,279,120,72,151,132,133,72,64,60,52,21,128
+934,88,Midtjylland,Østjylland,Haldum-Hinnerup/Vitten,3423,726,341,257,503,145,374,338,136,251,42,98,211
+935,88,Midtjylland,Østjylland,Rønbæk/Grundfør,2854,700,281,258,385,137,265,289,86,194,38,54,166
+936,88,Midtjylland,Østjylland,Foldby,1211,258,122,90,152,81,120,80,48,85,39,31,104
+937,88,Midtjylland,Østjylland,Ulstrup,2487,492,251,122,236,320,241,305,64,68,120,41,226
+938,88,Midtjylland,Østjylland,Thorsø/Haurum/Sall,2204,473,252,136,162,281,214,234,53,59,97,26,216
+939,88,Midtjylland,Østjylland,Laurbjerg/Houlbjerg,1192,266,123,58,122,126,121,79,54,42,61,21,119
+940,88,Midtjylland,Østjylland,Søften,2138,507,254,182,271,85,202,287,49,158,24,21,98
+941,88,Midtjylland,Østjylland,Voldum,752,131,105,55,53,96,86,49,17,12,45,9,94
+942,88,Midtjylland,Østjylland,Lading,720,147,63,57,67,60,72,58,53,55,21,18,48
+943,89,Midtjylland,Østjylland,Odder,9131,2222,1050,665,1351,342,816,759,475,481,161,227,581
+944,89,Midtjylland,Østjylland,Torrild,304,59,41,17,32,29,26,28,14,10,15,12,21
+945,89,Midtjylland,Østjylland,Saksild - Nølev,1280,280,126,119,224,52,91,111,63,77,21,42,74
+946,89,Midtjylland,Østjylland,Randlev - Bjerager,870,205,89,68,117,46,76,64,49,56,29,27,44
+947,89,Midtjylland,Østjylland,"Hou, Gosmer - Halling",1606,383,178,156,222,60,132,119,111,76,26,48,95
+948,89,Midtjylland,Østjylland,Gylling,681,157,75,43,83,67,55,34,33,20,38,14,62
+949,89,Midtjylland,Østjylland,Ørting-Falling,847,218,80,51,93,73,67,54,43,25,49,13,81
+950,89,Midtjylland,Østjylland,Hundslund,800,190,94,56,75,62,66,57,62,34,26,31,47
+951,89,Midtjylland,Østjylland,Alrø,103,10,25,8,7,7,7,16,8,7,1,1,6
+952,89,Midtjylland,Østjylland,Tunø,56,15,3,6,4,9,3,4,1,1,2,4,4
+953,89,Midtjylland,Østjylland,Tranebjerg,2121,417,261,135,291,154,120,215,146,62,37,170,112
+954,89,Midtjylland,Østjylland,Nordby,271,72,25,21,28,15,13,28,21,10,2,20,16
+955,89,Midtjylland,Østjylland,Ejer Bavnehøj,1470,289,174,128,183,114,160,91,82,79,45,33,92
+956,89,Midtjylland,Østjylland,Galten,4381,1066,466,370,490,251,534,400,98,215,128,58,303
+957,89,Midtjylland,Østjylland,Gl. Rye,1326,196,87,137,318,35,89,71,103,147,21,81,41
+958,89,Midtjylland,Østjylland,Hørning,5778,1256,622,473,837,268,635,501,170,359,148,92,415
+959,89,Midtjylland,Østjylland,Låsby,2264,456,257,172,285,190,268,149,79,97,81,53,177
+960,89,Midtjylland,Østjylland,Morten Børup,6626,1603,671,521,912,242,704,545,310,476,117,194,328
+961,89,Midtjylland,Østjylland,Niels Ebbesen,4466,896,510,484,536,119,505,481,145,461,50,87,192
+962,89,Midtjylland,Østjylland,Ry,5598,1132,505,610,903,136,448,418,329,631,48,246,191
+963,89,Midtjylland,Østjylland,Skovby,3197,730,280,259,398,201,386,252,103,207,84,74,223
+964,89,Midtjylland,Østjylland,Stilling,3260,778,336,308,435,134,367,311,70,235,47,77,160
+965,89,Midtjylland,Østjylland,Stjær,1465,298,166,133,177,112,124,102,75,119,36,46,77
+966,89,Midtjylland,Østjylland,Virring,1685,329,201,148,183,125,209,125,60,92,56,30,127
+967,90,Midtjylland,Østjylland,Sønderbro,3238,986,190,146,374,153,302,194,223,98,90,58,420
+968,90,Midtjylland,Østjylland,Vestbyen,3264,865,219,180,412,161,326,200,215,109,116,77,382
+969,90,Midtjylland,Østjylland,Midtbyen,6221,1398,546,461,678,238,880,539,358,279,128,125,588
+970,90,Midtjylland,Østjylland,Endelave,124,30,14,11,16,14,2,3,12,5,1,8,8
+971,90,Midtjylland,Østjylland,Forum,3162,837,192,195,433,117,296,222,211,166,91,70,331
+972,90,Midtjylland,Østjylland,Dagnæs,6413,1885,639,395,710,314,695,530,208,227,154,75,579
+973,90,Midtjylland,Østjylland,Torsted,3568,855,370,265,444,170,447,296,110,128,89,52,342
+974,90,Midtjylland,Østjylland,Hatting,2550,548,329,227,282,149,349,210,55,116,48,22,214
+975,90,Midtjylland,Østjylland,Lund,2894,594,341,262,281,154,437,229,86,125,74,53,256
+976,90,Midtjylland,Østjylland,Egebjerg,2771,623,300,229,292,136,357,231,95,130,70,41,266
+977,90,Midtjylland,Østjylland,Stensballe,4539,893,598,548,362,141,574,673,93,255,58,66,277
+978,90,Midtjylland,Østjylland,Højvangen,2643,683,309,218,301,124,308,244,94,112,41,32,176
+979,90,Midtjylland,Østjylland,Brædstrup,3038,720,481,258,213,316,315,197,96,84,87,27,244
+980,90,Midtjylland,Østjylland,Nim,1160,184,175,93,117,125,134,93,30,47,50,21,88
+981,90,Midtjylland,Østjylland,Sdr.Vissing,729,125,84,42,91,79,73,50,31,37,23,36,58
+982,90,Midtjylland,Østjylland,Østbirk,2441,564,313,153,210,233,280,168,78,83,86,58,213
+983,90,Midtjylland,Østjylland,Gedved,1836,414,209,150,217,119,192,130,71,81,66,41,136
+984,90,Midtjylland,Østjylland,Hovedgård,2208,504,236,141,247,169,244,164,98,94,92,28,191
+985,90,Midtjylland,Østjylland,Søvind,1223,273,141,78,159,100,118,81,50,56,41,37,89
+986,90,Midtjylland,Østjylland,Tønning-Træden,466,75,54,32,70,58,39,25,24,32,17,11,29
+987,90,Midtjylland,Østjylland,Sundparken,789,207,36,29,98,27,66,20,121,45,36,16,88
+988,90,Midtjylland,Østjylland,Sejet,360,83,43,24,26,24,48,15,10,12,11,5,58
+989,91,Midtjylland,Østjylland,"Hedensted, St.Dalby og Urlev",6511,1319,1226,540,476,513,862,500,108,199,136,60,571
+990,91,Midtjylland,Østjylland,Løsning Sogn,2439,549,355,130,195,260,270,196,49,58,110,19,247
+991,91,Midtjylland,Østjylland,Ø. Snede Sogn,1254,183,255,93,88,177,155,122,10,24,31,8,108
+992,91,Midtjylland,Østjylland,Daugård og Ørum Sogne,1023,177,186,100,88,57,118,98,23,36,35,18,87
+993,91,Midtjylland,Østjylland,Korning Sogn,397,52,87,20,26,59,51,14,5,8,15,10,50
+994,91,Midtjylland,Østjylland,Ølsted og Eriknauer-Området,797,164,104,62,74,64,108,51,18,19,44,9,80
+995,91,Midtjylland,Østjylland,Juelsminde/Klakring,3022,676,559,308,207,260,290,215,57,70,69,33,276
+996,91,Midtjylland,Østjylland,As,487,109,87,33,34,53,43,32,11,17,15,9,44
+997,91,Midtjylland,Østjylland,Barrit,979,189,152,51,102,114,107,47,23,16,39,14,125
+998,91,Midtjylland,Østjylland,Bjerre,904,152,129,58,86,146,101,50,31,16,39,17,79
+999,91,Midtjylland,Østjylland,Hornsyld,1166,263,203,97,84,121,128,57,13,27,41,7,125
+1000,91,Midtjylland,Østjylland,Stouby,1094,185,194,70,96,114,137,61,32,39,60,13,93
+1001,91,Midtjylland,Østjylland,Rårup,910,153,126,54,86,141,92,52,21,25,53,10,96
+1002,91,Midtjylland,Østjylland,Glud,1512,324,252,114,125,175,147,97,35,40,49,13,141
+1003,91,Midtjylland,Østjylland,Hjarnø,79,14,12,7,11,2,11,5,6,7,0,1,3
+1004,91,Midtjylland,Østjylland,Rask Mølle,934,175,181,60,81,114,110,42,21,34,25,8,81
+1005,91,Midtjylland,Østjylland,Hvirring,307,59,48,21,21,58,36,7,6,2,17,3,29
+1006,91,Midtjylland,Østjylland,Hornborg,480,81,74,36,37,64,53,25,17,10,27,6,50
+1007,91,Midtjylland,Østjylland,Lindved,1213,197,345,90,96,105,140,67,18,37,24,6,88
+1008,91,Midtjylland,Østjylland,Tørring,1960,401,350,127,154,275,210,96,32,36,59,15,204
+1009,91,Midtjylland,Østjylland,Uldum,965,173,190,39,79,108,101,45,14,36,56,10,111
+1010,91,Midtjylland,Østjylland,Aale,547,89,115,29,32,82,75,24,14,15,24,9,38
+1011,91,Midtjylland,Østjylland,Ølholm,602,119,140,37,43,77,52,26,18,14,20,2,54
+1012,91,Midtjylland,Østjylland,Hjortsvang,285,35,51,7,22,59,27,8,4,9,14,5,44
+1013,92,Midtjylland,Vestjylland,Lemvig,4304,868,1521,112,390,457,261,153,78,118,79,28,236
+1014,92,Midtjylland,Vestjylland,Nørre Nissum,1442,219,425,59,181,186,90,64,34,39,58,16,69
+1015,92,Midtjylland,Vestjylland,Klinkby,1381,265,456,47,125,202,74,36,15,24,38,8,91
+1016,92,Midtjylland,Vestjylland,Ramme,1146,217,290,36,105,230,47,25,27,30,32,21,86
+1017,92,Midtjylland,Vestjylland,Bøvling,762,94,205,15,56,203,48,25,8,14,34,11,49
+1018,92,Midtjylland,Vestjylland,Tangsø,844,100,234,27,49,223,63,25,10,9,40,6,58
+1019,92,Midtjylland,Vestjylland,Thyborøn,1111,176,439,31,60,182,83,16,6,4,23,5,86
+1020,92,Midtjylland,Vestjylland,Harboøre,1049,170,536,15,50,108,45,12,6,7,24,5,71
+1021,92,Midtjylland,Vestjylland,Struer,4665,1288,742,220,557,388,447,194,111,141,127,49,400
+1022,92,Midtjylland,Vestjylland,Gimsing,1299,337,193,72,150,126,166,57,18,35,35,11,96
+1023,92,Midtjylland,Vestjylland,Hjerm,1140,233,224,34,117,159,131,67,14,30,25,5,99
+1024,92,Midtjylland,Vestjylland,Humlum,1137,290,228,45,120,154,90,37,15,21,48,9,80
+1025,92,Midtjylland,Vestjylland,Bremdal,1350,369,282,85,145,106,132,54,23,41,22,14,75
+1026,92,Midtjylland,Vestjylland,Langhøj,1333,214,343,39,102,237,130,61,12,38,50,5,102
+1027,92,Midtjylland,Vestjylland,Hvidbjerg,1850,380,357,65,142,329,169,109,30,64,57,14,134
+1028,93,Midtjylland,Vestjylland,Aakjær,4522,1142,593,239,584,545,420,202,150,108,119,44,375
+1029,93,Midtjylland,Vestjylland,Skivehus,4216,1185,655,286,501,463,373,261,67,79,76,30,237
+1030,93,Midtjylland,Vestjylland,Brårup,4150,1211,510,203,597,488,273,182,152,88,83,41,320
+1031,93,Midtjylland,Vestjylland,Højslev,2547,615,369,122,238,491,265,125,39,43,69,15,156
+1032,93,Midtjylland,Vestjylland,Ørslevkloster,858,171,145,49,75,194,51,38,17,11,22,11,74
+1033,93,Midtjylland,Vestjylland,Rønbjerg,485,106,54,24,60,92,56,23,7,8,15,3,36
+1034,93,Midtjylland,Vestjylland,Hem,557,123,62,21,39,141,72,14,10,8,24,3,40
+1035,93,Midtjylland,Vestjylland,Lihme,422,93,48,17,75,96,23,18,8,10,11,4,19
+1036,93,Midtjylland,Vestjylland,Oddense - Otting,505,122,100,15,35,110,44,21,4,5,21,3,25
+1037,93,Midtjylland,Vestjylland,Rødding,862,202,119,43,82,203,66,19,16,13,32,8,59
+1038,93,Midtjylland,Vestjylland,Glyngøre,1192,307,173,70,99,192,109,54,19,20,34,6,109
+1039,93,Midtjylland,Vestjylland,Durup,793,181,98,33,48,219,65,24,12,14,30,4,65
+1040,93,Midtjylland,Vestjylland,Roslev,1337,332,165,55,118,340,103,39,21,19,45,16,83
+1041,93,Midtjylland,Vestjylland,Jebjerg-Lyby,919,236,120,22,88,229,52,34,14,15,37,3,69
+1042,93,Midtjylland,Vestjylland,Balling,1004,246,177,35,91,236,62,27,9,17,36,7,61
+1043,93,Midtjylland,Vestjylland,Breum,1097,241,180,57,108,231,78,38,17,20,34,11,81
+1044,93,Midtjylland,Vestjylland,Håsum-Ramsing,424,103,65,11,31,106,26,18,12,6,15,2,29
+1045,93,Midtjylland,Vestjylland,Selde,756,167,82,33,73,223,46,17,13,15,22,5,60
+1046,93,Midtjylland,Vestjylland,Lem-Vejby,504,123,46,22,57,135,33,16,4,7,27,1,33
+1047,93,Midtjylland,Vestjylland,Fur,543,100,50,34,120,117,25,24,16,6,16,5,30
+1048,94,Midtjylland,Vestjylland,Frederiks,1908,447,237,78,158,295,178,164,35,37,63,23,160
+1049,94,Midtjylland,Vestjylland,Hald Ege,2344,461,232,164,367,155,202,276,102,133,46,100,104
+1050,94,Midtjylland,Vestjylland,Karup,1997,553,207,85,118,291,189,152,51,19,99,10,211
+1051,94,Midtjylland,Vestjylland,Løgstrup,2320,455,273,134,234,296,230,320,48,44,75,38,170
+1052,94,Midtjylland,Vestjylland,Mønsted,1433,329,157,56,113,323,146,109,30,20,50,10,89
+1053,94,Midtjylland,Vestjylland,Stoholm,2142,437,227,94,173,502,214,198,32,37,65,23,138
+1054,94,Midtjylland,Vestjylland,Vridsted,1382,242,192,56,108,344,160,92,18,23,55,4,87
+1055,94,Midtjylland,Vestjylland,Viborg,18189,4194,1689,1002,2387,1112,1740,2713,781,629,354,342,1230
+1056,95,Midtjylland,Vestjylland,Bjerringbro,6190,1369,637,378,533,771,509,947,130,149,184,72,497
+1057,95,Midtjylland,Vestjylland,Hammershøj,1430,230,163,78,107,331,150,95,28,26,70,27,123
+1058,95,Midtjylland,Vestjylland,Møldrup,2799,516,445,95,186,606,280,259,38,30,100,23,215
+1059,95,Midtjylland,Vestjylland,Houlkær,9281,2036,1040,594,1163,583,846,1617,266,337,143,142,509
+1060,95,Midtjylland,Vestjylland,Rødding,2259,428,266,106,227,318,252,278,56,49,74,36,164
+1061,95,Midtjylland,Vestjylland,Rødkærsbro,2033,410,259,88,157,305,216,207,39,38,97,25,188
+1062,95,Midtjylland,Vestjylland,Skals,2287,458,329,128,212,357,209,271,39,31,79,20,153
+1063,95,Midtjylland,Vestjylland,Ørum,1974,363,238,97,192,322,196,180,34,39,77,23,212
+1064,96,Midtjylland,Vestjylland,Ans,2159,420,423,112,170,283,231,184,46,44,52,27,167
+1065,96,Midtjylland,Vestjylland,Funder,2561,509,299,229,304,165,367,199,78,107,54,38,211
+1066,96,Midtjylland,Vestjylland,Fårvang,1117,251,125,58,89,159,111,63,31,21,51,17,141
+1067,96,Midtjylland,Vestjylland,Gjern,1345,284,145,91,168,100,135,156,60,67,27,28,84
+1068,96,Midtjylland,Vestjylland,Grauballe,1001,176,184,59,99,81,128,75,25,41,33,14,84
+1069,96,Midtjylland,Vestjylland,Gødvad,5075,1089,525,432,703,249,638,413,193,257,118,78,380
+1070,96,Midtjylland,Vestjylland,Kjellerup,3616,889,530,180,343,496,333,239,72,77,96,28,331
+1071,96,Midtjylland,Vestjylland,Kragelund,1195,222,154,85,121,149,129,80,44,46,40,19,105
+1072,96,Midtjylland,Vestjylland,Lemming,1360,237,152,79,163,171,147,89,60,70,61,18,110
+1073,96,Midtjylland,Vestjylland,Linå,1005,180,104,73,142,83,97,50,62,55,29,46,84
+1074,96,Midtjylland,Vestjylland,Resenbro,1338,295,150,118,185,75,123,102,49,77,39,25,100
+1075,96,Midtjylland,Vestjylland,Sejs,3186,633,414,359,376,93,396,350,100,239,39,54,133
+1076,96,Midtjylland,Vestjylland,Sjørslev,611,119,54,32,65,122,61,37,11,7,48,5,48
+1077,96,Midtjylland,Vestjylland,Sorring,1137,267,106,73,142,100,112,91,56,54,45,29,62
+1078,96,Midtjylland,Vestjylland,Thorning,1742,298,237,64,131,370,198,98,45,48,85,14,149
+1079,96,Midtjylland,Vestjylland,Vinderslev,773,107,75,38,68,192,104,33,24,22,44,9,55
+1080,96,Midtjylland,Vestjylland,Voel,1465,324,196,112,134,118,196,195,29,50,19,21,71
+1081,97,Midtjylland,Vestjylland,Balle,3848,852,413,325,534,193,511,339,111,219,66,59,224
+1082,97,Midtjylland,Vestjylland,Bryrup,1432,292,130,87,216,113,125,100,82,69,50,44,122
+1083,97,Midtjylland,Vestjylland,Buskelund,3469,675,484,377,387,138,438,404,94,244,32,41,155
+1084,97,Midtjylland,Vestjylland,Gjessø,856,163,113,80,100,65,91,71,24,53,17,27,52
+1085,97,Midtjylland,Vestjylland,Hjøllund,280,52,22,18,37,25,10,15,28,18,13,24,18
+1086,97,Midtjylland,Vestjylland,Langsøskolen,1877,477,200,156,271,94,132,139,119,74,35,28,151
+1087,97,Midtjylland,Vestjylland,Alderslyst,2655,635,239,220,408,113,268,205,132,138,51,36,210
+1088,97,Midtjylland,Vestjylland,Jysk Arena,4275,1143,444,288,525,238,341,339,273,192,111,45,332
+1089,97,Midtjylland,Vestjylland,Them,2452,563,269,171,265,220,292,145,85,110,85,52,195
+1090,97,Midtjylland,Vestjylland,Vestergadehallen,9532,2018,972,900,1322,355,1156,843,503,547,142,176,598
+1091,97,Midtjylland,Vestjylland,Virklund,2624,550,295,314,327,81,286,261,92,202,38,60,118
+1092,98,Midtjylland,Vestjylland,Bording,2206,444,389,97,119,311,233,147,34,42,109,10,270
+1093,98,Midtjylland,Vestjylland,Brande,5373,975,784,301,331,783,685,529,90,120,204,32,534
+1094,98,Midtjylland,Vestjylland,Ejstrupholm,2154,388,304,111,105,396,220,183,36,32,70,24,285
+1095,98,Midtjylland,Vestjylland,Engesvang,1965,432,209,90,216,207,162,112,55,82,62,31,307
+1096,98,Midtjylland,Vestjylland,Ikast,10565,2127,1644,596,734,1111,1226,1282,204,237,307,78,1013
+1097,98,Midtjylland,Vestjylland,Nørre Snede,1973,375,253,112,152,308,148,119,73,39,82,40,271
+1098,99,Midtjylland,Vestjylland,Herning,14883,2913,2316,998,1363,1285,1968,1126,556,684,308,163,1192
+1099,99,Midtjylland,Vestjylland,Arnborg,737,148,116,24,45,145,82,37,11,18,36,2,72
+1100,99,Midtjylland,Vestjylland,Kibæk,2049,385,432,98,115,361,225,121,25,49,39,9,190
+1101,99,Midtjylland,Vestjylland,Kølkær,544,97,88,18,46,113,51,26,15,8,35,2,45
+1102,99,Midtjylland,Vestjylland,Lind,4502,807,883,351,407,397,616,356,65,198,74,30,313
+1103,99,Midtjylland,Vestjylland,Sdr. Felding,1257,242,250,52,77,303,67,60,34,18,43,10,101
+1104,99,Midtjylland,Vestjylland,Skarrild,564,69,134,27,34,137,39,29,13,10,19,3,50
+1105,99,Midtjylland,Vestjylland,Studsgård,466,69,76,18,32,104,48,27,5,19,32,9,27
+1106,100,Midtjylland,Vestjylland,Aulum,2598,397,598,125,194,418,285,210,33,53,92,15,178
+1107,100,Midtjylland,Vestjylland,Feldborg,456,78,88,15,19,106,57,16,7,7,17,4,41
+1108,100,Midtjylland,Vestjylland,Gullestrup,1113,216,135,57,122,100,123,59,82,53,46,20,100
+1109,100,Midtjylland,Vestjylland,Haderup,716,114,130,34,48,175,61,36,5,12,23,6,70
+1110,100,Midtjylland,Vestjylland,Hammerum,5325,938,941,383,493,500,637,532,123,255,106,44,368
+1111,100,Midtjylland,Vestjylland,Hodsager,396,47,88,13,36,83,56,17,4,6,18,1,27
+1112,100,Midtjylland,Vestjylland,Ilskov,541,122,77,21,31,132,50,24,16,8,9,1,50
+1113,100,Midtjylland,Vestjylland,Simmelkær,241,20,41,3,17,68,31,4,4,6,16,4,26
+1114,100,Midtjylland,Vestjylland,Sinding,557,82,129,22,34,103,59,29,10,16,27,4,42
+1115,100,Midtjylland,Vestjylland,Skibbild/Nøvling,615,111,122,22,53,96,51,46,10,10,24,14,56
+1116,100,Midtjylland,Vestjylland,Snejbjerg,3614,761,709,208,333,454,423,227,38,98,91,21,245
+1117,100,Midtjylland,Vestjylland,Sunds,3115,574,624,208,238,441,356,212,34,86,83,15,240
+1118,100,Midtjylland,Vestjylland,Timring,752,112,160,27,62,148,65,57,13,13,25,5,63
+1119,100,Midtjylland,Vestjylland,Tjørring,4164,835,748,275,383,400,459,436,85,158,69,25,287
+1120,100,Midtjylland,Vestjylland,Vildbjerg,2801,490,691,141,183,427,278,202,52,60,59,20,195
+1121,100,Midtjylland,Vestjylland,Vind,303,54,78,10,29,51,12,11,9,7,9,1,31
+1122,100,Midtjylland,Vestjylland,Vinding,1051,160,275,41,92,192,95,66,7,21,37,6,59
+1123,100,Midtjylland,Vestjylland,Ørnhøj,676,75,141,32,42,192,75,21,11,9,30,1,47
+1124,101,Midtjylland,Vestjylland,Musikteatret,11538,2438,2183,532,1404,933,1375,649,289,414,213,116,980
+1125,101,Midtjylland,Vestjylland,Mejdal,4041,828,959,211,471,337,497,200,56,109,57,32,283
+1126,101,Midtjylland,Vestjylland,Skave,1379,213,335,40,99,230,193,48,18,36,58,15,94
+1127,101,Midtjylland,Vestjylland,Mejrup,3491,696,867,192,384,265,408,218,39,110,55,27,230
+1128,101,Midtjylland,Vestjylland,Nørre Boulevard Skolen,7615,1944,1172,340,986,657,627,423,285,204,170,50,749
+1129,101,Midtjylland,Vestjylland,Vinderup,3382,773,653,107,253,597,288,113,50,88,119,15,325
+1130,101,Midtjylland,Vestjylland,Sevel,1191,175,253,50,85,248,121,71,14,23,55,12,83
+1131,101,Midtjylland,Vestjylland,Ulfborg,1941,341,422,68,162,397,170,66,43,31,72,22,146
+1132,101,Midtjylland,Vestjylland,Vemb,1172,225,255,32,95,248,90,28,16,13,39,9,122
+1133,101,Midtjylland,Vestjylland,Sdr. Nissum,611,133,142,34,41,104,43,18,11,9,12,18,45
+1134,102,Midtjylland,Vestjylland,Tarm,3011,631,436,171,261,625,240,244,37,52,97,6,210
+1135,102,Midtjylland,Vestjylland,Holmsland,817,117,205,46,63,153,97,46,6,10,19,9,46
+1136,102,Midtjylland,Vestjylland,Ådum,608,67,109,26,25,196,66,36,6,6,25,1,45
+1137,102,Midtjylland,Vestjylland,Hemmet,1239,177,161,63,50,442,96,54,16,14,50,11,104
+1138,102,Midtjylland,Vestjylland,Hvide Sande,1810,229,540,69,94,353,188,115,20,28,44,15,113
+1139,102,Midtjylland,Vestjylland,Velling,929,173,190,46,127,127,67,66,29,36,10,23,35
+1140,102,Midtjylland,Vestjylland,Ringkøbing,5787,1168,1035,336,658,857,501,493,105,141,99,50,343
+1141,102,Midtjylland,Vestjylland,Hee,809,95,125,17,65,293,83,23,18,4,29,10,47
+1142,102,Midtjylland,Vestjylland,Lem,1175,200,252,54,79,288,86,61,21,21,31,3,79
+1143,102,Midtjylland,Vestjylland,Tim,1329,176,291,47,118,406,97,37,18,23,31,15,69
+1144,102,Midtjylland,Vestjylland,Skjern,5043,965,1086,266,310,869,494,482,58,104,93,13,296
+1145,102,Midtjylland,Vestjylland,Borris,728,103,208,24,41,178,52,43,5,10,16,8,40
+1146,102,Midtjylland,Vestjylland,Rækker Mølle,1389,147,319,41,70,417,135,104,12,18,53,4,68
+1147,102,Midtjylland,Vestjylland,Stauning,716,96,120,45,42,199,63,41,10,12,30,7,49
+1148,102,Midtjylland,Vestjylland,Videbæk,3126,555,642,163,161,721,253,288,30,36,76,22,176
+1149,102,Midtjylland,Vestjylland,Troldhede,715,109,123,17,35,204,70,38,7,8,31,3,69
+1150,102,Midtjylland,Vestjylland,Vorgod-Barde,1501,199,288,65,90,385,153,124,19,21,43,10,104
+1151,102,Midtjylland,Vestjylland,Spjald,2265,296,529,102,129,615,183,104,26,40,100,7,131
+1152,103,Nordjylland,Nordjylland,Skagen,4367,1461,532,270,276,569,353,183,95,65,108,42,413
+1153,103,Nordjylland,Nordjylland,Ålbæk,1249,346,140,84,113,229,78,69,33,17,21,14,105
+1154,103,Nordjylland,Nordjylland,Jerup,559,168,65,22,51,109,38,24,8,3,18,7,46
+1155,103,Nordjylland,Nordjylland,Elling,982,266,132,47,90,157,76,51,17,16,35,5,90
+1156,103,Nordjylland,Nordjylland,Strandby,1612,424,181,92,128,325,125,105,19,30,36,8,139
+1157,103,Nordjylland,Nordjylland,Frederikshavn,13326,4205,1239,620,1670,1410,1146,617,297,170,434,110,1408
+1158,103,Nordjylland,Nordjylland,Ravnshøj,1051,281,130,51,109,193,67,31,16,22,36,7,108
+1159,103,Nordjylland,Nordjylland,Gærum,1297,312,211,79,101,166,155,80,13,16,32,10,122
+1160,103,Nordjylland,Nordjylland,Sæby,6480,1893,982,413,689,846,512,308,111,112,123,65,426
+1161,103,Nordjylland,Nordjylland,Dybvad,603,124,85,19,57,165,49,13,15,7,17,3,49
+1162,103,Nordjylland,Nordjylland,Hørby,478,97,60,13,34,121,40,12,13,13,33,3,39
+1163,103,Nordjylland,Nordjylland,Thorshøj,401,93,40,21,22,130,24,8,2,8,22,3,28
+1164,103,Nordjylland,Nordjylland,Voerså,1093,286,153,45,77,231,81,23,23,15,43,9,107
+1165,103,Nordjylland,Nordjylland,Volstrup,391,87,52,13,22,112,40,9,4,3,13,5,31
+1166,103,Nordjylland,Nordjylland,Østervrå,1333,276,194,64,107,319,121,68,14,32,37,10,91
+1167,103,Nordjylland,Nordjylland,Læsø,1176,250,136,63,85,219,65,72,34,27,44,23,158
+1168,104,Nordjylland,Nordjylland,Horne,1058,320,123,49,46,182,95,56,23,12,44,5,103
+1169,104,Nordjylland,Nordjylland,Hirtshals,3027,980,287,130,167,513,257,149,53,40,101,25,325
+1170,104,Nordjylland,Nordjylland,Hjørring - Centrum,4008,1366,370,220,337,333,330,260,215,132,86,58,301
+1171,104,Nordjylland,Nordjylland,Tornby,1203,335,170,78,80,172,104,69,37,31,29,23,75
+1172,104,Nordjylland,Nordjylland,Bindslev,941,229,153,39,39,209,72,34,32,11,36,8,79
+1173,104,Nordjylland,Nordjylland,Tversted,985,236,150,83,58,174,64,41,25,36,40,10,68
+1174,104,Nordjylland,Nordjylland,Taars,1985,481,274,63,105,382,125,287,38,31,62,17,120
+1175,104,Nordjylland,Nordjylland,Vrejlev-Hæstrup,1002,218,142,43,61,228,86,56,14,22,32,4,96
+1176,104,Nordjylland,Nordjylland,Bjergby-Mygdal,1081,242,208,58,62,192,99,47,25,31,42,12,63
+1177,104,Nordjylland,Nordjylland,Skallerup,1110,315,178,80,82,121,67,48,66,38,31,23,61
+1178,104,Nordjylland,Nordjylland,Hjørring - Nord,4328,1570,517,237,314,389,362,298,112,116,94,30,289
+1179,104,Nordjylland,Nordjylland,Hjørring - Syd,4163,1396,464,219,336,465,346,287,122,104,108,29,287
+1180,104,Nordjylland,Nordjylland,Hjørring - Vest,3924,1337,494,229,322,324,297,282,144,131,76,42,246
+1181,104,Nordjylland,Nordjylland,Vrå,2528,729,343,118,207,417,191,127,102,47,69,33,145
+1182,104,Nordjylland,Nordjylland,Hundelev,637,160,77,26,47,146,48,35,24,6,21,12,35
+1183,104,Nordjylland,Nordjylland,Løkken,1952,571,325,122,131,253,145,118,57,39,35,29,127
+1184,104,Nordjylland,Nordjylland,Sindal,2223,732,310,94,130,366,159,110,49,46,62,10,155
+1185,104,Nordjylland,Nordjylland,Astrup,679,180,100,37,42,125,55,29,19,9,32,9,42
+1186,104,Nordjylland,Nordjylland,Tolne,725,155,89,28,48,151,63,17,26,16,52,11,69
+1187,104,Nordjylland,Nordjylland,Ugilt,654,166,83,17,33,147,54,40,12,12,24,5,61
+1188,104,Nordjylland,Nordjylland,Lendum,846,180,92,39,44,243,77,30,15,9,32,9,76
+1189,105,Nordjylland,Nordjylland,Agersted,485,128,39,8,40,105,42,13,16,13,23,9,49
+1190,105,Nordjylland,Nordjylland,Asaa,1061,305,116,39,87,175,57,38,32,25,43,16,128
+1191,105,Nordjylland,Nordjylland,Dronninglund,3361,983,448,171,291,453,352,159,65,112,83,38,206
+1192,105,Nordjylland,Nordjylland,Flauenskjold,745,160,104,15,49,154,63,31,14,15,28,9,103
+1193,105,Nordjylland,Nordjylland,Hjallerup,3156,933,491,168,265,357,310,148,47,73,87,27,250
+1194,105,Nordjylland,Nordjylland,Klokkerholm,1189,313,157,45,90,194,116,45,22,35,47,14,111
+1195,105,Nordjylland,Nordjylland,Brønderslev,7979,2626,1119,429,741,905,637,360,219,167,175,61,540
+1196,105,Nordjylland,Nordjylland,Stenum,400,110,50,11,31,80,47,17,14,5,15,2,18
+1197,105,Nordjylland,Nordjylland,Thise,773,194,80,25,54,183,80,38,22,7,32,6,52
+1198,105,Nordjylland,Nordjylland,Ø. Brønderslev,1011,287,131,39,69,191,116,40,20,11,24,7,76
+1199,105,Nordjylland,Nordjylland,Hallund,394,93,57,6,32,85,30,11,8,11,24,4,33
+1200,105,Nordjylland,Nordjylland,Jerslev,1357,246,181,43,82,342,116,57,42,20,78,8,142
+1201,105,Nordjylland,Nordjylland,Serritslev,554,123,84,23,44,138,46,21,14,5,15,2,39
+1202,105,Nordjylland,Nordjylland,Aabybro,4408,1395,721,271,288,416,543,228,68,108,69,29,272
+1203,105,Nordjylland,Nordjylland,Biersted,1231,430,146,43,88,158,114,47,25,23,48,7,102
+1204,105,Nordjylland,Nordjylland,Nørhalne,1153,352,157,50,97,119,146,49,14,37,36,4,92
+1205,105,Nordjylland,Nordjylland,Vedsted,746,260,108,35,42,123,51,20,11,10,30,5,51
+1206,105,Nordjylland,Nordjylland,Gjøl,821,216,149,36,63,111,87,47,18,21,16,11,46
+1207,105,Nordjylland,Nordjylland,Ingstrup,401,100,64,18,20,66,31,20,8,9,26,7,32
+1208,105,Nordjylland,Nordjylland,V. Hjermitslev,336,102,32,8,19,71,33,8,5,6,14,4,34
+1209,105,Nordjylland,Nordjylland,Brovst,1641,481,243,66,103,267,153,59,28,26,57,9,149
+1210,105,Nordjylland,Nordjylland,Halvrimmen,828,214,110,24,60,180,90,24,20,13,23,7,63
+1211,105,Nordjylland,Nordjylland,Arentsminde,358,92,45,11,24,77,37,8,1,6,23,7,27
+1212,105,Nordjylland,Nordjylland,Tranum,724,171,70,43,55,131,59,26,36,27,27,14,65
+1213,105,Nordjylland,Nordjylland,Skovsgård,898,257,128,27,76,165,77,26,17,10,37,13,65
+1214,105,Nordjylland,Nordjylland,Fjerritslev,2599,760,387,105,184,481,214,108,47,52,53,39,169
+1215,105,Nordjylland,Nordjylland,Thorup,703,154,122,30,38,175,58,14,16,10,20,13,53
+1216,105,Nordjylland,Nordjylland,Ørebro,580,117,80,16,31,185,55,12,14,6,18,5,41
+1217,105,Nordjylland,Nordjylland,Trekroner,660,129,97,33,37,183,53,22,7,11,29,11,48
+1218,105,Nordjylland,Nordjylland,Jetsmark,3583,1305,387,126,216,512,282,122,79,38,150,30,336
+1219,105,Nordjylland,Nordjylland,Hune,1367,352,226,133,81,139,112,103,25,35,19,13,129
+1220,105,Nordjylland,Nordjylland,Saltum,827,216,140,40,55,124,56,37,24,19,20,6,90
+1221,106,Nordjylland,Nordjylland,Nordmors,829,241,99,33,53,163,48,30,28,17,33,19,65
+1222,106,Nordjylland,Nordjylland,Midtmors,2645,729,469,103,141,489,263,78,44,45,84,28,172
+1223,106,Nordjylland,Nordjylland,Sydmors,1467,398,242,37,61,328,169,33,27,19,41,15,97
+1224,106,Nordjylland,Nordjylland,Sydvestmors,1130,286,232,31,60,255,82,22,20,17,39,6,80
+1225,106,Nordjylland,Nordjylland,Nykøbing,6084,2325,872,253,388,744,474,238,119,127,128,48,368
+1226,106,Nordjylland,Nordjylland,Thisted,8886,2688,1117,480,747,976,1196,404,293,242,157,87,499
+1227,106,Nordjylland,Nordjylland,Snedsted,2158,553,283,70,132,473,218,83,61,40,94,12,139
+1228,106,Nordjylland,Nordjylland,Hurup,2596,761,381,143,152,478,225,113,47,49,82,16,149
+1229,106,Nordjylland,Nordjylland,Hanstholm,1511,301,199,73,67,382,212,60,26,21,35,18,117
+1230,106,Nordjylland,Nordjylland,Sjørring,1823,444,207,79,145,349,212,77,68,52,60,40,90
+1231,106,Nordjylland,Nordjylland,Vesløs,673,164,73,18,50,155,70,23,37,10,23,9,41
+1232,106,Nordjylland,Nordjylland,Vestervig,1120,318,167,46,69,188,90,77,31,22,27,8,77
+1233,106,Nordjylland,Nordjylland,Bedsted,1085,234,168,36,56,266,81,40,42,18,45,37,62
+1234,106,Nordjylland,Nordjylland,Nors,1128,223,163,61,63,199,234,34,19,16,29,12,75
+1235,106,Nordjylland,Nordjylland,Frøstrup,828,210,88,25,92,157,66,38,57,21,29,17,28
+1236,106,Nordjylland,Nordjylland,Vorupør,634,196,51,41,38,103,47,20,27,20,20,15,56
+1237,106,Nordjylland,Nordjylland,Koldby,1335,340,189,37,90,262,126,59,44,27,41,14,106
+1238,106,Nordjylland,Nordjylland,Østerild,724,170,100,38,40,170,109,25,12,9,24,4,23
+1239,106,Nordjylland,Nordjylland,Sennels,889,238,145,36,53,94,164,46,25,27,11,17,33
+1240,106,Nordjylland,Nordjylland,Klitmøller,791,157,59,58,110,37,44,36,56,122,9,74,29
+1241,107,Nordjylland,Nordjylland,Aalestrup,2225,485,373,64,163,505,199,115,30,36,77,13,165
+1242,107,Nordjylland,Nordjylland,Farsø,2782,607,551,88,232,547,226,129,34,71,97,18,182
+1243,107,Nordjylland,Nordjylland,Strandby,471,99,64,23,47,94,41,19,7,25,19,3,30
+1244,107,Nordjylland,Nordjylland,Aars,5925,1421,1267,284,559,765,547,340,91,110,143,28,370
+1245,107,Nordjylland,Nordjylland,Hvalpsund,1028,246,197,39,76,184,67,46,34,28,33,14,64
+1246,107,Nordjylland,Nordjylland,Gislum-Vognsild,622,115,110,15,45,146,56,29,14,16,23,2,51
+1247,107,Nordjylland,Nordjylland,Gedsted,1067,207,173,35,109,250,75,30,15,13,45,7,108
+1248,107,Nordjylland,Nordjylland,Hornum-Ulstrup,990,173,151,21,86,243,107,45,14,28,34,6,82
+1249,107,Nordjylland,Nordjylland,Vester Hornum,627,97,101,13,50,176,57,17,13,18,35,6,44
+1250,107,Nordjylland,Nordjylland,Løgstør,3007,750,513,131,487,466,191,97,50,37,66,23,196
+1251,107,Nordjylland,Nordjylland,Ranum,950,189,109,29,177,201,57,24,32,22,43,9,58
+1252,107,Nordjylland,Nordjylland,Salling,736,107,118,13,82,188,80,28,15,5,33,7,60
+1253,107,Nordjylland,Nordjylland,Overlade,534,82,143,10,49,118,40,19,6,9,10,4,44
+1254,107,Nordjylland,Nordjylland,Skivum-Giver,464,102,80,14,28,103,27,18,9,21,25,8,29
+1255,107,Nordjylland,Nordjylland,Støvring,6706,1812,1108,506,569,570,762,454,110,261,106,57,391
+1256,107,Nordjylland,Nordjylland,Skørping,2992,726,358,199,459,181,181,169,181,298,33,118,89
+1257,107,Nordjylland,Nordjylland,Terndrup,1467,436,160,56,119,296,108,67,30,27,52,13,103
+1258,107,Nordjylland,Nordjylland,Suldrup,1710,375,273,77,92,360,161,106,50,44,42,20,110
+1259,107,Nordjylland,Nordjylland,Nørager,1731,379,320,54,107,354,186,80,31,39,57,20,104
+1260,107,Nordjylland,Nordjylland,Haverslev,811,164,130,36,45,181,81,28,10,20,50,7,59
+1261,107,Nordjylland,Nordjylland,Øster Hornum,1325,329,209,79,140,147,145,91,26,60,27,14,58
+1262,107,Nordjylland,Nordjylland,Bælum,988,319,103,41,55,197,87,33,38,23,35,12,45
+1263,107,Nordjylland,Nordjylland,Ravnkilde,534,117,81,17,43,108,53,24,16,7,29,5,34
+1264,107,Nordjylland,Nordjylland,Blenstrup,946,253,111,41,70,185,85,32,29,26,46,11,57
+1265,107,Nordjylland,Nordjylland,Veggerby,424,94,72,11,31,76,38,17,6,21,15,11,32
+1266,108,Nordjylland,Nordjylland,Assens,1363,405,67,48,125,306,87,115,27,20,59,17,87
+1267,108,Nordjylland,Nordjylland,Mariager,2636,620,274,169,234,433,223,259,54,69,76,51,174
+1268,108,Nordjylland,Nordjylland,Arden,2365,709,282,88,203,408,185,106,75,82,69,34,124
+1269,108,Nordjylland,Nordjylland,Valsgård,1378,310,167,69,89,281,147,76,34,34,40,26,105
+1270,108,Nordjylland,Nordjylland,Vebbestrup,1362,281,182,42,69,369,141,48,28,18,60,17,107
+1271,108,Nordjylland,Nordjylland,Hadsund,4186,1145,510,168,258,920,290,316,74,84,114,36,271
+1272,108,Nordjylland,Nordjylland,Veddum-Skelund,653,162,44,12,29,213,61,24,17,5,30,5,51
+1273,108,Nordjylland,Nordjylland,Als,1596,453,206,70,95,380,106,98,17,21,39,7,104
+1274,108,Nordjylland,Nordjylland,Hørby,2325,556,315,105,149,464,247,146,52,67,55,21,148
+1275,108,Nordjylland,Nordjylland,Onsild,1278,289,122,75,75,295,123,64,24,31,48,13,119
+1276,108,Nordjylland,Nordjylland,Hobro,6596,1957,827,322,618,851,523,453,207,227,115,99,397
+1277,109,Nordjylland,Nordjylland,Sønderbroskolen,5048,1118,362,226,695,202,632,365,460,463,74,141,310
+1278,109,Nordjylland,Nordjylland,Nordkraft,5401,928,569,313,658,187,890,466,408,536,45,148,253
+1279,109,Nordjylland,Nordjylland,Gigantium,6467,1672,590,380,799,304,794,409,415,524,77,158,345
+1280,109,Nordjylland,Nordjylland,Vejgaardhallen,3481,919,257,157,472,173,340,219,271,261,48,116,248
+1281,109,Nordjylland,Nordjylland,Vejgaard Østre Skole,4692,1538,337,214,604,259,403,235,326,309,68,90,309
+1282,109,Nordjylland,Nordjylland,Mellervangskolens Idrætshal,2402,799,188,114,311,156,216,89,147,114,51,43,174
+1283,109,Nordjylland,Nordjylland,Klaruphallen,3574,1156,445,236,354,248,375,208,91,157,58,32,214
+1284,109,Nordjylland,Nordjylland,Gug Skole,4669,1383,588,326,507,251,427,365,159,253,55,56,299
+1285,109,Nordjylland,Nordjylland,Gistrup Skoles Idrætshal,3935,1189,517,257,483,255,288,238,160,218,63,75,192
+1286,109,Nordjylland,Nordjylland,Aalborghus Gymnasium,3409,1102,241,164,422,210,297,154,294,160,59,60,246
+1287,109,Nordjylland,Nordjylland,Tornhøjhallen,4328,1303,203,159,583,276,358,181,418,273,110,112,352
+1288,109,Nordjylland,Nordjylland,Idrætscentret Kongerslev,1160,360,113,34,64,247,81,46,27,21,52,7,108
+1289,109,Nordjylland,Nordjylland,Mou Hotel,1616,525,186,83,139,255,108,41,55,32,43,13,136
+1290,109,Nordjylland,Nordjylland,Båndby - Hallen,3253,1052,374,136,307,395,316,158,95,83,85,30,222
+1291,110,Nordjylland,Nordjylland,Vesterkærets Skole,3016,794,202,141,426,143,305,158,303,187,53,103,201
+1292,110,Nordjylland,Nordjylland,Haraldslund,5489,948,440,320,681,183,872,482,554,512,40,180,277
+1293,110,Nordjylland,Nordjylland,Skipperens Idrætshus,5102,1506,500,284,643,223,538,324,281,354,74,93,282
+1294,110,Nordjylland,Nordjylland,Hallen Ved Skalborggård,3941,1238,452,221,409,242,419,217,162,175,78,51,277
+1295,110,Nordjylland,Nordjylland,KFUM Hallen,5641,1285,903,495,573,162,691,523,214,395,41,104,255
+1296,110,Nordjylland,Nordjylland,Hasseris Gymnasium,3638,881,630,354,309,120,399,314,150,234,31,66,150
+1297,110,Nordjylland,Nordjylland,Frejlev Skoles Idrætshal,3775,1024,557,278,311,348,418,235,125,153,63,44,219
+1298,110,Nordjylland,Nordjylland,Svenstruphallen,5183,1571,659,346,537,397,533,297,153,218,99,66,307
+1299,110,Nordjylland,Nordjylland,Ferslev Hallen,1991,611,227,94,178,215,222,98,50,62,64,24,146
+1300,110,Nordjylland,Nordjylland,Nibe Hallen,4614,1257,823,268,393,495,448,250,102,219,78,55,226
+1301,110,Nordjylland,Nordjylland,Farstruphallen,1290,307,184,62,85,248,116,51,43,35,67,15,77
+1302,111,Nordjylland,Nordjylland,"Gl. Lindholm Skole, Kulturhuset",3570,1123,277,143,490,215,303,146,254,215,65,92,247
+1303,111,Nordjylland,Nordjylland,PFA Kollegiet i Nørresundby,2560,715,325,157,239,131,297,161,157,127,30,55,166
+1304,111,Nordjylland,Nordjylland,Løvvanghallen,4275,1504,346,175,408,304,364,194,285,169,75,57,394
+1305,111,Nordjylland,Nordjylland,Huset Stigsborg,4262,1205,380,220,476,243,490,224,274,236,86,109,319
+1306,111,Nordjylland,Nordjylland,Multihallen Ved Vadumhallen,2022,657,282,111,156,211,190,114,43,42,46,21,149
+1307,111,Nordjylland,Nordjylland,Vestbjerg Idræts- og Kulturcenter,2115,539,340,147,211,147,257,120,66,99,39,23,127
+1308,111,Nordjylland,Nordjylland,Sulsted Skolehal,2372,685,340,95,193,359,183,91,78,61,86,21,180
+1309,111,Nordjylland,Nordjylland,"Vodskov Kultur og Idrætscenter, Sal",4735,1435,652,268,489,404,411,238,180,198,97,51,312
+1310,111,Nordjylland,Nordjylland,"HF og VUC Nord, Godsbanen",3480,652,278,174,433,105,574,310,288,358,32,100,176
+1311,111,Nordjylland,Nordjylland,Aalborghallen,6101,1023,611,392,697,179,1031,532,516,596,48,192,284
+1312,111,Nordjylland,Nordjylland,Vester Hassing Hallen,3632,1188,497,155,299,417,346,158,90,82,95,27,278
+1313,111,Nordjylland,Nordjylland,Hals Skole,3141,1100,455,179,208,339,201,124,90,38,83,23,301
+1314,111,Nordjylland,Nordjylland,Ulstedhallen,818,223,114,30,43,151,98,17,22,10,37,8,65

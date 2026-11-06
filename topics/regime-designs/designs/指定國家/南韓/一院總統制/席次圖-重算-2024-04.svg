@@ -28,7 +28,7 @@
 <circle cx="3.1287" cy="-19.7538" r="0.6388" fill="#0073CF" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="4.6689" cy="-19.4474" r="0.6388" fill="#0073CF" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="6.1803" cy="-19.0211" r="0.6388" fill="#0073CF" stroke="#ffffff" stroke-width="0.04"/>
-<circle cx="7.6537" cy="-18.4776" r="0.6388" fill="#FF7210" stroke="#ffffff" stroke-width="0.04"/>
+<circle cx="7.6537" cy="-18.4776" r="0.6388" fill="#0073CF" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="9.0798" cy="-17.8201" r="0.6388" fill="#FF7210" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="10.4500" cy="-17.0528" r="0.6388" fill="#E61E2B" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="11.7557" cy="-16.1803" r="0.6388" fill="#E61E2B" stroke="#ffffff" stroke-width="0.04"/>
@@ -165,7 +165,7 @@
 <circle cx="2.3637" cy="-13.4053" r="0.6388" fill="#0073CF" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="3.9040" cy="-13.0402" r="0.6388" fill="#0073CF" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="5.3915" cy="-12.4988" r="0.6388" fill="#0073CF" stroke="#ffffff" stroke-width="0.04"/>
-<circle cx="6.8060" cy="-11.7884" r="0.6388" fill="#E61E2B" stroke="#ffffff" stroke-width="0.04"/>
+<circle cx="6.8060" cy="-11.7884" r="0.6388" fill="#FF7210" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="8.1286" cy="-10.9186" r="0.6388" fill="#E61E2B" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="9.3412" cy="-9.9011" r="0.6388" fill="#E61E2B" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="10.4275" cy="-8.7497" r="0.6388" fill="#E61E2B" stroke="#ffffff" stroke-width="0.04"/>
@@ -229,7 +229,7 @@
 <circle cx="-3.9319" cy="-7.8964" r="0.6388" fill="#152484" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="-2.4140" cy="-8.4844" r="0.6388" fill="#152484" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="-0.8139" cy="-8.7835" r="0.6388" fill="#152484" stroke="#ffffff" stroke-width="0.04"/>
-<circle cx="0.8139" cy="-8.7835" r="0.6388" fill="#0073CF" stroke="#ffffff" stroke-width="0.04"/>
+<circle cx="0.8139" cy="-8.7835" r="0.6388" fill="#152484" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="2.4140" cy="-8.4844" r="0.6388" fill="#0073CF" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="3.9319" cy="-7.8964" r="0.6388" fill="#FF7210" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="5.3159" cy="-7.0394" r="0.6388" fill="#E61E2B" stroke="#ffffff" stroke-width="0.04"/>
@@ -257,12 +257,12 @@
 <rect x="-20.479" y="1.350" width="1.05" height="1.05" fill="#7DBA00" stroke="#555" stroke-width="0.06" rx="0.12"/>
 <text x="-19.129" y="2.230" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="0.95" fill="#111">綠色正義黨 1</text>
 <rect x="-6.613" y="1.350" width="1.05" height="1.05" fill="#152484" stroke="#555" stroke-width="0.06" rx="0.12"/>
-<text x="-5.263" y="2.230" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="0.95" fill="#111">民主黨 130</text>
+<text x="-5.263" y="2.230" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="0.95" fill="#111">民主黨 131</text>
 <rect x="7.252" y="1.350" width="1.05" height="1.05" fill="#0073CF" stroke="#555" stroke-width="0.06" rx="0.12"/>
 <text x="8.602" y="2.230" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="0.95" fill="#111">祖國革新黨 25</text>
 <rect x="-20.479" y="2.900" width="1.05" height="1.05" fill="#FF7210" stroke="#555" stroke-width="0.06" rx="0.12"/>
 <text x="-19.129" y="3.780" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="0.95" fill="#111">改革新黨 8</text>
 <rect x="-6.613" y="2.900" width="1.05" height="1.05" fill="#E61E2B" stroke="#555" stroke-width="0.06" rx="0.12"/>
-<text x="-5.263" y="3.780" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="0.95" fill="#111">國民力量 86</text>
-<text x="0" y="4.800" text-anchor="middle" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="0.85" fill="#444">單一 民主 102、國民力量 48；過半 126：民主黨單獨過</text>
+<text x="-5.263" y="3.780" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="0.95" fill="#111">國民力量 85</text>
+<text x="0" y="4.800" text-anchor="middle" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="0.85" fill="#444">逐邑面洞；單一 民主 103、國民力量 47；過半 126：民主黨單獨過</text>
 </svg>

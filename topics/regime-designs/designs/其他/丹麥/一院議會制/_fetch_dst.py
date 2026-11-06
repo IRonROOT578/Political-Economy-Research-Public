@@ -1,8 +1,9 @@
 # -*- coding: utf-8 -*-
 """從 Statistikbanken API 拉 FV22TOTA／FV19TOTA 逐 opstillingskreds → 資料/ft-YYYY.csv。
 
-單位：DST OMRÅDE id 20–111（92 個提名區），對應 storkreds 10–19 → 本夾五區。
-不入庫 API 原始 JSON；只留彙整 CSV。重跑：python _fetch_dst.py
+單位：DST OMRÅDE 的**投票所（afstemningsområde，id ≥ 1000）**，約 1,300 個；DST 依提名區（id 20–111）列出其下的投票所，
+CSV 的 id 是在 DST 清單中的順序（同一提名區的投票所相鄰），op 欄是所屬提名區。storkreds 10–19 → 本夾五區。
+不入庫 API 原始 JSON；只留彙整 CSV。重跑：python _fetch_dst.py 2019 2022 2026
 """
 from __future__ import annotations
 
@@ -84,6 +85,10 @@ PARTY_2022 = {
     "5905": "EL",
     "1487618": "ALT",
     "1962272": "FG",
+}
+PARTY_2026 = {
+    "5891": "S", "5893": "RV", "5895": "C", "5897": "SF", "2559203": "BP", "5907": "LA",
+    "1962293": "M", "5899": "DF", "5903": "V", "1968075": "DD", "5905": "EL", "1487618": "ALT",
 }
 PARTY_2019 = {
     "5891": "S",
@@ -198,6 +203,64 @@ def fetch_opstilling(table, party_map):
     return out
 
 
+def fetch_polling(table, party_map):
+    """投票所層級：依 tableinfo 的清單順序，把每個 id ≥ 1000 的投票所歸到它前面最近的提名區。"""
+    info = api(f"tableinfo/{table}")
+    areas = next(v for v in info["variables"] if v["id"].upper().startswith("OMR"))["values"]
+    order, op = [], None
+    for a in areas:
+        if a["id"] in OP_STORK:
+            op = a["id"]
+        elif int(a["id"]) >= 1000:
+            order.append((a["id"], op))
+    valres = list(party_map.keys()) + ["GYLD_IALT"]
+    got = {}
+    for i in range(0, len(order), 150):
+        chunk = [a for a, _ in order[i:i + 150]]
+        payload = {"table": table, "format": "JSONSTAT",
+                   "variables": [{"code": "OMRÅDE", "values": chunk}, {"code": "VALRES", "values": valres}]}
+        ds = api("data", payload)["dataset"]
+        dim = ds["dimension"]
+        ids, sizes, values = dim["id"], dim["size"], ds["value"]
+        omr_key = next(k for k in ids if k.upper().startswith("OMR"))
+        val_key = next(k for k in ids if k.upper() == "VALRES")
+        strides = [1] * len(ids)
+        for j in range(len(ids) - 2, -1, -1):
+            strides[j] = strides[j + 1] * sizes[j + 1]
+        jo, jv = ids.index(omr_key), ids.index(val_key)
+        lab = dim[omr_key]["category"]["label"]
+        for oid, opos in dim[omr_key]["category"]["index"].items():
+            row = {"_name": lab.get(oid, oid), "_valid": 0}
+            for vid, vpos in dim[val_key]["category"]["index"].items():
+                x = values[opos * strides[jo] + vpos * strides[jv]] or 0
+                if vid == "GYLD_IALT":
+                    row["_valid"] = int(x)
+                else:
+                    row[party_map[vid]] = int(x)
+            got[oid] = row
+        print("  ", table, i + len(chunk), "/", len(order))
+    return [(aid, op, got[aid]) for aid, op in order if got[aid]["_valid"] > 0]
+
+
+def write_polling_csv(year, rows, party_cols):
+    path = os.path.join(DATA, f"ft-{year}.csv")
+    with open(path, "w", encoding="utf-8", newline="") as f:
+        w = csv.writer(f)
+        w.writerow(["id", "op", "land", "storkreds", "name", "valid"] + party_cols)
+        for k, (aid, op, r) in enumerate(rows, 1):
+            stork = OP_STORK[op]
+            w.writerow([k, op, STORK_LAND[stork], STORK_NAME[stork], r["_name"], r["_valid"]] + [r.get(p, 0) for p in party_cols])
+    nat = {p: sum(r.get(p, 0) for _, _, r in rows) for p in party_cols}
+    print("wrote", path, "n=", len(rows), "valid=", sum(r["_valid"] for _, _, r in rows), nat)
+
+
+COLS = {
+    "2026": ("FV26TOTA", PARTY_2026, ["S", "V", "M", "SF", "DD", "LA", "C", "EL", "RV", "BP", "ALT", "DF"]),
+    "2022": ("FV22TOTA", PARTY_2022, ["S", "V", "M", "SF", "DD", "LA", "C", "EL", "RV", "NB", "ALT", "DF", "KD", "FG"]),
+    "2019": ("FV19TOTA", PARTY_2019, ["S", "V", "DF", "RV", "SF", "EL", "C", "ALT", "NB", "LA", "KD", "SK", "KRP"]),
+}
+
+
 def write_csv(year, rows_by_op, party_cols):
     path = os.path.join(DATA, f"ft-{year}.csv")
     fields = ["id", "land", "storkreds", "name", "valid"] + party_cols
@@ -219,6 +282,18 @@ def write_csv(year, rows_by_op, party_cols):
 
 
 def main():
+    years = [y for y in sys.argv[1:] if y in COLS]
+    if years:
+        for y in years:
+            table, pm, cols = COLS[y]
+            write_polling_csv(y, fetch_polling(table, pm), cols)
+        return
+    if "op2026" in sys.argv:   # 舊：提名區層級
+        r26 = fetch_opstilling("FV26TOTA", PARTY_2026)
+        cols26 = ["S", "V", "M", "SF", "DD", "LA", "C", "EL", "RV", "BP", "ALT", "DF"]
+        write_csv(2026, r26, cols26)
+        print("2026 national", {p: sum(r26[o].get(p, 0) for o in r26) for p in cols26})
+        return
     dump_info("FV22TOTA")
     dump_info("FV19TOTA")
     print("fetch 2022…")

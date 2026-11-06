@@ -10,3 +10,5 @@
 - **單位**：Electoral Commission 投票所（提前＋當日同址合併）；含原毛利選區所（本夾廢平行選區席，併入四區切開）。
 - **校準**：sage-archive 投票所層 × scgElectionsNZ 官方選區政黨票縮放。
 - **重抓**：[`../_fetch_sage.py`](../_fetch_sage.py)。不入庫 parquet／rda 原檔。
+
+`polls.csv`：2026 大選前政黨票民調（RNZ–Reid、1 News–Verian、Freshwater、Curia），摘自 Wikipedia「Opinion polling for the 2026 New Zealand general election」（2026-11-03）。

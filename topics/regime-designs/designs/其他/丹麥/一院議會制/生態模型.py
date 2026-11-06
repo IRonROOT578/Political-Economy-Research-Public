@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 """丹麥一院議會制：得票 → 並立選制 → 席次 → 行政首長。
 
-得票：DST Statistikbanken FV22TOTA／FV19TOTA 逐 **opstillingskreds**（92 區）
-→ 資料/ft-2022.csv、ft-2019.csv（`_fetch_dst.py`）。並立 180＝單一 106＋複數 70＋北約 4；
+得票：DST Statistikbanken FV26TOTA／FV22TOTA／FV19TOTA 逐 **afstemningsområde**（投票所，約 1,300 個；依所屬提名區排序）
+→ 資料/ft-2026.csv、ft-2022.csv、ft-2019.csv（`_fetch_dst.py`）。並立 180＝單一 106＋複數 70＋北約 4；
 **不是** 135＋40 補償。偏好排序是假設（見 12）。
 
     python 生態模型.py
@@ -35,6 +35,7 @@ POS = {
     "DF": (0.1, 0.85),
     "DD": (0.2, 0.9),
     "NB": (0.35, 0.95),
+    "BP": (0.3, 0.9),   # Borgernes Parti（2026 新黨）：右翼民粹、限移民（假設）
 }
 TYPES = [(0.30, 1.0, 0.5), (0.40, 0.5, 1.0), (0.30, 0.8, 0.8)]
 BALANCED = (0.8, 0.8)
@@ -47,6 +48,16 @@ assert sum(SMD_N.values()) == SMD_MAIN and sum(LIST_M.values()) == LIST_MAIN
 MAIN = list(POS.keys())
 
 ELECTIONS = {
+    "2026-03": {
+        "file": "ft-2026.csv",
+        "actual": {
+            "S": 38, "SF": 20, "V": 18, "DF": 16, "LA": 16, "M": 14, "C": 13,
+            "EL": 11, "DD": 10, "RV": 10, "ALT": 5, "BP": 4,
+        },
+        "actual_total": 175,
+        "na": {"IA": 1, "Naleraq": 1, "JF": 1, "SB": 1},
+        "cabinet": ("（2026 組閣未入本夾）", (), 0),
+    },
     "2022-11": {
         "file": "ft-2022.csv",
         "actual": {
@@ -80,7 +91,7 @@ def load(label):
         votes = {}
         other = 0
         for k, v in r.items():
-            if k in ("id", "land", "storkreds", "name", "valid", "eligible"):
+            if k in ("id", "op", "land", "storkreds", "name", "valid", "eligible"):
                 continue
             n = int(v or 0)
             if k in POS:
@@ -302,7 +313,7 @@ def fmt(d):
 
 
 def projection_term3():
-    """第 3 屆：以 2022 opstilling 地理，略減翼側、略增中位（誘因假設，非民調）。"""
+    """第 3 屆：以 2022 投票所地理，略減翼側、略增中位（誘因假設，非民調）。"""
     units = load("2022-11")
     # 全國份額調整係數
     base = {}
@@ -346,7 +357,7 @@ def main():
         print("組閣聯盟／多數派政府", "＋".join(seq), "=", acc)
         print("stats", stats)
         return
-    for label in ("2022-11", "2019-06"):
+    for label in ("2026-03", "2022-11", "2019-06"):
         smd, lst, na, total, stats, _ = run(label)
         pm, _, duel = head_of_gov(total)
         seq, acc = coalition(total, pm)

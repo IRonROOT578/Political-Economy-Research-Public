@@ -5,7 +5,7 @@
 <text x="0" y="-21.315" text-anchor="middle" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="1.35" fill="#111">BMG 2026-10 套本夾（400）</text>
 <circle cx="-20.0000" cy="-0.0000" r="0.4921" fill="#326760" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="-19.9635" cy="-1.2076" r="0.4921" fill="#02A95B" stroke="#ffffff" stroke-width="0.04"/>
-<circle cx="-19.8542" cy="-2.4107" r="0.4921" fill="#FDF38E" stroke="#ffffff" stroke-width="0.04"/>
+<circle cx="-19.8542" cy="-2.4107" r="0.4921" fill="#02A95B" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="-19.6724" cy="-3.6051" r="0.4921" fill="#E4003B" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="-19.4188" cy="-4.7863" r="0.4921" fill="#E4003B" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="-19.0944" cy="-5.9501" r="0.4921" fill="#E4003B" stroke="#ffffff" stroke-width="0.04"/>
@@ -153,7 +153,7 @@
 <circle cx="17.5395" cy="0.0000" r="0.4921" fill="#48A5EE" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="-16.3092" cy="-0.0000" r="0.4921" fill="#2AA82C" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="-16.2636" cy="-1.2188" r="0.4921" fill="#02A95B" stroke="#ffffff" stroke-width="0.04"/>
-<circle cx="-16.1270" cy="-2.4308" r="0.4921" fill="#E4003B" stroke="#ffffff" stroke-width="0.04"/>
+<circle cx="-16.1270" cy="-2.4308" r="0.4921" fill="#005B54" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="-15.9003" cy="-3.6291" r="0.4921" fill="#E4003B" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="-15.5846" cy="-4.8072" r="0.4921" fill="#E4003B" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="-15.1818" cy="-5.9584" r="0.4921" fill="#E4003B" stroke="#ffffff" stroke-width="0.04"/>
@@ -192,7 +192,7 @@
 <circle cx="15.5846" cy="-4.8072" r="0.4921" fill="#12B6CF" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="15.9003" cy="-3.6291" r="0.4921" fill="#12B6CF" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="16.1270" cy="-2.4308" r="0.4921" fill="#12B6CF" stroke="#ffffff" stroke-width="0.04"/>
-<circle cx="16.2636" cy="-1.2188" r="0.4921" fill="#6B2D5C" stroke="#ffffff" stroke-width="0.04"/>
+<circle cx="16.2636" cy="-1.2188" r="0.4921" fill="#12B6CF" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="16.3092" cy="0.0000" r="0.4921" fill="#48A5EE" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="-15.0789" cy="-0.0000" r="0.4921" fill="#2AA82C" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="-15.0300" cy="-1.2133" r="0.4921" fill="#02A95B" stroke="#ffffff" stroke-width="0.04"/>
@@ -234,7 +234,7 @@
 <circle cx="14.8837" cy="-2.4188" r="0.4921" fill="#12B6CF" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="15.0300" cy="-1.2133" r="0.4921" fill="#12B6CF" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="15.0789" cy="-0.0000" r="0.4921" fill="#6B2D5C" stroke="#ffffff" stroke-width="0.04"/>
-<circle cx="-13.8487" cy="-0.0000" r="0.4921" fill="#02A95B" stroke="#ffffff" stroke-width="0.04"/>
+<circle cx="-13.8487" cy="-0.0000" r="0.4921" fill="#2AA82C" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="-13.7929" cy="-1.2414" r="0.4921" fill="#02A95B" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="-13.6261" cy="-2.4728" r="0.4921" fill="#E4003B" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="-13.3496" cy="-3.6843" r="0.4921" fill="#E4003B" stroke="#ffffff" stroke-width="0.04"/>
@@ -361,7 +361,7 @@
 <circle cx="10.0838" cy="-1.2244" r="0.4921" fill="#12B6CF" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="10.1578" cy="0.0000" r="0.4921" fill="#6B2D5C" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="-8.9276" cy="-0.0000" r="0.4921" fill="#02A95B" stroke="#ffffff" stroke-width="0.04"/>
-<circle cx="-8.8367" cy="-1.2705" r="0.4921" fill="#005B54" stroke="#ffffff" stroke-width="0.04"/>
+<circle cx="-8.8367" cy="-1.2705" r="0.4921" fill="#FDF38E" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="-8.5659" cy="-2.5152" r="0.4921" fill="#E4003B" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="-8.1208" cy="-3.7086" r="0.4921" fill="#E4003B" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="-7.5104" cy="-4.8266" r="0.4921" fill="#E4003B" stroke="#ffffff" stroke-width="0.04"/>
@@ -407,7 +407,7 @@
 <rect x="-20.369" y="1.350" width="1.05" height="1.05" fill="#326760" stroke="#555" stroke-width="0.06" rx="0.12"/>
 <text x="-19.019" y="2.230" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="0.95" fill="#111">SF 1</text>
 <rect x="-6.626" y="1.350" width="1.05" height="1.05" fill="#2AA82C" stroke="#555" stroke-width="0.06" rx="0.12"/>
-<text x="-5.276" y="2.230" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="0.95" fill="#111">SDLP 4</text>
+<text x="-5.276" y="2.230" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="0.95" fill="#111">SDLP 5</text>
 <rect x="7.118" y="1.350" width="1.05" height="1.05" fill="#02A95B" stroke="#555" stroke-width="0.06" rx="0.12"/>
 <text x="8.468" y="2.230" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="0.95" fill="#111">Green 15</text>
 <rect x="-20.369" y="2.900" width="1.05" height="1.05" fill="#FDF38E" stroke="#555" stroke-width="0.06" rx="0.12"/>
@@ -415,7 +415,7 @@
 <rect x="-6.626" y="2.900" width="1.05" height="1.05" fill="#005B54" stroke="#555" stroke-width="0.06" rx="0.12"/>
 <text x="-5.276" y="3.780" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="0.95" fill="#111">PC 1</text>
 <rect x="7.118" y="2.900" width="1.05" height="1.05" fill="#E4003B" stroke="#555" stroke-width="0.06" rx="0.12"/>
-<text x="8.468" y="3.780" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="0.95" fill="#111">Lab 149</text>
+<text x="8.468" y="3.780" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="0.95" fill="#111">Lab 148</text>
 <rect x="-20.369" y="4.450" width="1.05" height="1.05" fill="#F6CB2F" stroke="#555" stroke-width="0.06" rx="0.12"/>
 <text x="-19.019" y="5.330" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="0.95" fill="#111">Alliance 2</text>
 <rect x="-6.626" y="4.450" width="1.05" height="1.05" fill="#FAA61A" stroke="#555" stroke-width="0.06" rx="0.12"/>
@@ -423,9 +423,9 @@
 <rect x="7.118" y="4.450" width="1.05" height="1.05" fill="#0087DC" stroke="#555" stroke-width="0.06" rx="0.12"/>
 <text x="8.468" y="5.330" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="0.95" fill="#111">Con 164</text>
 <rect x="-20.369" y="6.000" width="1.05" height="1.05" fill="#12B6CF" stroke="#555" stroke-width="0.06" rx="0.12"/>
-<text x="-19.019" y="6.880" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="0.95" fill="#111">Reform 33</text>
+<text x="-19.019" y="6.880" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="0.95" fill="#111">Reform 34</text>
 <rect x="-6.626" y="6.000" width="1.05" height="1.05" fill="#6B2D5C" stroke="#555" stroke-width="0.06" rx="0.12"/>
-<text x="-5.276" y="6.880" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="0.95" fill="#111">RB 10</text>
+<text x="-5.276" y="6.880" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="0.95" fill="#111">RB 9</text>
 <rect x="7.118" y="6.000" width="1.05" height="1.05" fill="#48A5EE" stroke="#555" stroke-width="0.06" rx="0.12"/>
 <text x="8.468" y="6.880" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="0.95" fill="#111">UUP 2</text>
 <rect x="-20.369" y="7.550" width="1.05" height="1.05" fill="#D46A4C" stroke="#555" stroke-width="0.06" rx="0.12"/>

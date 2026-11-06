@@ -67,7 +67,7 @@
 <circle cx="-15.2526" cy="-4.0869" r="0.8419" fill="#4CAF50" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="-14.5886" cy="-6.0428" r="0.8419" fill="#4CAF50" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="-13.6751" cy="-7.8953" r="0.8419" fill="#4CAF50" stroke="#ffffff" stroke-width="0.04"/>
-<circle cx="-12.5276" cy="-9.6127" r="0.8419" fill="#006B2D" stroke="#ffffff" stroke-width="0.04"/>
+<circle cx="-12.5276" cy="-9.6127" r="0.8419" fill="#4CAF50" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="-11.1657" cy="-11.1657" r="0.8419" fill="#006B2D" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="-9.6127" cy="-12.5276" r="0.8419" fill="#1E5BC6" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="-7.8953" cy="-13.6751" r="0.8419" fill="#1E5BC6" stroke="#ffffff" stroke-width="0.04"/>
@@ -130,7 +130,7 @@
 <circle cx="-9.2390" cy="-2.1087" r="0.8419" fill="#4CAF50" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="-8.5381" cy="-4.1117" r="0.8419" fill="#4CAF50" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="-7.4091" cy="-5.9086" r="0.8419" fill="#006B2D" stroke="#ffffff" stroke-width="0.04"/>
-<circle cx="-5.9086" cy="-7.4091" r="0.8419" fill="#1E5BC6" stroke="#ffffff" stroke-width="0.04"/>
+<circle cx="-5.9086" cy="-7.4091" r="0.8419" fill="#8B0000" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="-4.1117" cy="-8.5381" r="0.8419" fill="#1E5BC6" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="-2.1087" cy="-9.2390" r="0.8419" fill="#9BC53D" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="-0.0000" cy="-9.4766" r="0.8419" fill="#9BC53D" stroke="#ffffff" stroke-width="0.04"/>
@@ -144,10 +144,10 @@
 <circle cx="-7.3719" cy="-0.0000" r="0.8419" fill="#C8102E" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="-7.0733" cy="-2.0769" r="0.8419" fill="#4CAF50" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="-6.2016" cy="-3.9855" r="0.8419" fill="#4CAF50" stroke="#ffffff" stroke-width="0.04"/>
-<circle cx="-4.8276" cy="-5.5713" r="0.8419" fill="#8B0000" stroke="#ffffff" stroke-width="0.04"/>
+<circle cx="-4.8276" cy="-5.5713" r="0.8419" fill="#006B2D" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="-3.0624" cy="-6.7057" r="0.8419" fill="#1E5BC6" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="-1.0491" cy="-7.2969" r="0.8419" fill="#9BC53D" stroke="#ffffff" stroke-width="0.04"/>
-<circle cx="1.0491" cy="-7.2969" r="0.8419" fill="#9BC53D" stroke="#ffffff" stroke-width="0.04"/>
+<circle cx="1.0491" cy="-7.2969" r="0.8419" fill="#00A7E1" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="3.0624" cy="-6.7057" r="0.8419" fill="#0C2340" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="4.8276" cy="-5.5713" r="0.8419" fill="#0C2340" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="6.2016" cy="-3.9855" r="0.8419" fill="#0C2340" stroke="#ffffff" stroke-width="0.04"/>
@@ -157,17 +157,17 @@
 <rect x="-20.631" y="1.350" width="1.05" height="1.05" fill="#C8102E" stroke="#555" stroke-width="0.06" rx="0.12"/>
 <text x="-19.281" y="2.230" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="0.95" fill="#111">PRO 12</text>
 <rect x="-6.597" y="1.350" width="1.05" height="1.05" fill="#4CAF50" stroke="#555" stroke-width="0.06" rx="0.12"/>
-<text x="-5.247" y="2.230" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="0.95" fill="#111">D66 21</text>
+<text x="-5.247" y="2.230" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="0.95" fill="#111">D66 22</text>
 <rect x="7.438" y="1.350" width="1.05" height="1.05" fill="#006B2D" stroke="#555" stroke-width="0.06" rx="0.12"/>
 <text x="8.788" y="2.230" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="0.95" fill="#111">PvdD 8</text>
 <rect x="-20.631" y="2.900" width="1.05" height="1.05" fill="#8B0000" stroke="#555" stroke-width="0.06" rx="0.12"/>
 <text x="-19.281" y="3.780" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="0.95" fill="#111">SP 2</text>
 <rect x="-6.597" y="2.900" width="1.05" height="1.05" fill="#1E5BC6" stroke="#555" stroke-width="0.06" rx="0.12"/>
-<text x="-5.247" y="3.780" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="0.95" fill="#111">VVD 21</text>
+<text x="-5.247" y="3.780" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="0.95" fill="#111">VVD 20</text>
 <rect x="7.438" y="2.900" width="1.05" height="1.05" fill="#9BC53D" stroke="#555" stroke-width="0.06" rx="0.12"/>
-<text x="8.788" y="3.780" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="0.95" fill="#111">CDA 16</text>
+<text x="8.788" y="3.780" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="0.95" fill="#111">CDA 15</text>
 <rect x="-20.631" y="4.450" width="1.05" height="1.05" fill="#00A7E1" stroke="#555" stroke-width="0.06" rx="0.12"/>
-<text x="-19.281" y="5.330" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="0.95" fill="#111">CU 3</text>
+<text x="-19.281" y="5.330" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="0.95" fill="#111">CU 4</text>
 <rect x="-6.597" y="4.450" width="1.05" height="1.05" fill="#92278F" stroke="#555" stroke-width="0.06" rx="0.12"/>
 <text x="-5.247" y="5.330" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="0.95" fill="#111">50PLUS 1</text>
 <rect x="7.438" y="4.450" width="1.05" height="1.05" fill="#0C2340" stroke="#555" stroke-width="0.06" rx="0.12"/>
