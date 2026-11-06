@@ -2,7 +2,7 @@
 """丹麥一院議會制：得票 → 並立選制 → 席次 → 行政首長。
 
 得票：DST Statistikbanken FV26TOTA／FV22TOTA／FV19TOTA 逐 **afstemningsområde**（投票所，約 1,300 個；依所屬提名區排序）
-→ 資料/ft-2026.csv、ft-2022.csv、ft-2019.csv（`_fetch_dst.py`）。並立 180＝單一 106＋複數 70＋北約 4；
+→ 資料/ft-2026.csv、ft-2022.csv、ft-2019.csv（`_fetch_dst.py`）。並立 180＝單一 106＋複數 70＋北大西洋 4；
 **不是** 135＋40 補償。偏好排序是假設（見 12）。
 
     python 生態模型.py
@@ -343,7 +343,7 @@ def projection_term3():
 
 def main():
     sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8")
-    print(f"本夾 {TOTAL}＝單一 {SMD_MAIN}＋複數 {LIST_MAIN}＋北約 {NA}；過半 ≥{NEED}")
+    print(f"本夾 {TOTAL}＝單一 {SMD_MAIN}＋複數 {LIST_MAIN}＋北大西洋 {NA}；過半 ≥{NEED}")
     print("單一各區", SMD_N)
     print("複數各區 M", LIST_M)
     if "--projection" in sys.argv:
@@ -351,7 +351,7 @@ def main():
         pm, _, duel = head_of_gov(total)
         seq, acc = coalition(total, pm)
         print("\n## 推估第 3 屆")
-        print("單一", fmt(smd), "；複數", fmt(lst), "；北約→", fmt(na))
+        print("單一", fmt(smd), "；複數", fmt(lst), "；北大西洋→", fmt(na))
         print("全院", fmt(total))
         print("首長", pm, "對決", duel)
         print("組閣聯盟／多數派政府", "＋".join(seq), "=", acc)
@@ -366,7 +366,7 @@ def main():
         print("實際（本土）", fmt(ev["actual"]), f"/ {ev['actual_total']}")
         print("單一", fmt(smd))
         print("複數", fmt(lst))
-        print("北約映射", fmt(na))
+        print("北大西洋映射", fmt(na))
         print("全院", fmt(total), "計", sum(total.values()))
         print("循環區", stats["循環"], "；非第一偏好最多者當選", stats["非第一偏好第一名當選"])
         print("首長", pm, "；對決", duel)
