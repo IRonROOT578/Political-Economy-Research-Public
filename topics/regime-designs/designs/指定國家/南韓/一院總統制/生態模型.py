@@ -194,14 +194,27 @@ def main():
             s, _ = single_seats(dfp, dict(q, **{D: qd}))
             print(f"| {qd:.0%} | {s[D]}／{s[P]}／{s[R]} |")
         return
+    # 國會主算：2024 實際 2,847 邑面洞地理拆回實際政黨，逐黨縮放到各屆假設的全國份額（PARTY_TERMS），
+    # 同一張新選區圖、top-3 孔多賽（祖國革新黨也是區域候選人）；名單 8 區黑爾＋最大餘數。
+    import 近期大選重算 as K
+    prov = K.shares_2024()
+    w = {p: K.PROVINCES[p][0] for p in prov}
+    nat = {k: sum(prov[p][k] * w[p] for p in prov) / sum(w.values()) for k in K.LIST_PARTIES}
     for t in TERMS:
-        (w, Pw, pc), s, cyc, l, m = run(t)
-        print(f"第 {t} 屆 總統：{w}（循環 {pc}） 民主對國民力量 {Pw[(D, P)]:.1%}、"
+        (pw, Pw, pc) = president(TERMS[t][0], TERMS[t][2])
+        print(f"第 {t} 屆 總統：{pw}（循環 {pc}） 民主對國民力量 {Pw[(D, P)]:.1%}、"
               f"改革對國民力量 {Pw[(R, P)]:.1%}、改革對民主 {Pw[(R, D)]:.1%}")
-        print(f"    單一 150：{s}（循環選區 {cyc}）  複數 100：{l}")
-        _, _, (py, safe) = single_seats(TERMS[t][1], TERMS[t][2], by_region=True)
-        print(f"    國民力量單一席次中嶺南 {py}、其餘 {s[P] - py}；鐵票區 {safe}／150")
-    print("複數各區 M：", run(3)[4])
+        r = {k: PARTY_TERMS[t].get(k, 0) / nat[k] for k in K.LIST_PARTIES}
+        K.report(f"第 {t} 屆（推估）", None, *reversed(K.units_by_ratio(r)))
+    print("（複數各區 M：", run(3)[4], "）")
+
+
+# 國會主算用：各屆名單（＝區域真誠第一偏好）全國份額假設（%）。綠色正義黨＝進步黨＋正義黨等左派小黨。
+PARTY_TERMS = {
+    3: {"民主黨": 36, "國民力量": 34, "祖國革新黨": 10, "改革新黨": 9, "綠色正義黨": 7, "自由統一黨": 2, "新未來": 1, "其他": 1},
+    5: {"民主黨": 34, "國民力量": 36, "祖國革新黨": 9, "改革新黨": 9, "綠色正義黨": 7, "自由統一黨": 2, "新未來": 1, "其他": 2},
+    8: {"民主黨": 35, "國民力量": 33, "祖國革新黨": 8, "改革新黨": 11, "綠色正義黨": 8, "自由統一黨": 2, "新未來": 1, "其他": 2},
+}
 
 
 if __name__ == "__main__":

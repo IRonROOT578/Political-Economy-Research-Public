@@ -12,7 +12,10 @@
 
 方法
 - 單一 150：依各市道選舉人數以最大餘數分配，市道內把邑面洞依現行選區順序（大致依區、郡相鄰）、
-  選區內官方邑面洞順序排好，按選舉人數切成等大的新區，跨界的邑面洞按比例拆分。決選者＝第一輪前 3 名；top-3 孔多賽。
+  選區內官方邑面洞順序排好，按選舉人數切成等大的新區，跨界的邑面洞按比例拆分。
+  第一偏好按**實際政黨**（build_kr_units）：2024 區域選舉是聯合推人（祖國革新黨未提名區域），
+  所以每個邑面洞保留在地「進步 vs 保守」比例與改革新黨在地得票，陣營內各黨依市道名單得票拆分。
+  決選者＝第一輪前 3 名政黨；top-3 孔多賽（kr_orders）。舊版只用區域候選人陣營的 single() 留給 --sweep。
 - 複數 100：本夾 8 區（M 同 生態模型.py）；首都圈四區由首爾、仁川、京畿、江原的市道得票按人口混合。
   黑爾額數＋最大餘數、無門檻。「其他」名單拆成 10 個小名單。
 - 總統：全國第一偏好＋第二偏好假設，孔多賽。
@@ -286,8 +289,144 @@ def president_2022(sim_lee):
     return lee, yoon
 
 
+# ---------------------------------------------------------------- 政黨層級（主算）
+# 2024 區域選舉兩大黨聯合推人（民主黨讓祖國革新黨不提名區域、綠色正義黨等在多數區讓出），
+# 區域得票不是本制下的真誠第一偏好。主算把每個邑面洞拆回實際政黨：
+#   保留該邑面洞的「進步 vs 保守」比例與改革新黨的在地得票（未提名處用市道名單得票率），
+#   陣營內各黨依該市道名單得票比例（祖國革新黨在洞〔都市〕略強、邑面〔鄉村〕略弱）。
+KJ, KL, KN, KF = "祖國革新黨", "綠色正義黨", "新未來", "自由統一黨"
+QK = dict(Q)   # 15 §2.3：民主黨選民 55% 把改革新黨排在國民力量前、國民力量選民 90% 把改革新黨排在民主黨前、改革新黨選民 60% 把國民力量排在民主黨前
+
+
+def kr_orders(q=QK):
+    return {
+        D: [(q[D], [D, KJ, KL, KN, R, P, KF]), (1 - q[D], [D, KJ, KL, KN, P, R, KF])],
+        KJ: [(0.95, [KJ, D, KL, KN, R, P, KF]), (0.05, [KJ, KL, D, KN, P, R, KF])],
+        KL: [(1.0, [KL, KJ, D, KN, R, P, KF])],
+        KN: [(0.80, [KN, R, D, KJ, KL, P, KF]), (0.20, [KN, D, R, KJ, KL, P, KF])],
+        R: [(q[R] * 0.6, [R, P, KF, KN, D, KJ, KL]), (q[R] * 0.4, [R, P, KF, KN, KJ, D, KL]),
+            ((1 - q[R]) * 0.7, [R, KN, D, KJ, KL, P, KF]), ((1 - q[R]) * 0.3, [R, KN, KJ, D, KL, P, KF])],
+        P: [(q[P] * 0.6, [P, KF, R, KN, D, KJ, KL]), (q[P] * 0.4, [P, KF, R, KN, KJ, D, KL]),
+            (1 - q[P], [P, KF, KN, D, R, KJ, KL])],
+        KF: [(1.0, [KF, P, R, KN, D, KJ, KL])],
+        O: [(0.5, [P, KF, R, KN, D, KJ, KL]), (0.5, [R, KN, D, KJ, KL, P, KF])],
+    }
+
+
+def build_kr_units(districts, prov_shares):
+    """逐邑面洞 {黨代碼: 票} → {政黨: 票}。"""
+    stat = {}
+    for p, name, e, v in districts:
+        tot = sum(v.values()) or e or 1
+        dong = 1.0 if name.split("/")[1].endswith("동") else 0.0
+        s = stat.setdefault(p, [0.0, 0.0])
+        s[0] += tot
+        s[1] += tot * dong
+    out = []
+    for p, name, e, v in districts:
+        sh = prov_shares[p]
+        tot = sum(v.values()) or e or 1
+        vl = sum(v.get(x, 0) for x in ("民", "進", "綠", "新"))
+        vr = sum(v.get(x, 0) for x in ("國", "統"))
+        vc = v.get("改", 0)
+        dong = 1.0 if name.split("/")[1].endswith("동") else 0.0
+        mod = 1.0 + 0.20 * (dong - stat[p][1] / stat[p][0])
+        base_ref = sh.get("改革新黨", 0.0) / 100.0 * mod
+        ref = max(vc / tot, base_ref) if vc > 0 else base_ref
+        oth = sh.get("其他", 0.0) / 100.0
+        rem = max(0.0, 1.0 - ref - oth)
+        lk = [x for x in (D, KJ, KL, KN) if sh.get(x, 0.0) > 0]
+        rk = [x for x in (P, KF) if sh.get(x, 0.0) > 0]
+        sl, sr = sum(sh[x] for x in lk) or 1.0, sum(sh[x] for x in rk) or 1.0
+        lr = vl / (vl + vr) if vl + vr > 0 else sl / (sl + sr)
+        raw = {x: sh[x] for x in lk}
+        if KJ in raw:
+            raw[KJ] = sh[KJ] * mod
+            raw[D] = max(0.1, sh[D] - sh[KJ] * (mod - 1.0))
+        rs = sum(raw.values()) or 1.0
+        pv = {x: tot * rem * lr * raw[x] / rs for x in lk}
+        pv.update({x: tot * rem * (1 - lr) * sh[x] / sr for x in rk})
+        pv[R] = tot * ref
+        pv[O] = tot * oth
+        out.append((p, name, e, pv))
+    return out
+
+
+def units_by_ratio(r, prov=None):
+    """各黨相對 2024 的倍數 r → (逐邑面洞政黨票, 各市道名單得票%)。民調與生態模型推估共用。"""
+    prov = prov or shares_2024()
+    new = {}
+    for p, sh in prov.items():
+        w = {k: x * r.get(k, 1.0) for k, x in sh.items()}
+        t = sum(w.values())
+        new[p] = {k: x * 100 / t for k, x in w.items()}
+    scaled = []
+    for p, name, e, v in DISTRICTS_2024:
+        nv = dict(v)
+        sh = prov[p]
+        if "民" in nv:
+            nv["民"] *= (sh[D] * r.get(D, 1) + sh[KJ] * r.get(KJ, 1)) / (sh[D] + sh[KJ])
+        if "國" in nv:
+            nv["國"] *= r.get(P, 1)
+        if "改" in nv:
+            nv["改"] *= r.get(R, 1)
+        scaled.append((p, name, e, nv))
+    return build_kr_units(scaled, new), new
+
+
+def kr_single(merged, q=QK, k=3):
+    """top-k 孔多賽（Ranked Pairs）。回傳 ({黨: 席}, {市道: {黨: 席}}, 統計)。"""
+    ords = kr_orders(q)
+    seats, by_prov = {}, {}
+    st = {"循環": 0, "鐵票": 0, "相對多數不同": 0, "相對多數": {}}
+    left = (D, KJ, KL, KN)
+    for p, v, _ in merged:
+        fin = sorted((x for x in v if x != O and v[x] > 0), key=lambda x: (-v[x], x))[:k]
+        pw = {(a, b): 0.0 for a in fin for b in fin if a != b}
+        for g, val in v.items():
+            for w, od in ords.get(g, []):
+                rr = [x for x in od if x in fin]
+                for i, a in enumerate(rr):
+                    for b in rr[i + 1:]:
+                        pw[(a, b)] += val * w
+        win = next((a for a in fin if all(pw[(a, b)] > pw[(b, a)] for b in fin if b != a)), None)
+        cyc = win is None
+        if cyc:
+            locked = set()
+
+            def reach(x, y):
+                todo, seen = [x], set()
+                while todo:
+                    u = todo.pop()
+                    if u == y:
+                        return True
+                    seen.add(u)
+                    todo += [b for a, b in locked if a == u and b not in seen]
+                return False
+
+            for _, a, b in sorted(((pw[(a, b)], a, b) for a in fin for b in fin
+                                   if a != b and pw[(a, b)] > pw[(b, a)]), reverse=True):
+                if not reach(b, a):
+                    locked.add((a, b))
+            win = next(a for a in fin if a not in {b for _, b in locked})
+        seats[win] = seats.get(win, 0) + 1
+        by_prov.setdefault(p, {})
+        by_prov[p][win] = by_prov[p].get(win, 0) + 1
+        st["循環"] += cyc
+        tot = sum(v.values())
+        bloc = sum(v.get(x, 0) for x in left) if win in left else (v.get(P, 0) + v.get(KF, 0) if win in (P, KF) else v.get(win, 0))
+        st["鐵票"] += bloc / tot > 0.5
+        st["相對多數"][fin[0]] = st["相對多數"].get(fin[0], 0) + 1
+        st["相對多數不同"] += fin[0] != win
+    return seats, by_prov, st
+
+
 # ---------------------------------------------------------------- 輸出
 THRESH = {"全院過半": 126, "全院 3/5": 150, "全院 2/3": 167}
+
+
+def fmt(d):
+    return "、".join(f"{k} {v}" for k, v in sorted(d.items(), key=lambda kv: (-kv[1], kv[0])) if v)
 
 
 def total(s, l):
@@ -298,19 +437,22 @@ def total(s, l):
     return dict(sorted(t.items(), key=lambda kv: -kv[1]))
 
 
-def report(title, districts, prov_shares):
-    s, bp, st = single(merge(districts))
+def report(title, districts, prov_shares, units=None):
+    units = units or build_kr_units(districts, prov_shares)
+    s, bp, st = kr_single(merge(units))
     l, br, m = lists(prov_shares)
-    print(f"== {title}")
-    print("單一 150：", dict(sorted(s.items(), key=lambda kv: -kv[1])))
-    print("  相對多數（同樣 150 區）：", st["相對多數"], " 孔多賽與相對多數不同的區：", st["相對多數不同"],
-          " 循環：", st["循環"], " 鐵票區：", st["鐵票"])
-    print("  各市道：", {p: v for p, v in bp.items()})
-    print("複數 100：", dict(sorted(l.items(), key=lambda kv: -kv[1])))
+    l = {k: x for k, x in l.items() if not k.startswith("其他")}
+    print(f"## {title}")
+    print(f"單一 150：{fmt(s)}")
+    print(f"（第一輪最高票：{fmt(st['相對多數'])}；孔多賽與最高票不同 {st['相對多數不同']} 區；"
+          f"循環 {st['循環']}；鐵票區 {st['鐵票']}）")
+    print("（各市道：" + "；".join(f"{p} {fmt(v)}" for p, v in bp.items()) + "）")
+    print(f"複數 100：{fmt(l)}")
     for reg, v in br.items():
-        print(f"  {reg}（M={m[reg]}）：", dict(sorted(v.items(), key=lambda kv: -kv[1])))
+        print(f"（{reg} M={m[reg]}：{fmt({k: x for k, x in v.items() if not k.startswith('其他')})}）")
     t = total(s, l)
-    print("全院 250：", t)
+    print(f"全院 250：{fmt(t)}")
+    print()
     return s, l, t
 
 

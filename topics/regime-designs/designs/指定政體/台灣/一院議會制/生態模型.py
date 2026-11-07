@@ -10,9 +10,14 @@
     孔多賽完成法（循環時 Ranked Pairs；完整排序下勝方得票與勝差等價）。
 複數席次 80：7 大區，每區聖拉古，無得票門檻。
 """
-import itertools
+import os
 import random
 import sys
+
+HERE = os.path.dirname(os.path.abspath(__file__))
+if HERE not in sys.path:
+    sys.path.insert(0, HERE)
+from 政黨單位 import condorcet_multi, decompose_term_prefs  # noqa: E402
 
 # ---------------------------------------------------------------- 地理
 # 人口（萬，約 2025），用來分配席次。
@@ -112,7 +117,7 @@ def has_winner(ballots):
     return any(all(P(a, c) > P(c, a) for c in PARTIES if c != a) for a in PARTIES)
 
 
-def districts(base, q, seed=3):
+def districts(base, q, seed=3, lst=None, k=3):
     """逐區回傳 (第一偏好最多者, 當選者, 是否循環)。"""
     rng = random.Random(seed)
     seats = region_seats(99)  # 澎金馬另 1 席
@@ -120,16 +125,16 @@ def districts(base, q, seed=3):
     todo.append((-20, -4))  # 澎金馬：偏藍
     out = []
     for lean, tl in todo:
-        fp = district_first_prefs(base, lean, tl, rng)
-        b = rankings(fp, q)
-        out.append((max(PARTIES, key=fp.get), condorcet(b), not has_winner(b)))
+        fp = decompose_term_prefs(district_first_prefs(base, lean, tl, rng), lst)
+        w, cyc, _, _, top1 = condorcet_multi(fp, q, k=k)
+        out.append((top1, w, cyc))
     return out
 
 
-def single_seats(base, q, seed=3):
+def single_seats(base, q, seed=3, lst=None, k=3):
     out = {p: 0 for p in PARTIES}
-    for _, w, _ in districts(base, q, seed):
-        out[w] += 1
+    for _, w, _ in districts(base, q, seed, lst=lst, k=k):
+        out[w] = out.get(w, 0) + 1
     return out
 
 
@@ -167,29 +172,39 @@ TERMS = {
 }
 
 
-def run(term):
+def run(term, k=3):
     fp, q, lst = TERMS[term]
-    s = single_seats(fp, q)
+    s = single_seats(fp, q, lst=lst, k=k)
     # 「其他名單」是多張各約 1% 的名單，拆開分配
-    shares = {k: v for k, v in lst.items() if k != "其他名單"}
+    shares = {k2: v for k2, v in lst.items() if k2 != "其他名單"}
     for i in range(5):
         shares[f"其他{i}"] = lst["其他名單"] / 5
     l, m = list_seats(shares, lean_of)
-    other = sum(v for k, v in l.items() if k.startswith("其他"))
-    l = {k: v for k, v in l.items() if not k.startswith("其他")}
+    other = sum(v for k2, v in l.items() if k2.startswith("其他"))
+    l = {k2: v for k2, v in l.items() if not k2.startswith("其他")}
     l["其他名單"] = other
     return s, l, m
 
 
 # 全院 180 選首長：各黨議員依下列順序記名排名（假設，見 15 §2.5）
+ALL_MP_PARTIES = [
+    "台灣基進", "台聯", "時代力量", "綠黨與環境團體聯盟", "綠黨", "綠黨社會民主黨聯盟",
+    "小民參政歐巴桑聯盟", "民進黨", "民眾黨", "無黨籍／地方", "國民黨", "親民黨", "新黨",
+]
 MP_RANK = {
-    "台灣基進": ["台灣基進", "時代力量", "綠黨與環境團體聯盟", "民進黨", "民眾黨", "國民黨", "親民黨"],
-    "時代力量": ["時代力量", "綠黨與環境團體聯盟", "台灣基進", "民進黨", "民眾黨", "國民黨", "親民黨"],
-    "綠黨與環境團體聯盟": ["綠黨與環境團體聯盟", "時代力量", "民進黨", "台灣基進", "民眾黨", "國民黨", "親民黨"],
-    "民進黨": ["民進黨", "綠黨與環境團體聯盟", "時代力量", "台灣基進", "民眾黨", "國民黨", "親民黨"],
-    "民眾黨": ["民眾黨", "國民黨", "親民黨", "民進黨", "時代力量", "綠黨與環境團體聯盟", "台灣基進"],
-    "國民黨": ["國民黨", "親民黨", "民眾黨", "民進黨", "時代力量", "綠黨與環境團體聯盟", "台灣基進"],
-    "親民黨": ["親民黨", "國民黨", "民眾黨", "民進黨", "時代力量", "綠黨與環境團體聯盟", "台灣基進"],
+    "台灣基進": ["台灣基進", "時代力量", "綠黨與環境團體聯盟", "綠黨", "綠黨社會民主黨聯盟", "小民參政歐巴桑聯盟", "台聯", "民進黨", "民眾黨", "無黨籍／地方", "國民黨", "親民黨", "新黨"],
+    "台聯": ["台聯", "台灣基進", "民進黨", "時代力量", "綠黨與環境團體聯盟", "綠黨", "綠黨社會民主黨聯盟", "小民參政歐巴桑聯盟", "民眾黨", "無黨籍／地方", "親民黨", "國民黨", "新黨"],
+    "時代力量": ["時代力量", "綠黨與環境團體聯盟", "綠黨", "綠黨社會民主黨聯盟", "小民參政歐巴桑聯盟", "台灣基進", "民進黨", "民眾黨", "無黨籍／地方", "國民黨", "親民黨", "台聯", "新黨"],
+    "綠黨與環境團體聯盟": ["綠黨與環境團體聯盟", "綠黨", "綠黨社會民主黨聯盟", "小民參政歐巴桑聯盟", "時代力量", "民進黨", "台灣基進", "民眾黨", "無黨籍／地方", "國民黨", "親民黨", "台聯", "新黨"],
+    "綠黨": ["綠黨", "綠黨與環境團體聯盟", "綠黨社會民主黨聯盟", "小民參政歐巴桑聯盟", "時代力量", "民進黨", "台灣基進", "民眾黨", "無黨籍／地方", "國民黨", "親民黨", "台聯", "新黨"],
+    "綠黨社會民主黨聯盟": ["綠黨社會民主黨聯盟", "綠黨", "綠黨與環境團體聯盟", "小民參政歐巴桑聯盟", "時代力量", "民進黨", "台灣基進", "民眾黨", "無黨籍／地方", "國民黨", "親民黨", "台聯", "新黨"],
+    "小民參政歐巴桑聯盟": ["小民參政歐巴桑聯盟", "綠黨", "綠黨與環境團體聯盟", "綠黨社會民主黨聯盟", "時代力量", "民進黨", "台灣基進", "民眾黨", "無黨籍／地方", "國民黨", "親民黨", "台聯", "新黨"],
+    "民進黨": ["民進黨", "綠黨與環境團體聯盟", "綠黨", "綠黨社會民主黨聯盟", "小民參政歐巴桑聯盟", "時代力量", "台灣基進", "台聯", "民眾黨", "無黨籍／地方", "國民黨", "親民黨", "新黨"],
+    "民眾黨": ["民眾黨", "國民黨", "親民黨", "無黨籍／地方", "民進黨", "時代力量", "綠黨與環境團體聯盟", "綠黨", "綠黨社會民主黨聯盟", "小民參政歐巴桑聯盟", "台灣基進", "台聯", "新黨"],
+    "無黨籍／地方": ["無黨籍／地方", "國民黨", "親民黨", "民眾黨", "民進黨", "時代力量", "綠黨與環境團體聯盟", "綠黨", "綠黨社會民主黨聯盟", "小民參政歐巴桑聯盟", "台灣基進", "台聯", "新黨"],
+    "國民黨": ["國民黨", "親民黨", "新黨", "民眾黨", "無黨籍／地方", "民進黨", "時代力量", "綠黨與環境團體聯盟", "綠黨", "綠黨社會民主黨聯盟", "小民參政歐巴桑聯盟", "台灣基進", "台聯"],
+    "親民黨": ["親民黨", "國民黨", "民眾黨", "無黨籍／地方", "新黨", "民進黨", "時代力量", "綠黨與環境團體聯盟", "綠黨", "綠黨社會民主黨聯盟", "小民參政歐巴桑聯盟", "台灣基進", "台聯"],
+    "新黨": ["新黨", "國民黨", "親民黨", "民眾黨", "無黨籍／地方", "民進黨", "時代力量", "綠黨與環境團體聯盟", "綠黨", "綠黨社會民主黨聯盟", "小民參政歐巴桑聯盟", "台灣基進", "台聯"],
 }
 NEED = 91
 
@@ -222,23 +237,23 @@ def factions(n, part):
 
 def main():
     if "--sweep" in sys.argv:
-        fp, q, _ = TERMS[3]
+        fp, q, lst = TERMS[3]
         print("| 民進黨選民把民眾黨排在國民黨前的比例 | 民進 | 國民 | 民眾 |")
         print("|:--:|:--:|:--:|:--:|")
         for qd in (0.2, 0.3, 0.4, 0.5, 0.6, 0.7):
-            s = single_seats(fp, dict(q, **{"民進黨": qd}))
+            s = single_seats(fp, dict(q, **{"民進黨": qd}), lst=lst)
             print(f"| {qd:.0%} | {s['民進黨']} | {s['國民黨']} | {s['民眾黨']} |")
         print()
         print("| 民眾黨選民把國民黨排在民進黨前的比例 | 民進 | 國民 | 民眾 |")
         print("|:--:|:--:|:--:|:--:|")
         for qt in (0.40, 0.45, 0.50, 0.55, 0.60, 0.65):
-            s = single_seats(fp, dict(q, **{"民眾黨": qt}))
+            s = single_seats(fp, dict(q, **{"民眾黨": qt}), lst=lst)
             print(f"| {qt:.0%} | {s['民進黨']} | {s['國民黨']} | {s['民眾黨']} |")
         return
     for t in TERMS:
         s, l, m = run(t)
-        fp, q, _ = TERMS[t]
-        ds = districts(fp, q)
+        fp, q, lst = TERMS[t]
+        ds = districts(fp, q, lst=lst)
         cyc = sum(c for _, _, c in ds)
         upset = sum(1 for top, w, _ in ds if top != w)
         print(f"第 {t} 屆 單一 100：{s}  複數 80：{l}")

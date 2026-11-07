@@ -6,7 +6,7 @@
 
 得票：中選會選舉資料庫逐村里結果（共用 ../一院議會制/資料/村里-YYYY.csv、名單-YYYY.csv）。
 - 國民院單一 120：各區席次照 生態模型.region_seats(119)＋澎金馬 1；區內依「縣市碼 → 現行立委選區 → 鄉鎮 → 村里」連續切；
-  三黨 top-3 孔多賽（第二偏好 Q_DEFAULT），循環 Ranked Pairs。
+  多黨 top-3 孔多賽（第二偏好 Q_DEFAULT；小黨依 名單-YYYY.csv 各區實際政黨得票拆回各真實政黨），循環 Ranked Pairs。
 - 國民院複數 30：全國一區，政黨票聖拉古、無門檻。
 - 參議院 75：6 區比例（生態模型.SEN_M），政黨票聖拉古、無門檻；「其餘縣市與離島」的名單票依村里政黨票權重拆回縣市。
 - 首長：國民院全院 150 記名排名（MP_RANK），≥76。普通法律：參議院擱置否決、國民院全院 ≥76 重新表決。
@@ -18,12 +18,17 @@ import os
 import sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-sys.path.insert(0, HERE)
+SHARED_TW = os.path.abspath(os.path.join(HERE, "..", "一院議會制"))
+if HERE not in sys.path:
+    sys.path.insert(0, HERE)
+if SHARED_TW not in sys.path:
+    sys.path.append(SHARED_TW)
 import 方案A對照 as A  # noqa: E402
 from 生態模型 import (  # noqa: E402
     AMEND_NA, AMEND_SEN, LIST_N, NEED, ORG_NA, ORG_SEN, PARTIES, Q_DEFAULT, SEN_M, SEN_N, SENATE_ORDER,
-    SENATE_REGIONS, SMD_N, condorcet, fmt, head_of_gov, rankings, region_seats, sainte_lague,
+    SENATE_REGIONS, SMD_N, fmt, head_of_gov, region_seats, sainte_lague,
 )
+from 政黨單位 import condorcet_multi, region_minor_shares, village_party_prefs  # noqa: E402
 
 Q = Q_DEFAULT
 SEN_HALF = SEN_N // 2 + 1  # 38
@@ -43,16 +48,18 @@ def districts(rows):
     return out
 
 
-def single(rows, q=Q, mode="政黨"):
+def single(rows, q=Q, mode="政黨", year=2024, lmap=None, k=3):
     seats, detail = {p: 0 for p in PARTIES}, []
+    if mode == "政黨":
+        lmap = A.load_list(year) if lmap is None else lmap
+        rg, rng = region_minor_shares(lmap, year, A.REGION_ORDER)
+    else:
+        rg = rng = None
     for reg, d in districts(rows):
-        fp = A.first_prefs(d, mode)
-        b = rankings(fp, q)
-        w = condorcet(b)
-        P = lambda a, c: sum(v for r, v in b.items() if r.index(a) < r.index(c))
-        cyc = not any(all(P(a, c) > P(c, a) for c in PARTIES if c != a) for a in PARTIES)
-        seats[w] += 1
-        detail.append((reg, w, max(PARTIES, key=fp.get), cyc))
+        fp = village_party_prefs(d, reg, year, mode, rg, rng)
+        w, cyc, _, _, top1 = condorcet_multi(fp, q, k=k)
+        seats[w] = seats.get(w, 0) + 1
+        detail.append((reg, w, top1, cyc))
     return seats, detail
 
 
@@ -116,9 +123,9 @@ def combos(total, sen):
     return out
 
 
-def run(year, mode="政黨", q=Q, rows=None, list_votes=None, sen_votes=None):
+def run(year, mode="政黨", q=Q, rows=None, list_votes=None, sen_votes=None, k=3):
     rows = A.load(year) if rows is None else rows
-    s, detail = single(rows, q, mode)
+    s, detail = single(rows, q, mode, year=year, k=k)
     nl = national_list(year) if list_votes is None else list_votes
     l30, _ = pr({"全國": nl}, {"全國": LIST_N})
     sen, sen_by = pr(senate_votes(year, rows) if sen_votes is None else sen_votes, SEN_M)
@@ -165,7 +172,7 @@ def scaled_rows(rows, share):
         nr = dict(r)
         for p in PARTIES:
             nr[p] = str(round(int(r[p]) * sc[p]))
-        nr["綠系小黨"] = nr["地方型"] = "0"
+        nr["綠系小黨"] = nr["地方型"] = nr["其他"] = "0"
         nr["政黨票"] = str(sum(int(nr[p]) for p in PARTIES))
         out.append(nr)
     return out
@@ -180,15 +187,15 @@ def three_party(rows):
     return nat, sen
 
 
-def polls():
+def polls(k=3):
     rows = A.load(2024)
     for label, poll in POLLS_2026:
         sr = scaled_rows(rows, poll)
         nat, sen = three_party(sr)
-        report(f"民調 {label}", run(2024, rows=sr, list_votes=nat, sen_votes=sen))
+        report(f"民調 {label}", run(2024, rows=sr, list_votes=nat, sen_votes=sen, k=k))
 
 
-def projection():
+def projection(k=3):
     """第 3 屆（推測）：2024 地理；民進黨、國民黨各讓出 1/8 第一偏好給民眾黨（居中第三黨）。"""
     rows = A.load(2024)
     tot = {p: sum(int(r[p]) for r in rows) for p in PARTIES}
@@ -196,7 +203,7 @@ def projection():
     share["民眾黨"] = tot["民眾黨"] + (tot["民進黨"] + tot["國民黨"]) / 8
     sr = scaled_rows(rows, share)
     nat, sen = three_party(sr)
-    return run(2024, rows=sr, list_votes=nat, sen_votes=sen)
+    return run(2024, rows=sr, list_votes=nat, sen_votes=sen, k=k)
 
 
 YEARS = ((2024, "政黨"), (2024, "總統"), (2020, "政黨"), (2016, "政黨"), (2016, "總統"), (2012, "政黨"), (2012, "總統"))

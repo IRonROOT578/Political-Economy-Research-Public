@@ -5,10 +5,10 @@
 
 得票：中選會選舉資料庫（votedata.zip）逐村里結果，彙整成 資料/村里-YYYY.csv、資料/名單-YYYY.csv。
 第二偏好：沿用 生態模型.py 第 3 屆的 q（民進黨選民把中位第三黨排在國民黨前 50%、國民黨選民把中位第三黨排在民進黨前 85%、
-中位第三黨選民把國民黨排在民進黨前 55%；綠系小黨 民進>中位>國民、地方型 國民>中位>民進）。
+中位第三黨選民把國民黨排在民進黨前 55%；綠系小黨與非綠小黨依 名單-YYYY.csv 各區實際政黨得票拆回各真實政黨）。
 ★ 2012／2016 尚無民眾黨：村里檔「民眾黨」欄＝**親民黨**政黨票（或總統票＝宋楚瑜），輸出時改標「親民黨」。
 單一 100：各區席次照 生態模型.region_seats(99)＋澎金馬 1；區內依「縣市碼 → 現行立委選區 → 鄉鎮 → 村里」連續切成
-政黨票相近的選區（得跨縣市，與 01 §2.6 一致）；三黨 top-3 孔多賽，循環 Ranked Pairs。
+政黨票相近的選區（得跨縣市，與 01 §2.6 一致）；多黨 top-3 孔多賽，循環 Ranked Pairs。
 複數 80：7 區，M＝生態模型.region_seats(80, 8, 14)，聖拉古、無門檻，每個政黨各自一張名單。
 行政首長：全院 180 記名排名投票，議員依所屬政黨的固定排序（生態模型.MP_RANK）；須 ≥91。
 """
@@ -18,8 +18,10 @@ import os
 import sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-sys.path.insert(0, HERE)
-from 生態模型 import NEED, PARTIES, TERMS, condorcet, head_of_gov, rankings, region_seats, sainte_lague  # noqa: E402
+if HERE not in sys.path:
+    sys.path.insert(0, HERE)
+from 生態模型 import NEED, PARTIES, TERMS, head_of_gov, region_seats, sainte_lague  # noqa: E402
+from 政黨單位 import condorcet_multi, region_minor_shares, village_party_prefs  # noqa: E402
 
 Q = TERMS[3][1]
 GROUPS = ["民進黨", "國民黨", "民眾黨", "綠系小黨", "地方型"]
@@ -118,16 +120,18 @@ def first_prefs(villages, mode):
     return {g: v / s for g, v in t.items()}
 
 
-def single(rows, q=Q, mode="政黨"):
+def single(rows, q=Q, mode="政黨", year=2024, lmap=None, k=3):
     seats, detail = {p: 0 for p in PARTIES}, []
+    if mode == "政黨":
+        lmap = load_list(year) if lmap is None else lmap
+        rg, rng = region_minor_shares(lmap, year, REGION_ORDER)
+    else:
+        rg = rng = None
     for reg, d in districts(rows):
-        fp = first_prefs(d, mode)
-        b = rankings(fp, q)
-        w = condorcet(b)
-        P = lambda a, c: sum(v for r, v in b.items() if r.index(a) < r.index(c))
-        cyc = not any(all(P(a, c) > P(c, a) for c in PARTIES if c != a) for a in PARTIES)
-        seats[w] += 1
-        detail.append((reg, d[0]["縣市"], d[0]["村里"], w, max(PARTIES, key=fp.get), cyc, fp))
+        fp = village_party_prefs(d, reg, year, mode, rg, rng)
+        w, cyc, _, _, top1 = condorcet_multi(fp, q, k=k)
+        seats[w] = seats.get(w, 0) + 1
+        detail.append((reg, d[0]["縣市"], d[0]["村里"], w, top1, cyc, fp))
     return seats, detail
 
 
@@ -149,6 +153,7 @@ def lists(year):
 SHORT = {
     "民主進步黨": "民進黨", "中國國民黨": "國民黨", "台灣民眾黨": "民眾黨",
     "親民黨": "親民黨", "時代力量": "時代力量", "台灣團結聯盟": "台聯", "綠黨": "綠黨",
+    "台灣綠黨": "綠黨",
 }
 
 
@@ -157,7 +162,9 @@ def relabel_pre_tpp(year, d):
     if year >= 2020 or "民眾黨" not in d:
         return d
     out = dict(d)
-    out["親民黨"] = out.get("親民黨", 0) + out.pop("民眾黨", 0)
+    v = out.pop("民眾黨", 0)
+    if v:
+        out["親民黨"] = out.get("親民黨", 0) + v
     return out
 
 
@@ -171,16 +178,16 @@ def fmt(d):
     return "、".join(f"{k} {v}" for k, v in sorted(d.items(), key=lambda x: -x[1]) if v)
 
 
-def report(year, mode="政黨", q=Q, verbose=True):
+def report(year, mode="政黨", q=Q, verbose=True, k=3):
     rows = load(year)
-    s, detail = single(rows, q, mode)
+    s, detail = single(rows, q, mode, year=year, k=k)
     l, m = lists(year)
     l = {SHORT.get(p, p): n for p, n in l.items()}
     s = relabel_pre_tpp(year, s)
     total = dict(l)
     for p, n in s.items():
-        total[p] = total.get(p, 0) + n
-    # 保證 head_of_gov 認得出的黨名：親民黨已在 MP_RANK
+        if n:
+            total[p] = total.get(p, 0) + n
     w, duel, seq, acc = head(total)
     if not verbose:
         return s, total, w
@@ -199,7 +206,7 @@ def report(year, mode="政黨", q=Q, verbose=True):
     print("各區單一：", "；".join(f"{r} {fmt(c)}" for r, c in by.items()))
     if "-v" in sys.argv:
         for d in detail:
-            print("   ", d[0], d[1], d[2], d[3], "循環" if d[5] else "", {k: round(v * 100) for k, v in d[6].items()})
+            print("   ", d[0], d[1], d[2], d[3], "循環" if d[5] else "", {k2: round(v * 100) for k2, v in d[6].items()})
     return s, total, w
 
 

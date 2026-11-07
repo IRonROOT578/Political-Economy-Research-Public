@@ -497,18 +497,18 @@ def main():
         print("切點平移半區：2024", tally(single(merge(CIRC_2024, seats, True), o)),
               "2022", tally(single(merge(CIRC_2022, seats, True), o)))
         return
-    t24 = report("2024-06", CIRC_2024, seats, o)
-    print("### 複數（主算：2024 歐洲議會名單票）")
-    euro = show_lists(lists_euro())
-    print_premier(t24, euro, "主算")
-    print("### 複數（對照：2024 國會第一輪，色彩併入聯盟）")
-    leg24 = show_lists(lists_leg(CIRC_2024, LEG_LIST[2024]))
-    print_premier(t24, leg24, "對照")
-    print()
-    t22 = report("2022-06", CIRC_2022, seats, o)
-    print("### 複數（2022 國會第一輪，色彩併入聯盟）")
-    leg22 = show_lists(lists_leg(CIRC_2022, LEG_LIST[2022]))
-    print_premier(t22, leg22, "2022")
+    # 主算（方案 A）：政黨層級的真誠第一偏好，所有表同一組政黨名稱（見 政黨單位.py）
+    import 政黨單位 as PU
+    PU.report("2024-06 國會（政黨真誠第一偏好：2024 歐洲議會政黨票 × 國會第一輪地理）", PU.party_units_2024(), seats)
+    PU.report("2022-06 國會（2022 第一輪陣營票 × 各省陣營內政黨比例）", PU.party_units_2022(), seats)
+    # 對照：2024 第一輪「四大陣營聯合推人」原樣（現行兩輪制下的結盟產物，不是本制的行為）
+    t24 = tally(single(merge(CIRC_2024, seats), o))
+    lb, other = list_to_blocs({p: sum(v) for p, v in lists_leg(CIRC_2024, LEG_LIST[2024]).items()})
+    name = {RN: "國民聯盟系", G: "新人民陣線", C: "中間陣營", LR: "共和黨系"}
+    print("（對照：2024 第一輪四大陣營聯合推人原樣——單一 230 陣營 "
+          + "、".join(f"{name[b]} {t24[b]}" for b in sorted(BLOCS, key=lambda b: -t24[b]))
+          + "；全院 400 陣營 " + "、".join(f"{name[b]} {t24[b] + lb[b]}" for b in sorted(BLOCS, key=lambda b: -(t24[b] + lb[b])))
+          + f"＋未入四陣營 {other}）")
 
 
 if __name__ == "__main__":

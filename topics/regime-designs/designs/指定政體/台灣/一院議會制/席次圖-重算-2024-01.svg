@@ -149,7 +149,7 @@
 <circle cx="-4.6055" cy="-9.2490" r="0.7734" fill="#1B9431" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="-2.8276" cy="-9.9378" r="0.7734" fill="#28C8C8" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="-0.9533" cy="-10.2882" r="0.7734" fill="#28C8C8" stroke="#ffffff" stroke-width="0.04"/>
-<circle cx="0.9533" cy="-10.2882" r="0.7734" fill="#000095" stroke="#ffffff" stroke-width="0.04"/>
+<circle cx="0.9533" cy="-10.2882" r="0.7734" fill="#28C8C8" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="2.8276" cy="-9.9378" r="0.7734" fill="#000095" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="4.6055" cy="-9.2490" r="0.7734" fill="#000095" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="6.2266" cy="-8.2453" r="0.7734" fill="#000095" stroke="#ffffff" stroke-width="0.04"/>
@@ -187,8 +187,8 @@
 <rect x="-20.580" y="1.350" width="1.05" height="1.05" fill="#1B9431" stroke="#555" stroke-width="0.06" rx="0.12"/>
 <text x="-19.230" y="2.230" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="0.95" fill="#111">民主進步黨 66</text>
 <rect x="-6.602" y="1.350" width="1.05" height="1.05" fill="#28C8C8" stroke="#555" stroke-width="0.06" rx="0.12"/>
-<text x="-5.252" y="2.230" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="0.95" fill="#111">台灣民眾黨 28</text>
+<text x="-5.252" y="2.230" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="0.95" fill="#111">台灣民眾黨 29</text>
 <rect x="7.376" y="1.350" width="1.05" height="1.05" fill="#000095" stroke="#555" stroke-width="0.06" rx="0.12"/>
-<text x="8.726" y="2.230" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="0.95" fill="#111">中國國民黨 86</text>
+<text x="8.726" y="2.230" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="0.95" fill="#111">中國國民黨 85</text>
 <text x="0" y="3.250" text-anchor="middle" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="0.85" fill="#444">首長民眾黨（全院排名）；民眾黨＋國民黨 114</text>
 </svg>

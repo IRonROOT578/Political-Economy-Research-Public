@@ -74,7 +74,7 @@
 <circle cx="-6.0428" cy="-14.5886" r="0.8419" fill="#28C8C8" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="-4.0869" cy="-15.2526" r="0.8419" fill="#28C8C8" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="-2.0611" cy="-15.6555" r="0.8419" fill="#28C8C8" stroke="#ffffff" stroke-width="0.04"/>
-<circle cx="0.0000" cy="-15.7906" r="0.8419" fill="#000095" stroke="#ffffff" stroke-width="0.04"/>
+<circle cx="0.0000" cy="-15.7906" r="0.8419" fill="#28C8C8" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="2.0611" cy="-15.6555" r="0.8419" fill="#000095" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="4.0869" cy="-15.2526" r="0.8419" fill="#000095" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="6.0428" cy="-14.5886" r="0.8419" fill="#000095" stroke="#ffffff" stroke-width="0.04"/>
@@ -97,7 +97,7 @@
 <circle cx="-6.2133" cy="-12.1943" r="0.8419" fill="#1B9431" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="-4.2292" cy="-13.0161" r="0.8419" fill="#28C8C8" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="-2.1410" cy="-13.5175" r="0.8419" fill="#28C8C8" stroke="#ffffff" stroke-width="0.04"/>
-<circle cx="0.0000" cy="-13.6859" r="0.8419" fill="#000095" stroke="#ffffff" stroke-width="0.04"/>
+<circle cx="0.0000" cy="-13.6859" r="0.8419" fill="#28C8C8" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="2.1410" cy="-13.5175" r="0.8419" fill="#000095" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="4.2292" cy="-13.0161" r="0.8419" fill="#000095" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="6.2133" cy="-12.1943" r="0.8419" fill="#000095" stroke="#ffffff" stroke-width="0.04"/>
@@ -133,7 +133,7 @@
 <circle cx="-5.9086" cy="-7.4091" r="0.8419" fill="#1B9431" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="-4.1117" cy="-8.5381" r="0.8419" fill="#1B9431" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="-2.1087" cy="-9.2390" r="0.8419" fill="#28C8C8" stroke="#ffffff" stroke-width="0.04"/>
-<circle cx="-0.0000" cy="-9.4766" r="0.8419" fill="#000095" stroke="#ffffff" stroke-width="0.04"/>
+<circle cx="-0.0000" cy="-9.4766" r="0.8419" fill="#28C8C8" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="2.1087" cy="-9.2390" r="0.8419" fill="#000095" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="4.1117" cy="-8.5381" r="0.8419" fill="#000095" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="5.9086" cy="-7.4091" r="0.8419" fill="#000095" stroke="#ffffff" stroke-width="0.04"/>
@@ -159,8 +159,8 @@
 <rect x="-6.597" y="1.350" width="1.05" height="1.05" fill="#F9BE01" stroke="#555" stroke-width="0.06" rx="0.12"/>
 <text x="-5.247" y="2.230" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="0.95" fill="#111">時代力量 1</text>
 <rect x="7.438" y="1.350" width="1.05" height="1.05" fill="#28C8C8" stroke="#555" stroke-width="0.06" rx="0.12"/>
-<text x="8.788" y="2.230" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="0.95" fill="#111">台灣民眾黨 17</text>
+<text x="8.788" y="2.230" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="0.95" fill="#111">台灣民眾黨 20</text>
 <rect x="-20.631" y="2.900" width="1.05" height="1.05" fill="#000095" stroke="#555" stroke-width="0.06" rx="0.12"/>
-<text x="-19.281" y="3.780" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="0.95" fill="#111">中國國民黨 77</text>
-<text x="0" y="4.800" text-anchor="middle" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="0.85" fill="#444">單一 120＋複數 30；首長國民黨；國民黨 77；中位法不可</text>
+<text x="-19.281" y="3.780" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="0.95" fill="#111">中國國民黨 74</text>
+<text x="0" y="4.800" text-anchor="middle" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="0.85" fill="#444">單一 120＋複數 30；首長民眾黨；民眾黨＋國民黨 94；中位法不可</text>
 </svg>

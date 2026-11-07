@@ -5,10 +5,10 @@
 
 得票：中選會選舉資料庫（votedata.zip）逐村里結果（共用 ../一院議會制/資料/村里-YYYY.csv、名單-YYYY.csv）。
 第二偏好：沿用 生態模型.py 的 Q_DEFAULT（民進黨選民把中位第三黨排在國民黨前 50%、國民黨選民把中位第三黨排在民進黨前 85%、
-中位第三黨選民把國民黨排在民進黨前 55%；綠系小黨 民進>中位>國民、地方型 國民>中位>民進）。
+中位第三黨選民把國民黨排在民進黨前 55%；綠系小黨與非綠小黨依 名單-YYYY.csv 各區實際政黨得票拆回各真實政黨）。
 ★ 2012／2016 尚無民眾黨：村里檔「民眾黨」欄＝**親民黨**政黨票（或總統票＝宋楚瑜），輸出時改標「親民黨」。
 - 國民院單一 90：各區席次照 生態模型.region_seats(89)＋澎金馬 1（得跨縣市）；區內依「縣市碼 → 現行立委選區 → 鄉鎮 → 村里」連續切成
-  政黨票相近的選區；三黨 top-3 孔多賽，循環 Ranked Pairs。
+  政黨票相近的選區；多黨 top-3 孔多賽，循環 Ranked Pairs。
 - 國民院複數 60：5 大區（北北基宜 14、桃竹苗 11、中彰投 13、雲嘉南 10、高屏東＋花東＋澎金馬 12），聖拉古、無門檻。
 - 參議院單一 75：澎金馬 1＋本島 19 縣市各保底 1 席後依人口聖拉古分配共 74 席（選區不跨縣市），top-3 孔多賽。
 - 行政首長：國民院全院 150 記名排名投票（生態模型.MP_RANK），過半門檻 ≥76；普通法律另須參議院 ≥38 雙重同意；
@@ -20,8 +20,12 @@ import os
 import sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-DATA = os.path.join(HERE, "資料") if os.path.isdir(os.path.join(HERE, "資料")) else os.path.join(HERE, "..", "一院議會制", "資料")
-sys.path.insert(0, HERE)
+SHARED_TW = os.path.abspath(os.path.join(HERE, "..", "一院議會制"))
+DATA = os.path.join(HERE, "資料") if os.path.isdir(os.path.join(HERE, "資料")) else os.path.join(SHARED_TW, "資料")
+if HERE not in sys.path:
+    sys.path.insert(0, HERE)
+if SHARED_TW not in sys.path:
+    sys.path.append(SHARED_TW)
 from 生態模型 import (  # noqa: E402
     COUNTY_ORDER,
     MACRO_5_ORDER,
@@ -30,14 +34,13 @@ from 生態模型 import (  # noqa: E402
     PARTIES,
     Q_DEFAULT,
     SEN_NEED,
-    condorcet,
     fmt,
     head_of_gov,
-    rankings,
     region_seats,
     sainte_lague,
     senate_county_seats,
 )
+from 政黨單位 import condorcet_multi, region_minor_shares, village_party_prefs  # noqa: E402
 
 Q = Q_DEFAULT
 GROUPS = ["民進黨", "國民黨", "民眾黨", "綠系小黨", "地方型"]
@@ -177,29 +180,34 @@ def first_prefs(villages, mode):
     return {g: v / s for g, v in t.items()}
 
 
-def single(rows, q=Q, mode="政黨"):
+def single(rows, q=Q, mode="政黨", year=2024, lmap=None, k=3):
     seats, detail = {p: 0 for p in PARTIES}, []
+    if mode == "政黨":
+        lmap = load_list(year) if lmap is None else lmap
+        rg, rng = region_minor_shares(lmap, year, REGION_ORDER)
+    else:
+        rg = rng = None
     for reg, d in districts(rows):
-        fp = first_prefs(d, mode)
-        b = rankings(fp, q)
-        w = condorcet(b)
-        P = lambda a, c: sum(v for r, v in b.items() if r.index(a) < r.index(c))
-        cyc = not any(all(P(a, c) > P(c, a) for c in PARTIES if c != a) for a in PARTIES)
-        seats[w] += 1
-        detail.append((reg, d[0]["縣市"], d[0]["村里"], w, max(PARTIES, key=fp.get), cyc, fp))
+        fp = village_party_prefs(d, reg, year, mode, rg, rng)
+        w, cyc, _, _, top1 = condorcet_multi(fp, q, k=k)
+        seats[w] = seats.get(w, 0) + 1
+        detail.append((reg, d[0]["縣市"], d[0]["村里"], w, top1, cyc, fp))
     return seats, detail
 
 
-def senate_single(rows, q=Q, mode="政黨"):
+def senate_single(rows, q=Q, mode="政黨", year=2024, lmap=None, k=3):
     seats, detail = {p: 0 for p in PARTIES}, []
+    if mode == "政黨":
+        lmap = load_list(year) if lmap is None else lmap
+        rg, rng = region_minor_shares(lmap, year, REGION_ORDER)
+    else:
+        rg = rng = None
     for c, d in senate_districts(rows):
-        fp = first_prefs(d, mode)
-        b = rankings(fp, q)
-        w = condorcet(b)
-        P = lambda a, c2: sum(v for r, v in b.items() if r.index(a) < r.index(c2))
-        cyc = not any(all(P(a, c2) > P(c2, a) for c2 in PARTIES if c2 != a) for a in PARTIES)
-        seats[w] += 1
-        detail.append((c, d[0]["縣市"], d[0]["村里"], w, max(PARTIES, key=fp.get), cyc, fp))
+        reg = d[0]["區"]
+        fp = village_party_prefs(d, reg, year, mode, rg, rng)
+        w, cyc, _, _, top1 = condorcet_multi(fp, q, k=k)
+        seats[w] = seats.get(w, 0) + 1
+        detail.append((c, d[0]["縣市"], d[0]["村里"], w, top1, cyc, fp))
     return seats, detail
 
 
@@ -246,15 +254,17 @@ def relabel_pre_tpp(year, d):
     if year >= 2020 or "民眾黨" not in d:
         return d
     out = dict(d)
-    out["親民黨"] = out.get("親民黨", 0) + out.pop("民眾黨", 0)
+    v = out.pop("民眾黨", 0)
+    if v:
+        out["親民黨"] = out.get("親民黨", 0) + v
     return out
 
 
-def report(year, mode="政黨", q=Q, verbose=True):
+def report(year, mode="政黨", q=Q, verbose=True, k=3):
     rows = load(year)
-    s, detail = single(rows, q, mode)
+    s, detail = single(rows, q, mode, year=year, k=k)
     l60 = lists_5(year, M_NA_60, rows)
-    sen75, sen_detail = senate_single(rows, q, mode)
+    sen75, sen_detail = senate_single(rows, q, mode, year=year, k=k)
     s = relabel_pre_tpp(year, s)
     sen75 = relabel_pre_tpp(year, sen75)
     total = dict(l60)
@@ -296,7 +306,7 @@ POLLS_2026 = [
 ]
 
 
-def report_polls():
+def report_polls(k=3):
     rows = load(2024)
     tot_2024 = {p: sum(int(r[p]) for r in rows) for p in PARTIES}
     for label, poll in POLLS_2026:
@@ -306,18 +316,18 @@ def report_polls():
             nr = dict(r)
             for p in PARTIES:
                 nr[p] = str(round(int(r[p]) * scale[p]))
-            nr["綠系小黨"] = nr["地方型"] = "0"
+            nr["綠系小黨"] = nr["地方型"] = nr["其他"] = "0"
             nr["政黨票"] = str(sum(int(nr[p]) for p in PARTIES))
             scaled.append(nr)
-        s90, _ = single(scaled, Q, "政黨")
-        sen75, _ = senate_single(scaled, Q, "政黨")
+        s90, _ = single(scaled, Q, "政黨", year=2024, k=k)
+        sen75, _ = senate_single(scaled, Q, "政黨", year=2024, k=k)
         l60 = {p: 0 for p in PARTIES}
         for reg, cs in MACRO5_COUNTIES.items():
             part = [r for r in scaled if r["縣市"] in cs]
             w = {p: sum(int(r[p]) for r in part) for p in PARTIES}
             for p, n in sainte_lague(w, M_NA_60[reg]).items():
                 l60[p] += n
-        tot150 = {p: s90[p] + l60[p] for p in PARTIES}
+        tot150 = {p: s90.get(p, 0) + l60.get(p, 0) for p in set(s90) | set(l60)}
         hog, duel, seq, acc = head_of_gov(tot150, NEED)
         print(f"\n## 民調 {label}")
         print("國民院單一 90：", fmt(s90))

@@ -61,18 +61,12 @@ def main():
     o = R.all_orders()
     with open(os.path.join(HERE, "資料", "polls.csv"), encoding="utf-8") as f:
         rows = list(csv.DictReader(f))
+    import 政黨單位 as PU
+    base = PU.party_units_2024()
     for r in rows:
         raw = {g: sum(float(r[c] or 0) for c in cs) for g, cs in BLOC_COLS.items()}
-        t = sum(raw.values())
-        target = {g: v / t for g, v in raw.items()}
-        print(f"## {r['poll']}（{r['fieldwork']}，n＝{r['n']}）")
-        print("七群：", "、".join(f"{g} {raw[g]:g}%" for g in ORDER))
-        res = R.single(R.merge(scale_units(target), seats), o)
-        t1 = R.tally(res)
-        print("單一 230：", t1, "循環", sum(x[2] for x in res))
-        lst = R.show_lists(scaled_euro(target))
-        R.print_premier(t1, lst, r["poll"])
-        print()
+        print("（七群：" + "、".join(f"{g} {raw[g]:g}%" for g in ORDER) + "；陣營內各黨依 2024 歐洲議會比例）")
+        PU.report(f"{r['poll']}（{r['fieldwork']}，n＝{r['n']}）", PU.scale_by_camp(base, raw), seats)
 
 
 if __name__ == "__main__":

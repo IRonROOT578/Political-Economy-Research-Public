@@ -28,7 +28,7 @@
 <circle cx="10.0000" cy="-17.3205" r="0.7734" fill="#1B9431" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="11.6011" cy="-16.2915" r="0.7734" fill="#F9BE01" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="13.0972" cy="-15.1150" r="0.7734" fill="#F9BE01" stroke="#ffffff" stroke-width="0.04"/>
-<circle cx="14.4747" cy="-13.8016" r="0.7734" fill="#FF6600" stroke="#ffffff" stroke-width="0.04"/>
+<circle cx="14.4747" cy="-13.8016" r="0.7734" fill="#FFD700" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="15.7211" cy="-12.3632" r="0.7734" fill="#000095" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="16.8251" cy="-10.8128" r="0.7734" fill="#000095" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="17.7767" cy="-9.1645" r="0.7734" fill="#000095" stroke="#ffffff" stroke-width="0.04"/>
@@ -111,8 +111,8 @@
 <circle cx="2.8889" cy="-13.9024" r="0.7734" fill="#1B9431" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="4.7551" cy="-13.3795" r="0.7734" fill="#1B9431" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="6.5326" cy="-12.6074" r="0.7734" fill="#1B9431" stroke="#ffffff" stroke-width="0.04"/>
-<circle cx="8.1885" cy="-11.6004" r="0.7734" fill="#1B9431" stroke="#ffffff" stroke-width="0.04"/>
-<circle cx="9.6918" cy="-10.3774" r="0.7734" fill="#F9BE01" stroke="#ffffff" stroke-width="0.04"/>
+<circle cx="8.1885" cy="-11.6004" r="0.7734" fill="#F9BE01" stroke="#ffffff" stroke-width="0.04"/>
+<circle cx="9.6918" cy="-10.3774" r="0.7734" fill="#FF6600" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="11.0146" cy="-8.9610" r="0.7734" fill="#FFD700" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="12.1322" cy="-7.3778" r="0.7734" fill="#000095" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="13.0238" cy="-5.6570" r="0.7734" fill="#000095" stroke="#ffffff" stroke-width="0.04"/>
@@ -135,7 +135,7 @@
 <circle cx="5.5686" cy="-10.9289" r="0.7734" fill="#1B9431" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="7.2097" cy="-9.9232" r="0.7734" fill="#F9BE01" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="8.6732" cy="-8.6732" r="0.7734" fill="#FF6600" stroke="#ffffff" stroke-width="0.04"/>
-<circle cx="9.9232" cy="-7.2097" r="0.7734" fill="#FFD700" stroke="#ffffff" stroke-width="0.04"/>
+<circle cx="9.9232" cy="-7.2097" r="0.7734" fill="#000095" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="10.9289" cy="-5.5686" r="0.7734" fill="#000095" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="11.6655" cy="-3.7903" r="0.7734" fill="#000095" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="12.1148" cy="-1.9188" r="0.7734" fill="#000095" stroke="#ffffff" stroke-width="0.04"/>
@@ -185,7 +185,7 @@
 <circle cx="6.4651" cy="0.0000" r="0.7734" fill="#000095" stroke="#ffffff" stroke-width="0.04"/>
 <text x="0" y="-2.400" text-anchor="middle" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="2.1" font-weight="700" fill="#111">180</text>
 <rect x="-20.580" y="1.350" width="1.05" height="1.05" fill="#1B9431" stroke="#555" stroke-width="0.06" rx="0.12"/>
-<text x="-19.230" y="2.230" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="0.95" fill="#111">民主進步黨 124</text>
+<text x="-19.230" y="2.230" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="0.95" fill="#111">民主進步黨 123</text>
 <rect x="-6.602" y="1.350" width="1.05" height="1.05" fill="#F9BE01" stroke="#555" stroke-width="0.06" rx="0.12"/>
 <text x="-5.252" y="2.230" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="0.95" fill="#111">時代力量 7</text>
 <rect x="7.376" y="1.350" width="1.05" height="1.05" fill="#FF6600" stroke="#555" stroke-width="0.06" rx="0.12"/>
@@ -193,6 +193,6 @@
 <rect x="-20.580" y="2.900" width="1.05" height="1.05" fill="#FFD700" stroke="#555" stroke-width="0.06" rx="0.12"/>
 <text x="-19.230" y="3.780" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="0.95" fill="#111">新黨 4</text>
 <rect x="-6.602" y="2.900" width="1.05" height="1.05" fill="#000095" stroke="#555" stroke-width="0.06" rx="0.12"/>
-<text x="-5.252" y="3.780" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="0.95" fill="#111">中國國民黨 39</text>
-<text x="0" y="4.800" text-anchor="middle" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="0.85" fill="#444">中位第三＝親民黨；民進黨 124 單獨過半；首長民進黨</text>
+<text x="-5.252" y="3.780" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="0.95" fill="#111">中國國民黨 40</text>
+<text x="0" y="4.800" text-anchor="middle" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="0.85" fill="#444">中位第三＝親民黨；民進黨 123 單獨過半；首長民進黨</text>
 </svg>
