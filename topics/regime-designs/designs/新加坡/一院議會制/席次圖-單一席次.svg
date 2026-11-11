@@ -61,12 +61,12 @@
 <circle cx="1.7238" cy="-9.7759" r="1.3431" fill="#1E4E9C" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="4.9633" cy="-8.5968" r="1.3431" fill="#1E4E9C" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="7.6043" cy="-6.3808" r="1.3431" fill="#1E4E9C" stroke="#ffffff" stroke-width="0.04"/>
-<circle cx="9.3280" cy="-3.3951" r="1.3431" fill="#1E4E9C" stroke="#ffffff" stroke-width="0.04"/>
+<circle cx="9.3280" cy="-3.3951" r="1.3431" fill="#5BC0EB" stroke="#ffffff" stroke-width="0.04"/>
 <circle cx="9.9267" cy="0.0000" r="1.3431" fill="#5BC0EB" stroke="#ffffff" stroke-width="0.04"/>
 <text x="0" y="-2.400" text-anchor="middle" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="2.1" font-weight="700" fill="#111">60</text>
 <rect x="-21.007" y="1.350" width="1.05" height="1.05" fill="#1E4E9C" stroke="#555" stroke-width="0.06" rx="0.12"/>
-<text x="-19.657" y="2.230" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="0.95" fill="#111">PAP 51</text>
+<text x="-19.657" y="2.230" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="0.95" fill="#111">PAP 50</text>
 <rect x="-6.555" y="1.350" width="1.05" height="1.05" fill="#5BC0EB" stroke="#555" stroke-width="0.06" rx="0.12"/>
-<text x="-5.205" y="2.230" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="0.95" fill="#111">WP 9</text>
-<text x="0" y="3.250" text-anchor="middle" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="0.85" fill="#444">WP：Aljunied 3、Sengkang 3、後港 1、Tampines 1</text>
+<text x="-5.205" y="2.230" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="0.95" fill="#111">WP 10</text>
+<text x="0" y="3.250" text-anchor="middle" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="0.85" fill="#444">WP：Aljunied 3、Sengkang 3、Tampines 2、後港 1、Jalan Kayu 1</text>
 </svg>
